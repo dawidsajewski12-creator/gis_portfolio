@@ -1,0 +1,34 @@
+{
+  "name": "gis-microclimate-platform",
+  "version": "2.1.0",
+  "description": "Environmental Analysis System for Suwa\u0142ki city center",
+  "main": "index.js",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-scripts": "5.0.1",
+    "leaflet": "^1.9.4",
+    "react-leaflet": "^4.2.1",
+    "d3": "^7.8.5",
+    "axios": "^1.5.0"
+  },
+  "keywords": [
+    "gis",
+    "environmental",
+    "climate",
+    "analysis",
+    "suwalki"
+  ],
+  "author": "Environmental Analytics Team",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dawidsajewski12-creator/gis_portfolio.git"
+  }
+}

@@ -1,0 +1,4505 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.960812,
+          54.089335
+        ]
+      },
+      "properties": {
+        "scenario": "Zima mro\u017ana",
+        "pmv": 0.35,
+        "utci": -5.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.942787,
+          54.082056
+        ]
+      },
+      "properties": {
+        "scenario": "Zima mro\u017ana",
+        "pmv": -0.85,
+        "utci": -1.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.9626,
+          54.100957
+        ]
+      },
+      "properties": {
+        "scenario": "Zima mro\u017ana",
+        "pmv": 0.12,
+        "utci": -8.4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.93779,
+          54.105699
+        ]
+      },
+      "properties": {
+        "scenario": "Zima mro\u017ana",
+        "pmv": -0.52,
+        "utci": -8.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.961744,
+          54.091335
+        ]
+      },
+      "properties": {
+        "scenario": "Zima mro\u017ana",
+        "pmv": -0.7,
+        "utci": -5.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.942728,
+          54.106202
+        ]
+      },
+      "properties": {
+        "scenario": "Zima mro\u017ana",
+        "pmv": -0.43,
+        "utci": -1.5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.950488,
+          54.100288
+        ]
+      },
+      "properties": {
+        "scenario": "Zima mro\u017ana",
+        "pmv": -0.78,
+        "utci": -1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.948698,
+          54.102645
+        ]
+      },
+      "properties": {
+        "scenario": "Zima mro\u017ana",
+        "pmv": -0.53,
+        "utci": -1.7
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.968762,
+          54.101527
+        ]
+      },
+      "properties": {
+        "scenario": "Zima mro\u017ana",
+        "pmv": -0.05,
+        "utci": -4.8
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.955486,
+          54.106178
+        ]
+      },
+      "properties": {
+        "scenario": "Zima mro\u017ana",
+        "pmv": -1.07,
+        "utci": -9.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.93915,
+          54.09437
+        ]
+      },
+      "properties": {
+        "scenario": "Zima mro\u017ana",
+        "pmv": -0.31,
+        "utci": -9.4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.966287,
+          54.110118
+        ]
+      },
+      "properties": {
+        "scenario": "Zima mro\u017ana",
+        "pmv": 0.8,
+        "utci": -3.6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.947464,
+          54.113744
+        ]
+      },
+      "properties": {
+        "scenario": "Zima mro\u017ana",
+        "pmv": -0.59,
+        "utci": -6.7
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.956797,
+          54.09557
+        ]
+      },
+      "properties": {
+        "scenario": "Zima mro\u017ana",
+        "pmv": -0.7,
+        "utci": -6.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.935489,
+          54.098653
+        ]
+      },
+      "properties": {
+        "scenario": "Zima mro\u017ana",
+        "pmv": -0.47,
+        "utci": -3.6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.952643,
+          54.100894
+        ]
+      },
+      "properties": {
+        "scenario": "Zima mro\u017ana",
+        "pmv": 0.24,
+        "utci": -8.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.956606,
+          54.103055
+        ]
+      },
+      "properties": {
+        "scenario": "Zima mro\u017ana",
+        "pmv": -0.59,
+        "utci": -3.6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.953437,
+          54.10223
+        ]
+      },
+      "properties": {
+        "scenario": "Zima mro\u017ana",
+        "pmv": -0.96,
+        "utci": -3.2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.942995,
+          54.096137
+        ]
+      },
+      "properties": {
+        "scenario": "Zima mro\u017ana",
+        "pmv": -0.32,
+        "utci": -5.8
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.963537,
+          54.09946
+        ]
+      },
+      "properties": {
+        "scenario": "Zima mro\u017ana",
+        "pmv": -0.68,
+        "utci": -8.6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.949359,
+          54.105158
+        ]
+      },
+      "properties": {
+        "scenario": "Zima mro\u017ana",
+        "pmv": 0.05,
+        "utci": -7.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.959414,
+          54.101885
+        ]
+      },
+      "properties": {
+        "scenario": "Zima mro\u017ana",
+        "pmv": 0.19,
+        "utci": -3.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.96085,
+          54.097287
+        ]
+      },
+      "properties": {
+        "scenario": "Zima mro\u017ana",
+        "pmv": -0.06,
+        "utci": -4.2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.96036,
+          54.090886
+        ]
+      },
+      "properties": {
+        "scenario": "Zima mro\u017ana",
+        "pmv": 0.3,
+        "utci": -2.4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.954935,
+          54.092287
+        ]
+      },
+      "properties": {
+        "scenario": "Zima mro\u017ana",
+        "pmv": -0.45,
+        "utci": -1.8
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.96612,
+          54.106906
+        ]
+      },
+      "properties": {
+        "scenario": "Zima mro\u017ana",
+        "pmv": 0.12,
+        "utci": -1.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.936979,
+          54.107027
+        ]
+      },
+      "properties": {
+        "scenario": "Zima mro\u017ana",
+        "pmv": 0.25,
+        "utci": -4.7
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.955951,
+          54.111437
+        ]
+      },
+      "properties": {
+        "scenario": "Zima mro\u017ana",
+        "pmv": -0.19,
+        "utci": -3.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.935171,
+          54.100484
+        ]
+      },
+      "properties": {
+        "scenario": "Zima mro\u017ana",
+        "pmv": -0.76,
+        "utci": -3.2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.949748,
+          54.101441
+        ]
+      },
+      "properties": {
+        "scenario": "Zima mro\u017ana",
+        "pmv": -0.9,
+        "utci": -3.7
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.964392,
+          54.090172
+        ]
+      },
+      "properties": {
+        "scenario": "Zima mro\u017ana",
+        "pmv": -1.01,
+        "utci": -7.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.952145,
+          54.104178
+        ]
+      },
+      "properties": {
+        "scenario": "Zima mro\u017ana",
+        "pmv": -1.03,
+        "utci": -2.4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.935922,
+          54.104435
+        ]
+      },
+      "properties": {
+        "scenario": "Zima mro\u017ana",
+        "pmv": -0.34,
+        "utci": -3.8
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.956266,
+          54.093737
+        ]
+      },
+      "properties": {
+        "scenario": "Zima mro\u017ana",
+        "pmv": -0.15,
+        "utci": -5.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.946385,
+          54.099824
+        ]
+      },
+      "properties": {
+        "scenario": "Zima mro\u017ana",
+        "pmv": -0.36,
+        "utci": -7.7
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.955365,
+          54.103127
+        ]
+      },
+      "properties": {
+        "scenario": "Zima mro\u017ana",
+        "pmv": -1.13,
+        "utci": -6.4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.941245,
+          54.103514
+        ]
+      },
+      "properties": {
+        "scenario": "Zima mro\u017ana",
+        "pmv": -0.62,
+        "utci": -1.6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.961451,
+          54.105788
+        ]
+      },
+      "properties": {
+        "scenario": "Zima mro\u017ana",
+        "pmv": -1.14,
+        "utci": -9.2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.938454,
+          54.115479
+        ]
+      },
+      "properties": {
+        "scenario": "Zima mro\u017ana",
+        "pmv": -0.59,
+        "utci": -6.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.983329,
+          54.089664
+        ]
+      },
+      "properties": {
+        "scenario": "Zima mro\u017ana",
+        "pmv": -1.16,
+        "utci": -2.4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.94485,
+          54.100144
+        ]
+      },
+      "properties": {
+        "scenario": "Zima mro\u017ana",
+        "pmv": -0.75,
+        "utci": -5.8
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.95616,
+          54.11592
+        ]
+      },
+      "properties": {
+        "scenario": "Zima mro\u017ana",
+        "pmv": 0.0,
+        "utci": -7.8
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.922225,
+          54.092104
+        ]
+      },
+      "properties": {
+        "scenario": "Zima mro\u017ana",
+        "pmv": 0.05,
+        "utci": -1.6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.94612,
+          54.094918
+        ]
+      },
+      "properties": {
+        "scenario": "Zima mro\u017ana",
+        "pmv": -0.34,
+        "utci": -6.5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.946538,
+          54.099827
+        ]
+      },
+      "properties": {
+        "scenario": "Zima mro\u017ana",
+        "pmv": 0.1,
+        "utci": -8.2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.95587,
+          54.095584
+        ]
+      },
+      "properties": {
+        "scenario": "Zima mro\u017ana",
+        "pmv": -0.84,
+        "utci": -2.4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.952425,
+          54.126339
+        ]
+      },
+      "properties": {
+        "scenario": "Zima mro\u017ana",
+        "pmv": -0.08,
+        "utci": -4.8
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.948377,
+          54.097973
+        ]
+      },
+      "properties": {
+        "scenario": "Zima mro\u017ana",
+        "pmv": -0.14,
+        "utci": -8.7
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.959692,
+          54.102457
+        ]
+      },
+      "properties": {
+        "scenario": "Zima mro\u017ana",
+        "pmv": -0.13,
+        "utci": -3.8
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.963013,
+          54.095713
+        ]
+      },
+      "properties": {
+        "scenario": "Zima mro\u017ana",
+        "pmv": -0.03,
+        "utci": -6.6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.947708,
+          54.099314
+        ]
+      },
+      "properties": {
+        "scenario": "Wiosna ch\u0142odna",
+        "pmv": -0.16,
+        "utci": 7.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.946549,
+          54.100761
+        ]
+      },
+      "properties": {
+        "scenario": "Wiosna ch\u0142odna",
+        "pmv": 0.13,
+        "utci": 7.2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.93286,
+          54.10384
+        ]
+      },
+      "properties": {
+        "scenario": "Wiosna ch\u0142odna",
+        "pmv": -0.23,
+        "utci": 13.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.954306,
+          54.1073
+        ]
+      },
+      "properties": {
+        "scenario": "Wiosna ch\u0142odna",
+        "pmv": 0.95,
+        "utci": 5.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.942197,
+          54.101067
+        ]
+      },
+      "properties": {
+        "scenario": "Wiosna ch\u0142odna",
+        "pmv": 0.56,
+        "utci": 10.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.942958,
+          54.120827
+        ]
+      },
+      "properties": {
+        "scenario": "Wiosna ch\u0142odna",
+        "pmv": 0.25,
+        "utci": 7.8
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.938174,
+          54.094257
+        ]
+      },
+      "properties": {
+        "scenario": "Wiosna ch\u0142odna",
+        "pmv": 0.65,
+        "utci": 10.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.943448,
+          54.120266
+        ]
+      },
+      "properties": {
+        "scenario": "Wiosna ch\u0142odna",
+        "pmv": 0.16,
+        "utci": 8.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.925907,
+          54.102603
+        ]
+      },
+      "properties": {
+        "scenario": "Wiosna ch\u0142odna",
+        "pmv": 0.29,
+        "utci": 9.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.933436,
+          54.097981
+        ]
+      },
+      "properties": {
+        "scenario": "Wiosna ch\u0142odna",
+        "pmv": 0.76,
+        "utci": 7.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.956166,
+          54.106544
+        ]
+      },
+      "properties": {
+        "scenario": "Wiosna ch\u0142odna",
+        "pmv": -0.5,
+        "utci": 7.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.941894,
+          54.109138
+        ]
+      },
+      "properties": {
+        "scenario": "Wiosna ch\u0142odna",
+        "pmv": 0.86,
+        "utci": 8.4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.954065,
+          54.099539
+        ]
+      },
+      "properties": {
+        "scenario": "Wiosna ch\u0142odna",
+        "pmv": 0.23,
+        "utci": 10.7
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.931605,
+          54.091403
+        ]
+      },
+      "properties": {
+        "scenario": "Wiosna ch\u0142odna",
+        "pmv": 0.38,
+        "utci": 9.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.936381,
+          54.085761
+        ]
+      },
+      "properties": {
+        "scenario": "Wiosna ch\u0142odna",
+        "pmv": 0.49,
+        "utci": 8.6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.941533,
+          54.084992
+        ]
+      },
+      "properties": {
+        "scenario": "Wiosna ch\u0142odna",
+        "pmv": 0.71,
+        "utci": 8.4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.962184,
+          54.090233
+        ]
+      },
+      "properties": {
+        "scenario": "Wiosna ch\u0142odna",
+        "pmv": 0.53,
+        "utci": 6.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.918913,
+          54.109756
+        ]
+      },
+      "properties": {
+        "scenario": "Wiosna ch\u0142odna",
+        "pmv": -0.29,
+        "utci": 4.2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.951406,
+          54.093681
+        ]
+      },
+      "properties": {
+        "scenario": "Wiosna ch\u0142odna",
+        "pmv": 0.68,
+        "utci": 6.5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.97757,
+          54.098484
+        ]
+      },
+      "properties": {
+        "scenario": "Wiosna ch\u0142odna",
+        "pmv": 0.21,
+        "utci": 9.6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.952696,
+          54.0935
+        ]
+      },
+      "properties": {
+        "scenario": "Wiosna ch\u0142odna",
+        "pmv": 0.62,
+        "utci": 8.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.930447,
+          54.101741
+        ]
+      },
+      "properties": {
+        "scenario": "Wiosna ch\u0142odna",
+        "pmv": 0.75,
+        "utci": 11.6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.943765,
+          54.106452
+        ]
+      },
+      "properties": {
+        "scenario": "Wiosna ch\u0142odna",
+        "pmv": 0.34,
+        "utci": 5.2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.949773,
+          54.097377
+        ]
+      },
+      "properties": {
+        "scenario": "Wiosna ch\u0142odna",
+        "pmv": 0.2,
+        "utci": 8.2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.943705,
+          54.089323
+        ]
+      },
+      "properties": {
+        "scenario": "Wiosna ch\u0142odna",
+        "pmv": 0.66,
+        "utci": 6.8
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.945943,
+          54.090009
+        ]
+      },
+      "properties": {
+        "scenario": "Wiosna ch\u0142odna",
+        "pmv": 0.68,
+        "utci": 9.2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.937109,
+          54.092649
+        ]
+      },
+      "properties": {
+        "scenario": "Wiosna ch\u0142odna",
+        "pmv": 0.15,
+        "utci": 12.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.934838,
+          54.080752
+        ]
+      },
+      "properties": {
+        "scenario": "Wiosna ch\u0142odna",
+        "pmv": 0.44,
+        "utci": 5.5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.92769,
+          54.095785
+        ]
+      },
+      "properties": {
+        "scenario": "Wiosna ch\u0142odna",
+        "pmv": 0.49,
+        "utci": 10.5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.938886,
+          54.109365
+        ]
+      },
+      "properties": {
+        "scenario": "Wiosna ch\u0142odna",
+        "pmv": 0.54,
+        "utci": 7.6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.94474,
+          54.096773
+        ]
+      },
+      "properties": {
+        "scenario": "Wiosna ch\u0142odna",
+        "pmv": 0.24,
+        "utci": 7.7
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.978584,
+          54.107423
+        ]
+      },
+      "properties": {
+        "scenario": "Wiosna ch\u0142odna",
+        "pmv": 1.2,
+        "utci": 7.5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.948682,
+          54.09473
+        ]
+      },
+      "properties": {
+        "scenario": "Wiosna ch\u0142odna",
+        "pmv": 0.47,
+        "utci": 5.8
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.931942,
+          54.102526
+        ]
+      },
+      "properties": {
+        "scenario": "Wiosna ch\u0142odna",
+        "pmv": -0.03,
+        "utci": 12.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.947558,
+          54.110915
+        ]
+      },
+      "properties": {
+        "scenario": "Wiosna ch\u0142odna",
+        "pmv": -0.36,
+        "utci": 8.4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.944184,
+          54.107145
+        ]
+      },
+      "properties": {
+        "scenario": "Wiosna ch\u0142odna",
+        "pmv": -0.46,
+        "utci": 10.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.964054,
+          54.098088
+        ]
+      },
+      "properties": {
+        "scenario": "Wiosna ch\u0142odna",
+        "pmv": 0.77,
+        "utci": 7.7
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.958001,
+          54.095511
+        ]
+      },
+      "properties": {
+        "scenario": "Wiosna ch\u0142odna",
+        "pmv": 0.54,
+        "utci": 7.4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.950677,
+          54.096424
+        ]
+      },
+      "properties": {
+        "scenario": "Wiosna ch\u0142odna",
+        "pmv": -0.35,
+        "utci": 8.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.951198,
+          54.0867
+        ]
+      },
+      "properties": {
+        "scenario": "Wiosna ch\u0142odna",
+        "pmv": 0.01,
+        "utci": 10.2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.941837,
+          54.103901
+        ]
+      },
+      "properties": {
+        "scenario": "Wiosna ch\u0142odna",
+        "pmv": 0.97,
+        "utci": 10.4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.948908,
+          54.107204
+        ]
+      },
+      "properties": {
+        "scenario": "Wiosna ch\u0142odna",
+        "pmv": 0.66,
+        "utci": 9.7
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.938226,
+          54.096961
+        ]
+      },
+      "properties": {
+        "scenario": "Wiosna ch\u0142odna",
+        "pmv": 0.52,
+        "utci": 7.6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.968947,
+          54.11157
+        ]
+      },
+      "properties": {
+        "scenario": "Wiosna ch\u0142odna",
+        "pmv": 0.77,
+        "utci": 4.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.957044,
+          54.104218
+        ]
+      },
+      "properties": {
+        "scenario": "Wiosna ch\u0142odna",
+        "pmv": 0.15,
+        "utci": 5.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.926547,
+          54.109598
+        ]
+      },
+      "properties": {
+        "scenario": "Wiosna ch\u0142odna",
+        "pmv": -0.26,
+        "utci": 7.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.949774,
+          54.11077
+        ]
+      },
+      "properties": {
+        "scenario": "Wiosna ch\u0142odna",
+        "pmv": -0.16,
+        "utci": 6.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.93793,
+          54.091961
+        ]
+      },
+      "properties": {
+        "scenario": "Wiosna ch\u0142odna",
+        "pmv": -0.06,
+        "utci": 4.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.965591,
+          54.096809
+        ]
+      },
+      "properties": {
+        "scenario": "Wiosna ch\u0142odna",
+        "pmv": 0.57,
+        "utci": 4.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.931837,
+          54.112454
+        ]
+      },
+      "properties": {
+        "scenario": "Wiosna ch\u0142odna",
+        "pmv": 0.31,
+        "utci": 10.7
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.963053,
+          54.085007
+        ]
+      },
+      "properties": {
+        "scenario": "Lato komfortowe",
+        "pmv": 2.0,
+        "utci": 18.2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.956768,
+          54.095958
+        ]
+      },
+      "properties": {
+        "scenario": "Lato komfortowe",
+        "pmv": 2.46,
+        "utci": 26.2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.952861,
+          54.098303
+        ]
+      },
+      "properties": {
+        "scenario": "Lato komfortowe",
+        "pmv": 3.08,
+        "utci": 20.7
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.949291,
+          54.102678
+        ]
+      },
+      "properties": {
+        "scenario": "Lato komfortowe",
+        "pmv": 1.71,
+        "utci": 22.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.951657,
+          54.106275
+        ]
+      },
+      "properties": {
+        "scenario": "Lato komfortowe",
+        "pmv": 2.07,
+        "utci": 21.8
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.939777,
+          54.093051
+        ]
+      },
+      "properties": {
+        "scenario": "Lato komfortowe",
+        "pmv": 1.74,
+        "utci": 24.6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.954699,
+          54.09882
+        ]
+      },
+      "properties": {
+        "scenario": "Lato komfortowe",
+        "pmv": 1.94,
+        "utci": 21.4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.945664,
+          54.120054
+        ]
+      },
+      "properties": {
+        "scenario": "Lato komfortowe",
+        "pmv": 2.82,
+        "utci": 20.5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.937338,
+          54.092671
+        ]
+      },
+      "properties": {
+        "scenario": "Lato komfortowe",
+        "pmv": 1.68,
+        "utci": 22.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.954219,
+          54.10193
+        ]
+      },
+      "properties": {
+        "scenario": "Lato komfortowe",
+        "pmv": 1.69,
+        "utci": 21.6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.945993,
+          54.094159
+        ]
+      },
+      "properties": {
+        "scenario": "Lato komfortowe",
+        "pmv": 2.5,
+        "utci": 21.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.934196,
+          54.106342
+        ]
+      },
+      "properties": {
+        "scenario": "Lato komfortowe",
+        "pmv": 2.61,
+        "utci": 22.7
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.957625,
+          54.093193
+        ]
+      },
+      "properties": {
+        "scenario": "Lato komfortowe",
+        "pmv": 2.2,
+        "utci": 22.8
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.947502,
+          54.100178
+        ]
+      },
+      "properties": {
+        "scenario": "Lato komfortowe",
+        "pmv": 2.55,
+        "utci": 22.8
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.943449,
+          54.10073
+        ]
+      },
+      "properties": {
+        "scenario": "Lato komfortowe",
+        "pmv": 1.9,
+        "utci": 19.4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.968197,
+          54.107249
+        ]
+      },
+      "properties": {
+        "scenario": "Lato komfortowe",
+        "pmv": 1.82,
+        "utci": 21.4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.940263,
+          54.096272
+        ]
+      },
+      "properties": {
+        "scenario": "Lato komfortowe",
+        "pmv": 2.94,
+        "utci": 21.4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.949312,
+          54.099685
+        ]
+      },
+      "properties": {
+        "scenario": "Lato komfortowe",
+        "pmv": 2.22,
+        "utci": 21.5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.972006,
+          54.089125
+        ]
+      },
+      "properties": {
+        "scenario": "Lato komfortowe",
+        "pmv": 2.34,
+        "utci": 18.7
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.948388,
+          54.093143
+        ]
+      },
+      "properties": {
+        "scenario": "Lato komfortowe",
+        "pmv": 2.13,
+        "utci": 23.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.956984,
+          54.10332
+        ]
+      },
+      "properties": {
+        "scenario": "Lato komfortowe",
+        "pmv": 2.3,
+        "utci": 26.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.941906,
+          54.093479
+        ]
+      },
+      "properties": {
+        "scenario": "Lato komfortowe",
+        "pmv": 2.62,
+        "utci": 20.6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.952919,
+          54.101247
+        ]
+      },
+      "properties": {
+        "scenario": "Lato komfortowe",
+        "pmv": 1.98,
+        "utci": 19.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.945531,
+          54.099623
+        ]
+      },
+      "properties": {
+        "scenario": "Lato komfortowe",
+        "pmv": 2.55,
+        "utci": 22.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.961762,
+          54.102971
+        ]
+      },
+      "properties": {
+        "scenario": "Lato komfortowe",
+        "pmv": 3.4,
+        "utci": 21.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.964464,
+          54.099572
+        ]
+      },
+      "properties": {
+        "scenario": "Lato komfortowe",
+        "pmv": 2.22,
+        "utci": 24.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.937234,
+          54.091497
+        ]
+      },
+      "properties": {
+        "scenario": "Lato komfortowe",
+        "pmv": 2.37,
+        "utci": 24.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.947539,
+          54.107321
+        ]
+      },
+      "properties": {
+        "scenario": "Lato komfortowe",
+        "pmv": 1.69,
+        "utci": 21.7
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.950941,
+          54.113421
+        ]
+      },
+      "properties": {
+        "scenario": "Lato komfortowe",
+        "pmv": 2.32,
+        "utci": 21.5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.9307,
+          54.102946
+        ]
+      },
+      "properties": {
+        "scenario": "Lato komfortowe",
+        "pmv": 2.28,
+        "utci": 20.5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.93162,
+          54.112684
+        ]
+      },
+      "properties": {
+        "scenario": "Lato komfortowe",
+        "pmv": 2.11,
+        "utci": 18.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.966618,
+          54.107883
+        ]
+      },
+      "properties": {
+        "scenario": "Lato komfortowe",
+        "pmv": 2.84,
+        "utci": 20.5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.973895,
+          54.085388
+        ]
+      },
+      "properties": {
+        "scenario": "Lato komfortowe",
+        "pmv": 1.64,
+        "utci": 22.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.940852,
+          54.111367
+        ]
+      },
+      "properties": {
+        "scenario": "Lato komfortowe",
+        "pmv": 2.73,
+        "utci": 21.5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.96815,
+          54.098504
+        ]
+      },
+      "properties": {
+        "scenario": "Lato komfortowe",
+        "pmv": 1.39,
+        "utci": 23.4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.953711,
+          54.096816
+        ]
+      },
+      "properties": {
+        "scenario": "Lato komfortowe",
+        "pmv": 2.15,
+        "utci": 23.2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.944649,
+          54.096828
+        ]
+      },
+      "properties": {
+        "scenario": "Lato komfortowe",
+        "pmv": 2.21,
+        "utci": 22.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.946764,
+          54.113645
+        ]
+      },
+      "properties": {
+        "scenario": "Lato komfortowe",
+        "pmv": 1.97,
+        "utci": 21.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.943461,
+          54.105204
+        ]
+      },
+      "properties": {
+        "scenario": "Lato komfortowe",
+        "pmv": 1.98,
+        "utci": 24.7
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.924032,
+          54.094056
+        ]
+      },
+      "properties": {
+        "scenario": "Lato komfortowe",
+        "pmv": 1.32,
+        "utci": 23.2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.955842,
+          54.091169
+        ]
+      },
+      "properties": {
+        "scenario": "Lato komfortowe",
+        "pmv": 0.86,
+        "utci": 19.2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.964907,
+          54.099771
+        ]
+      },
+      "properties": {
+        "scenario": "Lato komfortowe",
+        "pmv": 2.52,
+        "utci": 22.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.949858,
+          54.09426
+        ]
+      },
+      "properties": {
+        "scenario": "Lato komfortowe",
+        "pmv": 2.1,
+        "utci": 23.5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.962402,
+          54.105149
+        ]
+      },
+      "properties": {
+        "scenario": "Lato komfortowe",
+        "pmv": 2.56,
+        "utci": 23.7
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.947146,
+          54.102242
+        ]
+      },
+      "properties": {
+        "scenario": "Lato komfortowe",
+        "pmv": 3.17,
+        "utci": 23.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.950482,
+          54.102432
+        ]
+      },
+      "properties": {
+        "scenario": "Lato komfortowe",
+        "pmv": 2.05,
+        "utci": 23.6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.9516,
+          54.106634
+        ]
+      },
+      "properties": {
+        "scenario": "Lato komfortowe",
+        "pmv": 2.29,
+        "utci": 26.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.951903,
+          54.097168
+        ]
+      },
+      "properties": {
+        "scenario": "Lato komfortowe",
+        "pmv": 1.38,
+        "utci": 21.2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.954466,
+          54.092608
+        ]
+      },
+      "properties": {
+        "scenario": "Lato komfortowe",
+        "pmv": 1.98,
+        "utci": 21.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.958401,
+          54.107559
+        ]
+      },
+      "properties": {
+        "scenario": "Lato komfortowe",
+        "pmv": 2.29,
+        "utci": 21.7
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.956963,
+          54.095955
+        ]
+      },
+      "properties": {
+        "scenario": "Upa\u0142 letni",
+        "pmv": 1.41,
+        "utci": 33.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.942539,
+          54.098982
+        ]
+      },
+      "properties": {
+        "scenario": "Upa\u0142 letni",
+        "pmv": 1.52,
+        "utci": 30.2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.951748,
+          54.097275
+        ]
+      },
+      "properties": {
+        "scenario": "Upa\u0142 letni",
+        "pmv": 0.73,
+        "utci": 32.4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.951476,
+          54.115099
+        ]
+      },
+      "properties": {
+        "scenario": "Upa\u0142 letni",
+        "pmv": 1.58,
+        "utci": 32.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.959059,
+          54.112129
+        ]
+      },
+      "properties": {
+        "scenario": "Upa\u0142 letni",
+        "pmv": 1.67,
+        "utci": 30.8
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.966592,
+          54.091498
+        ]
+      },
+      "properties": {
+        "scenario": "Upa\u0142 letni",
+        "pmv": 0.61,
+        "utci": 32.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.968436,
+          54.097262
+        ]
+      },
+      "properties": {
+        "scenario": "Upa\u0142 letni",
+        "pmv": 1.37,
+        "utci": 31.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.937145,
+          54.104109
+        ]
+      },
+      "properties": {
+        "scenario": "Upa\u0142 letni",
+        "pmv": 0.59,
+        "utci": 34.5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.92732,
+          54.087273
+        ]
+      },
+      "properties": {
+        "scenario": "Upa\u0142 letni",
+        "pmv": 1.56,
+        "utci": 33.4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.959205,
+          54.112523
+        ]
+      },
+      "properties": {
+        "scenario": "Upa\u0142 letni",
+        "pmv": 1.51,
+        "utci": 35.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.944755,
+          54.109692
+        ]
+      },
+      "properties": {
+        "scenario": "Upa\u0142 letni",
+        "pmv": 0.66,
+        "utci": 33.7
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.937538,
+          54.092786
+        ]
+      },
+      "properties": {
+        "scenario": "Upa\u0142 letni",
+        "pmv": 1.7,
+        "utci": 30.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.950606,
+          54.107318
+        ]
+      },
+      "properties": {
+        "scenario": "Upa\u0142 letni",
+        "pmv": 1.9,
+        "utci": 32.8
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.963257,
+          54.107136
+        ]
+      },
+      "properties": {
+        "scenario": "Upa\u0142 letni",
+        "pmv": 1.24,
+        "utci": 30.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.93858,
+          54.099122
+        ]
+      },
+      "properties": {
+        "scenario": "Upa\u0142 letni",
+        "pmv": 1.47,
+        "utci": 30.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.941286,
+          54.104577
+        ]
+      },
+      "properties": {
+        "scenario": "Upa\u0142 letni",
+        "pmv": 1.97,
+        "utci": 31.2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.956538,
+          54.095565
+        ]
+      },
+      "properties": {
+        "scenario": "Upa\u0142 letni",
+        "pmv": 1.64,
+        "utci": 30.7
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.934497,
+          54.080945
+        ]
+      },
+      "properties": {
+        "scenario": "Upa\u0142 letni",
+        "pmv": 1.11,
+        "utci": 35.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.968294,
+          54.103859
+        ]
+      },
+      "properties": {
+        "scenario": "Upa\u0142 letni",
+        "pmv": 1.73,
+        "utci": 34.6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.943758,
+          54.09019
+        ]
+      },
+      "properties": {
+        "scenario": "Upa\u0142 letni",
+        "pmv": 1.76,
+        "utci": 29.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.94261,
+          54.10651
+        ]
+      },
+      "properties": {
+        "scenario": "Upa\u0142 letni",
+        "pmv": 1.15,
+        "utci": 30.7
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.944524,
+          54.097075
+        ]
+      },
+      "properties": {
+        "scenario": "Upa\u0142 letni",
+        "pmv": 1.49,
+        "utci": 33.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.962807,
+          54.097763
+        ]
+      },
+      "properties": {
+        "scenario": "Upa\u0142 letni",
+        "pmv": 1.68,
+        "utci": 32.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.945183,
+          54.108768
+        ]
+      },
+      "properties": {
+        "scenario": "Upa\u0142 letni",
+        "pmv": 1.7,
+        "utci": 32.8
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.952826,
+          54.101817
+        ]
+      },
+      "properties": {
+        "scenario": "Upa\u0142 letni",
+        "pmv": 1.26,
+        "utci": 32.8
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.958773,
+          54.10167
+        ]
+      },
+      "properties": {
+        "scenario": "Upa\u0142 letni",
+        "pmv": 1.17,
+        "utci": 29.5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.952716,
+          54.087581
+        ]
+      },
+      "properties": {
+        "scenario": "Upa\u0142 letni",
+        "pmv": 1.81,
+        "utci": 34.8
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.944153,
+          54.096964
+        ]
+      },
+      "properties": {
+        "scenario": "Upa\u0142 letni",
+        "pmv": 0.6,
+        "utci": 28.8
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.961834,
+          54.109788
+        ]
+      },
+      "properties": {
+        "scenario": "Upa\u0142 letni",
+        "pmv": 0.87,
+        "utci": 32.4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.958214,
+          54.108438
+        ]
+      },
+      "properties": {
+        "scenario": "Upa\u0142 letni",
+        "pmv": 1.43,
+        "utci": 34.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.970465,
+          54.099883
+        ]
+      },
+      "properties": {
+        "scenario": "Upa\u0142 letni",
+        "pmv": 1.78,
+        "utci": 32.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.972839,
+          54.088062
+        ]
+      },
+      "properties": {
+        "scenario": "Upa\u0142 letni",
+        "pmv": 0.84,
+        "utci": 30.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.955404,
+          54.104677
+        ]
+      },
+      "properties": {
+        "scenario": "Upa\u0142 letni",
+        "pmv": 2.5,
+        "utci": 32.7
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.9393,
+          54.102504
+        ]
+      },
+      "properties": {
+        "scenario": "Upa\u0142 letni",
+        "pmv": 1.5,
+        "utci": 31.5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.956387,
+          54.089179
+        ]
+      },
+      "properties": {
+        "scenario": "Upa\u0142 letni",
+        "pmv": 1.76,
+        "utci": 32.4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.963201,
+          54.084151
+        ]
+      },
+      "properties": {
+        "scenario": "Upa\u0142 letni",
+        "pmv": 1.48,
+        "utci": 32.8
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.951466,
+          54.093275
+        ]
+      },
+      "properties": {
+        "scenario": "Upa\u0142 letni",
+        "pmv": 1.52,
+        "utci": 33.5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.946699,
+          54.094291
+        ]
+      },
+      "properties": {
+        "scenario": "Upa\u0142 letni",
+        "pmv": 2.23,
+        "utci": 30.8
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.974305,
+          54.106512
+        ]
+      },
+      "properties": {
+        "scenario": "Upa\u0142 letni",
+        "pmv": 1.03,
+        "utci": 33.4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.965847,
+          54.098046
+        ]
+      },
+      "properties": {
+        "scenario": "Upa\u0142 letni",
+        "pmv": 0.74,
+        "utci": 34.8
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.960793,
+          54.100892
+        ]
+      },
+      "properties": {
+        "scenario": "Upa\u0142 letni",
+        "pmv": 1.9,
+        "utci": 29.4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.93926,
+          54.10907
+        ]
+      },
+      "properties": {
+        "scenario": "Upa\u0142 letni",
+        "pmv": 1.48,
+        "utci": 29.7
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.939559,
+          54.085457
+        ]
+      },
+      "properties": {
+        "scenario": "Upa\u0142 letni",
+        "pmv": 1.48,
+        "utci": 28.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.944189,
+          54.098169
+        ]
+      },
+      "properties": {
+        "scenario": "Upa\u0142 letni",
+        "pmv": 1.91,
+        "utci": 31.2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.950495,
+          54.097027
+        ]
+      },
+      "properties": {
+        "scenario": "Upa\u0142 letni",
+        "pmv": 1.7,
+        "utci": 37.2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.972007,
+          54.094751
+        ]
+      },
+      "properties": {
+        "scenario": "Upa\u0142 letni",
+        "pmv": 1.41,
+        "utci": 31.8
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.942022,
+          54.107632
+        ]
+      },
+      "properties": {
+        "scenario": "Upa\u0142 letni",
+        "pmv": 0.64,
+        "utci": 31.2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.962338,
+          54.10166
+        ]
+      },
+      "properties": {
+        "scenario": "Upa\u0142 letni",
+        "pmv": 1.37,
+        "utci": 32.8
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.955271,
+          54.114064
+        ]
+      },
+      "properties": {
+        "scenario": "Upa\u0142 letni",
+        "pmv": 0.67,
+        "utci": 34.7
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.954898,
+          54.118113
+        ]
+      },
+      "properties": {
+        "scenario": "Upa\u0142 letni",
+        "pmv": 1.05,
+        "utci": 31.4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.959728,
+          54.10986
+        ]
+      },
+      "properties": {
+        "scenario": "Fala upa\u0142\u00f3w",
+        "pmv": 0.5,
+        "utci": 36.5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.960864,
+          54.095001
+        ]
+      },
+      "properties": {
+        "scenario": "Fala upa\u0142\u00f3w",
+        "pmv": 1.06,
+        "utci": 40.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.958315,
+          54.103053
+        ]
+      },
+      "properties": {
+        "scenario": "Fala upa\u0142\u00f3w",
+        "pmv": 0.25,
+        "utci": 37.4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.951653,
+          54.088549
+        ]
+      },
+      "properties": {
+        "scenario": "Fala upa\u0142\u00f3w",
+        "pmv": 0.85,
+        "utci": 36.8
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.940394,
+          54.101719
+        ]
+      },
+      "properties": {
+        "scenario": "Fala upa\u0142\u00f3w",
+        "pmv": 0.1,
+        "utci": 43.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.94577,
+          54.091796
+        ]
+      },
+      "properties": {
+        "scenario": "Fala upa\u0142\u00f3w",
+        "pmv": 1.84,
+        "utci": 37.7
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.952201,
+          54.09612
+        ]
+      },
+      "properties": {
+        "scenario": "Fala upa\u0142\u00f3w",
+        "pmv": 1.14,
+        "utci": 36.6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.948374,
+          54.095209
+        ]
+      },
+      "properties": {
+        "scenario": "Fala upa\u0142\u00f3w",
+        "pmv": 0.76,
+        "utci": 40.8
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.947775,
+          54.094888
+        ]
+      },
+      "properties": {
+        "scenario": "Fala upa\u0142\u00f3w",
+        "pmv": -0.23,
+        "utci": 39.6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.960028,
+          54.102058
+        ]
+      },
+      "properties": {
+        "scenario": "Fala upa\u0142\u00f3w",
+        "pmv": 0.34,
+        "utci": 36.6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.945231,
+          54.09026
+        ]
+      },
+      "properties": {
+        "scenario": "Fala upa\u0142\u00f3w",
+        "pmv": 0.37,
+        "utci": 40.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.946183,
+          54.091835
+        ]
+      },
+      "properties": {
+        "scenario": "Fala upa\u0142\u00f3w",
+        "pmv": 1.71,
+        "utci": 36.5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.950857,
+          54.098335
+        ]
+      },
+      "properties": {
+        "scenario": "Fala upa\u0142\u00f3w",
+        "pmv": 1.26,
+        "utci": 35.7
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.953881,
+          54.09809
+        ]
+      },
+      "properties": {
+        "scenario": "Fala upa\u0142\u00f3w",
+        "pmv": 1.37,
+        "utci": 35.2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.953988,
+          54.099748
+        ]
+      },
+      "properties": {
+        "scenario": "Fala upa\u0142\u00f3w",
+        "pmv": 0.57,
+        "utci": 42.4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.950219,
+          54.102077
+        ]
+      },
+      "properties": {
+        "scenario": "Fala upa\u0142\u00f3w",
+        "pmv": 1.33,
+        "utci": 39.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.975493,
+          54.109594
+        ]
+      },
+      "properties": {
+        "scenario": "Fala upa\u0142\u00f3w",
+        "pmv": 0.63,
+        "utci": 38.8
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.957988,
+          54.112166
+        ]
+      },
+      "properties": {
+        "scenario": "Fala upa\u0142\u00f3w",
+        "pmv": 1.19,
+        "utci": 39.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.940675,
+          54.092619
+        ]
+      },
+      "properties": {
+        "scenario": "Fala upa\u0142\u00f3w",
+        "pmv": 0.18,
+        "utci": 37.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.95484,
+          54.092737
+        ]
+      },
+      "properties": {
+        "scenario": "Fala upa\u0142\u00f3w",
+        "pmv": 1.17,
+        "utci": 35.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.935901,
+          54.105736
+        ]
+      },
+      "properties": {
+        "scenario": "Fala upa\u0142\u00f3w",
+        "pmv": 0.35,
+        "utci": 33.8
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.938125,
+          54.098359
+        ]
+      },
+      "properties": {
+        "scenario": "Fala upa\u0142\u00f3w",
+        "pmv": 1.27,
+        "utci": 40.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.958698,
+          54.099933
+        ]
+      },
+      "properties": {
+        "scenario": "Fala upa\u0142\u00f3w",
+        "pmv": -0.07,
+        "utci": 39.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.953906,
+          54.1052
+        ]
+      },
+      "properties": {
+        "scenario": "Fala upa\u0142\u00f3w",
+        "pmv": 1.41,
+        "utci": 39.6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.934731,
+          54.105158
+        ]
+      },
+      "properties": {
+        "scenario": "Fala upa\u0142\u00f3w",
+        "pmv": 1.04,
+        "utci": 36.4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.947073,
+          54.107289
+        ]
+      },
+      "properties": {
+        "scenario": "Fala upa\u0142\u00f3w",
+        "pmv": 1.15,
+        "utci": 35.2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.94632,
+          54.090255
+        ]
+      },
+      "properties": {
+        "scenario": "Fala upa\u0142\u00f3w",
+        "pmv": 0.91,
+        "utci": 37.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.947982,
+          54.094805
+        ]
+      },
+      "properties": {
+        "scenario": "Fala upa\u0142\u00f3w",
+        "pmv": 0.78,
+        "utci": 36.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.930417,
+          54.094614
+        ]
+      },
+      "properties": {
+        "scenario": "Fala upa\u0142\u00f3w",
+        "pmv": 1.1,
+        "utci": 35.5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.955738,
+          54.106088
+        ]
+      },
+      "properties": {
+        "scenario": "Fala upa\u0142\u00f3w",
+        "pmv": 0.74,
+        "utci": 36.4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.938192,
+          54.100719
+        ]
+      },
+      "properties": {
+        "scenario": "Fala upa\u0142\u00f3w",
+        "pmv": 0.19,
+        "utci": 39.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.947322,
+          54.099041
+        ]
+      },
+      "properties": {
+        "scenario": "Fala upa\u0142\u00f3w",
+        "pmv": 1.01,
+        "utci": 38.6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.933904,
+          54.105763
+        ]
+      },
+      "properties": {
+        "scenario": "Fala upa\u0142\u00f3w",
+        "pmv": 1.19,
+        "utci": 39.2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.926581,
+          54.098165
+        ]
+      },
+      "properties": {
+        "scenario": "Fala upa\u0142\u00f3w",
+        "pmv": -0.87,
+        "utci": 39.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.944827,
+          54.108497
+        ]
+      },
+      "properties": {
+        "scenario": "Fala upa\u0142\u00f3w",
+        "pmv": 0.87,
+        "utci": 40.2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.963867,
+          54.097414
+        ]
+      },
+      "properties": {
+        "scenario": "Fala upa\u0142\u00f3w",
+        "pmv": 1.0,
+        "utci": 40.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.958906,
+          54.097324
+        ]
+      },
+      "properties": {
+        "scenario": "Fala upa\u0142\u00f3w",
+        "pmv": 1.35,
+        "utci": 38.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.946734,
+          54.097315
+        ]
+      },
+      "properties": {
+        "scenario": "Fala upa\u0142\u00f3w",
+        "pmv": -0.24,
+        "utci": 35.8
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.95159,
+          54.106243
+        ]
+      },
+      "properties": {
+        "scenario": "Fala upa\u0142\u00f3w",
+        "pmv": 1.2,
+        "utci": 38.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.960097,
+          54.097517
+        ]
+      },
+      "properties": {
+        "scenario": "Fala upa\u0142\u00f3w",
+        "pmv": 1.01,
+        "utci": 36.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.950925,
+          54.091687
+        ]
+      },
+      "properties": {
+        "scenario": "Fala upa\u0142\u00f3w",
+        "pmv": 0.12,
+        "utci": 38.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.950836,
+          54.1151
+        ]
+      },
+      "properties": {
+        "scenario": "Fala upa\u0142\u00f3w",
+        "pmv": 0.5,
+        "utci": 35.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.93813,
+          54.096017
+        ]
+      },
+      "properties": {
+        "scenario": "Fala upa\u0142\u00f3w",
+        "pmv": 0.61,
+        "utci": 36.7
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.954934,
+          54.105733
+        ]
+      },
+      "properties": {
+        "scenario": "Fala upa\u0142\u00f3w",
+        "pmv": -0.54,
+        "utci": 39.5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.954479,
+          54.094481
+        ]
+      },
+      "properties": {
+        "scenario": "Fala upa\u0142\u00f3w",
+        "pmv": 0.87,
+        "utci": 38.6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.976583,
+          54.0982
+        ]
+      },
+      "properties": {
+        "scenario": "Fala upa\u0142\u00f3w",
+        "pmv": 0.76,
+        "utci": 38.6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.942273,
+          54.088476
+        ]
+      },
+      "properties": {
+        "scenario": "Fala upa\u0142\u00f3w",
+        "pmv": 1.33,
+        "utci": 38.8
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.944976,
+          54.095497
+        ]
+      },
+      "properties": {
+        "scenario": "Fala upa\u0142\u00f3w",
+        "pmv": 1.42,
+        "utci": 40.4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.965599,
+          54.099168
+        ]
+      },
+      "properties": {
+        "scenario": "Fala upa\u0142\u00f3w",
+        "pmv": 1.2,
+        "utci": 41.4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.959801,
+          54.092723
+        ]
+      },
+      "properties": {
+        "scenario": "Fala upa\u0142\u00f3w",
+        "pmv": 0.47,
+        "utci": 39.2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.951285,
+          54.113195
+        ]
+      },
+      "properties": {
+        "scenario": "Jesie\u0144 wietrzna",
+        "pmv": 1.24,
+        "utci": 11.7
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.938315,
+          54.111219
+        ]
+      },
+      "properties": {
+        "scenario": "Jesie\u0144 wietrzna",
+        "pmv": 1.4,
+        "utci": 11.5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.945807,
+          54.094659
+        ]
+      },
+      "properties": {
+        "scenario": "Jesie\u0144 wietrzna",
+        "pmv": 0.49,
+        "utci": 10.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.964145,
+          54.095592
+        ]
+      },
+      "properties": {
+        "scenario": "Jesie\u0144 wietrzna",
+        "pmv": 0.15,
+        "utci": 10.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.948016,
+          54.086546
+        ]
+      },
+      "properties": {
+        "scenario": "Jesie\u0144 wietrzna",
+        "pmv": 0.78,
+        "utci": 15.2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.945659,
+          54.112686
+        ]
+      },
+      "properties": {
+        "scenario": "Jesie\u0144 wietrzna",
+        "pmv": 0.84,
+        "utci": 8.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.944186,
+          54.099438
+        ]
+      },
+      "properties": {
+        "scenario": "Jesie\u0144 wietrzna",
+        "pmv": 0.36,
+        "utci": 11.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.954574,
+          54.098862
+        ]
+      },
+      "properties": {
+        "scenario": "Jesie\u0144 wietrzna",
+        "pmv": 0.35,
+        "utci": 8.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.939496,
+          54.106785
+        ]
+      },
+      "properties": {
+        "scenario": "Jesie\u0144 wietrzna",
+        "pmv": 0.94,
+        "utci": 10.5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.933552,
+          54.117946
+        ]
+      },
+      "properties": {
+        "scenario": "Jesie\u0144 wietrzna",
+        "pmv": 0.71,
+        "utci": 9.4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.948536,
+          54.090731
+        ]
+      },
+      "properties": {
+        "scenario": "Jesie\u0144 wietrzna",
+        "pmv": 1.02,
+        "utci": 15.2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.955655,
+          54.099561
+        ]
+      },
+      "properties": {
+        "scenario": "Jesie\u0144 wietrzna",
+        "pmv": 1.19,
+        "utci": 13.2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.931467,
+          54.096332
+        ]
+      },
+      "properties": {
+        "scenario": "Jesie\u0144 wietrzna",
+        "pmv": 0.04,
+        "utci": 12.7
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.9584,
+          54.109556
+        ]
+      },
+      "properties": {
+        "scenario": "Jesie\u0144 wietrzna",
+        "pmv": 1.15,
+        "utci": 13.4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.935679,
+          54.102006
+        ]
+      },
+      "properties": {
+        "scenario": "Jesie\u0144 wietrzna",
+        "pmv": 0.1,
+        "utci": 11.4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.969626,
+          54.085234
+        ]
+      },
+      "properties": {
+        "scenario": "Jesie\u0144 wietrzna",
+        "pmv": 0.38,
+        "utci": 10.8
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.958082,
+          54.10181
+        ]
+      },
+      "properties": {
+        "scenario": "Jesie\u0144 wietrzna",
+        "pmv": 0.21,
+        "utci": 12.4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.959109,
+          54.104377
+        ]
+      },
+      "properties": {
+        "scenario": "Jesie\u0144 wietrzna",
+        "pmv": 0.36,
+        "utci": 12.7
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.945091,
+          54.103517
+        ]
+      },
+      "properties": {
+        "scenario": "Jesie\u0144 wietrzna",
+        "pmv": 0.56,
+        "utci": 14.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.959795,
+          54.106563
+        ]
+      },
+      "properties": {
+        "scenario": "Jesie\u0144 wietrzna",
+        "pmv": 0.29,
+        "utci": 12.5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.956039,
+          54.095523
+        ]
+      },
+      "properties": {
+        "scenario": "Jesie\u0144 wietrzna",
+        "pmv": 0.86,
+        "utci": 10.7
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.931666,
+          54.100329
+        ]
+      },
+      "properties": {
+        "scenario": "Jesie\u0144 wietrzna",
+        "pmv": 1.42,
+        "utci": 10.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.95053,
+          54.086824
+        ]
+      },
+      "properties": {
+        "scenario": "Jesie\u0144 wietrzna",
+        "pmv": 1.11,
+        "utci": 9.4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.945991,
+          54.085295
+        ]
+      },
+      "properties": {
+        "scenario": "Jesie\u0144 wietrzna",
+        "pmv": 0.32,
+        "utci": 12.5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.943774,
+          54.100224
+        ]
+      },
+      "properties": {
+        "scenario": "Jesie\u0144 wietrzna",
+        "pmv": 0.92,
+        "utci": 13.4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.936312,
+          54.106962
+        ]
+      },
+      "properties": {
+        "scenario": "Jesie\u0144 wietrzna",
+        "pmv": 1.75,
+        "utci": 13.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.945606,
+          54.10367
+        ]
+      },
+      "properties": {
+        "scenario": "Jesie\u0144 wietrzna",
+        "pmv": 0.69,
+        "utci": 14.8
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.964718,
+          54.099626
+        ]
+      },
+      "properties": {
+        "scenario": "Jesie\u0144 wietrzna",
+        "pmv": 1.15,
+        "utci": 12.5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.953015,
+          54.099117
+        ]
+      },
+      "properties": {
+        "scenario": "Jesie\u0144 wietrzna",
+        "pmv": 1.49,
+        "utci": 12.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.94238,
+          54.098248
+        ]
+      },
+      "properties": {
+        "scenario": "Jesie\u0144 wietrzna",
+        "pmv": 0.77,
+        "utci": 10.5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.943558,
+          54.101944
+        ]
+      },
+      "properties": {
+        "scenario": "Jesie\u0144 wietrzna",
+        "pmv": 1.41,
+        "utci": 14.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.940991,
+          54.098881
+        ]
+      },
+      "properties": {
+        "scenario": "Jesie\u0144 wietrzna",
+        "pmv": 0.4,
+        "utci": 12.5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.947616,
+          54.095257
+        ]
+      },
+      "properties": {
+        "scenario": "Jesie\u0144 wietrzna",
+        "pmv": 1.27,
+        "utci": 10.4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.961691,
+          54.080407
+        ]
+      },
+      "properties": {
+        "scenario": "Jesie\u0144 wietrzna",
+        "pmv": 1.3,
+        "utci": 12.8
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.927565,
+          54.107337
+        ]
+      },
+      "properties": {
+        "scenario": "Jesie\u0144 wietrzna",
+        "pmv": 0.25,
+        "utci": 13.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.961682,
+          54.091561
+        ]
+      },
+      "properties": {
+        "scenario": "Jesie\u0144 wietrzna",
+        "pmv": 0.25,
+        "utci": 6.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.941786,
+          54.114716
+        ]
+      },
+      "properties": {
+        "scenario": "Jesie\u0144 wietrzna",
+        "pmv": 0.69,
+        "utci": 14.6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.94349,
+          54.101593
+        ]
+      },
+      "properties": {
+        "scenario": "Jesie\u0144 wietrzna",
+        "pmv": 0.02,
+        "utci": 12.6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.949079,
+          54.089291
+        ]
+      },
+      "properties": {
+        "scenario": "Jesie\u0144 wietrzna",
+        "pmv": 0.76,
+        "utci": 10.7
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.97739,
+          54.109414
+        ]
+      },
+      "properties": {
+        "scenario": "Jesie\u0144 wietrzna",
+        "pmv": 0.78,
+        "utci": 10.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.955412,
+          54.105286
+        ]
+      },
+      "properties": {
+        "scenario": "Jesie\u0144 wietrzna",
+        "pmv": 1.13,
+        "utci": 6.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.93957,
+          54.099666
+        ]
+      },
+      "properties": {
+        "scenario": "Jesie\u0144 wietrzna",
+        "pmv": 0.45,
+        "utci": 15.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.949574,
+          54.097861
+        ]
+      },
+      "properties": {
+        "scenario": "Jesie\u0144 wietrzna",
+        "pmv": 1.15,
+        "utci": 17.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.933439,
+          54.10013
+        ]
+      },
+      "properties": {
+        "scenario": "Jesie\u0144 wietrzna",
+        "pmv": 0.78,
+        "utci": 13.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.945454,
+          54.102254
+        ]
+      },
+      "properties": {
+        "scenario": "Jesie\u0144 wietrzna",
+        "pmv": 0.39,
+        "utci": 11.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.972303,
+          54.107036
+        ]
+      },
+      "properties": {
+        "scenario": "Jesie\u0144 wietrzna",
+        "pmv": 0.98,
+        "utci": 13.6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.977241,
+          54.101683
+        ]
+      },
+      "properties": {
+        "scenario": "Jesie\u0144 wietrzna",
+        "pmv": 0.91,
+        "utci": 11.8
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.957826,
+          54.10669
+        ]
+      },
+      "properties": {
+        "scenario": "Jesie\u0144 wietrzna",
+        "pmv": 1.13,
+        "utci": 13.4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.939311,
+          54.108329
+        ]
+      },
+      "properties": {
+        "scenario": "Jesie\u0144 wietrzna",
+        "pmv": 0.75,
+        "utci": 8.7
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.961921,
+          54.1031
+        ]
+      },
+      "properties": {
+        "scenario": "Jesie\u0144 wietrzna",
+        "pmv": 0.29,
+        "utci": 12.7
+      }
+    }
+  ]
+}

@@ -1,0 +1,5955 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.960403,
+          54.092105
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr spokojny",
+        "speed": 6.28,
+        "direction": 309.7,
+        "vx": -4.83,
+        "vy": 4.01
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.947421,
+          54.09395
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr spokojny",
+        "speed": 2.98,
+        "direction": 271.4,
+        "vx": -2.98,
+        "vy": 0.07
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.951591,
+          54.095582
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr spokojny",
+        "speed": 3.18,
+        "direction": 270.3,
+        "vx": -3.18,
+        "vy": 0.02
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.970096,
+          54.106949
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr spokojny",
+        "speed": 4.39,
+        "direction": 249.2,
+        "vx": -4.1,
+        "vy": -1.56
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.951653,
+          54.105603
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr spokojny",
+        "speed": 4.68,
+        "direction": 298.3,
+        "vx": -4.12,
+        "vy": 2.22
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.959685,
+          54.096719
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr spokojny",
+        "speed": 5.9,
+        "direction": 272.3,
+        "vx": -5.89,
+        "vy": 0.24
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.944551,
+          54.089006
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr spokojny",
+        "speed": 4.18,
+        "direction": 239.5,
+        "vx": -3.6,
+        "vy": -2.12
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.961629,
+          54.089137
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr spokojny",
+        "speed": 2.75,
+        "direction": 272.2,
+        "vx": -2.75,
+        "vy": 0.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.949754,
+          54.117296
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr spokojny",
+        "speed": 4.28,
+        "direction": 261.8,
+        "vx": -4.24,
+        "vy": -0.61
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.929678,
+          54.096125
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr spokojny",
+        "speed": 3.22,
+        "direction": 241.8,
+        "vx": -2.83,
+        "vy": -1.52
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.947342,
+          54.09877
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr spokojny",
+        "speed": 5.83,
+        "direction": 244.7,
+        "vx": -5.27,
+        "vy": -2.49
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.946614,
+          54.093496
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr spokojny",
+        "speed": 4.44,
+        "direction": 258.5,
+        "vx": -4.35,
+        "vy": -0.88
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.959881,
+          54.098058
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr spokojny",
+        "speed": 5.53,
+        "direction": 232.3,
+        "vx": -4.37,
+        "vy": -3.38
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.955017,
+          54.08431
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr spokojny",
+        "speed": 4.28,
+        "direction": 244.1,
+        "vx": -3.85,
+        "vy": -1.87
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.951288,
+          54.096776
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr spokojny",
+        "speed": 3.32,
+        "direction": 309.0,
+        "vx": -2.58,
+        "vy": 2.09
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.923298,
+          54.101973
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr spokojny",
+        "speed": 4.3,
+        "direction": 273.9,
+        "vx": -4.29,
+        "vy": 0.29
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.946646,
+          54.104072
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr spokojny",
+        "speed": 3.39,
+        "direction": 299.7,
+        "vx": -2.95,
+        "vy": 1.68
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.952032,
+          54.106607
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr spokojny",
+        "speed": 5.44,
+        "direction": 253.4,
+        "vx": -5.21,
+        "vy": -1.56
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.973543,
+          54.114605
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr spokojny",
+        "speed": 5.44,
+        "direction": 304.3,
+        "vx": -4.49,
+        "vy": 3.07
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.948772,
+          54.105764
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr spokojny",
+        "speed": 5.14,
+        "direction": 264.1,
+        "vx": -5.11,
+        "vy": -0.53
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.947537,
+          54.098343
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr spokojny",
+        "speed": 6.08,
+        "direction": 247.5,
+        "vx": -5.62,
+        "vy": -2.33
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.934835,
+          54.099002
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr spokojny",
+        "speed": 5.5,
+        "direction": 312.7,
+        "vx": -4.05,
+        "vy": 3.73
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.952011,
+          54.098251
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr spokojny",
+        "speed": 6.13,
+        "direction": 273.7,
+        "vx": -6.11,
+        "vy": 0.39
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.954761,
+          54.090544
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr spokojny",
+        "speed": 4.09,
+        "direction": 261.1,
+        "vx": -4.04,
+        "vy": -0.63
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.969683,
+          54.113751
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr spokojny",
+        "speed": 4.58,
+        "direction": 228.0,
+        "vx": -3.4,
+        "vy": -3.06
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.942155,
+          54.114646
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr umiarkowany",
+        "speed": 10.38,
+        "direction": 243.1,
+        "vx": -9.26,
+        "vy": -4.69
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.957825,
+          54.105039
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr umiarkowany",
+        "speed": 8.91,
+        "direction": 242.3,
+        "vx": -7.89,
+        "vy": -4.14
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.92388,
+          54.108995
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr umiarkowany",
+        "speed": 7.05,
+        "direction": 230.3,
+        "vx": -5.43,
+        "vy": -4.5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.961435,
+          54.103499
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr umiarkowany",
+        "speed": 9.33,
+        "direction": 217.0,
+        "vx": -5.62,
+        "vy": -7.45
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.951764,
+          54.106484
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr umiarkowany",
+        "speed": 10.26,
+        "direction": 231.9,
+        "vx": -8.07,
+        "vy": -6.33
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.952819,
+          54.119833
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr umiarkowany",
+        "speed": 11.8,
+        "direction": 245.3,
+        "vx": -10.72,
+        "vy": -4.92
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.962198,
+          54.112851
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr umiarkowany",
+        "speed": 8.79,
+        "direction": 231.0,
+        "vx": -6.83,
+        "vy": -5.53
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.956646,
+          54.102113
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr umiarkowany",
+        "speed": 8.05,
+        "direction": 222.4,
+        "vx": -5.43,
+        "vy": -5.94
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.967939,
+          54.108381
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr umiarkowany",
+        "speed": 6.08,
+        "direction": 219.7,
+        "vx": -3.89,
+        "vy": -4.68
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.94764,
+          54.093932
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr umiarkowany",
+        "speed": 12.34,
+        "direction": 237.2,
+        "vx": -10.37,
+        "vy": -6.67
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.930855,
+          54.099256
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr umiarkowany",
+        "speed": 11.9,
+        "direction": 249.9,
+        "vx": -11.17,
+        "vy": -4.09
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.964187,
+          54.081087
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr umiarkowany",
+        "speed": 8.05,
+        "direction": 181.3,
+        "vx": -0.19,
+        "vy": -8.05
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.961603,
+          54.088805
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr umiarkowany",
+        "speed": 9.08,
+        "direction": 223.3,
+        "vx": -6.22,
+        "vy": -6.61
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.957372,
+          54.107056
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr umiarkowany",
+        "speed": 11.74,
+        "direction": 300.1,
+        "vx": -10.16,
+        "vy": 5.88
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.956992,
+          54.106533
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr umiarkowany",
+        "speed": 11.06,
+        "direction": 191.2,
+        "vx": -2.16,
+        "vy": -10.85
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.952223,
+          54.091729
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr umiarkowany",
+        "speed": 12.42,
+        "direction": 175.3,
+        "vx": 1.01,
+        "vy": -12.37
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.944632,
+          54.097475
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr umiarkowany",
+        "speed": 11.78,
+        "direction": 240.3,
+        "vx": -10.23,
+        "vy": -5.84
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.953694,
+          54.100076
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr umiarkowany",
+        "speed": 6.36,
+        "direction": 204.4,
+        "vx": -2.63,
+        "vy": -5.79
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.961701,
+          54.109952
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr umiarkowany",
+        "speed": 6.15,
+        "direction": 203.5,
+        "vx": -2.45,
+        "vy": -5.64
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.937038,
+          54.098522
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr umiarkowany",
+        "speed": 11.81,
+        "direction": 198.1,
+        "vx": -3.67,
+        "vy": -11.23
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.944046,
+          54.09098
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr umiarkowany",
+        "speed": 10.83,
+        "direction": 211.3,
+        "vx": -5.62,
+        "vy": -9.25
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.949652,
+          54.111586
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr umiarkowany",
+        "speed": 8.0,
+        "direction": 271.7,
+        "vx": -7.99,
+        "vy": 0.23
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.952592,
+          54.098073
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr umiarkowany",
+        "speed": 10.57,
+        "direction": 230.8,
+        "vx": -8.18,
+        "vy": -6.68
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.950425,
+          54.101369
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr umiarkowany",
+        "speed": 10.24,
+        "direction": 199.5,
+        "vx": -3.42,
+        "vy": -9.66
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.951846,
+          54.091246
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr umiarkowany",
+        "speed": 8.71,
+        "direction": 205.2,
+        "vx": -3.71,
+        "vy": -7.88
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.942557,
+          54.103446
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr umiarkowany",
+        "speed": 6.51,
+        "direction": 203.8,
+        "vx": -2.63,
+        "vy": -5.96
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.956868,
+          54.100769
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr umiarkowany",
+        "speed": 6.64,
+        "direction": 232.7,
+        "vx": -5.28,
+        "vy": -4.03
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.940551,
+          54.106838
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr umiarkowany",
+        "speed": 8.69,
+        "direction": 236.0,
+        "vx": -7.21,
+        "vy": -4.86
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.951745,
+          54.087843
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr umiarkowany",
+        "speed": 8.69,
+        "direction": 225.9,
+        "vx": -6.24,
+        "vy": -6.04
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.95016,
+          54.113663
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr umiarkowany",
+        "speed": 11.28,
+        "direction": 196.6,
+        "vx": -3.22,
+        "vy": -10.82
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.93162,
+          54.093168
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr umiarkowany",
+        "speed": 8.31,
+        "direction": 223.1,
+        "vx": -5.68,
+        "vy": -6.06
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.948672,
+          54.102994
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr umiarkowany",
+        "speed": 11.66,
+        "direction": 235.2,
+        "vx": -9.57,
+        "vy": -6.65
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.957019,
+          54.100429
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr umiarkowany",
+        "speed": 12.05,
+        "direction": 207.5,
+        "vx": -5.56,
+        "vy": -10.69
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.957419,
+          54.110239
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr umiarkowany",
+        "speed": 11.35,
+        "direction": 244.0,
+        "vx": -10.2,
+        "vy": -4.97
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.989406,
+          54.107997
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr umiarkowany",
+        "speed": 5.65,
+        "direction": 219.9,
+        "vx": -3.63,
+        "vy": -4.33
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.958243,
+          54.102275
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr umiarkowany",
+        "speed": 8.85,
+        "direction": 227.9,
+        "vx": -6.57,
+        "vy": -5.93
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.941147,
+          54.084717
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr umiarkowany",
+        "speed": 8.7,
+        "direction": 191.2,
+        "vx": -1.69,
+        "vy": -8.53
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.957163,
+          54.114422
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr umiarkowany",
+        "speed": 7.49,
+        "direction": 266.5,
+        "vx": -7.48,
+        "vy": -0.46
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.970189,
+          54.108399
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr umiarkowany",
+        "speed": 6.38,
+        "direction": 208.5,
+        "vx": -3.05,
+        "vy": -5.61
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.960073,
+          54.084428
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr umiarkowany",
+        "speed": 5.58,
+        "direction": 235.0,
+        "vx": -4.58,
+        "vy": -3.2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.961779,
+          54.08942
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr umiarkowany",
+        "speed": 12.2,
+        "direction": 193.8,
+        "vx": -2.91,
+        "vy": -11.85
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.947886,
+          54.095828
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr umiarkowany",
+        "speed": 7.38,
+        "direction": 252.9,
+        "vx": -7.06,
+        "vy": -2.17
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.968982,
+          54.099785
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr umiarkowany",
+        "speed": 6.85,
+        "direction": 195.6,
+        "vx": -1.84,
+        "vy": -6.59
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.936323,
+          54.098815
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr umiarkowany",
+        "speed": 11.44,
+        "direction": 229.6,
+        "vx": -8.71,
+        "vy": -7.42
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.959217,
+          54.099292
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr umiarkowany",
+        "speed": 8.99,
+        "direction": 192.0,
+        "vx": -1.87,
+        "vy": -8.8
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.952471,
+          54.090311
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr umiarkowany",
+        "speed": 11.29,
+        "direction": 209.1,
+        "vx": -5.49,
+        "vy": -9.86
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.950649,
+          54.085051
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr umiarkowany",
+        "speed": 5.55,
+        "direction": 224.3,
+        "vx": -3.88,
+        "vy": -3.97
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.951394,
+          54.096149
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr umiarkowany",
+        "speed": 5.4,
+        "direction": 211.2,
+        "vx": -2.79,
+        "vy": -4.62
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.948014,
+          54.099018
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr umiarkowany",
+        "speed": 7.71,
+        "direction": 233.2,
+        "vx": -6.18,
+        "vy": -4.61
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.926455,
+          54.095749
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr umiarkowany",
+        "speed": 11.45,
+        "direction": 253.9,
+        "vx": -11.0,
+        "vy": -3.17
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.95771,
+          54.103248
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr silny",
+        "speed": 16.82,
+        "direction": 277.4,
+        "vx": -16.68,
+        "vy": 2.17
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.958052,
+          54.095364
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr silny",
+        "speed": 9.51,
+        "direction": 287.7,
+        "vx": -9.06,
+        "vy": 2.89
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.928976,
+          54.109564
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr silny",
+        "speed": 17.58,
+        "direction": 295.1,
+        "vx": -15.92,
+        "vy": 7.46
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.967643,
+          54.103444
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr silny",
+        "speed": 10.5,
+        "direction": 291.2,
+        "vx": -9.79,
+        "vy": 3.79
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.957403,
+          54.102353
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr silny",
+        "speed": 8.18,
+        "direction": 317.4,
+        "vx": -5.53,
+        "vy": 6.02
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.950198,
+          54.100203
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr silny",
+        "speed": 13.29,
+        "direction": 343.8,
+        "vx": -3.71,
+        "vy": 12.77
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.952906,
+          54.099248
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr silny",
+        "speed": 11.86,
+        "direction": 342.3,
+        "vx": -3.6,
+        "vy": 11.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.963152,
+          54.096833
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr silny",
+        "speed": 8.84,
+        "direction": 301.9,
+        "vx": -7.5,
+        "vy": 4.68
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.936092,
+          54.104212
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr silny",
+        "speed": 16.01,
+        "direction": 300.8,
+        "vx": -13.75,
+        "vy": 8.19
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.967313,
+          54.094632
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr silny",
+        "speed": 12.01,
+        "direction": 302.7,
+        "vx": -10.1,
+        "vy": 6.49
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.946306,
+          54.10119
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr silny",
+        "speed": 16.52,
+        "direction": 325.6,
+        "vx": -9.33,
+        "vy": 13.63
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.9397,
+          54.093704
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr silny",
+        "speed": 15.64,
+        "direction": 283.8,
+        "vx": -15.19,
+        "vy": 3.74
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.948264,
+          54.099783
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr silny",
+        "speed": 17.13,
+        "direction": 313.7,
+        "vx": -12.38,
+        "vy": 11.84
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.935194,
+          54.095349
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr silny",
+        "speed": 18.48,
+        "direction": 337.0,
+        "vx": -7.22,
+        "vy": 17.01
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.965298,
+          54.105098
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr silny",
+        "speed": 12.22,
+        "direction": 283.9,
+        "vx": -11.86,
+        "vy": 2.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.946291,
+          54.104589
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr silny",
+        "speed": 14.03,
+        "direction": 303.4,
+        "vx": -11.71,
+        "vy": 7.73
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.937757,
+          54.084345
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr silny",
+        "speed": 11.04,
+        "direction": 345.3,
+        "vx": -2.8,
+        "vy": 10.68
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.95499,
+          54.112703
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr silny",
+        "speed": 14.92,
+        "direction": 290.4,
+        "vx": -13.98,
+        "vy": 5.2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.95867,
+          54.097451
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr silny",
+        "speed": 10.59,
+        "direction": 346.9,
+        "vx": -2.4,
+        "vy": 10.31
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.962343,
+          54.092286
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr silny",
+        "speed": 16.72,
+        "direction": 288.7,
+        "vx": -15.84,
+        "vy": 5.36
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.955995,
+          54.108206
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr silny",
+        "speed": 18.4,
+        "direction": 339.3,
+        "vx": -6.52,
+        "vy": 17.21
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.984203,
+          54.112224
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr silny",
+        "speed": 8.7,
+        "direction": 296.7,
+        "vx": -7.77,
+        "vy": 3.91
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.943222,
+          54.09552
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr silny",
+        "speed": 9.67,
+        "direction": 311.1,
+        "vx": -7.28,
+        "vy": 6.36
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.936976,
+          54.084604
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr silny",
+        "speed": 14.79,
+        "direction": 3.2,
+        "vx": 0.83,
+        "vy": 14.77
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.959398,
+          54.107469
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr silny",
+        "speed": 8.48,
+        "direction": 351.4,
+        "vx": -1.26,
+        "vy": 8.39
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.953084,
+          54.091615
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr silny",
+        "speed": 14.57,
+        "direction": 354.4,
+        "vx": -1.42,
+        "vy": 14.5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.974806,
+          54.113568
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr silny",
+        "speed": 17.1,
+        "direction": 260.4,
+        "vx": -16.86,
+        "vy": -2.86
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.92525,
+          54.078996
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr silny",
+        "speed": 14.5,
+        "direction": 329.1,
+        "vx": -7.44,
+        "vy": 12.44
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.949145,
+          54.105481
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr silny",
+        "speed": 10.73,
+        "direction": 300.4,
+        "vx": -9.26,
+        "vy": 5.42
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.9336,
+          54.106977
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr silny",
+        "speed": 9.43,
+        "direction": 294.0,
+        "vx": -8.61,
+        "vy": 3.84
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.936971,
+          54.099471
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr silny",
+        "speed": 10.16,
+        "direction": 339.9,
+        "vx": -3.48,
+        "vy": 9.54
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.929265,
+          54.111727
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr silny",
+        "speed": 13.72,
+        "direction": 300.3,
+        "vx": -11.85,
+        "vy": 6.93
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.943328,
+          54.103491
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr silny",
+        "speed": 17.86,
+        "direction": 289.1,
+        "vx": -16.87,
+        "vy": 5.85
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.958033,
+          54.100163
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr silny",
+        "speed": 17.27,
+        "direction": 338.6,
+        "vx": -6.29,
+        "vy": 16.08
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.9495,
+          54.088504
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr silny",
+        "speed": 9.01,
+        "direction": 339.4,
+        "vx": -3.17,
+        "vy": 8.44
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.950954,
+          54.106796
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr silny",
+        "speed": 15.87,
+        "direction": 308.8,
+        "vx": -12.37,
+        "vy": 9.94
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.95156,
+          54.102743
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr silny",
+        "speed": 18.45,
+        "direction": 317.5,
+        "vx": -12.45,
+        "vy": 13.61
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.950957,
+          54.104323
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr silny",
+        "speed": 18.75,
+        "direction": 336.4,
+        "vx": -7.52,
+        "vy": 17.18
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.943903,
+          54.102811
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr silny",
+        "speed": 14.78,
+        "direction": 312.1,
+        "vx": -10.97,
+        "vy": 9.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.924274,
+          54.093066
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr silny",
+        "speed": 11.57,
+        "direction": 316.3,
+        "vx": -7.99,
+        "vy": 8.36
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.952079,
+          54.091928
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr silny",
+        "speed": 14.6,
+        "direction": 280.7,
+        "vx": -14.35,
+        "vy": 2.71
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.962758,
+          54.097503
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr silny",
+        "speed": 9.02,
+        "direction": 341.9,
+        "vx": -2.81,
+        "vy": 8.57
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.955861,
+          54.095754
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr silny",
+        "speed": 17.31,
+        "direction": 322.0,
+        "vx": -10.66,
+        "vy": 13.64
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.939033,
+          54.110125
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr silny",
+        "speed": 17.97,
+        "direction": 342.9,
+        "vx": -5.29,
+        "vy": 17.17
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.949691,
+          54.092934
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr silny",
+        "speed": 15.46,
+        "direction": 304.4,
+        "vx": -12.75,
+        "vy": 8.74
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.956111,
+          54.094574
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr silny",
+        "speed": 18.46,
+        "direction": 272.2,
+        "vx": -18.45,
+        "vy": 0.72
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.945946,
+          54.106644
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr silny",
+        "speed": 14.72,
+        "direction": 311.7,
+        "vx": -11.0,
+        "vy": 9.79
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.933074,
+          54.098883
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr silny",
+        "speed": 10.34,
+        "direction": 313.0,
+        "vx": -7.56,
+        "vy": 7.05
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.952926,
+          54.090055
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr silny",
+        "speed": 11.09,
+        "direction": 333.0,
+        "vx": -5.03,
+        "vy": 9.88
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.963572,
+          54.098757
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr silny",
+        "speed": 15.64,
+        "direction": 304.2,
+        "vx": -12.94,
+        "vy": 8.79
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.957265,
+          54.089863
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr silny",
+        "speed": 8.17,
+        "direction": 318.4,
+        "vx": -5.43,
+        "vy": 6.11
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.937852,
+          54.102052
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr silny",
+        "speed": 12.19,
+        "direction": 261.3,
+        "vx": -12.05,
+        "vy": -1.85
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.967628,
+          54.103997
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr silny",
+        "speed": 17.47,
+        "direction": 292.9,
+        "vx": -16.09,
+        "vy": 6.8
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.963881,
+          54.099964
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr silny",
+        "speed": 11.21,
+        "direction": 279.8,
+        "vx": -11.04,
+        "vy": 1.91
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.931241,
+          54.094698
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr silny",
+        "speed": 8.71,
+        "direction": 315.8,
+        "vx": -6.07,
+        "vy": 6.24
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.951359,
+          54.105845
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr silny",
+        "speed": 17.95,
+        "direction": 291.8,
+        "vx": -16.67,
+        "vy": 6.68
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.948997,
+          54.099878
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr silny",
+        "speed": 13.43,
+        "direction": 266.5,
+        "vx": -13.4,
+        "vy": -0.83
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.940232,
+          54.11064
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr silny",
+        "speed": 9.29,
+        "direction": 268.7,
+        "vx": -9.28,
+        "vy": -0.21
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.942738,
+          54.10124
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr silny",
+        "speed": 15.47,
+        "direction": 294.4,
+        "vx": -14.08,
+        "vy": 6.39
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.94863,
+          54.098178
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr silny",
+        "speed": 17.69,
+        "direction": 310.8,
+        "vx": -13.39,
+        "vy": 11.57
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.93223,
+          54.110637
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr silny",
+        "speed": 14.03,
+        "direction": 321.1,
+        "vx": -8.81,
+        "vy": 10.91
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.95645,
+          54.091081
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr silny",
+        "speed": 18.1,
+        "direction": 250.4,
+        "vx": -17.04,
+        "vy": -6.08
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.944022,
+          54.113673
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr silny",
+        "speed": 15.51,
+        "direction": 324.2,
+        "vx": -9.06,
+        "vy": 12.59
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.948506,
+          54.082713
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr silny",
+        "speed": 13.38,
+        "direction": 314.6,
+        "vx": -9.53,
+        "vy": 9.4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.938822,
+          54.105157
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr silny",
+        "speed": 10.18,
+        "direction": 320.2,
+        "vx": -6.52,
+        "vy": 7.82
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.932259,
+          54.099874
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr silny",
+        "speed": 12.53,
+        "direction": 305.0,
+        "vx": -10.27,
+        "vy": 7.19
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.943988,
+          54.101447
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr silny",
+        "speed": 13.07,
+        "direction": 342.6,
+        "vx": -3.91,
+        "vy": 12.47
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.923431,
+          54.11753
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr silny",
+        "speed": 15.24,
+        "direction": 280.7,
+        "vx": -14.97,
+        "vy": 2.83
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.953803,
+          54.105273
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr silny",
+        "speed": 17.1,
+        "direction": 307.6,
+        "vx": -13.55,
+        "vy": 10.42
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.960288,
+          54.112292
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr silny",
+        "speed": 16.77,
+        "direction": 305.1,
+        "vx": -13.72,
+        "vy": 9.65
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.946829,
+          54.103684
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr silny",
+        "speed": 18.23,
+        "direction": 278.0,
+        "vx": -18.05,
+        "vy": 2.52
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.919336,
+          54.096053
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr silny",
+        "speed": 8.4,
+        "direction": 342.7,
+        "vx": -2.49,
+        "vy": 8.02
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.95063,
+          54.092107
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr silny",
+        "speed": 17.43,
+        "direction": 277.6,
+        "vx": -17.28,
+        "vy": 2.32
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.934863,
+          54.090699
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr silny",
+        "speed": 16.03,
+        "direction": 312.0,
+        "vx": -11.92,
+        "vy": 10.72
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.958368,
+          54.114235
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr silny",
+        "speed": 18.35,
+        "direction": 289.6,
+        "vx": -17.28,
+        "vy": 6.16
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.946636,
+          54.088712
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr burzowy",
+        "speed": 13.76,
+        "direction": 319.4,
+        "vx": -8.95,
+        "vy": 10.46
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.945395,
+          54.094248
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr burzowy",
+        "speed": 20.23,
+        "direction": 265.9,
+        "vx": -20.18,
+        "vy": -1.44
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.94263,
+          54.095144
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr burzowy",
+        "speed": 31.24,
+        "direction": 262.5,
+        "vx": -30.97,
+        "vy": -4.06
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.978805,
+          54.112558
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr burzowy",
+        "speed": 24.22,
+        "direction": 245.6,
+        "vx": -22.06,
+        "vy": -9.99
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.932749,
+          54.097497
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr burzowy",
+        "speed": 13.9,
+        "direction": 224.9,
+        "vx": -9.8,
+        "vy": -9.85
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.941805,
+          54.099539
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr burzowy",
+        "speed": 18.53,
+        "direction": 248.1,
+        "vx": -17.2,
+        "vy": -6.91
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.955921,
+          54.099172
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr burzowy",
+        "speed": 28.02,
+        "direction": 257.6,
+        "vx": -27.37,
+        "vy": -6.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.952968,
+          54.091933
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr burzowy",
+        "speed": 22.52,
+        "direction": 257.1,
+        "vx": -21.96,
+        "vy": -5.01
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.932377,
+          54.094584
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr burzowy",
+        "speed": 22.52,
+        "direction": 292.5,
+        "vx": -20.81,
+        "vy": 8.6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.947679,
+          54.07725
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr burzowy",
+        "speed": 27.01,
+        "direction": 260.2,
+        "vx": -26.61,
+        "vy": -4.61
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.957253,
+          54.092738
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr burzowy",
+        "speed": 13.86,
+        "direction": 306.4,
+        "vx": -11.16,
+        "vy": 8.22
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.966127,
+          54.09468
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr burzowy",
+        "speed": 19.33,
+        "direction": 245.9,
+        "vx": -17.65,
+        "vy": -7.88
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.945387,
+          54.099399
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr burzowy",
+        "speed": 25.28,
+        "direction": 279.7,
+        "vx": -24.92,
+        "vy": 4.26
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.950004,
+          54.105785
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr burzowy",
+        "speed": 28.57,
+        "direction": 264.1,
+        "vx": -28.42,
+        "vy": -2.92
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.962975,
+          54.104771
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr burzowy",
+        "speed": 25.04,
+        "direction": 291.5,
+        "vx": -23.3,
+        "vy": 9.19
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.951194,
+          54.103639
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr burzowy",
+        "speed": 26.83,
+        "direction": 256.2,
+        "vx": -26.05,
+        "vy": -6.42
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.978467,
+          54.095014
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr burzowy",
+        "speed": 23.29,
+        "direction": 265.6,
+        "vx": -23.22,
+        "vy": -1.78
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.958039,
+          54.097116
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr burzowy",
+        "speed": 16.4,
+        "direction": 299.0,
+        "vx": -14.35,
+        "vy": 7.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.956669,
+          54.091445
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr burzowy",
+        "speed": 30.71,
+        "direction": 291.0,
+        "vx": -28.67,
+        "vy": 11.01
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.963692,
+          54.094048
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr burzowy",
+        "speed": 31.01,
+        "direction": 285.9,
+        "vx": -29.82,
+        "vy": 8.51
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.941369,
+          54.096316
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr burzowy",
+        "speed": 17.58,
+        "direction": 244.0,
+        "vx": -15.8,
+        "vy": -7.71
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.943279,
+          54.110517
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr burzowy",
+        "speed": 25.81,
+        "direction": 229.4,
+        "vx": -19.59,
+        "vy": -16.8
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.953406,
+          54.105221
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr burzowy",
+        "speed": 22.51,
+        "direction": 303.9,
+        "vx": -18.68,
+        "vy": 12.55
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.969397,
+          54.098617
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr burzowy",
+        "speed": 25.33,
+        "direction": 250.1,
+        "vx": -23.82,
+        "vy": -8.63
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.957001,
+          54.112807
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr burzowy",
+        "speed": 27.74,
+        "direction": 291.6,
+        "vx": -25.79,
+        "vy": 10.22
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.945523,
+          54.101267
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr burzowy",
+        "speed": 29.77,
+        "direction": 257.2,
+        "vx": -29.04,
+        "vy": -6.58
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.965769,
+          54.108991
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr burzowy",
+        "speed": 31.42,
+        "direction": 239.6,
+        "vx": -27.09,
+        "vy": -15.92
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.940687,
+          54.08443
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr burzowy",
+        "speed": 16.12,
+        "direction": 253.3,
+        "vx": -15.44,
+        "vy": -4.64
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.952232,
+          54.100333
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr burzowy",
+        "speed": 26.14,
+        "direction": 310.7,
+        "vx": -19.8,
+        "vy": 17.06
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.95035,
+          54.107645
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr burzowy",
+        "speed": 20.77,
+        "direction": 276.9,
+        "vx": -20.62,
+        "vy": 2.49
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.962653,
+          54.119743
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr burzowy",
+        "speed": 22.22,
+        "direction": 296.8,
+        "vx": -19.84,
+        "vy": 10.02
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.94401,
+          54.09869
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr burzowy",
+        "speed": 13.59,
+        "direction": 293.3,
+        "vx": -12.48,
+        "vy": 5.37
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.96279,
+          54.088987
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr burzowy",
+        "speed": 28.46,
+        "direction": 235.5,
+        "vx": -23.47,
+        "vy": -16.11
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.949069,
+          54.103457
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr burzowy",
+        "speed": 15.47,
+        "direction": 211.1,
+        "vx": -8.0,
+        "vy": -13.24
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.926783,
+          54.096025
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr burzowy",
+        "speed": 23.62,
+        "direction": 295.4,
+        "vx": -21.33,
+        "vy": 10.14
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.957532,
+          54.102572
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr burzowy",
+        "speed": 17.6,
+        "direction": 239.6,
+        "vx": -15.19,
+        "vy": -8.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.950955,
+          54.085483
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr burzowy",
+        "speed": 28.22,
+        "direction": 255.4,
+        "vx": -27.3,
+        "vy": -7.13
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.959353,
+          54.098512
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr burzowy",
+        "speed": 22.51,
+        "direction": 259.1,
+        "vx": -22.1,
+        "vy": -4.26
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.934159,
+          54.101422
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr burzowy",
+        "speed": 26.35,
+        "direction": 287.7,
+        "vx": -25.1,
+        "vy": 8.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.958033,
+          54.117913
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr burzowy",
+        "speed": 16.05,
+        "direction": 314.5,
+        "vx": -11.44,
+        "vy": 11.26
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.971925,
+          54.098932
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr burzowy",
+        "speed": 29.17,
+        "direction": 252.0,
+        "vx": -27.74,
+        "vy": -9.01
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.937702,
+          54.097195
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr burzowy",
+        "speed": 21.12,
+        "direction": 254.3,
+        "vx": -20.33,
+        "vy": -5.73
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.958024,
+          54.104633
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr burzowy",
+        "speed": 20.05,
+        "direction": 249.7,
+        "vx": -18.8,
+        "vy": -6.96
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.942059,
+          54.100656
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr burzowy",
+        "speed": 25.19,
+        "direction": 256.7,
+        "vx": -24.52,
+        "vy": -5.78
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.935018,
+          54.102375
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr burzowy",
+        "speed": 29.71,
+        "direction": 337.4,
+        "vx": -11.42,
+        "vy": 27.43
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.964377,
+          54.106393
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr burzowy",
+        "speed": 26.49,
+        "direction": 256.4,
+        "vx": -25.75,
+        "vy": -6.21
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.944609,
+          54.110052
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr burzowy",
+        "speed": 23.68,
+        "direction": 281.9,
+        "vx": -23.17,
+        "vy": 4.89
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.961761,
+          54.109719
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr burzowy",
+        "speed": 29.88,
+        "direction": 265.3,
+        "vx": -29.78,
+        "vy": -2.46
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.941231,
+          54.107559
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr burzowy",
+        "speed": 29.48,
+        "direction": 285.0,
+        "vx": -28.48,
+        "vy": 7.61
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.943107,
+          54.105996
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr burzowy",
+        "speed": 19.7,
+        "direction": 283.0,
+        "vx": -19.19,
+        "vy": 4.42
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.944151,
+          54.100153
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr burzowy",
+        "speed": 17.93,
+        "direction": 263.1,
+        "vx": -17.8,
+        "vy": -2.15
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.951511,
+          54.105408
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr burzowy",
+        "speed": 29.18,
+        "direction": 225.8,
+        "vx": -20.93,
+        "vy": -20.33
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.948524,
+          54.103393
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr burzowy",
+        "speed": 26.22,
+        "direction": 276.3,
+        "vx": -26.06,
+        "vy": 2.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.961314,
+          54.105092
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr burzowy",
+        "speed": 27.91,
+        "direction": 274.2,
+        "vx": -27.83,
+        "vy": 2.07
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.933414,
+          54.097996
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr burzowy",
+        "speed": 19.6,
+        "direction": 279.4,
+        "vx": -19.34,
+        "vy": 3.19
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.955823,
+          54.094681
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr burzowy",
+        "speed": 15.91,
+        "direction": 255.9,
+        "vx": -15.44,
+        "vy": -3.87
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.956108,
+          54.098629
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr burzowy",
+        "speed": 23.38,
+        "direction": 257.9,
+        "vx": -22.86,
+        "vy": -4.91
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.968438,
+          54.106798
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr burzowy",
+        "speed": 27.36,
+        "direction": 259.2,
+        "vx": -26.88,
+        "vy": -5.12
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.953249,
+          54.110185
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr burzowy",
+        "speed": 21.76,
+        "direction": 300.3,
+        "vx": -18.79,
+        "vy": 10.96
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.958392,
+          54.089776
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr burzowy",
+        "speed": 17.55,
+        "direction": 251.6,
+        "vx": -16.66,
+        "vy": -5.53
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.956351,
+          54.096753
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr burzowy",
+        "speed": 24.19,
+        "direction": 281.3,
+        "vx": -23.72,
+        "vy": 4.76
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.946282,
+          54.112035
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr burzowy",
+        "speed": 17.42,
+        "direction": 275.5,
+        "vx": -17.34,
+        "vy": 1.66
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.938827,
+          54.098649
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr burzowy",
+        "speed": 18.62,
+        "direction": 254.2,
+        "vx": -17.91,
+        "vy": -5.08
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.942055,
+          54.11192
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr burzowy",
+        "speed": 18.99,
+        "direction": 256.2,
+        "vx": -18.44,
+        "vy": -4.54
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.941865,
+          54.102401
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr burzowy",
+        "speed": 25.66,
+        "direction": 316.9,
+        "vx": -17.52,
+        "vy": 18.75
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.961579,
+          54.097211
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr burzowy",
+        "speed": 24.27,
+        "direction": 253.8,
+        "vx": -23.31,
+        "vy": -6.76
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.971656,
+          54.08429
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr burzowy",
+        "speed": 18.09,
+        "direction": 289.6,
+        "vx": -17.05,
+        "vy": 6.06
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.950338,
+          54.0997
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr burzowy",
+        "speed": 24.63,
+        "direction": 243.1,
+        "vx": -21.96,
+        "vy": -11.16
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.950213,
+          54.100153
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr burzowy",
+        "speed": 19.39,
+        "direction": 264.3,
+        "vx": -19.29,
+        "vy": -1.92
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.977437,
+          54.124466
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr burzowy",
+        "speed": 29.37,
+        "direction": 247.6,
+        "vx": -27.15,
+        "vy": -11.2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.954614,
+          54.105445
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr burzowy",
+        "speed": 29.29,
+        "direction": 263.8,
+        "vx": -29.12,
+        "vy": -3.14
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.952955,
+          54.106514
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr burzowy",
+        "speed": 15.55,
+        "direction": 301.3,
+        "vx": -13.29,
+        "vy": 8.07
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.961902,
+          54.100076
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr burzowy",
+        "speed": 16.77,
+        "direction": 273.0,
+        "vx": -16.75,
+        "vy": 0.87
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.926869,
+          54.104881
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr burzowy",
+        "speed": 25.65,
+        "direction": 283.4,
+        "vx": -24.95,
+        "vy": 5.96
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.959112,
+          54.109011
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr burzowy",
+        "speed": 18.66,
+        "direction": 299.2,
+        "vx": -16.28,
+        "vy": 9.11
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.954489,
+          54.08615
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr burzowy",
+        "speed": 23.2,
+        "direction": 261.8,
+        "vx": -22.97,
+        "vy": -3.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.950341,
+          54.093443
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr burzowy",
+        "speed": 24.48,
+        "direction": 315.8,
+        "vx": -17.06,
+        "vy": 17.55
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.972159,
+          54.104807
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr burzowy",
+        "speed": 30.94,
+        "direction": 232.2,
+        "vx": -24.46,
+        "vy": -18.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.913611,
+          54.105712
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr burzowy",
+        "speed": 25.49,
+        "direction": 250.0,
+        "vx": -23.95,
+        "vy": -8.73
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.950492,
+          54.096811
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr burzowy",
+        "speed": 18.18,
+        "direction": 272.2,
+        "vx": -18.17,
+        "vy": 0.69
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.960786,
+          54.108691
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr burzowy",
+        "speed": 24.63,
+        "direction": 276.7,
+        "vx": -24.46,
+        "vy": 2.89
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.926185,
+          54.096004
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr burzowy",
+        "speed": 26.11,
+        "direction": 281.8,
+        "vx": -25.56,
+        "vy": 5.32
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.948036,
+          54.105845
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr burzowy",
+        "speed": 23.93,
+        "direction": 244.1,
+        "vx": -21.53,
+        "vy": -10.43
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.952748,
+          54.097932
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr burzowy",
+        "speed": 16.05,
+        "direction": 262.0,
+        "vx": -15.89,
+        "vy": -2.22
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.947545,
+          54.093803
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr burzowy",
+        "speed": 30.28,
+        "direction": 296.2,
+        "vx": -27.17,
+        "vy": 13.38
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.944961,
+          54.098389
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr burzowy",
+        "speed": 29.72,
+        "direction": 252.1,
+        "vx": -28.28,
+        "vy": -9.14
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.948339,
+          54.097476
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr burzowy",
+        "speed": 19.39,
+        "direction": 253.0,
+        "vx": -18.55,
+        "vy": -5.67
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.951436,
+          54.100453
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr burzowy",
+        "speed": 26.84,
+        "direction": 224.1,
+        "vx": -18.67,
+        "vy": -19.29
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.947487,
+          54.093017
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr burzowy",
+        "speed": 30.33,
+        "direction": 268.2,
+        "vx": -30.32,
+        "vy": -0.98
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.949942,
+          54.09508
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr burzowy",
+        "speed": 28.22,
+        "direction": 233.8,
+        "vx": -22.76,
+        "vy": -16.68
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.915781,
+          54.095328
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr burzowy",
+        "speed": 17.23,
+        "direction": 276.9,
+        "vx": -17.1,
+        "vy": 2.05
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.946189,
+          54.096531
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr burzowy",
+        "speed": 20.8,
+        "direction": 290.6,
+        "vx": -19.47,
+        "vy": 7.34
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.950658,
+          54.107354
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr burzowy",
+        "speed": 17.92,
+        "direction": 283.6,
+        "vx": -17.41,
+        "vy": 4.23
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.954977,
+          54.088137
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr burzowy",
+        "speed": 18.56,
+        "direction": 277.0,
+        "vx": -18.42,
+        "vy": 2.27
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.949066,
+          54.106369
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr burzowy",
+        "speed": 29.99,
+        "direction": 299.7,
+        "vx": -26.05,
+        "vy": 14.86
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.945603,
+          54.100303
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr burzowy",
+        "speed": 14.59,
+        "direction": 233.2,
+        "vx": -11.67,
+        "vy": -8.75
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.934616,
+          54.09264
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr burzowy",
+        "speed": 14.87,
+        "direction": 286.9,
+        "vx": -14.22,
+        "vy": 4.33
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.949366,
+          54.098204
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr burzowy",
+        "speed": 31.35,
+        "direction": 220.2,
+        "vx": -20.25,
+        "vy": -23.93
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.941736,
+          54.096533
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr burzowy",
+        "speed": 14.77,
+        "direction": 268.0,
+        "vx": -14.76,
+        "vy": -0.52
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.949155,
+          54.104361
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr burzowy",
+        "speed": 20.56,
+        "direction": 304.6,
+        "vx": -16.92,
+        "vy": 11.68
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.966025,
+          54.097968
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr huraganowy",
+        "speed": 28.05,
+        "direction": 185.5,
+        "vx": -2.69,
+        "vy": -27.92
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.961606,
+          54.113265
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr huraganowy",
+        "speed": 37.91,
+        "direction": 181.2,
+        "vx": -0.8,
+        "vy": -37.91
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.949449,
+          54.101108
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr huraganowy",
+        "speed": 22.83,
+        "direction": 176.8,
+        "vx": 1.26,
+        "vy": -22.79
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.933431,
+          54.108931
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr huraganowy",
+        "speed": 36.65,
+        "direction": 184.9,
+        "vx": -3.13,
+        "vy": -36.51
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.953661,
+          54.098412
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr huraganowy",
+        "speed": 23.28,
+        "direction": 178.9,
+        "vx": 0.45,
+        "vy": -23.27
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.952778,
+          54.101047
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr huraganowy",
+        "speed": 23.55,
+        "direction": 225.0,
+        "vx": -16.65,
+        "vy": -16.65
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.948243,
+          54.090063
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr huraganowy",
+        "speed": 23.11,
+        "direction": 206.0,
+        "vx": -10.13,
+        "vy": -20.77
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.978359,
+          54.088074
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr huraganowy",
+        "speed": 40.12,
+        "direction": 188.2,
+        "vx": -5.7,
+        "vy": -39.71
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.976779,
+          54.095133
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr huraganowy",
+        "speed": 30.93,
+        "direction": 216.3,
+        "vx": -18.33,
+        "vy": -24.92
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.947346,
+          54.101346
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr huraganowy",
+        "speed": 33.0,
+        "direction": 214.8,
+        "vx": -18.84,
+        "vy": -27.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.943851,
+          54.104812
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr huraganowy",
+        "speed": 23.22,
+        "direction": 137.0,
+        "vx": 15.83,
+        "vy": -16.98
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.948651,
+          54.089165
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr huraganowy",
+        "speed": 26.58,
+        "direction": 198.4,
+        "vx": -8.39,
+        "vy": -25.22
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.946823,
+          54.092681
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr huraganowy",
+        "speed": 41.68,
+        "direction": 183.8,
+        "vx": -2.75,
+        "vy": -41.59
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.945486,
+          54.097323
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr huraganowy",
+        "speed": 22.21,
+        "direction": 190.3,
+        "vx": -3.98,
+        "vy": -21.85
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.945892,
+          54.100884
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr huraganowy",
+        "speed": 38.77,
+        "direction": 163.9,
+        "vx": 10.78,
+        "vy": -37.24
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.938063,
+          54.092797
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr huraganowy",
+        "speed": 37.29,
+        "direction": 186.3,
+        "vx": -4.09,
+        "vy": -37.06
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.936292,
+          54.101313
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr huraganowy",
+        "speed": 21.92,
+        "direction": 231.8,
+        "vx": -17.23,
+        "vy": -13.55
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.951723,
+          54.10227
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr huraganowy",
+        "speed": 34.65,
+        "direction": 136.6,
+        "vx": 23.82,
+        "vy": -25.16
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.953984,
+          54.099512
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr huraganowy",
+        "speed": 34.16,
+        "direction": 190.8,
+        "vx": -6.39,
+        "vy": -33.56
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.953695,
+          54.095204
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr huraganowy",
+        "speed": 24.24,
+        "direction": 197.1,
+        "vx": -7.12,
+        "vy": -23.17
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.979153,
+          54.110887
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr huraganowy",
+        "speed": 22.96,
+        "direction": 147.1,
+        "vx": 12.47,
+        "vy": -19.28
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.936311,
+          54.088761
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr huraganowy",
+        "speed": 27.86,
+        "direction": 218.1,
+        "vx": -17.19,
+        "vy": -21.93
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.932569,
+          54.098735
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr huraganowy",
+        "speed": 30.21,
+        "direction": 218.7,
+        "vx": -18.87,
+        "vy": -23.59
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.957381,
+          54.082473
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr huraganowy",
+        "speed": 32.75,
+        "direction": 217.2,
+        "vx": -19.82,
+        "vy": -26.07
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.951024,
+          54.102617
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr huraganowy",
+        "speed": 43.73,
+        "direction": 200.7,
+        "vx": -15.44,
+        "vy": -40.91
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.958173,
+          54.102262
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr huraganowy",
+        "speed": 29.64,
+        "direction": 160.5,
+        "vx": 9.9,
+        "vy": -27.94
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.957045,
+          54.103725
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr huraganowy",
+        "speed": 26.0,
+        "direction": 185.0,
+        "vx": -2.25,
+        "vy": -25.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.95468,
+          54.107777
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr huraganowy",
+        "speed": 33.23,
+        "direction": 196.8,
+        "vx": -9.6,
+        "vy": -31.81
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.936754,
+          54.088781
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr huraganowy",
+        "speed": 34.77,
+        "direction": 129.2,
+        "vx": 26.93,
+        "vy": -22.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.948905,
+          54.10452
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr huraganowy",
+        "speed": 43.05,
+        "direction": 161.6,
+        "vx": 13.62,
+        "vy": -40.84
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.9527,
+          54.099957
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr huraganowy",
+        "speed": 34.31,
+        "direction": 170.8,
+        "vx": 5.49,
+        "vy": -33.87
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.97578,
+          54.09662
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr huraganowy",
+        "speed": 24.71,
+        "direction": 152.4,
+        "vx": 11.44,
+        "vy": -21.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.938542,
+          54.099651
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr huraganowy",
+        "speed": 25.56,
+        "direction": 184.0,
+        "vx": -1.8,
+        "vy": -25.49
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.938571,
+          54.110409
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr huraganowy",
+        "speed": 31.43,
+        "direction": 142.8,
+        "vx": 19.02,
+        "vy": -25.02
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.940928,
+          54.094742
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr huraganowy",
+        "speed": 37.94,
+        "direction": 196.5,
+        "vx": -10.76,
+        "vy": -36.38
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.967723,
+          54.111482
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr huraganowy",
+        "speed": 35.58,
+        "direction": 192.6,
+        "vx": -7.75,
+        "vy": -34.73
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.95109,
+          54.101853
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr huraganowy",
+        "speed": 26.95,
+        "direction": 197.1,
+        "vx": -7.94,
+        "vy": -25.75
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.963372,
+          54.109375
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr huraganowy",
+        "speed": 43.51,
+        "direction": 184.7,
+        "vx": -3.57,
+        "vy": -43.36
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.958517,
+          54.089122
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr huraganowy",
+        "speed": 41.57,
+        "direction": 154.0,
+        "vx": 18.25,
+        "vy": -37.35
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.964519,
+          54.095245
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr huraganowy",
+        "speed": 43.74,
+        "direction": 194.2,
+        "vx": -10.73,
+        "vy": -42.4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.94931,
+          54.111446
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr huraganowy",
+        "speed": 38.03,
+        "direction": 205.4,
+        "vx": -16.3,
+        "vy": -34.35
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.939268,
+          54.09732
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr huraganowy",
+        "speed": 29.13,
+        "direction": 168.1,
+        "vx": 6.03,
+        "vy": -28.5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.939763,
+          54.111956
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr huraganowy",
+        "speed": 38.57,
+        "direction": 197.1,
+        "vx": -11.34,
+        "vy": -36.86
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.958161,
+          54.098629
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr huraganowy",
+        "speed": 24.72,
+        "direction": 185.4,
+        "vx": -2.31,
+        "vy": -24.62
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.944074,
+          54.087226
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr huraganowy",
+        "speed": 25.93,
+        "direction": 176.2,
+        "vx": 1.7,
+        "vy": -25.88
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.924136,
+          54.10955
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr huraganowy",
+        "speed": 34.72,
+        "direction": 185.0,
+        "vx": -3.02,
+        "vy": -34.59
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.953015,
+          54.091091
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr huraganowy",
+        "speed": 25.42,
+        "direction": 129.3,
+        "vx": 19.66,
+        "vy": -16.12
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.964486,
+          54.11051
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr huraganowy",
+        "speed": 20.84,
+        "direction": 152.8,
+        "vx": 9.53,
+        "vy": -18.53
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.944269,
+          54.11375
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr huraganowy",
+        "speed": 20.16,
+        "direction": 179.8,
+        "vx": 0.08,
+        "vy": -20.16
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.961542,
+          54.097067
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr huraganowy",
+        "speed": 21.92,
+        "direction": 184.0,
+        "vx": -1.52,
+        "vy": -21.87
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.957115,
+          54.095707
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr huraganowy",
+        "speed": 36.76,
+        "direction": 173.4,
+        "vx": 4.22,
+        "vy": -36.52
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.946578,
+          54.100075
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr huraganowy",
+        "speed": 27.63,
+        "direction": 193.3,
+        "vx": -6.34,
+        "vy": -26.89
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.950934,
+          54.096451
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr huraganowy",
+        "speed": 40.63,
+        "direction": 204.0,
+        "vx": -16.51,
+        "vy": -37.13
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.940934,
+          54.080644
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr huraganowy",
+        "speed": 27.37,
+        "direction": 186.7,
+        "vx": -3.21,
+        "vy": -27.18
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.94628,
+          54.092528
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr huraganowy",
+        "speed": 20.15,
+        "direction": 145.0,
+        "vx": 11.55,
+        "vy": -16.5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.942314,
+          54.102807
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr huraganowy",
+        "speed": 43.06,
+        "direction": 154.3,
+        "vx": 18.68,
+        "vy": -38.8
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.948049,
+          54.09701
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr huraganowy",
+        "speed": 23.28,
+        "direction": 222.3,
+        "vx": -15.67,
+        "vy": -17.22
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.968887,
+          54.088299
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr huraganowy",
+        "speed": 32.99,
+        "direction": 218.6,
+        "vx": -20.6,
+        "vy": -25.77
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.958741,
+          54.107308
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr huraganowy",
+        "speed": 28.21,
+        "direction": 135.3,
+        "vx": 19.84,
+        "vy": -20.05
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.939606,
+          54.110152
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr huraganowy",
+        "speed": 30.97,
+        "direction": 146.3,
+        "vx": 17.19,
+        "vy": -25.76
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.926254,
+          54.099282
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr huraganowy",
+        "speed": 39.67,
+        "direction": 201.1,
+        "vx": -14.26,
+        "vy": -37.02
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.953596,
+          54.0792
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr huraganowy",
+        "speed": 38.82,
+        "direction": 222.6,
+        "vx": -26.27,
+        "vy": -28.58
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.950765,
+          54.102184
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr huraganowy",
+        "speed": 20.09,
+        "direction": 166.2,
+        "vx": 4.79,
+        "vy": -19.51
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.934031,
+          54.103495
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr huraganowy",
+        "speed": 39.41,
+        "direction": 152.3,
+        "vx": 18.3,
+        "vy": -34.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.956282,
+          54.101258
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr huraganowy",
+        "speed": 27.77,
+        "direction": 172.9,
+        "vx": 3.45,
+        "vy": -27.55
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.957182,
+          54.114052
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr huraganowy",
+        "speed": 27.58,
+        "direction": 185.8,
+        "vx": -2.77,
+        "vy": -27.44
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.92929,
+          54.097414
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr huraganowy",
+        "speed": 24.87,
+        "direction": 199.3,
+        "vx": -8.21,
+        "vy": -23.48
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.956196,
+          54.103603
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr huraganowy",
+        "speed": 19.74,
+        "direction": 161.6,
+        "vx": 6.23,
+        "vy": -18.73
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.922456,
+          54.100901
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr huraganowy",
+        "speed": 41.11,
+        "direction": 219.7,
+        "vx": -26.25,
+        "vy": -31.63
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.940952,
+          54.098692
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr huraganowy",
+        "speed": 19.42,
+        "direction": 155.3,
+        "vx": 8.11,
+        "vy": -17.65
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.949618,
+          54.094434
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr huraganowy",
+        "speed": 31.19,
+        "direction": 193.8,
+        "vx": -7.44,
+        "vy": -30.29
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.953996,
+          54.103824
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr huraganowy",
+        "speed": 41.3,
+        "direction": 190.7,
+        "vx": -7.65,
+        "vy": -40.58
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.94098,
+          54.096266
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr huraganowy",
+        "speed": 20.08,
+        "direction": 149.7,
+        "vx": 10.13,
+        "vy": -17.35
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.946363,
+          54.081352
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr huraganowy",
+        "speed": 42.97,
+        "direction": 210.9,
+        "vx": -22.07,
+        "vy": -36.87
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.966662,
+          54.10093
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr huraganowy",
+        "speed": 40.07,
+        "direction": 177.4,
+        "vx": 1.8,
+        "vy": -40.03
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.954884,
+          54.095374
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr huraganowy",
+        "speed": 33.21,
+        "direction": 207.8,
+        "vx": -15.47,
+        "vy": -29.39
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.964036,
+          54.110452
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr huraganowy",
+        "speed": 36.31,
+        "direction": 181.8,
+        "vx": -1.15,
+        "vy": -36.29
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.937935,
+          54.090908
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr huraganowy",
+        "speed": 27.96,
+        "direction": 214.5,
+        "vx": -15.82,
+        "vy": -23.05
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.944789,
+          54.104424
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr huraganowy",
+        "speed": 22.57,
+        "direction": 186.9,
+        "vx": -2.72,
+        "vy": -22.4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.954109,
+          54.097583
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr huraganowy",
+        "speed": 26.63,
+        "direction": 204.7,
+        "vx": -11.14,
+        "vy": -24.19
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.94038,
+          54.100862
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr huraganowy",
+        "speed": 41.77,
+        "direction": 172.6,
+        "vx": 5.37,
+        "vy": -41.42
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.955798,
+          54.10628
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr huraganowy",
+        "speed": 18.98,
+        "direction": 200.2,
+        "vx": -6.56,
+        "vy": -17.81
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.936326,
+          54.101989
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr huraganowy",
+        "speed": 33.83,
+        "direction": 230.9,
+        "vx": -26.25,
+        "vy": -21.34
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.969222,
+          54.101498
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr huraganowy",
+        "speed": 41.92,
+        "direction": 171.4,
+        "vx": 6.29,
+        "vy": -41.45
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.937275,
+          54.113717
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr huraganowy",
+        "speed": 19.68,
+        "direction": 212.6,
+        "vx": -10.61,
+        "vy": -16.57
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.943774,
+          54.091218
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr huraganowy",
+        "speed": 22.06,
+        "direction": 162.3,
+        "vx": 6.7,
+        "vy": -21.02
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.933555,
+          54.099311
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr huraganowy",
+        "speed": 43.36,
+        "direction": 147.4,
+        "vx": 23.39,
+        "vy": -36.51
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.946609,
+          54.108404
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr huraganowy",
+        "speed": 32.89,
+        "direction": 157.6,
+        "vx": 12.55,
+        "vy": -30.41
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.944487,
+          54.084432
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr huraganowy",
+        "speed": 24.92,
+        "direction": 133.1,
+        "vx": 18.19,
+        "vy": -17.03
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.96448,
+          54.086715
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr huraganowy",
+        "speed": 30.84,
+        "direction": 190.9,
+        "vx": -5.84,
+        "vy": -30.28
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.93571,
+          54.102152
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr huraganowy",
+        "speed": 31.86,
+        "direction": 221.9,
+        "vx": -21.26,
+        "vy": -23.72
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.937756,
+          54.102763
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr huraganowy",
+        "speed": 28.63,
+        "direction": 245.6,
+        "vx": -26.07,
+        "vy": -11.84
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.931397,
+          54.094907
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr huraganowy",
+        "speed": 39.06,
+        "direction": 119.0,
+        "vx": 34.15,
+        "vy": -18.96
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.954425,
+          54.109599
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr huraganowy",
+        "speed": 30.59,
+        "direction": 162.9,
+        "vx": 8.98,
+        "vy": -29.24
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.951008,
+          54.101111
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr huraganowy",
+        "speed": 38.63,
+        "direction": 175.8,
+        "vx": 2.82,
+        "vy": -38.53
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.958401,
+          54.093701
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr huraganowy",
+        "speed": 36.26,
+        "direction": 174.7,
+        "vx": 3.33,
+        "vy": -36.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.946978,
+          54.104827
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr huraganowy",
+        "speed": 29.83,
+        "direction": 186.5,
+        "vx": -3.37,
+        "vy": -29.64
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.94514,
+          54.102082
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr huraganowy",
+        "speed": 30.76,
+        "direction": 163.3,
+        "vx": 8.83,
+        "vy": -29.46
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.962343,
+          54.099145
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr huraganowy",
+        "speed": 31.97,
+        "direction": 165.7,
+        "vx": 7.88,
+        "vy": -30.98
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.952904,
+          54.092242
+        ]
+      },
+      "properties": {
+        "scenario": "Wiatr huraganowy",
+        "speed": 27.23,
+        "direction": 195.9,
+        "vx": -7.47,
+        "vy": -26.19
+      }
+    }
+  ]
+}

@@ -1,0 +1,6474 @@
+{
+  "metadata": {
+    "project_name": "Environmental Analysis System - Suwałki",
+    "version": "2.1.0",
+    "location": {
+      "city": "Suwałki",
+      "country": "Polska",
+      "center_lat": 54.1,
+      "center_lng": 22.95,
+      "bbox": {
+        "south": 54.09,
+        "north": 54.11,
+        "west": 22.92,
+        "east": 23.0
+      },
+      "area_km2": 5.0,
+      "elevation_avg": 163.0
+    },
+    "grid": {
+      "resolution_m": 5,
+      "nx": 1600,
+      "ny": 800
+    },
+    "modules": [
+      "FloodSim",
+      "WindSim",
+      "ThermalSim"
+    ],
+    "target_accuracy": {
+      "r2_min": 0.85,
+      "rmse_max": 0.5
+    },
+    "output_formats": [
+      "JSON",
+      "GeoJSON",
+      "CSV",
+      "PKL"
+    ],
+    "github": {
+      "username": "dawidsajewski12-creator",
+      "repo": "gis_portfolio",
+      "branch": "main"
+    }
+  },
+  "scenarios": {
+    "flood": {
+      "lekki_deszcz": {
+        "scenario_name": "Lekki deszcz",
+        "module": "FloodSim",
+        "parameters": {
+          "rainfall_mm_h": 15,
+          "duration_h": 4,
+          "total_rainfall_mm": 60,
+          "effective_rainfall_mm": 28
+        },
+        "metrics": {
+          "max_depth_m": 0,
+          "mean_depth_m": 0.0,
+          "flooded_area_km2": 0.0,
+          "flooded_area_percent": 0,
+          "buildings_at_risk": 0,
+          "risk_level": "MINIMALNE"
+        },
+        "flood_zones": [
+          {
+            "lat": 54.099217,
+            "lng": 22.945181,
+            "depth_m": 0,
+            "elevation_m": 162.3,
+            "flow_velocity": 0.21
+          },
+          {
+            "lat": 54.089827,
+            "lng": 22.957557,
+            "depth_m": 0,
+            "elevation_m": 161.5,
+            "flow_velocity": 0.21
+          },
+          {
+            "lat": 54.101102,
+            "lng": 22.96275,
+            "depth_m": 0,
+            "elevation_m": 162.6,
+            "flow_velocity": 0.21
+          },
+          {
+            "lat": 54.093935,
+            "lng": 22.949307,
+            "depth_m": 0,
+            "elevation_m": 161.6,
+            "flow_velocity": 0.21
+          },
+          {
+            "lat": 54.087563,
+            "lng": 22.956166,
+            "depth_m": 0,
+            "elevation_m": 160.1,
+            "flow_velocity": 0.21
+          }
+        ],
+        "computation_time": "2025-09-17T05:33:15.198461",
+        "model_version": "FloodSim_v2.1"
+      },
+      "umiarkowany_opad": {
+        "scenario_name": "Umiarkowany opad",
+        "module": "FloodSim",
+        "parameters": {
+          "rainfall_mm_h": 35,
+          "duration_h": 3,
+          "total_rainfall_mm": 105,
+          "effective_rainfall_mm": 81
+        },
+        "metrics": {
+          "max_depth_m": 0,
+          "mean_depth_m": 0.0,
+          "flooded_area_km2": 0.0,
+          "flooded_area_percent": 0,
+          "buildings_at_risk": 0,
+          "risk_level": "MINIMALNE"
+        },
+        "flood_zones": [
+          {
+            "lat": 54.109904,
+            "lng": 22.946479,
+            "depth_m": 0,
+            "elevation_m": 161.4,
+            "flow_velocity": 0.21
+          },
+          {
+            "lat": 54.096871,
+            "lng": 22.944567,
+            "depth_m": 0,
+            "elevation_m": 161.3,
+            "flow_velocity": 0.21
+          },
+          {
+            "lat": 54.106605,
+            "lng": 22.944339,
+            "depth_m": 0,
+            "elevation_m": 164.7,
+            "flow_velocity": 0.21
+          },
+          {
+            "lat": 54.092463,
+            "lng": 22.956417,
+            "depth_m": 0,
+            "elevation_m": 163.5,
+            "flow_velocity": 0.21
+          },
+          {
+            "lat": 54.104603,
+            "lng": 22.948827,
+            "depth_m": 0,
+            "elevation_m": 164.5,
+            "flow_velocity": 0.21
+          }
+        ],
+        "computation_time": "2025-09-17T05:33:15.198595",
+        "model_version": "FloodSim_v2.1"
+      },
+      "intensywny_deszcz": {
+        "scenario_name": "Intensywny deszcz",
+        "module": "FloodSim",
+        "parameters": {
+          "rainfall_mm_h": 65,
+          "duration_h": 2,
+          "total_rainfall_mm": 130,
+          "effective_rainfall_mm": 114
+        },
+        "metrics": {
+          "max_depth_m": 0.204,
+          "mean_depth_m": 0.082,
+          "flooded_area_km2": 1.53,
+          "flooded_area_percent": 30.6,
+          "buildings_at_risk": 321,
+          "risk_level": "UMIARKOWANE"
+        },
+        "flood_zones": [
+          {
+            "lat": 54.08559,
+            "lng": 22.957246,
+            "depth_m": 0.022,
+            "elevation_m": 163.0,
+            "flow_velocity": 0.22
+          },
+          {
+            "lat": 54.09981,
+            "lng": 22.949576,
+            "depth_m": 0.02,
+            "elevation_m": 163.2,
+            "flow_velocity": 0.21
+          },
+          {
+            "lat": 54.107464,
+            "lng": 22.969,
+            "depth_m": 0.098,
+            "elevation_m": 165.0,
+            "flow_velocity": 0.47
+          },
+          {
+            "lat": 54.090359,
+            "lng": 22.957761,
+            "depth_m": 0.204,
+            "elevation_m": 165.3,
+            "flow_velocity": 0.72
+          },
+          {
+            "lat": 54.100237,
+            "lng": 22.937857,
+            "depth_m": 0.027,
+            "elevation_m": 163.8,
+            "flow_velocity": 0.25
+          },
+          {
+            "lat": 54.09542,
+            "lng": 22.957491,
+            "depth_m": 0.164,
+            "elevation_m": 164.9,
+            "flow_velocity": 0.61
+          },
+          {
+            "lat": 54.10204,
+            "lng": 22.946482,
+            "depth_m": 0.065,
+            "elevation_m": 162.2,
+            "flow_velocity": 0.38
+          },
+          {
+            "lat": 54.091701,
+            "lng": 22.966732,
+            "depth_m": 0.031,
+            "elevation_m": 164.4,
+            "flow_velocity": 0.26
+          },
+          {
+            "lat": 54.094533,
+            "lng": 22.937112,
+            "depth_m": 0.204,
+            "elevation_m": 162.8,
+            "flow_velocity": 0.86
+          },
+          {
+            "lat": 54.096465,
+            "lng": 22.947034,
+            "depth_m": 0.204,
+            "elevation_m": 163.5,
+            "flow_velocity": 0.83
+          },
+          {
+            "lat": 54.089864,
+            "lng": 22.950122,
+            "depth_m": 0.061,
+            "elevation_m": 162.3,
+            "flow_velocity": 0.37
+          },
+          {
+            "lat": 54.097368,
+            "lng": 22.941368,
+            "depth_m": 0.134,
+            "elevation_m": 167.8,
+            "flow_velocity": 0.55
+          },
+          {
+            "lat": 54.087888,
+            "lng": 22.940092,
+            "depth_m": 0.126,
+            "elevation_m": 164.5,
+            "flow_velocity": 0.53
+          },
+          {
+            "lat": 54.121482,
+            "lng": 22.945665,
+            "depth_m": 0.049,
+            "elevation_m": 162.1,
+            "flow_velocity": 0.33
+          },
+          {
+            "lat": 54.096025,
+            "lng": 22.951625,
+            "depth_m": 0.17,
+            "elevation_m": 162.9,
+            "flow_velocity": 0.62
+          },
+          {
+            "lat": 54.095636,
+            "lng": 22.942524,
+            "depth_m": 0.204,
+            "elevation_m": 157.5,
+            "flow_velocity": 0.89
+          },
+          {
+            "lat": 54.093204,
+            "lng": 22.950953,
+            "depth_m": 0.073,
+            "elevation_m": 161.8,
+            "flow_velocity": 0.41
+          },
+          {
+            "lat": 54.093739,
+            "lng": 22.932684,
+            "depth_m": 0.055,
+            "elevation_m": 166.1,
+            "flow_velocity": 0.35
+          },
+          {
+            "lat": 54.094565,
+            "lng": 22.940181,
+            "depth_m": 0.204,
+            "elevation_m": 167.0,
+            "flow_velocity": 0.73
+          },
+          {
+            "lat": 54.091155,
+            "lng": 22.947286,
+            "depth_m": 0.204,
+            "elevation_m": 163.9,
+            "flow_velocity": 1.01
+          },
+          {
+            "lat": 54.11671,
+            "lng": 22.941057,
+            "depth_m": 0.063,
+            "elevation_m": 159.6,
+            "flow_velocity": 0.38
+          },
+          {
+            "lat": 54.098636,
+            "lng": 22.96299,
+            "depth_m": 0.13,
+            "elevation_m": 160.9,
+            "flow_velocity": 0.54
+          },
+          {
+            "lat": 54.099038,
+            "lng": 22.949932,
+            "depth_m": 0.088,
+            "elevation_m": 165.2,
+            "flow_velocity": 0.45
+          },
+          {
+            "lat": 54.0962,
+            "lng": 22.948506,
+            "depth_m": 0.07,
+            "elevation_m": 162.5,
+            "flow_velocity": 0.4
+          }
+        ],
+        "computation_time": "2025-09-17T05:33:15.198993",
+        "model_version": "FloodSim_v2.1"
+      },
+      "burza_z_gradem": {
+        "scenario_name": "Burza z gradem",
+        "module": "FloodSim",
+        "parameters": {
+          "rainfall_mm_h": 100,
+          "duration_h": 1.5,
+          "total_rainfall_mm": 150.0,
+          "effective_rainfall_mm": 138.0
+        },
+        "metrics": {
+          "max_depth_m": 0.468,
+          "mean_depth_m": 0.187,
+          "flooded_area_km2": 3.51,
+          "flooded_area_percent": 70.2,
+          "buildings_at_risk": 437,
+          "risk_level": "WYSOKIE"
+        },
+        "flood_zones": [
+          {
+            "lat": 54.103721,
+            "lng": 22.947546,
+            "depth_m": 0.071,
+            "elevation_m": 165.4,
+            "flow_velocity": 0.4
+          },
+          {
+            "lat": 54.099591,
+            "lng": 22.974892,
+            "depth_m": 0.141,
+            "elevation_m": 164.4,
+            "flow_velocity": 0.56
+          },
+          {
+            "lat": 54.097943,
+            "lng": 22.954084,
+            "depth_m": 0.036,
+            "elevation_m": 162.8,
+            "flow_velocity": 0.28
+          },
+          {
+            "lat": 54.09565,
+            "lng": 22.94728,
+            "depth_m": 0.075,
+            "elevation_m": 163.9,
+            "flow_velocity": 0.41
+          },
+          {
+            "lat": 54.107228,
+            "lng": 22.956967,
+            "depth_m": 0.184,
+            "elevation_m": 164.4,
+            "flow_velocity": 0.64
+          },
+          {
+            "lat": 54.108107,
+            "lng": 22.956063,
+            "depth_m": 0.059,
+            "elevation_m": 163.4,
+            "flow_velocity": 0.36
+          },
+          {
+            "lat": 54.090875,
+            "lng": 22.934749,
+            "depth_m": 0.043,
+            "elevation_m": 162.4,
+            "flow_velocity": 0.31
+          },
+          {
+            "lat": 54.103011,
+            "lng": 22.909731,
+            "depth_m": 0.063,
+            "elevation_m": 161.0,
+            "flow_velocity": 0.38
+          },
+          {
+            "lat": 54.104246,
+            "lng": 22.95676,
+            "depth_m": 0.31,
+            "elevation_m": 158.1,
+            "flow_velocity": 0.84
+          },
+          {
+            "lat": 54.085114,
+            "lng": 22.950256,
+            "depth_m": 0.075,
+            "elevation_m": 160.7,
+            "flow_velocity": 0.41
+          },
+          {
+            "lat": 54.100361,
+            "lng": 22.946637,
+            "depth_m": 0.248,
+            "elevation_m": 162.9,
+            "flow_velocity": 0.75
+          },
+          {
+            "lat": 54.089846,
+            "lng": 22.953822,
+            "depth_m": 0.065,
+            "elevation_m": 159.8,
+            "flow_velocity": 0.38
+          },
+          {
+            "lat": 54.10964,
+            "lng": 22.955309,
+            "depth_m": 0.086,
+            "elevation_m": 164.3,
+            "flow_velocity": 0.44
+          },
+          {
+            "lat": 54.102886,
+            "lng": 22.959746,
+            "depth_m": 0.114,
+            "elevation_m": 162.8,
+            "flow_velocity": 0.51
+          },
+          {
+            "lat": 54.105552,
+            "lng": 22.937066,
+            "depth_m": 0.468,
+            "elevation_m": 163.0,
+            "flow_velocity": 1.27
+          },
+          {
+            "lat": 54.092493,
+            "lng": 22.959267,
+            "depth_m": 0.468,
+            "elevation_m": 162.5,
+            "flow_velocity": 1.21
+          },
+          {
+            "lat": 54.092632,
+            "lng": 22.962621,
+            "depth_m": 0.02,
+            "elevation_m": 165.7,
+            "flow_velocity": 0.21
+          },
+          {
+            "lat": 54.098975,
+            "lng": 22.963659,
+            "depth_m": 0.468,
+            "elevation_m": 165.1,
+            "flow_velocity": 1.28
+          },
+          {
+            "lat": 54.072972,
+            "lng": 22.952728,
+            "depth_m": 0.258,
+            "elevation_m": 162.9,
+            "flow_velocity": 0.76
+          },
+          {
+            "lat": 54.094483,
+            "lng": 22.932248,
+            "depth_m": 0.381,
+            "elevation_m": 164.5,
+            "flow_velocity": 0.93
+          },
+          {
+            "lat": 54.103249,
+            "lng": 22.937046,
+            "depth_m": 0.046,
+            "elevation_m": 165.6,
+            "flow_velocity": 0.32
+          },
+          {
+            "lat": 54.102547,
+            "lng": 22.93368,
+            "depth_m": 0.041,
+            "elevation_m": 165.4,
+            "flow_velocity": 0.3
+          },
+          {
+            "lat": 54.092297,
+            "lng": 22.966792,
+            "depth_m": 0.086,
+            "elevation_m": 159.4,
+            "flow_velocity": 0.44
+          },
+          {
+            "lat": 54.092106,
+            "lng": 22.969499,
+            "depth_m": 0.11,
+            "elevation_m": 159.9,
+            "flow_velocity": 0.5
+          },
+          {
+            "lat": 54.107423,
+            "lng": 22.950054,
+            "depth_m": 0.215,
+            "elevation_m": 161.3,
+            "flow_velocity": 0.7
+          },
+          {
+            "lat": 54.100839,
+            "lng": 22.972337,
+            "depth_m": 0.468,
+            "elevation_m": 166.1,
+            "flow_velocity": 1.42
+          },
+          {
+            "lat": 54.092907,
+            "lng": 22.960276,
+            "depth_m": 0.16,
+            "elevation_m": 162.2,
+            "flow_velocity": 0.6
+          },
+          {
+            "lat": 54.104531,
+            "lng": 22.955711,
+            "depth_m": 0.269,
+            "elevation_m": 161.7,
+            "flow_velocity": 0.78
+          },
+          {
+            "lat": 54.092367,
+            "lng": 22.968845,
+            "depth_m": 0.468,
+            "elevation_m": 160.7,
+            "flow_velocity": 1.16
+          },
+          {
+            "lat": 54.105651,
+            "lng": 22.947145,
+            "depth_m": 0.032,
+            "elevation_m": 164.3,
+            "flow_velocity": 0.27
+          },
+          {
+            "lat": 54.102376,
+            "lng": 22.961802,
+            "depth_m": 0.041,
+            "elevation_m": 163.2,
+            "flow_velocity": 0.3
+          },
+          {
+            "lat": 54.103274,
+            "lng": 22.948306,
+            "depth_m": 0.02,
+            "elevation_m": 164.7,
+            "flow_velocity": 0.21
+          },
+          {
+            "lat": 54.101537,
+            "lng": 22.960463,
+            "depth_m": 0.468,
+            "elevation_m": 164.0,
+            "flow_velocity": 1.11
+          },
+          {
+            "lat": 54.093755,
+            "lng": 22.957817,
+            "depth_m": 0.02,
+            "elevation_m": 161.3,
+            "flow_velocity": 0.21
+          },
+          {
+            "lat": 54.104233,
+            "lng": 22.955916,
+            "depth_m": 0.295,
+            "elevation_m": 163.3,
+            "flow_velocity": 0.81
+          },
+          {
+            "lat": 54.107928,
+            "lng": 22.959101,
+            "depth_m": 0.276,
+            "elevation_m": 161.6,
+            "flow_velocity": 0.79
+          },
+          {
+            "lat": 54.102338,
+            "lng": 22.936847,
+            "depth_m": 0.114,
+            "elevation_m": 163.2,
+            "flow_velocity": 0.51
+          },
+          {
+            "lat": 54.0879,
+            "lng": 22.923236,
+            "depth_m": 0.468,
+            "elevation_m": 160.3,
+            "flow_velocity": 1.16
+          },
+          {
+            "lat": 54.097174,
+            "lng": 22.935296,
+            "depth_m": 0.121,
+            "elevation_m": 163.8,
+            "flow_velocity": 0.52
+          },
+          {
+            "lat": 54.117699,
+            "lng": 22.970389,
+            "depth_m": 0.186,
+            "elevation_m": 162.4,
+            "flow_velocity": 0.65
+          },
+          {
+            "lat": 54.092653,
+            "lng": 22.947149,
+            "depth_m": 0.412,
+            "elevation_m": 161.7,
+            "flow_velocity": 0.96
+          },
+          {
+            "lat": 54.110239,
+            "lng": 22.958977,
+            "depth_m": 0.468,
+            "elevation_m": 161.4,
+            "flow_velocity": 1.22
+          },
+          {
+            "lat": 54.09141,
+            "lng": 22.942318,
+            "depth_m": 0.02,
+            "elevation_m": 161.6,
+            "flow_velocity": 0.21
+          },
+          {
+            "lat": 54.093399,
+            "lng": 22.932972,
+            "depth_m": 0.089,
+            "elevation_m": 164.8,
+            "flow_velocity": 0.45
+          },
+          {
+            "lat": 54.10656,
+            "lng": 22.958431,
+            "depth_m": 0.468,
+            "elevation_m": 163.1,
+            "flow_velocity": 1.25
+          },
+          {
+            "lat": 54.099118,
+            "lng": 22.925263,
+            "depth_m": 0.399,
+            "elevation_m": 162.8,
+            "flow_velocity": 0.95
+          },
+          {
+            "lat": 54.099729,
+            "lng": 22.943608,
+            "depth_m": 0.113,
+            "elevation_m": 161.7,
+            "flow_velocity": 0.5
+          },
+          {
+            "lat": 54.098879,
+            "lng": 22.959029,
+            "depth_m": 0.237,
+            "elevation_m": 165.3,
+            "flow_velocity": 0.73
+          },
+          {
+            "lat": 54.111057,
+            "lng": 22.952177,
+            "depth_m": 0.255,
+            "elevation_m": 163.5,
+            "flow_velocity": 0.76
+          },
+          {
+            "lat": 54.105149,
+            "lng": 22.948359,
+            "depth_m": 0.468,
+            "elevation_m": 163.4,
+            "flow_velocity": 1.44
+          }
+        ],
+        "computation_time": "2025-09-17T05:33:15.199695",
+        "model_version": "FloodSim_v2.1"
+      },
+      "ekstremalna_nawałnica": {
+        "scenario_name": "Ekstremalna nawałnica",
+        "module": "FloodSim",
+        "parameters": {
+          "rainfall_mm_h": 150,
+          "duration_h": 1,
+          "total_rainfall_mm": 150,
+          "effective_rainfall_mm": 142
+        },
+        "metrics": {
+          "max_depth_m": 0.612,
+          "mean_depth_m": 0.245,
+          "flooded_area_km2": 4.59,
+          "flooded_area_percent": 91.8,
+          "buildings_at_risk": 437,
+          "risk_level": "WYSOKIE"
+        },
+        "flood_zones": [
+          {
+            "lat": 54.09495,
+            "lng": 22.954523,
+            "depth_m": 0.612,
+            "elevation_m": 163.9,
+            "flow_velocity": 1.57
+          },
+          {
+            "lat": 54.093,
+            "lng": 22.937424,
+            "depth_m": 0.154,
+            "elevation_m": 167.3,
+            "flow_velocity": 0.59
+          },
+          {
+            "lat": 54.101337,
+            "lng": 22.955347,
+            "depth_m": 0.612,
+            "elevation_m": 164.1,
+            "flow_velocity": 1.47
+          },
+          {
+            "lat": 54.104644,
+            "lng": 22.941876,
+            "depth_m": 0.485,
+            "elevation_m": 161.5,
+            "flow_velocity": 1.04
+          },
+          {
+            "lat": 54.103398,
+            "lng": 22.943516,
+            "depth_m": 0.462,
+            "elevation_m": 161.8,
+            "flow_velocity": 1.02
+          },
+          {
+            "lat": 54.100065,
+            "lng": 22.941994,
+            "depth_m": 0.228,
+            "elevation_m": 161.4,
+            "flow_velocity": 0.72
+          },
+          {
+            "lat": 54.113739,
+            "lng": 22.941543,
+            "depth_m": 0.612,
+            "elevation_m": 164.4,
+            "flow_velocity": 1.66
+          },
+          {
+            "lat": 54.094684,
+            "lng": 22.936493,
+            "depth_m": 0.453,
+            "elevation_m": 163.1,
+            "flow_velocity": 1.01
+          },
+          {
+            "lat": 54.099124,
+            "lng": 22.957467,
+            "depth_m": 0.02,
+            "elevation_m": 163.9,
+            "flow_velocity": 0.21
+          },
+          {
+            "lat": 54.087092,
+            "lng": 22.953202,
+            "depth_m": 0.334,
+            "elevation_m": 164.1,
+            "flow_velocity": 0.87
+          },
+          {
+            "lat": 54.105147,
+            "lng": 22.948799,
+            "depth_m": 0.612,
+            "elevation_m": 163.6,
+            "flow_velocity": 1.69
+          },
+          {
+            "lat": 54.110803,
+            "lng": 22.944578,
+            "depth_m": 0.238,
+            "elevation_m": 162.6,
+            "flow_velocity": 0.73
+          },
+          {
+            "lat": 54.097871,
+            "lng": 22.970723,
+            "depth_m": 0.118,
+            "elevation_m": 165.2,
+            "flow_velocity": 0.52
+          },
+          {
+            "lat": 54.118672,
+            "lng": 22.942456,
+            "depth_m": 0.604,
+            "elevation_m": 164.4,
+            "flow_velocity": 1.17
+          },
+          {
+            "lat": 54.102958,
+            "lng": 22.955045,
+            "depth_m": 0.044,
+            "elevation_m": 161.9,
+            "flow_velocity": 0.31
+          },
+          {
+            "lat": 54.097925,
+            "lng": 22.948977,
+            "depth_m": 0.246,
+            "elevation_m": 163.0,
+            "flow_velocity": 0.74
+          },
+          {
+            "lat": 54.117532,
+            "lng": 22.961753,
+            "depth_m": 0.386,
+            "elevation_m": 162.7,
+            "flow_velocity": 0.93
+          },
+          {
+            "lat": 54.106955,
+            "lng": 22.939544,
+            "depth_m": 0.612,
+            "elevation_m": 162.8,
+            "flow_velocity": 1.26
+          },
+          {
+            "lat": 54.104591,
+            "lng": 22.930308,
+            "depth_m": 0.612,
+            "elevation_m": 161.3,
+            "flow_velocity": 2.21
+          },
+          {
+            "lat": 54.090836,
+            "lng": 22.948884,
+            "depth_m": 0.139,
+            "elevation_m": 159.6,
+            "flow_velocity": 0.56
+          },
+          {
+            "lat": 54.104588,
+            "lng": 22.927617,
+            "depth_m": 0.612,
+            "elevation_m": 160.8,
+            "flow_velocity": 1.49
+          },
+          {
+            "lat": 54.116989,
+            "lng": 22.961062,
+            "depth_m": 0.108,
+            "elevation_m": 163.2,
+            "flow_velocity": 0.49
+          },
+          {
+            "lat": 54.093743,
+            "lng": 22.972135,
+            "depth_m": 0.073,
+            "elevation_m": 164.0,
+            "flow_velocity": 0.41
+          },
+          {
+            "lat": 54.091649,
+            "lng": 22.937654,
+            "depth_m": 0.048,
+            "elevation_m": 164.2,
+            "flow_velocity": 0.33
+          },
+          {
+            "lat": 54.10448,
+            "lng": 22.954882,
+            "depth_m": 0.047,
+            "elevation_m": 162.9,
+            "flow_velocity": 0.32
+          },
+          {
+            "lat": 54.080901,
+            "lng": 22.9549,
+            "depth_m": 0.612,
+            "elevation_m": 162.3,
+            "flow_velocity": 1.26
+          },
+          {
+            "lat": 54.101248,
+            "lng": 22.96932,
+            "depth_m": 0.194,
+            "elevation_m": 161.0,
+            "flow_velocity": 0.66
+          },
+          {
+            "lat": 54.09975,
+            "lng": 22.961053,
+            "depth_m": 0.02,
+            "elevation_m": 159.5,
+            "flow_velocity": 0.21
+          },
+          {
+            "lat": 54.091878,
+            "lng": 22.970397,
+            "depth_m": 0.195,
+            "elevation_m": 164.8,
+            "flow_velocity": 0.66
+          },
+          {
+            "lat": 54.087971,
+            "lng": 22.944312,
+            "depth_m": 0.265,
+            "elevation_m": 163.4,
+            "flow_velocity": 0.77
+          },
+          {
+            "lat": 54.093268,
+            "lng": 22.956214,
+            "depth_m": 0.108,
+            "elevation_m": 164.9,
+            "flow_velocity": 0.49
+          },
+          {
+            "lat": 54.084752,
+            "lng": 22.954409,
+            "depth_m": 0.391,
+            "elevation_m": 163.2,
+            "flow_velocity": 0.94
+          },
+          {
+            "lat": 54.102724,
+            "lng": 22.942738,
+            "depth_m": 0.612,
+            "elevation_m": 160.8,
+            "flow_velocity": 1.21
+          },
+          {
+            "lat": 54.089243,
+            "lng": 22.949004,
+            "depth_m": 0.419,
+            "elevation_m": 161.4,
+            "flow_velocity": 0.97
+          },
+          {
+            "lat": 54.098257,
+            "lng": 22.942854,
+            "depth_m": 0.582,
+            "elevation_m": 162.7,
+            "flow_velocity": 1.14
+          },
+          {
+            "lat": 54.109207,
+            "lng": 22.949805,
+            "depth_m": 0.083,
+            "elevation_m": 162.7,
+            "flow_velocity": 0.43
+          },
+          {
+            "lat": 54.095542,
+            "lng": 22.946719,
+            "depth_m": 0.553,
+            "elevation_m": 163.3,
+            "flow_velocity": 1.12
+          },
+          {
+            "lat": 54.107924,
+            "lng": 22.950926,
+            "depth_m": 0.36,
+            "elevation_m": 162.5,
+            "flow_velocity": 0.9
+          },
+          {
+            "lat": 54.108968,
+            "lng": 22.940442,
+            "depth_m": 0.433,
+            "elevation_m": 162.8,
+            "flow_velocity": 0.99
+          },
+          {
+            "lat": 54.098958,
+            "lng": 22.929859,
+            "depth_m": 0.292,
+            "elevation_m": 165.5,
+            "flow_velocity": 0.81
+          },
+          {
+            "lat": 54.091733,
+            "lng": 22.950695,
+            "depth_m": 0.612,
+            "elevation_m": 163.6,
+            "flow_velocity": 1.66
+          },
+          {
+            "lat": 54.102039,
+            "lng": 22.955648,
+            "depth_m": 0.506,
+            "elevation_m": 158.8,
+            "flow_velocity": 1.07
+          },
+          {
+            "lat": 54.099686,
+            "lng": 22.95265,
+            "depth_m": 0.224,
+            "elevation_m": 162.5,
+            "flow_velocity": 0.71
+          },
+          {
+            "lat": 54.09924,
+            "lng": 22.942499,
+            "depth_m": 0.249,
+            "elevation_m": 163.5,
+            "flow_velocity": 0.75
+          },
+          {
+            "lat": 54.098152,
+            "lng": 22.971894,
+            "depth_m": 0.02,
+            "elevation_m": 163.6,
+            "flow_velocity": 0.21
+          },
+          {
+            "lat": 54.099755,
+            "lng": 22.955741,
+            "depth_m": 0.612,
+            "elevation_m": 162.0,
+            "flow_velocity": 2.42
+          },
+          {
+            "lat": 54.098127,
+            "lng": 22.960486,
+            "depth_m": 0.082,
+            "elevation_m": 162.5,
+            "flow_velocity": 0.43
+          },
+          {
+            "lat": 54.103112,
+            "lng": 22.938083,
+            "depth_m": 0.267,
+            "elevation_m": 162.6,
+            "flow_velocity": 0.78
+          },
+          {
+            "lat": 54.097595,
+            "lng": 22.96085,
+            "depth_m": 0.034,
+            "elevation_m": 165.4,
+            "flow_velocity": 0.28
+          },
+          {
+            "lat": 54.089689,
+            "lng": 22.968419,
+            "depth_m": 0.07,
+            "elevation_m": 161.2,
+            "flow_velocity": 0.4
+          }
+        ],
+        "computation_time": "2025-09-17T05:33:15.200298",
+        "model_version": "FloodSim_v2.1"
+      },
+      "powódź_stulecia": {
+        "scenario_name": "Powódź stulecia",
+        "module": "FloodSim",
+        "parameters": {
+          "rainfall_mm_h": 220,
+          "duration_h": 0.5,
+          "total_rainfall_mm": 110.0,
+          "effective_rainfall_mm": 106.0
+        },
+        "metrics": {
+          "max_depth_m": 0.516,
+          "mean_depth_m": 0.206,
+          "flooded_area_km2": 3.87,
+          "flooded_area_percent": 77.4,
+          "buildings_at_risk": 437,
+          "risk_level": "WYSOKIE"
+        },
+        "flood_zones": [
+          {
+            "lat": 54.102802,
+            "lng": 22.949143,
+            "depth_m": 0.128,
+            "elevation_m": 164.5,
+            "flow_velocity": 0.54
+          },
+          {
+            "lat": 54.098303,
+            "lng": 22.965305,
+            "depth_m": 0.502,
+            "elevation_m": 166.2,
+            "flow_velocity": 1.06
+          },
+          {
+            "lat": 54.094171,
+            "lng": 22.962725,
+            "depth_m": 0.02,
+            "elevation_m": 162.6,
+            "flow_velocity": 0.21
+          },
+          {
+            "lat": 54.096145,
+            "lng": 22.933893,
+            "depth_m": 0.27,
+            "elevation_m": 161.8,
+            "flow_velocity": 0.78
+          },
+          {
+            "lat": 54.108369,
+            "lng": 22.95583,
+            "depth_m": 0.058,
+            "elevation_m": 161.5,
+            "flow_velocity": 0.36
+          },
+          {
+            "lat": 54.10732,
+            "lng": 22.947948,
+            "depth_m": 0.023,
+            "elevation_m": 164.8,
+            "flow_velocity": 0.23
+          },
+          {
+            "lat": 54.097367,
+            "lng": 22.939066,
+            "depth_m": 0.346,
+            "elevation_m": 164.2,
+            "flow_velocity": 0.88
+          },
+          {
+            "lat": 54.104798,
+            "lng": 22.958059,
+            "depth_m": 0.02,
+            "elevation_m": 163.7,
+            "flow_velocity": 0.21
+          },
+          {
+            "lat": 54.087953,
+            "lng": 22.940401,
+            "depth_m": 0.088,
+            "elevation_m": 164.5,
+            "flow_velocity": 0.45
+          },
+          {
+            "lat": 54.098515,
+            "lng": 22.939973,
+            "depth_m": 0.42,
+            "elevation_m": 163.3,
+            "flow_velocity": 0.97
+          },
+          {
+            "lat": 54.10512,
+            "lng": 22.960414,
+            "depth_m": 0.169,
+            "elevation_m": 165.2,
+            "flow_velocity": 0.62
+          },
+          {
+            "lat": 54.084873,
+            "lng": 22.962354,
+            "depth_m": 0.091,
+            "elevation_m": 163.4,
+            "flow_velocity": 0.45
+          },
+          {
+            "lat": 54.107012,
+            "lng": 22.951914,
+            "depth_m": 0.325,
+            "elevation_m": 161.7,
+            "flow_velocity": 0.86
+          },
+          {
+            "lat": 54.089746,
+            "lng": 22.957164,
+            "depth_m": 0.072,
+            "elevation_m": 162.2,
+            "flow_velocity": 0.4
+          },
+          {
+            "lat": 54.102116,
+            "lng": 22.96419,
+            "depth_m": 0.139,
+            "elevation_m": 162.7,
+            "flow_velocity": 0.56
+          },
+          {
+            "lat": 54.109491,
+            "lng": 22.956852,
+            "depth_m": 0.369,
+            "elevation_m": 162.6,
+            "flow_velocity": 0.91
+          },
+          {
+            "lat": 54.110532,
+            "lng": 22.957741,
+            "depth_m": 0.339,
+            "elevation_m": 161.9,
+            "flow_velocity": 0.87
+          },
+          {
+            "lat": 54.088362,
+            "lng": 22.940148,
+            "depth_m": 0.359,
+            "elevation_m": 165.2,
+            "flow_velocity": 0.9
+          },
+          {
+            "lat": 54.098167,
+            "lng": 22.952053,
+            "depth_m": 0.097,
+            "elevation_m": 164.8,
+            "flow_velocity": 0.47
+          },
+          {
+            "lat": 54.088174,
+            "lng": 22.943603,
+            "depth_m": 0.267,
+            "elevation_m": 162.8,
+            "flow_velocity": 0.77
+          },
+          {
+            "lat": 54.102855,
+            "lng": 22.94162,
+            "depth_m": 0.168,
+            "elevation_m": 165.5,
+            "flow_velocity": 0.62
+          },
+          {
+            "lat": 54.095547,
+            "lng": 22.975274,
+            "depth_m": 0.061,
+            "elevation_m": 164.9,
+            "flow_velocity": 0.37
+          },
+          {
+            "lat": 54.103324,
+            "lng": 22.972028,
+            "depth_m": 0.257,
+            "elevation_m": 164.4,
+            "flow_velocity": 0.76
+          },
+          {
+            "lat": 54.089226,
+            "lng": 22.961632,
+            "depth_m": 0.36,
+            "elevation_m": 164.5,
+            "flow_velocity": 0.9
+          },
+          {
+            "lat": 54.100781,
+            "lng": 22.953103,
+            "depth_m": 0.083,
+            "elevation_m": 165.1,
+            "flow_velocity": 0.43
+          },
+          {
+            "lat": 54.107292,
+            "lng": 22.963484,
+            "depth_m": 0.124,
+            "elevation_m": 166.9,
+            "flow_velocity": 0.53
+          },
+          {
+            "lat": 54.112239,
+            "lng": 22.924226,
+            "depth_m": 0.027,
+            "elevation_m": 162.6,
+            "flow_velocity": 0.25
+          },
+          {
+            "lat": 54.100381,
+            "lng": 22.958977,
+            "depth_m": 0.276,
+            "elevation_m": 164.4,
+            "flow_velocity": 0.79
+          },
+          {
+            "lat": 54.0925,
+            "lng": 22.937631,
+            "depth_m": 0.516,
+            "elevation_m": 163.8,
+            "flow_velocity": 1.29
+          },
+          {
+            "lat": 54.108551,
+            "lng": 22.965658,
+            "depth_m": 0.02,
+            "elevation_m": 160.4,
+            "flow_velocity": 0.21
+          },
+          {
+            "lat": 54.108953,
+            "lng": 22.940505,
+            "depth_m": 0.02,
+            "elevation_m": 162.7,
+            "flow_velocity": 0.21
+          },
+          {
+            "lat": 54.097346,
+            "lng": 22.954562,
+            "depth_m": 0.02,
+            "elevation_m": 166.7,
+            "flow_velocity": 0.21
+          },
+          {
+            "lat": 54.094406,
+            "lng": 22.94843,
+            "depth_m": 0.055,
+            "elevation_m": 161.2,
+            "flow_velocity": 0.35
+          },
+          {
+            "lat": 54.104052,
+            "lng": 22.937927,
+            "depth_m": 0.276,
+            "elevation_m": 164.7,
+            "flow_velocity": 0.79
+          },
+          {
+            "lat": 54.078025,
+            "lng": 22.956174,
+            "depth_m": 0.292,
+            "elevation_m": 160.9,
+            "flow_velocity": 0.81
+          },
+          {
+            "lat": 54.093813,
+            "lng": 22.937751,
+            "depth_m": 0.272,
+            "elevation_m": 165.4,
+            "flow_velocity": 0.78
+          },
+          {
+            "lat": 54.09858,
+            "lng": 22.93242,
+            "depth_m": 0.092,
+            "elevation_m": 163.0,
+            "flow_velocity": 0.46
+          },
+          {
+            "lat": 54.104379,
+            "lng": 22.937575,
+            "depth_m": 0.108,
+            "elevation_m": 162.8,
+            "flow_velocity": 0.49
+          },
+          {
+            "lat": 54.114747,
+            "lng": 22.939866,
+            "depth_m": 0.109,
+            "elevation_m": 161.0,
+            "flow_velocity": 0.5
+          },
+          {
+            "lat": 54.101609,
+            "lng": 22.94072,
+            "depth_m": 0.306,
+            "elevation_m": 162.5,
+            "flow_velocity": 0.83
+          },
+          {
+            "lat": 54.108096,
+            "lng": 22.947172,
+            "depth_m": 0.153,
+            "elevation_m": 161.3,
+            "flow_velocity": 0.59
+          },
+          {
+            "lat": 54.102433,
+            "lng": 22.953636,
+            "depth_m": 0.516,
+            "elevation_m": 161.5,
+            "flow_velocity": 1.25
+          },
+          {
+            "lat": 54.104609,
+            "lng": 22.946324,
+            "depth_m": 0.22,
+            "elevation_m": 162.6,
+            "flow_velocity": 0.7
+          },
+          {
+            "lat": 54.109787,
+            "lng": 22.94267,
+            "depth_m": 0.516,
+            "elevation_m": 162.5,
+            "flow_velocity": 1.25
+          },
+          {
+            "lat": 54.096835,
+            "lng": 22.971033,
+            "depth_m": 0.516,
+            "elevation_m": 166.0,
+            "flow_velocity": 1.46
+          },
+          {
+            "lat": 54.093018,
+            "lng": 22.954641,
+            "depth_m": 0.117,
+            "elevation_m": 163.2,
+            "flow_velocity": 0.51
+          },
+          {
+            "lat": 54.106392,
+            "lng": 22.947828,
+            "depth_m": 0.329,
+            "elevation_m": 163.2,
+            "flow_velocity": 0.86
+          },
+          {
+            "lat": 54.118626,
+            "lng": 22.944474,
+            "depth_m": 0.099,
+            "elevation_m": 162.3,
+            "flow_velocity": 0.47
+          },
+          {
+            "lat": 54.106796,
+            "lng": 22.960256,
+            "depth_m": 0.12,
+            "elevation_m": 164.1,
+            "flow_velocity": 0.52
+          },
+          {
+            "lat": 54.093382,
+            "lng": 22.953507,
+            "depth_m": 0.376,
+            "elevation_m": 162.7,
+            "flow_velocity": 0.92
+          }
+        ],
+        "computation_time": "2025-09-17T05:33:15.200933",
+        "model_version": "FloodSim_v2.1"
+      }
+    },
+    "wind": {
+      "wiatr_spokojny": {
+        "scenario_name": "Wiatr spokojny",
+        "module": "WindSim",
+        "parameters": {
+          "wind_speed_ref": 5,
+          "wind_direction": 270
+        },
+        "metrics": {
+          "max_speed": 6.0,
+          "min_speed": 3.5,
+          "avg_urban_speed": 4.5,
+          "comfort_zones_percent": 85,
+          "dynamic_pressure_pa": 15.0
+        },
+        "wind_field": [
+          {
+            "lat": 54.092105,
+            "lng": 22.960403,
+            "speed": 6.28,
+            "direction": 309.7,
+            "vx": -4.83,
+            "vy": 4.01
+          },
+          {
+            "lat": 54.09395,
+            "lng": 22.947421,
+            "speed": 2.98,
+            "direction": 271.4,
+            "vx": -2.98,
+            "vy": 0.07
+          },
+          {
+            "lat": 54.095582,
+            "lng": 22.951591,
+            "speed": 3.18,
+            "direction": 270.3,
+            "vx": -3.18,
+            "vy": 0.02
+          },
+          {
+            "lat": 54.106949,
+            "lng": 22.970096,
+            "speed": 4.39,
+            "direction": 249.2,
+            "vx": -4.1,
+            "vy": -1.56
+          },
+          {
+            "lat": 54.105603,
+            "lng": 22.951653,
+            "speed": 4.68,
+            "direction": 298.3,
+            "vx": -4.12,
+            "vy": 2.22
+          },
+          {
+            "lat": 54.096719,
+            "lng": 22.959685,
+            "speed": 5.9,
+            "direction": 272.3,
+            "vx": -5.89,
+            "vy": 0.24
+          },
+          {
+            "lat": 54.089006,
+            "lng": 22.944551,
+            "speed": 4.18,
+            "direction": 239.5,
+            "vx": -3.6,
+            "vy": -2.12
+          },
+          {
+            "lat": 54.089137,
+            "lng": 22.961629,
+            "speed": 2.75,
+            "direction": 272.2,
+            "vx": -2.75,
+            "vy": 0.1
+          },
+          {
+            "lat": 54.117296,
+            "lng": 22.949754,
+            "speed": 4.28,
+            "direction": 261.8,
+            "vx": -4.24,
+            "vy": -0.61
+          },
+          {
+            "lat": 54.096125,
+            "lng": 22.929678,
+            "speed": 3.22,
+            "direction": 241.8,
+            "vx": -2.83,
+            "vy": -1.52
+          },
+          {
+            "lat": 54.09877,
+            "lng": 22.947342,
+            "speed": 5.83,
+            "direction": 244.7,
+            "vx": -5.27,
+            "vy": -2.49
+          },
+          {
+            "lat": 54.093496,
+            "lng": 22.946614,
+            "speed": 4.44,
+            "direction": 258.5,
+            "vx": -4.35,
+            "vy": -0.88
+          },
+          {
+            "lat": 54.098058,
+            "lng": 22.959881,
+            "speed": 5.53,
+            "direction": 232.3,
+            "vx": -4.37,
+            "vy": -3.38
+          },
+          {
+            "lat": 54.08431,
+            "lng": 22.955017,
+            "speed": 4.28,
+            "direction": 244.1,
+            "vx": -3.85,
+            "vy": -1.87
+          },
+          {
+            "lat": 54.096776,
+            "lng": 22.951288,
+            "speed": 3.32,
+            "direction": 309.0,
+            "vx": -2.58,
+            "vy": 2.09
+          },
+          {
+            "lat": 54.101973,
+            "lng": 22.923298,
+            "speed": 4.3,
+            "direction": 273.9,
+            "vx": -4.29,
+            "vy": 0.29
+          },
+          {
+            "lat": 54.104072,
+            "lng": 22.946646,
+            "speed": 3.39,
+            "direction": 299.7,
+            "vx": -2.95,
+            "vy": 1.68
+          },
+          {
+            "lat": 54.106607,
+            "lng": 22.952032,
+            "speed": 5.44,
+            "direction": 253.4,
+            "vx": -5.21,
+            "vy": -1.56
+          },
+          {
+            "lat": 54.114605,
+            "lng": 22.973543,
+            "speed": 5.44,
+            "direction": 304.3,
+            "vx": -4.49,
+            "vy": 3.07
+          },
+          {
+            "lat": 54.105764,
+            "lng": 22.948772,
+            "speed": 5.14,
+            "direction": 264.1,
+            "vx": -5.11,
+            "vy": -0.53
+          },
+          {
+            "lat": 54.098343,
+            "lng": 22.947537,
+            "speed": 6.08,
+            "direction": 247.5,
+            "vx": -5.62,
+            "vy": -2.33
+          },
+          {
+            "lat": 54.099002,
+            "lng": 22.934835,
+            "speed": 5.5,
+            "direction": 312.7,
+            "vx": -4.05,
+            "vy": 3.73
+          },
+          {
+            "lat": 54.098251,
+            "lng": 22.952011,
+            "speed": 6.13,
+            "direction": 273.7,
+            "vx": -6.11,
+            "vy": 0.39
+          },
+          {
+            "lat": 54.090544,
+            "lng": 22.954761,
+            "speed": 4.09,
+            "direction": 261.1,
+            "vx": -4.04,
+            "vy": -0.63
+          },
+          {
+            "lat": 54.113751,
+            "lng": 22.969683,
+            "speed": 4.58,
+            "direction": 228.0,
+            "vx": -3.4,
+            "vy": -3.06
+          }
+        ],
+        "computation_time": "2025-09-17T05:33:15.201466",
+        "model_version": "WindSim_v1.9"
+      },
+      "wiatr_umiarkowany": {
+        "scenario_name": "Wiatr umiarkowany",
+        "module": "WindSim",
+        "parameters": {
+          "wind_speed_ref": 10,
+          "wind_direction": 225
+        },
+        "metrics": {
+          "max_speed": 12.0,
+          "min_speed": 7.0,
+          "avg_urban_speed": 9.0,
+          "comfort_zones_percent": 40,
+          "dynamic_pressure_pa": 61.0
+        },
+        "wind_field": [
+          {
+            "lat": 54.114646,
+            "lng": 22.942155,
+            "speed": 10.38,
+            "direction": 243.1,
+            "vx": -9.26,
+            "vy": -4.69
+          },
+          {
+            "lat": 54.105039,
+            "lng": 22.957825,
+            "speed": 8.91,
+            "direction": 242.3,
+            "vx": -7.89,
+            "vy": -4.14
+          },
+          {
+            "lat": 54.108995,
+            "lng": 22.92388,
+            "speed": 7.05,
+            "direction": 230.3,
+            "vx": -5.43,
+            "vy": -4.5
+          },
+          {
+            "lat": 54.103499,
+            "lng": 22.961435,
+            "speed": 9.33,
+            "direction": 217.0,
+            "vx": -5.62,
+            "vy": -7.45
+          },
+          {
+            "lat": 54.106484,
+            "lng": 22.951764,
+            "speed": 10.26,
+            "direction": 231.9,
+            "vx": -8.07,
+            "vy": -6.33
+          },
+          {
+            "lat": 54.119833,
+            "lng": 22.952819,
+            "speed": 11.8,
+            "direction": 245.3,
+            "vx": -10.72,
+            "vy": -4.92
+          },
+          {
+            "lat": 54.112851,
+            "lng": 22.962198,
+            "speed": 8.79,
+            "direction": 231.0,
+            "vx": -6.83,
+            "vy": -5.53
+          },
+          {
+            "lat": 54.102113,
+            "lng": 22.956646,
+            "speed": 8.05,
+            "direction": 222.4,
+            "vx": -5.43,
+            "vy": -5.94
+          },
+          {
+            "lat": 54.108381,
+            "lng": 22.967939,
+            "speed": 6.08,
+            "direction": 219.7,
+            "vx": -3.89,
+            "vy": -4.68
+          },
+          {
+            "lat": 54.093932,
+            "lng": 22.94764,
+            "speed": 12.34,
+            "direction": 237.2,
+            "vx": -10.37,
+            "vy": -6.67
+          },
+          {
+            "lat": 54.099256,
+            "lng": 22.930855,
+            "speed": 11.9,
+            "direction": 249.9,
+            "vx": -11.17,
+            "vy": -4.09
+          },
+          {
+            "lat": 54.081087,
+            "lng": 22.964187,
+            "speed": 8.05,
+            "direction": 181.3,
+            "vx": -0.19,
+            "vy": -8.05
+          },
+          {
+            "lat": 54.088805,
+            "lng": 22.961603,
+            "speed": 9.08,
+            "direction": 223.3,
+            "vx": -6.22,
+            "vy": -6.61
+          },
+          {
+            "lat": 54.107056,
+            "lng": 22.957372,
+            "speed": 11.74,
+            "direction": 300.1,
+            "vx": -10.16,
+            "vy": 5.88
+          },
+          {
+            "lat": 54.106533,
+            "lng": 22.956992,
+            "speed": 11.06,
+            "direction": 191.2,
+            "vx": -2.16,
+            "vy": -10.85
+          },
+          {
+            "lat": 54.091729,
+            "lng": 22.952223,
+            "speed": 12.42,
+            "direction": 175.3,
+            "vx": 1.01,
+            "vy": -12.37
+          },
+          {
+            "lat": 54.097475,
+            "lng": 22.944632,
+            "speed": 11.78,
+            "direction": 240.3,
+            "vx": -10.23,
+            "vy": -5.84
+          },
+          {
+            "lat": 54.100076,
+            "lng": 22.953694,
+            "speed": 6.36,
+            "direction": 204.4,
+            "vx": -2.63,
+            "vy": -5.79
+          },
+          {
+            "lat": 54.109952,
+            "lng": 22.961701,
+            "speed": 6.15,
+            "direction": 203.5,
+            "vx": -2.45,
+            "vy": -5.64
+          },
+          {
+            "lat": 54.098522,
+            "lng": 22.937038,
+            "speed": 11.81,
+            "direction": 198.1,
+            "vx": -3.67,
+            "vy": -11.23
+          },
+          {
+            "lat": 54.09098,
+            "lng": 22.944046,
+            "speed": 10.83,
+            "direction": 211.3,
+            "vx": -5.62,
+            "vy": -9.25
+          },
+          {
+            "lat": 54.111586,
+            "lng": 22.949652,
+            "speed": 8.0,
+            "direction": 271.7,
+            "vx": -7.99,
+            "vy": 0.23
+          },
+          {
+            "lat": 54.098073,
+            "lng": 22.952592,
+            "speed": 10.57,
+            "direction": 230.8,
+            "vx": -8.18,
+            "vy": -6.68
+          },
+          {
+            "lat": 54.101369,
+            "lng": 22.950425,
+            "speed": 10.24,
+            "direction": 199.5,
+            "vx": -3.42,
+            "vy": -9.66
+          },
+          {
+            "lat": 54.091246,
+            "lng": 22.951846,
+            "speed": 8.71,
+            "direction": 205.2,
+            "vx": -3.71,
+            "vy": -7.88
+          },
+          {
+            "lat": 54.103446,
+            "lng": 22.942557,
+            "speed": 6.51,
+            "direction": 203.8,
+            "vx": -2.63,
+            "vy": -5.96
+          },
+          {
+            "lat": 54.100769,
+            "lng": 22.956868,
+            "speed": 6.64,
+            "direction": 232.7,
+            "vx": -5.28,
+            "vy": -4.03
+          },
+          {
+            "lat": 54.106838,
+            "lng": 22.940551,
+            "speed": 8.69,
+            "direction": 236.0,
+            "vx": -7.21,
+            "vy": -4.86
+          },
+          {
+            "lat": 54.087843,
+            "lng": 22.951745,
+            "speed": 8.69,
+            "direction": 225.9,
+            "vx": -6.24,
+            "vy": -6.04
+          },
+          {
+            "lat": 54.113663,
+            "lng": 22.95016,
+            "speed": 11.28,
+            "direction": 196.6,
+            "vx": -3.22,
+            "vy": -10.82
+          },
+          {
+            "lat": 54.093168,
+            "lng": 22.93162,
+            "speed": 8.31,
+            "direction": 223.1,
+            "vx": -5.68,
+            "vy": -6.06
+          },
+          {
+            "lat": 54.102994,
+            "lng": 22.948672,
+            "speed": 11.66,
+            "direction": 235.2,
+            "vx": -9.57,
+            "vy": -6.65
+          },
+          {
+            "lat": 54.100429,
+            "lng": 22.957019,
+            "speed": 12.05,
+            "direction": 207.5,
+            "vx": -5.56,
+            "vy": -10.69
+          },
+          {
+            "lat": 54.110239,
+            "lng": 22.957419,
+            "speed": 11.35,
+            "direction": 244.0,
+            "vx": -10.2,
+            "vy": -4.97
+          },
+          {
+            "lat": 54.107997,
+            "lng": 22.989406,
+            "speed": 5.65,
+            "direction": 219.9,
+            "vx": -3.63,
+            "vy": -4.33
+          },
+          {
+            "lat": 54.102275,
+            "lng": 22.958243,
+            "speed": 8.85,
+            "direction": 227.9,
+            "vx": -6.57,
+            "vy": -5.93
+          },
+          {
+            "lat": 54.084717,
+            "lng": 22.941147,
+            "speed": 8.7,
+            "direction": 191.2,
+            "vx": -1.69,
+            "vy": -8.53
+          },
+          {
+            "lat": 54.114422,
+            "lng": 22.957163,
+            "speed": 7.49,
+            "direction": 266.5,
+            "vx": -7.48,
+            "vy": -0.46
+          },
+          {
+            "lat": 54.108399,
+            "lng": 22.970189,
+            "speed": 6.38,
+            "direction": 208.5,
+            "vx": -3.05,
+            "vy": -5.61
+          },
+          {
+            "lat": 54.084428,
+            "lng": 22.960073,
+            "speed": 5.58,
+            "direction": 235.0,
+            "vx": -4.58,
+            "vy": -3.2
+          },
+          {
+            "lat": 54.08942,
+            "lng": 22.961779,
+            "speed": 12.2,
+            "direction": 193.8,
+            "vx": -2.91,
+            "vy": -11.85
+          },
+          {
+            "lat": 54.095828,
+            "lng": 22.947886,
+            "speed": 7.38,
+            "direction": 252.9,
+            "vx": -7.06,
+            "vy": -2.17
+          },
+          {
+            "lat": 54.099785,
+            "lng": 22.968982,
+            "speed": 6.85,
+            "direction": 195.6,
+            "vx": -1.84,
+            "vy": -6.59
+          },
+          {
+            "lat": 54.098815,
+            "lng": 22.936323,
+            "speed": 11.44,
+            "direction": 229.6,
+            "vx": -8.71,
+            "vy": -7.42
+          },
+          {
+            "lat": 54.099292,
+            "lng": 22.959217,
+            "speed": 8.99,
+            "direction": 192.0,
+            "vx": -1.87,
+            "vy": -8.8
+          },
+          {
+            "lat": 54.090311,
+            "lng": 22.952471,
+            "speed": 11.29,
+            "direction": 209.1,
+            "vx": -5.49,
+            "vy": -9.86
+          },
+          {
+            "lat": 54.085051,
+            "lng": 22.950649,
+            "speed": 5.55,
+            "direction": 224.3,
+            "vx": -3.88,
+            "vy": -3.97
+          },
+          {
+            "lat": 54.096149,
+            "lng": 22.951394,
+            "speed": 5.4,
+            "direction": 211.2,
+            "vx": -2.79,
+            "vy": -4.62
+          },
+          {
+            "lat": 54.099018,
+            "lng": 22.948014,
+            "speed": 7.71,
+            "direction": 233.2,
+            "vx": -6.18,
+            "vy": -4.61
+          },
+          {
+            "lat": 54.095749,
+            "lng": 22.926455,
+            "speed": 11.45,
+            "direction": 253.9,
+            "vx": -11.0,
+            "vy": -3.17
+          }
+        ],
+        "computation_time": "2025-09-17T05:33:15.202408",
+        "model_version": "WindSim_v1.9"
+      },
+      "wiatr_silny": {
+        "scenario_name": "Wiatr silny",
+        "module": "WindSim",
+        "parameters": {
+          "wind_speed_ref": 15,
+          "wind_direction": 315
+        },
+        "metrics": {
+          "max_speed": 18.0,
+          "min_speed": 10.5,
+          "avg_urban_speed": 13.5,
+          "comfort_zones_percent": 15,
+          "dynamic_pressure_pa": 138.0
+        },
+        "wind_field": [
+          {
+            "lat": 54.103248,
+            "lng": 22.95771,
+            "speed": 16.82,
+            "direction": 277.4,
+            "vx": -16.68,
+            "vy": 2.17
+          },
+          {
+            "lat": 54.095364,
+            "lng": 22.958052,
+            "speed": 9.51,
+            "direction": 287.7,
+            "vx": -9.06,
+            "vy": 2.89
+          },
+          {
+            "lat": 54.109564,
+            "lng": 22.928976,
+            "speed": 17.58,
+            "direction": 295.1,
+            "vx": -15.92,
+            "vy": 7.46
+          },
+          {
+            "lat": 54.103444,
+            "lng": 22.967643,
+            "speed": 10.5,
+            "direction": 291.2,
+            "vx": -9.79,
+            "vy": 3.79
+          },
+          {
+            "lat": 54.102353,
+            "lng": 22.957403,
+            "speed": 8.18,
+            "direction": 317.4,
+            "vx": -5.53,
+            "vy": 6.02
+          },
+          {
+            "lat": 54.100203,
+            "lng": 22.950198,
+            "speed": 13.29,
+            "direction": 343.8,
+            "vx": -3.71,
+            "vy": 12.77
+          },
+          {
+            "lat": 54.099248,
+            "lng": 22.952906,
+            "speed": 11.86,
+            "direction": 342.3,
+            "vx": -3.6,
+            "vy": 11.3
+          },
+          {
+            "lat": 54.096833,
+            "lng": 22.963152,
+            "speed": 8.84,
+            "direction": 301.9,
+            "vx": -7.5,
+            "vy": 4.68
+          },
+          {
+            "lat": 54.104212,
+            "lng": 22.936092,
+            "speed": 16.01,
+            "direction": 300.8,
+            "vx": -13.75,
+            "vy": 8.19
+          },
+          {
+            "lat": 54.094632,
+            "lng": 22.967313,
+            "speed": 12.01,
+            "direction": 302.7,
+            "vx": -10.1,
+            "vy": 6.49
+          },
+          {
+            "lat": 54.10119,
+            "lng": 22.946306,
+            "speed": 16.52,
+            "direction": 325.6,
+            "vx": -9.33,
+            "vy": 13.63
+          },
+          {
+            "lat": 54.093704,
+            "lng": 22.9397,
+            "speed": 15.64,
+            "direction": 283.8,
+            "vx": -15.19,
+            "vy": 3.74
+          },
+          {
+            "lat": 54.099783,
+            "lng": 22.948264,
+            "speed": 17.13,
+            "direction": 313.7,
+            "vx": -12.38,
+            "vy": 11.84
+          },
+          {
+            "lat": 54.095349,
+            "lng": 22.935194,
+            "speed": 18.48,
+            "direction": 337.0,
+            "vx": -7.22,
+            "vy": 17.01
+          },
+          {
+            "lat": 54.105098,
+            "lng": 22.965298,
+            "speed": 12.22,
+            "direction": 283.9,
+            "vx": -11.86,
+            "vy": 2.95
+          },
+          {
+            "lat": 54.104589,
+            "lng": 22.946291,
+            "speed": 14.03,
+            "direction": 303.4,
+            "vx": -11.71,
+            "vy": 7.73
+          },
+          {
+            "lat": 54.084345,
+            "lng": 22.937757,
+            "speed": 11.04,
+            "direction": 345.3,
+            "vx": -2.8,
+            "vy": 10.68
+          },
+          {
+            "lat": 54.112703,
+            "lng": 22.95499,
+            "speed": 14.92,
+            "direction": 290.4,
+            "vx": -13.98,
+            "vy": 5.2
+          },
+          {
+            "lat": 54.097451,
+            "lng": 22.95867,
+            "speed": 10.59,
+            "direction": 346.9,
+            "vx": -2.4,
+            "vy": 10.31
+          },
+          {
+            "lat": 54.092286,
+            "lng": 22.962343,
+            "speed": 16.72,
+            "direction": 288.7,
+            "vx": -15.84,
+            "vy": 5.36
+          },
+          {
+            "lat": 54.108206,
+            "lng": 22.955995,
+            "speed": 18.4,
+            "direction": 339.3,
+            "vx": -6.52,
+            "vy": 17.21
+          },
+          {
+            "lat": 54.112224,
+            "lng": 22.984203,
+            "speed": 8.7,
+            "direction": 296.7,
+            "vx": -7.77,
+            "vy": 3.91
+          },
+          {
+            "lat": 54.09552,
+            "lng": 22.943222,
+            "speed": 9.67,
+            "direction": 311.1,
+            "vx": -7.28,
+            "vy": 6.36
+          },
+          {
+            "lat": 54.084604,
+            "lng": 22.936976,
+            "speed": 14.79,
+            "direction": 3.2,
+            "vx": 0.83,
+            "vy": 14.77
+          },
+          {
+            "lat": 54.107469,
+            "lng": 22.959398,
+            "speed": 8.48,
+            "direction": 351.4,
+            "vx": -1.26,
+            "vy": 8.39
+          },
+          {
+            "lat": 54.091615,
+            "lng": 22.953084,
+            "speed": 14.57,
+            "direction": 354.4,
+            "vx": -1.42,
+            "vy": 14.5
+          },
+          {
+            "lat": 54.113568,
+            "lng": 22.974806,
+            "speed": 17.1,
+            "direction": 260.4,
+            "vx": -16.86,
+            "vy": -2.86
+          },
+          {
+            "lat": 54.078996,
+            "lng": 22.92525,
+            "speed": 14.5,
+            "direction": 329.1,
+            "vx": -7.44,
+            "vy": 12.44
+          },
+          {
+            "lat": 54.105481,
+            "lng": 22.949145,
+            "speed": 10.73,
+            "direction": 300.4,
+            "vx": -9.26,
+            "vy": 5.42
+          },
+          {
+            "lat": 54.106977,
+            "lng": 22.9336,
+            "speed": 9.43,
+            "direction": 294.0,
+            "vx": -8.61,
+            "vy": 3.84
+          },
+          {
+            "lat": 54.099471,
+            "lng": 22.936971,
+            "speed": 10.16,
+            "direction": 339.9,
+            "vx": -3.48,
+            "vy": 9.54
+          },
+          {
+            "lat": 54.111727,
+            "lng": 22.929265,
+            "speed": 13.72,
+            "direction": 300.3,
+            "vx": -11.85,
+            "vy": 6.93
+          },
+          {
+            "lat": 54.103491,
+            "lng": 22.943328,
+            "speed": 17.86,
+            "direction": 289.1,
+            "vx": -16.87,
+            "vy": 5.85
+          },
+          {
+            "lat": 54.100163,
+            "lng": 22.958033,
+            "speed": 17.27,
+            "direction": 338.6,
+            "vx": -6.29,
+            "vy": 16.08
+          },
+          {
+            "lat": 54.088504,
+            "lng": 22.9495,
+            "speed": 9.01,
+            "direction": 339.4,
+            "vx": -3.17,
+            "vy": 8.44
+          },
+          {
+            "lat": 54.106796,
+            "lng": 22.950954,
+            "speed": 15.87,
+            "direction": 308.8,
+            "vx": -12.37,
+            "vy": 9.94
+          },
+          {
+            "lat": 54.102743,
+            "lng": 22.95156,
+            "speed": 18.45,
+            "direction": 317.5,
+            "vx": -12.45,
+            "vy": 13.61
+          },
+          {
+            "lat": 54.104323,
+            "lng": 22.950957,
+            "speed": 18.75,
+            "direction": 336.4,
+            "vx": -7.52,
+            "vy": 17.18
+          },
+          {
+            "lat": 54.102811,
+            "lng": 22.943903,
+            "speed": 14.78,
+            "direction": 312.1,
+            "vx": -10.97,
+            "vy": 9.9
+          },
+          {
+            "lat": 54.093066,
+            "lng": 22.924274,
+            "speed": 11.57,
+            "direction": 316.3,
+            "vx": -7.99,
+            "vy": 8.36
+          },
+          {
+            "lat": 54.091928,
+            "lng": 22.952079,
+            "speed": 14.6,
+            "direction": 280.7,
+            "vx": -14.35,
+            "vy": 2.71
+          },
+          {
+            "lat": 54.097503,
+            "lng": 22.962758,
+            "speed": 9.02,
+            "direction": 341.9,
+            "vx": -2.81,
+            "vy": 8.57
+          },
+          {
+            "lat": 54.095754,
+            "lng": 22.955861,
+            "speed": 17.31,
+            "direction": 322.0,
+            "vx": -10.66,
+            "vy": 13.64
+          },
+          {
+            "lat": 54.110125,
+            "lng": 22.939033,
+            "speed": 17.97,
+            "direction": 342.9,
+            "vx": -5.29,
+            "vy": 17.17
+          },
+          {
+            "lat": 54.092934,
+            "lng": 22.949691,
+            "speed": 15.46,
+            "direction": 304.4,
+            "vx": -12.75,
+            "vy": 8.74
+          },
+          {
+            "lat": 54.094574,
+            "lng": 22.956111,
+            "speed": 18.46,
+            "direction": 272.2,
+            "vx": -18.45,
+            "vy": 0.72
+          },
+          {
+            "lat": 54.106644,
+            "lng": 22.945946,
+            "speed": 14.72,
+            "direction": 311.7,
+            "vx": -11.0,
+            "vy": 9.79
+          },
+          {
+            "lat": 54.098883,
+            "lng": 22.933074,
+            "speed": 10.34,
+            "direction": 313.0,
+            "vx": -7.56,
+            "vy": 7.05
+          },
+          {
+            "lat": 54.090055,
+            "lng": 22.952926,
+            "speed": 11.09,
+            "direction": 333.0,
+            "vx": -5.03,
+            "vy": 9.88
+          },
+          {
+            "lat": 54.098757,
+            "lng": 22.963572,
+            "speed": 15.64,
+            "direction": 304.2,
+            "vx": -12.94,
+            "vy": 8.79
+          },
+          {
+            "lat": 54.089863,
+            "lng": 22.957265,
+            "speed": 8.17,
+            "direction": 318.4,
+            "vx": -5.43,
+            "vy": 6.11
+          },
+          {
+            "lat": 54.102052,
+            "lng": 22.937852,
+            "speed": 12.19,
+            "direction": 261.3,
+            "vx": -12.05,
+            "vy": -1.85
+          },
+          {
+            "lat": 54.103997,
+            "lng": 22.967628,
+            "speed": 17.47,
+            "direction": 292.9,
+            "vx": -16.09,
+            "vy": 6.8
+          },
+          {
+            "lat": 54.099964,
+            "lng": 22.963881,
+            "speed": 11.21,
+            "direction": 279.8,
+            "vx": -11.04,
+            "vy": 1.91
+          },
+          {
+            "lat": 54.094698,
+            "lng": 22.931241,
+            "speed": 8.71,
+            "direction": 315.8,
+            "vx": -6.07,
+            "vy": 6.24
+          },
+          {
+            "lat": 54.105845,
+            "lng": 22.951359,
+            "speed": 17.95,
+            "direction": 291.8,
+            "vx": -16.67,
+            "vy": 6.68
+          },
+          {
+            "lat": 54.099878,
+            "lng": 22.948997,
+            "speed": 13.43,
+            "direction": 266.5,
+            "vx": -13.4,
+            "vy": -0.83
+          },
+          {
+            "lat": 54.11064,
+            "lng": 22.940232,
+            "speed": 9.29,
+            "direction": 268.7,
+            "vx": -9.28,
+            "vy": -0.21
+          },
+          {
+            "lat": 54.10124,
+            "lng": 22.942738,
+            "speed": 15.47,
+            "direction": 294.4,
+            "vx": -14.08,
+            "vy": 6.39
+          },
+          {
+            "lat": 54.098178,
+            "lng": 22.94863,
+            "speed": 17.69,
+            "direction": 310.8,
+            "vx": -13.39,
+            "vy": 11.57
+          },
+          {
+            "lat": 54.110637,
+            "lng": 22.93223,
+            "speed": 14.03,
+            "direction": 321.1,
+            "vx": -8.81,
+            "vy": 10.91
+          },
+          {
+            "lat": 54.091081,
+            "lng": 22.95645,
+            "speed": 18.1,
+            "direction": 250.4,
+            "vx": -17.04,
+            "vy": -6.08
+          },
+          {
+            "lat": 54.113673,
+            "lng": 22.944022,
+            "speed": 15.51,
+            "direction": 324.2,
+            "vx": -9.06,
+            "vy": 12.59
+          },
+          {
+            "lat": 54.082713,
+            "lng": 22.948506,
+            "speed": 13.38,
+            "direction": 314.6,
+            "vx": -9.53,
+            "vy": 9.4
+          },
+          {
+            "lat": 54.105157,
+            "lng": 22.938822,
+            "speed": 10.18,
+            "direction": 320.2,
+            "vx": -6.52,
+            "vy": 7.82
+          },
+          {
+            "lat": 54.099874,
+            "lng": 22.932259,
+            "speed": 12.53,
+            "direction": 305.0,
+            "vx": -10.27,
+            "vy": 7.19
+          },
+          {
+            "lat": 54.101447,
+            "lng": 22.943988,
+            "speed": 13.07,
+            "direction": 342.6,
+            "vx": -3.91,
+            "vy": 12.47
+          },
+          {
+            "lat": 54.11753,
+            "lng": 22.923431,
+            "speed": 15.24,
+            "direction": 280.7,
+            "vx": -14.97,
+            "vy": 2.83
+          },
+          {
+            "lat": 54.105273,
+            "lng": 22.953803,
+            "speed": 17.1,
+            "direction": 307.6,
+            "vx": -13.55,
+            "vy": 10.42
+          },
+          {
+            "lat": 54.112292,
+            "lng": 22.960288,
+            "speed": 16.77,
+            "direction": 305.1,
+            "vx": -13.72,
+            "vy": 9.65
+          },
+          {
+            "lat": 54.103684,
+            "lng": 22.946829,
+            "speed": 18.23,
+            "direction": 278.0,
+            "vx": -18.05,
+            "vy": 2.52
+          },
+          {
+            "lat": 54.096053,
+            "lng": 22.919336,
+            "speed": 8.4,
+            "direction": 342.7,
+            "vx": -2.49,
+            "vy": 8.02
+          },
+          {
+            "lat": 54.092107,
+            "lng": 22.95063,
+            "speed": 17.43,
+            "direction": 277.6,
+            "vx": -17.28,
+            "vy": 2.32
+          },
+          {
+            "lat": 54.090699,
+            "lng": 22.934863,
+            "speed": 16.03,
+            "direction": 312.0,
+            "vx": -11.92,
+            "vy": 10.72
+          },
+          {
+            "lat": 54.114235,
+            "lng": 22.958368,
+            "speed": 18.35,
+            "direction": 289.6,
+            "vx": -17.28,
+            "vy": 6.16
+          }
+        ],
+        "computation_time": "2025-09-17T05:33:15.204133",
+        "model_version": "WindSim_v1.9"
+      },
+      "wiatr_burzowy": {
+        "scenario_name": "Wiatr burzowy",
+        "module": "WindSim",
+        "parameters": {
+          "wind_speed_ref": 25,
+          "wind_direction": 270
+        },
+        "metrics": {
+          "max_speed": 30.0,
+          "min_speed": 17.5,
+          "avg_urban_speed": 22.5,
+          "comfort_zones_percent": 15,
+          "dynamic_pressure_pa": 383.0
+        },
+        "wind_field": [
+          {
+            "lat": 54.088712,
+            "lng": 22.946636,
+            "speed": 13.76,
+            "direction": 319.4,
+            "vx": -8.95,
+            "vy": 10.46
+          },
+          {
+            "lat": 54.094248,
+            "lng": 22.945395,
+            "speed": 20.23,
+            "direction": 265.9,
+            "vx": -20.18,
+            "vy": -1.44
+          },
+          {
+            "lat": 54.095144,
+            "lng": 22.94263,
+            "speed": 31.24,
+            "direction": 262.5,
+            "vx": -30.97,
+            "vy": -4.06
+          },
+          {
+            "lat": 54.112558,
+            "lng": 22.978805,
+            "speed": 24.22,
+            "direction": 245.6,
+            "vx": -22.06,
+            "vy": -9.99
+          },
+          {
+            "lat": 54.097497,
+            "lng": 22.932749,
+            "speed": 13.9,
+            "direction": 224.9,
+            "vx": -9.8,
+            "vy": -9.85
+          },
+          {
+            "lat": 54.099539,
+            "lng": 22.941805,
+            "speed": 18.53,
+            "direction": 248.1,
+            "vx": -17.2,
+            "vy": -6.91
+          },
+          {
+            "lat": 54.099172,
+            "lng": 22.955921,
+            "speed": 28.02,
+            "direction": 257.6,
+            "vx": -27.37,
+            "vy": -6.0
+          },
+          {
+            "lat": 54.091933,
+            "lng": 22.952968,
+            "speed": 22.52,
+            "direction": 257.1,
+            "vx": -21.96,
+            "vy": -5.01
+          },
+          {
+            "lat": 54.094584,
+            "lng": 22.932377,
+            "speed": 22.52,
+            "direction": 292.5,
+            "vx": -20.81,
+            "vy": 8.6
+          },
+          {
+            "lat": 54.07725,
+            "lng": 22.947679,
+            "speed": 27.01,
+            "direction": 260.2,
+            "vx": -26.61,
+            "vy": -4.61
+          },
+          {
+            "lat": 54.092738,
+            "lng": 22.957253,
+            "speed": 13.86,
+            "direction": 306.4,
+            "vx": -11.16,
+            "vy": 8.22
+          },
+          {
+            "lat": 54.09468,
+            "lng": 22.966127,
+            "speed": 19.33,
+            "direction": 245.9,
+            "vx": -17.65,
+            "vy": -7.88
+          },
+          {
+            "lat": 54.099399,
+            "lng": 22.945387,
+            "speed": 25.28,
+            "direction": 279.7,
+            "vx": -24.92,
+            "vy": 4.26
+          },
+          {
+            "lat": 54.105785,
+            "lng": 22.950004,
+            "speed": 28.57,
+            "direction": 264.1,
+            "vx": -28.42,
+            "vy": -2.92
+          },
+          {
+            "lat": 54.104771,
+            "lng": 22.962975,
+            "speed": 25.04,
+            "direction": 291.5,
+            "vx": -23.3,
+            "vy": 9.19
+          },
+          {
+            "lat": 54.103639,
+            "lng": 22.951194,
+            "speed": 26.83,
+            "direction": 256.2,
+            "vx": -26.05,
+            "vy": -6.42
+          },
+          {
+            "lat": 54.095014,
+            "lng": 22.978467,
+            "speed": 23.29,
+            "direction": 265.6,
+            "vx": -23.22,
+            "vy": -1.78
+          },
+          {
+            "lat": 54.097116,
+            "lng": 22.958039,
+            "speed": 16.4,
+            "direction": 299.0,
+            "vx": -14.35,
+            "vy": 7.95
+          },
+          {
+            "lat": 54.091445,
+            "lng": 22.956669,
+            "speed": 30.71,
+            "direction": 291.0,
+            "vx": -28.67,
+            "vy": 11.01
+          },
+          {
+            "lat": 54.094048,
+            "lng": 22.963692,
+            "speed": 31.01,
+            "direction": 285.9,
+            "vx": -29.82,
+            "vy": 8.51
+          },
+          {
+            "lat": 54.096316,
+            "lng": 22.941369,
+            "speed": 17.58,
+            "direction": 244.0,
+            "vx": -15.8,
+            "vy": -7.71
+          },
+          {
+            "lat": 54.110517,
+            "lng": 22.943279,
+            "speed": 25.81,
+            "direction": 229.4,
+            "vx": -19.59,
+            "vy": -16.8
+          },
+          {
+            "lat": 54.105221,
+            "lng": 22.953406,
+            "speed": 22.51,
+            "direction": 303.9,
+            "vx": -18.68,
+            "vy": 12.55
+          },
+          {
+            "lat": 54.098617,
+            "lng": 22.969397,
+            "speed": 25.33,
+            "direction": 250.1,
+            "vx": -23.82,
+            "vy": -8.63
+          },
+          {
+            "lat": 54.112807,
+            "lng": 22.957001,
+            "speed": 27.74,
+            "direction": 291.6,
+            "vx": -25.79,
+            "vy": 10.22
+          },
+          {
+            "lat": 54.101267,
+            "lng": 22.945523,
+            "speed": 29.77,
+            "direction": 257.2,
+            "vx": -29.04,
+            "vy": -6.58
+          },
+          {
+            "lat": 54.108991,
+            "lng": 22.965769,
+            "speed": 31.42,
+            "direction": 239.6,
+            "vx": -27.09,
+            "vy": -15.92
+          },
+          {
+            "lat": 54.08443,
+            "lng": 22.940687,
+            "speed": 16.12,
+            "direction": 253.3,
+            "vx": -15.44,
+            "vy": -4.64
+          },
+          {
+            "lat": 54.100333,
+            "lng": 22.952232,
+            "speed": 26.14,
+            "direction": 310.7,
+            "vx": -19.8,
+            "vy": 17.06
+          },
+          {
+            "lat": 54.107645,
+            "lng": 22.95035,
+            "speed": 20.77,
+            "direction": 276.9,
+            "vx": -20.62,
+            "vy": 2.49
+          },
+          {
+            "lat": 54.119743,
+            "lng": 22.962653,
+            "speed": 22.22,
+            "direction": 296.8,
+            "vx": -19.84,
+            "vy": 10.02
+          },
+          {
+            "lat": 54.09869,
+            "lng": 22.94401,
+            "speed": 13.59,
+            "direction": 293.3,
+            "vx": -12.48,
+            "vy": 5.37
+          },
+          {
+            "lat": 54.088987,
+            "lng": 22.96279,
+            "speed": 28.46,
+            "direction": 235.5,
+            "vx": -23.47,
+            "vy": -16.11
+          },
+          {
+            "lat": 54.103457,
+            "lng": 22.949069,
+            "speed": 15.47,
+            "direction": 211.1,
+            "vx": -8.0,
+            "vy": -13.24
+          },
+          {
+            "lat": 54.096025,
+            "lng": 22.926783,
+            "speed": 23.62,
+            "direction": 295.4,
+            "vx": -21.33,
+            "vy": 10.14
+          },
+          {
+            "lat": 54.102572,
+            "lng": 22.957532,
+            "speed": 17.6,
+            "direction": 239.6,
+            "vx": -15.19,
+            "vy": -8.9
+          },
+          {
+            "lat": 54.085483,
+            "lng": 22.950955,
+            "speed": 28.22,
+            "direction": 255.4,
+            "vx": -27.3,
+            "vy": -7.13
+          },
+          {
+            "lat": 54.098512,
+            "lng": 22.959353,
+            "speed": 22.51,
+            "direction": 259.1,
+            "vx": -22.1,
+            "vy": -4.26
+          },
+          {
+            "lat": 54.101422,
+            "lng": 22.934159,
+            "speed": 26.35,
+            "direction": 287.7,
+            "vx": -25.1,
+            "vy": 8.0
+          },
+          {
+            "lat": 54.117913,
+            "lng": 22.958033,
+            "speed": 16.05,
+            "direction": 314.5,
+            "vx": -11.44,
+            "vy": 11.26
+          },
+          {
+            "lat": 54.098932,
+            "lng": 22.971925,
+            "speed": 29.17,
+            "direction": 252.0,
+            "vx": -27.74,
+            "vy": -9.01
+          },
+          {
+            "lat": 54.097195,
+            "lng": 22.937702,
+            "speed": 21.12,
+            "direction": 254.3,
+            "vx": -20.33,
+            "vy": -5.73
+          },
+          {
+            "lat": 54.104633,
+            "lng": 22.958024,
+            "speed": 20.05,
+            "direction": 249.7,
+            "vx": -18.8,
+            "vy": -6.96
+          },
+          {
+            "lat": 54.100656,
+            "lng": 22.942059,
+            "speed": 25.19,
+            "direction": 256.7,
+            "vx": -24.52,
+            "vy": -5.78
+          },
+          {
+            "lat": 54.102375,
+            "lng": 22.935018,
+            "speed": 29.71,
+            "direction": 337.4,
+            "vx": -11.42,
+            "vy": 27.43
+          },
+          {
+            "lat": 54.106393,
+            "lng": 22.964377,
+            "speed": 26.49,
+            "direction": 256.4,
+            "vx": -25.75,
+            "vy": -6.21
+          },
+          {
+            "lat": 54.110052,
+            "lng": 22.944609,
+            "speed": 23.68,
+            "direction": 281.9,
+            "vx": -23.17,
+            "vy": 4.89
+          },
+          {
+            "lat": 54.109719,
+            "lng": 22.961761,
+            "speed": 29.88,
+            "direction": 265.3,
+            "vx": -29.78,
+            "vy": -2.46
+          },
+          {
+            "lat": 54.107559,
+            "lng": 22.941231,
+            "speed": 29.48,
+            "direction": 285.0,
+            "vx": -28.48,
+            "vy": 7.61
+          },
+          {
+            "lat": 54.105996,
+            "lng": 22.943107,
+            "speed": 19.7,
+            "direction": 283.0,
+            "vx": -19.19,
+            "vy": 4.42
+          },
+          {
+            "lat": 54.100153,
+            "lng": 22.944151,
+            "speed": 17.93,
+            "direction": 263.1,
+            "vx": -17.8,
+            "vy": -2.15
+          },
+          {
+            "lat": 54.105408,
+            "lng": 22.951511,
+            "speed": 29.18,
+            "direction": 225.8,
+            "vx": -20.93,
+            "vy": -20.33
+          },
+          {
+            "lat": 54.103393,
+            "lng": 22.948524,
+            "speed": 26.22,
+            "direction": 276.3,
+            "vx": -26.06,
+            "vy": 2.9
+          },
+          {
+            "lat": 54.105092,
+            "lng": 22.961314,
+            "speed": 27.91,
+            "direction": 274.2,
+            "vx": -27.83,
+            "vy": 2.07
+          },
+          {
+            "lat": 54.097996,
+            "lng": 22.933414,
+            "speed": 19.6,
+            "direction": 279.4,
+            "vx": -19.34,
+            "vy": 3.19
+          },
+          {
+            "lat": 54.094681,
+            "lng": 22.955823,
+            "speed": 15.91,
+            "direction": 255.9,
+            "vx": -15.44,
+            "vy": -3.87
+          },
+          {
+            "lat": 54.098629,
+            "lng": 22.956108,
+            "speed": 23.38,
+            "direction": 257.9,
+            "vx": -22.86,
+            "vy": -4.91
+          },
+          {
+            "lat": 54.106798,
+            "lng": 22.968438,
+            "speed": 27.36,
+            "direction": 259.2,
+            "vx": -26.88,
+            "vy": -5.12
+          },
+          {
+            "lat": 54.110185,
+            "lng": 22.953249,
+            "speed": 21.76,
+            "direction": 300.3,
+            "vx": -18.79,
+            "vy": 10.96
+          },
+          {
+            "lat": 54.089776,
+            "lng": 22.958392,
+            "speed": 17.55,
+            "direction": 251.6,
+            "vx": -16.66,
+            "vy": -5.53
+          },
+          {
+            "lat": 54.096753,
+            "lng": 22.956351,
+            "speed": 24.19,
+            "direction": 281.3,
+            "vx": -23.72,
+            "vy": 4.76
+          },
+          {
+            "lat": 54.112035,
+            "lng": 22.946282,
+            "speed": 17.42,
+            "direction": 275.5,
+            "vx": -17.34,
+            "vy": 1.66
+          },
+          {
+            "lat": 54.098649,
+            "lng": 22.938827,
+            "speed": 18.62,
+            "direction": 254.2,
+            "vx": -17.91,
+            "vy": -5.08
+          },
+          {
+            "lat": 54.11192,
+            "lng": 22.942055,
+            "speed": 18.99,
+            "direction": 256.2,
+            "vx": -18.44,
+            "vy": -4.54
+          },
+          {
+            "lat": 54.102401,
+            "lng": 22.941865,
+            "speed": 25.66,
+            "direction": 316.9,
+            "vx": -17.52,
+            "vy": 18.75
+          },
+          {
+            "lat": 54.097211,
+            "lng": 22.961579,
+            "speed": 24.27,
+            "direction": 253.8,
+            "vx": -23.31,
+            "vy": -6.76
+          },
+          {
+            "lat": 54.08429,
+            "lng": 22.971656,
+            "speed": 18.09,
+            "direction": 289.6,
+            "vx": -17.05,
+            "vy": 6.06
+          },
+          {
+            "lat": 54.0997,
+            "lng": 22.950338,
+            "speed": 24.63,
+            "direction": 243.1,
+            "vx": -21.96,
+            "vy": -11.16
+          },
+          {
+            "lat": 54.100153,
+            "lng": 22.950213,
+            "speed": 19.39,
+            "direction": 264.3,
+            "vx": -19.29,
+            "vy": -1.92
+          },
+          {
+            "lat": 54.124466,
+            "lng": 22.977437,
+            "speed": 29.37,
+            "direction": 247.6,
+            "vx": -27.15,
+            "vy": -11.2
+          },
+          {
+            "lat": 54.105445,
+            "lng": 22.954614,
+            "speed": 29.29,
+            "direction": 263.8,
+            "vx": -29.12,
+            "vy": -3.14
+          },
+          {
+            "lat": 54.106514,
+            "lng": 22.952955,
+            "speed": 15.55,
+            "direction": 301.3,
+            "vx": -13.29,
+            "vy": 8.07
+          },
+          {
+            "lat": 54.100076,
+            "lng": 22.961902,
+            "speed": 16.77,
+            "direction": 273.0,
+            "vx": -16.75,
+            "vy": 0.87
+          },
+          {
+            "lat": 54.104881,
+            "lng": 22.926869,
+            "speed": 25.65,
+            "direction": 283.4,
+            "vx": -24.95,
+            "vy": 5.96
+          },
+          {
+            "lat": 54.109011,
+            "lng": 22.959112,
+            "speed": 18.66,
+            "direction": 299.2,
+            "vx": -16.28,
+            "vy": 9.11
+          },
+          {
+            "lat": 54.08615,
+            "lng": 22.954489,
+            "speed": 23.2,
+            "direction": 261.8,
+            "vx": -22.97,
+            "vy": -3.3
+          },
+          {
+            "lat": 54.093443,
+            "lng": 22.950341,
+            "speed": 24.48,
+            "direction": 315.8,
+            "vx": -17.06,
+            "vy": 17.55
+          },
+          {
+            "lat": 54.104807,
+            "lng": 22.972159,
+            "speed": 30.94,
+            "direction": 232.2,
+            "vx": -24.46,
+            "vy": -18.95
+          },
+          {
+            "lat": 54.105712,
+            "lng": 22.913611,
+            "speed": 25.49,
+            "direction": 250.0,
+            "vx": -23.95,
+            "vy": -8.73
+          },
+          {
+            "lat": 54.096811,
+            "lng": 22.950492,
+            "speed": 18.18,
+            "direction": 272.2,
+            "vx": -18.17,
+            "vy": 0.69
+          },
+          {
+            "lat": 54.108691,
+            "lng": 22.960786,
+            "speed": 24.63,
+            "direction": 276.7,
+            "vx": -24.46,
+            "vy": 2.89
+          },
+          {
+            "lat": 54.096004,
+            "lng": 22.926185,
+            "speed": 26.11,
+            "direction": 281.8,
+            "vx": -25.56,
+            "vy": 5.32
+          },
+          {
+            "lat": 54.105845,
+            "lng": 22.948036,
+            "speed": 23.93,
+            "direction": 244.1,
+            "vx": -21.53,
+            "vy": -10.43
+          },
+          {
+            "lat": 54.097932,
+            "lng": 22.952748,
+            "speed": 16.05,
+            "direction": 262.0,
+            "vx": -15.89,
+            "vy": -2.22
+          },
+          {
+            "lat": 54.093803,
+            "lng": 22.947545,
+            "speed": 30.28,
+            "direction": 296.2,
+            "vx": -27.17,
+            "vy": 13.38
+          },
+          {
+            "lat": 54.098389,
+            "lng": 22.944961,
+            "speed": 29.72,
+            "direction": 252.1,
+            "vx": -28.28,
+            "vy": -9.14
+          },
+          {
+            "lat": 54.097476,
+            "lng": 22.948339,
+            "speed": 19.39,
+            "direction": 253.0,
+            "vx": -18.55,
+            "vy": -5.67
+          },
+          {
+            "lat": 54.100453,
+            "lng": 22.951436,
+            "speed": 26.84,
+            "direction": 224.1,
+            "vx": -18.67,
+            "vy": -19.29
+          },
+          {
+            "lat": 54.093017,
+            "lng": 22.947487,
+            "speed": 30.33,
+            "direction": 268.2,
+            "vx": -30.32,
+            "vy": -0.98
+          },
+          {
+            "lat": 54.09508,
+            "lng": 22.949942,
+            "speed": 28.22,
+            "direction": 233.8,
+            "vx": -22.76,
+            "vy": -16.68
+          },
+          {
+            "lat": 54.095328,
+            "lng": 22.915781,
+            "speed": 17.23,
+            "direction": 276.9,
+            "vx": -17.1,
+            "vy": 2.05
+          },
+          {
+            "lat": 54.096531,
+            "lng": 22.946189,
+            "speed": 20.8,
+            "direction": 290.6,
+            "vx": -19.47,
+            "vy": 7.34
+          },
+          {
+            "lat": 54.107354,
+            "lng": 22.950658,
+            "speed": 17.92,
+            "direction": 283.6,
+            "vx": -17.41,
+            "vy": 4.23
+          },
+          {
+            "lat": 54.088137,
+            "lng": 22.954977,
+            "speed": 18.56,
+            "direction": 277.0,
+            "vx": -18.42,
+            "vy": 2.27
+          },
+          {
+            "lat": 54.106369,
+            "lng": 22.949066,
+            "speed": 29.99,
+            "direction": 299.7,
+            "vx": -26.05,
+            "vy": 14.86
+          },
+          {
+            "lat": 54.100303,
+            "lng": 22.945603,
+            "speed": 14.59,
+            "direction": 233.2,
+            "vx": -11.67,
+            "vy": -8.75
+          },
+          {
+            "lat": 54.09264,
+            "lng": 22.934616,
+            "speed": 14.87,
+            "direction": 286.9,
+            "vx": -14.22,
+            "vy": 4.33
+          },
+          {
+            "lat": 54.098204,
+            "lng": 22.949366,
+            "speed": 31.35,
+            "direction": 220.2,
+            "vx": -20.25,
+            "vy": -23.93
+          },
+          {
+            "lat": 54.096533,
+            "lng": 22.941736,
+            "speed": 14.77,
+            "direction": 268.0,
+            "vx": -14.76,
+            "vy": -0.52
+          },
+          {
+            "lat": 54.104361,
+            "lng": 22.949155,
+            "speed": 20.56,
+            "direction": 304.6,
+            "vx": -16.92,
+            "vy": 11.68
+          }
+        ],
+        "computation_time": "2025-09-17T05:33:15.206708",
+        "model_version": "WindSim_v1.9"
+      },
+      "wiatr_huraganowy": {
+        "scenario_name": "Wiatr huraganowy",
+        "module": "WindSim",
+        "parameters": {
+          "wind_speed_ref": 35,
+          "wind_direction": 180
+        },
+        "metrics": {
+          "max_speed": 42.0,
+          "min_speed": 24.5,
+          "avg_urban_speed": 31.5,
+          "comfort_zones_percent": 15,
+          "dynamic_pressure_pa": 750.0
+        },
+        "wind_field": [
+          {
+            "lat": 54.097968,
+            "lng": 22.966025,
+            "speed": 28.05,
+            "direction": 185.5,
+            "vx": -2.69,
+            "vy": -27.92
+          },
+          {
+            "lat": 54.113265,
+            "lng": 22.961606,
+            "speed": 37.91,
+            "direction": 181.2,
+            "vx": -0.8,
+            "vy": -37.91
+          },
+          {
+            "lat": 54.101108,
+            "lng": 22.949449,
+            "speed": 22.83,
+            "direction": 176.8,
+            "vx": 1.26,
+            "vy": -22.79
+          },
+          {
+            "lat": 54.108931,
+            "lng": 22.933431,
+            "speed": 36.65,
+            "direction": 184.9,
+            "vx": -3.13,
+            "vy": -36.51
+          },
+          {
+            "lat": 54.098412,
+            "lng": 22.953661,
+            "speed": 23.28,
+            "direction": 178.9,
+            "vx": 0.45,
+            "vy": -23.27
+          },
+          {
+            "lat": 54.101047,
+            "lng": 22.952778,
+            "speed": 23.55,
+            "direction": 225.0,
+            "vx": -16.65,
+            "vy": -16.65
+          },
+          {
+            "lat": 54.090063,
+            "lng": 22.948243,
+            "speed": 23.11,
+            "direction": 206.0,
+            "vx": -10.13,
+            "vy": -20.77
+          },
+          {
+            "lat": 54.088074,
+            "lng": 22.978359,
+            "speed": 40.12,
+            "direction": 188.2,
+            "vx": -5.7,
+            "vy": -39.71
+          },
+          {
+            "lat": 54.095133,
+            "lng": 22.976779,
+            "speed": 30.93,
+            "direction": 216.3,
+            "vx": -18.33,
+            "vy": -24.92
+          },
+          {
+            "lat": 54.101346,
+            "lng": 22.947346,
+            "speed": 33.0,
+            "direction": 214.8,
+            "vx": -18.84,
+            "vy": -27.1
+          },
+          {
+            "lat": 54.104812,
+            "lng": 22.943851,
+            "speed": 23.22,
+            "direction": 137.0,
+            "vx": 15.83,
+            "vy": -16.98
+          },
+          {
+            "lat": 54.089165,
+            "lng": 22.948651,
+            "speed": 26.58,
+            "direction": 198.4,
+            "vx": -8.39,
+            "vy": -25.22
+          },
+          {
+            "lat": 54.092681,
+            "lng": 22.946823,
+            "speed": 41.68,
+            "direction": 183.8,
+            "vx": -2.75,
+            "vy": -41.59
+          },
+          {
+            "lat": 54.097323,
+            "lng": 22.945486,
+            "speed": 22.21,
+            "direction": 190.3,
+            "vx": -3.98,
+            "vy": -21.85
+          },
+          {
+            "lat": 54.100884,
+            "lng": 22.945892,
+            "speed": 38.77,
+            "direction": 163.9,
+            "vx": 10.78,
+            "vy": -37.24
+          },
+          {
+            "lat": 54.092797,
+            "lng": 22.938063,
+            "speed": 37.29,
+            "direction": 186.3,
+            "vx": -4.09,
+            "vy": -37.06
+          },
+          {
+            "lat": 54.101313,
+            "lng": 22.936292,
+            "speed": 21.92,
+            "direction": 231.8,
+            "vx": -17.23,
+            "vy": -13.55
+          },
+          {
+            "lat": 54.10227,
+            "lng": 22.951723,
+            "speed": 34.65,
+            "direction": 136.6,
+            "vx": 23.82,
+            "vy": -25.16
+          },
+          {
+            "lat": 54.099512,
+            "lng": 22.953984,
+            "speed": 34.16,
+            "direction": 190.8,
+            "vx": -6.39,
+            "vy": -33.56
+          },
+          {
+            "lat": 54.095204,
+            "lng": 22.953695,
+            "speed": 24.24,
+            "direction": 197.1,
+            "vx": -7.12,
+            "vy": -23.17
+          },
+          {
+            "lat": 54.110887,
+            "lng": 22.979153,
+            "speed": 22.96,
+            "direction": 147.1,
+            "vx": 12.47,
+            "vy": -19.28
+          },
+          {
+            "lat": 54.088761,
+            "lng": 22.936311,
+            "speed": 27.86,
+            "direction": 218.1,
+            "vx": -17.19,
+            "vy": -21.93
+          },
+          {
+            "lat": 54.098735,
+            "lng": 22.932569,
+            "speed": 30.21,
+            "direction": 218.7,
+            "vx": -18.87,
+            "vy": -23.59
+          },
+          {
+            "lat": 54.082473,
+            "lng": 22.957381,
+            "speed": 32.75,
+            "direction": 217.2,
+            "vx": -19.82,
+            "vy": -26.07
+          },
+          {
+            "lat": 54.102617,
+            "lng": 22.951024,
+            "speed": 43.73,
+            "direction": 200.7,
+            "vx": -15.44,
+            "vy": -40.91
+          },
+          {
+            "lat": 54.102262,
+            "lng": 22.958173,
+            "speed": 29.64,
+            "direction": 160.5,
+            "vx": 9.9,
+            "vy": -27.94
+          },
+          {
+            "lat": 54.103725,
+            "lng": 22.957045,
+            "speed": 26.0,
+            "direction": 185.0,
+            "vx": -2.25,
+            "vy": -25.9
+          },
+          {
+            "lat": 54.107777,
+            "lng": 22.95468,
+            "speed": 33.23,
+            "direction": 196.8,
+            "vx": -9.6,
+            "vy": -31.81
+          },
+          {
+            "lat": 54.088781,
+            "lng": 22.936754,
+            "speed": 34.77,
+            "direction": 129.2,
+            "vx": 26.93,
+            "vy": -22.0
+          },
+          {
+            "lat": 54.10452,
+            "lng": 22.948905,
+            "speed": 43.05,
+            "direction": 161.6,
+            "vx": 13.62,
+            "vy": -40.84
+          },
+          {
+            "lat": 54.099957,
+            "lng": 22.9527,
+            "speed": 34.31,
+            "direction": 170.8,
+            "vx": 5.49,
+            "vy": -33.87
+          },
+          {
+            "lat": 54.09662,
+            "lng": 22.97578,
+            "speed": 24.71,
+            "direction": 152.4,
+            "vx": 11.44,
+            "vy": -21.9
+          },
+          {
+            "lat": 54.099651,
+            "lng": 22.938542,
+            "speed": 25.56,
+            "direction": 184.0,
+            "vx": -1.8,
+            "vy": -25.49
+          },
+          {
+            "lat": 54.110409,
+            "lng": 22.938571,
+            "speed": 31.43,
+            "direction": 142.8,
+            "vx": 19.02,
+            "vy": -25.02
+          },
+          {
+            "lat": 54.094742,
+            "lng": 22.940928,
+            "speed": 37.94,
+            "direction": 196.5,
+            "vx": -10.76,
+            "vy": -36.38
+          },
+          {
+            "lat": 54.111482,
+            "lng": 22.967723,
+            "speed": 35.58,
+            "direction": 192.6,
+            "vx": -7.75,
+            "vy": -34.73
+          },
+          {
+            "lat": 54.101853,
+            "lng": 22.95109,
+            "speed": 26.95,
+            "direction": 197.1,
+            "vx": -7.94,
+            "vy": -25.75
+          },
+          {
+            "lat": 54.109375,
+            "lng": 22.963372,
+            "speed": 43.51,
+            "direction": 184.7,
+            "vx": -3.57,
+            "vy": -43.36
+          },
+          {
+            "lat": 54.089122,
+            "lng": 22.958517,
+            "speed": 41.57,
+            "direction": 154.0,
+            "vx": 18.25,
+            "vy": -37.35
+          },
+          {
+            "lat": 54.095245,
+            "lng": 22.964519,
+            "speed": 43.74,
+            "direction": 194.2,
+            "vx": -10.73,
+            "vy": -42.4
+          },
+          {
+            "lat": 54.111446,
+            "lng": 22.94931,
+            "speed": 38.03,
+            "direction": 205.4,
+            "vx": -16.3,
+            "vy": -34.35
+          },
+          {
+            "lat": 54.09732,
+            "lng": 22.939268,
+            "speed": 29.13,
+            "direction": 168.1,
+            "vx": 6.03,
+            "vy": -28.5
+          },
+          {
+            "lat": 54.111956,
+            "lng": 22.939763,
+            "speed": 38.57,
+            "direction": 197.1,
+            "vx": -11.34,
+            "vy": -36.86
+          },
+          {
+            "lat": 54.098629,
+            "lng": 22.958161,
+            "speed": 24.72,
+            "direction": 185.4,
+            "vx": -2.31,
+            "vy": -24.62
+          },
+          {
+            "lat": 54.087226,
+            "lng": 22.944074,
+            "speed": 25.93,
+            "direction": 176.2,
+            "vx": 1.7,
+            "vy": -25.88
+          },
+          {
+            "lat": 54.10955,
+            "lng": 22.924136,
+            "speed": 34.72,
+            "direction": 185.0,
+            "vx": -3.02,
+            "vy": -34.59
+          },
+          {
+            "lat": 54.091091,
+            "lng": 22.953015,
+            "speed": 25.42,
+            "direction": 129.3,
+            "vx": 19.66,
+            "vy": -16.12
+          },
+          {
+            "lat": 54.11051,
+            "lng": 22.964486,
+            "speed": 20.84,
+            "direction": 152.8,
+            "vx": 9.53,
+            "vy": -18.53
+          },
+          {
+            "lat": 54.11375,
+            "lng": 22.944269,
+            "speed": 20.16,
+            "direction": 179.8,
+            "vx": 0.08,
+            "vy": -20.16
+          },
+          {
+            "lat": 54.097067,
+            "lng": 22.961542,
+            "speed": 21.92,
+            "direction": 184.0,
+            "vx": -1.52,
+            "vy": -21.87
+          },
+          {
+            "lat": 54.095707,
+            "lng": 22.957115,
+            "speed": 36.76,
+            "direction": 173.4,
+            "vx": 4.22,
+            "vy": -36.52
+          },
+          {
+            "lat": 54.100075,
+            "lng": 22.946578,
+            "speed": 27.63,
+            "direction": 193.3,
+            "vx": -6.34,
+            "vy": -26.89
+          },
+          {
+            "lat": 54.096451,
+            "lng": 22.950934,
+            "speed": 40.63,
+            "direction": 204.0,
+            "vx": -16.51,
+            "vy": -37.13
+          },
+          {
+            "lat": 54.080644,
+            "lng": 22.940934,
+            "speed": 27.37,
+            "direction": 186.7,
+            "vx": -3.21,
+            "vy": -27.18
+          },
+          {
+            "lat": 54.092528,
+            "lng": 22.94628,
+            "speed": 20.15,
+            "direction": 145.0,
+            "vx": 11.55,
+            "vy": -16.5
+          },
+          {
+            "lat": 54.102807,
+            "lng": 22.942314,
+            "speed": 43.06,
+            "direction": 154.3,
+            "vx": 18.68,
+            "vy": -38.8
+          },
+          {
+            "lat": 54.09701,
+            "lng": 22.948049,
+            "speed": 23.28,
+            "direction": 222.3,
+            "vx": -15.67,
+            "vy": -17.22
+          },
+          {
+            "lat": 54.088299,
+            "lng": 22.968887,
+            "speed": 32.99,
+            "direction": 218.6,
+            "vx": -20.6,
+            "vy": -25.77
+          },
+          {
+            "lat": 54.107308,
+            "lng": 22.958741,
+            "speed": 28.21,
+            "direction": 135.3,
+            "vx": 19.84,
+            "vy": -20.05
+          },
+          {
+            "lat": 54.110152,
+            "lng": 22.939606,
+            "speed": 30.97,
+            "direction": 146.3,
+            "vx": 17.19,
+            "vy": -25.76
+          },
+          {
+            "lat": 54.099282,
+            "lng": 22.926254,
+            "speed": 39.67,
+            "direction": 201.1,
+            "vx": -14.26,
+            "vy": -37.02
+          },
+          {
+            "lat": 54.0792,
+            "lng": 22.953596,
+            "speed": 38.82,
+            "direction": 222.6,
+            "vx": -26.27,
+            "vy": -28.58
+          },
+          {
+            "lat": 54.102184,
+            "lng": 22.950765,
+            "speed": 20.09,
+            "direction": 166.2,
+            "vx": 4.79,
+            "vy": -19.51
+          },
+          {
+            "lat": 54.103495,
+            "lng": 22.934031,
+            "speed": 39.41,
+            "direction": 152.3,
+            "vx": 18.3,
+            "vy": -34.9
+          },
+          {
+            "lat": 54.101258,
+            "lng": 22.956282,
+            "speed": 27.77,
+            "direction": 172.9,
+            "vx": 3.45,
+            "vy": -27.55
+          },
+          {
+            "lat": 54.114052,
+            "lng": 22.957182,
+            "speed": 27.58,
+            "direction": 185.8,
+            "vx": -2.77,
+            "vy": -27.44
+          },
+          {
+            "lat": 54.097414,
+            "lng": 22.92929,
+            "speed": 24.87,
+            "direction": 199.3,
+            "vx": -8.21,
+            "vy": -23.48
+          },
+          {
+            "lat": 54.103603,
+            "lng": 22.956196,
+            "speed": 19.74,
+            "direction": 161.6,
+            "vx": 6.23,
+            "vy": -18.73
+          },
+          {
+            "lat": 54.100901,
+            "lng": 22.922456,
+            "speed": 41.11,
+            "direction": 219.7,
+            "vx": -26.25,
+            "vy": -31.63
+          },
+          {
+            "lat": 54.098692,
+            "lng": 22.940952,
+            "speed": 19.42,
+            "direction": 155.3,
+            "vx": 8.11,
+            "vy": -17.65
+          },
+          {
+            "lat": 54.094434,
+            "lng": 22.949618,
+            "speed": 31.19,
+            "direction": 193.8,
+            "vx": -7.44,
+            "vy": -30.29
+          },
+          {
+            "lat": 54.103824,
+            "lng": 22.953996,
+            "speed": 41.3,
+            "direction": 190.7,
+            "vx": -7.65,
+            "vy": -40.58
+          },
+          {
+            "lat": 54.096266,
+            "lng": 22.94098,
+            "speed": 20.08,
+            "direction": 149.7,
+            "vx": 10.13,
+            "vy": -17.35
+          },
+          {
+            "lat": 54.081352,
+            "lng": 22.946363,
+            "speed": 42.97,
+            "direction": 210.9,
+            "vx": -22.07,
+            "vy": -36.87
+          },
+          {
+            "lat": 54.10093,
+            "lng": 22.966662,
+            "speed": 40.07,
+            "direction": 177.4,
+            "vx": 1.8,
+            "vy": -40.03
+          },
+          {
+            "lat": 54.095374,
+            "lng": 22.954884,
+            "speed": 33.21,
+            "direction": 207.8,
+            "vx": -15.47,
+            "vy": -29.39
+          },
+          {
+            "lat": 54.110452,
+            "lng": 22.964036,
+            "speed": 36.31,
+            "direction": 181.8,
+            "vx": -1.15,
+            "vy": -36.29
+          },
+          {
+            "lat": 54.090908,
+            "lng": 22.937935,
+            "speed": 27.96,
+            "direction": 214.5,
+            "vx": -15.82,
+            "vy": -23.05
+          },
+          {
+            "lat": 54.104424,
+            "lng": 22.944789,
+            "speed": 22.57,
+            "direction": 186.9,
+            "vx": -2.72,
+            "vy": -22.4
+          },
+          {
+            "lat": 54.097583,
+            "lng": 22.954109,
+            "speed": 26.63,
+            "direction": 204.7,
+            "vx": -11.14,
+            "vy": -24.19
+          },
+          {
+            "lat": 54.100862,
+            "lng": 22.94038,
+            "speed": 41.77,
+            "direction": 172.6,
+            "vx": 5.37,
+            "vy": -41.42
+          },
+          {
+            "lat": 54.10628,
+            "lng": 22.955798,
+            "speed": 18.98,
+            "direction": 200.2,
+            "vx": -6.56,
+            "vy": -17.81
+          },
+          {
+            "lat": 54.101989,
+            "lng": 22.936326,
+            "speed": 33.83,
+            "direction": 230.9,
+            "vx": -26.25,
+            "vy": -21.34
+          },
+          {
+            "lat": 54.101498,
+            "lng": 22.969222,
+            "speed": 41.92,
+            "direction": 171.4,
+            "vx": 6.29,
+            "vy": -41.45
+          },
+          {
+            "lat": 54.113717,
+            "lng": 22.937275,
+            "speed": 19.68,
+            "direction": 212.6,
+            "vx": -10.61,
+            "vy": -16.57
+          },
+          {
+            "lat": 54.091218,
+            "lng": 22.943774,
+            "speed": 22.06,
+            "direction": 162.3,
+            "vx": 6.7,
+            "vy": -21.02
+          },
+          {
+            "lat": 54.099311,
+            "lng": 22.933555,
+            "speed": 43.36,
+            "direction": 147.4,
+            "vx": 23.39,
+            "vy": -36.51
+          },
+          {
+            "lat": 54.108404,
+            "lng": 22.946609,
+            "speed": 32.89,
+            "direction": 157.6,
+            "vx": 12.55,
+            "vy": -30.41
+          },
+          {
+            "lat": 54.084432,
+            "lng": 22.944487,
+            "speed": 24.92,
+            "direction": 133.1,
+            "vx": 18.19,
+            "vy": -17.03
+          },
+          {
+            "lat": 54.086715,
+            "lng": 22.96448,
+            "speed": 30.84,
+            "direction": 190.9,
+            "vx": -5.84,
+            "vy": -30.28
+          },
+          {
+            "lat": 54.102152,
+            "lng": 22.93571,
+            "speed": 31.86,
+            "direction": 221.9,
+            "vx": -21.26,
+            "vy": -23.72
+          },
+          {
+            "lat": 54.102763,
+            "lng": 22.937756,
+            "speed": 28.63,
+            "direction": 245.6,
+            "vx": -26.07,
+            "vy": -11.84
+          },
+          {
+            "lat": 54.094907,
+            "lng": 22.931397,
+            "speed": 39.06,
+            "direction": 119.0,
+            "vx": 34.15,
+            "vy": -18.96
+          },
+          {
+            "lat": 54.109599,
+            "lng": 22.954425,
+            "speed": 30.59,
+            "direction": 162.9,
+            "vx": 8.98,
+            "vy": -29.24
+          },
+          {
+            "lat": 54.101111,
+            "lng": 22.951008,
+            "speed": 38.63,
+            "direction": 175.8,
+            "vx": 2.82,
+            "vy": -38.53
+          },
+          {
+            "lat": 54.093701,
+            "lng": 22.958401,
+            "speed": 36.26,
+            "direction": 174.7,
+            "vx": 3.33,
+            "vy": -36.1
+          },
+          {
+            "lat": 54.104827,
+            "lng": 22.946978,
+            "speed": 29.83,
+            "direction": 186.5,
+            "vx": -3.37,
+            "vy": -29.64
+          },
+          {
+            "lat": 54.102082,
+            "lng": 22.94514,
+            "speed": 30.76,
+            "direction": 163.3,
+            "vx": 8.83,
+            "vy": -29.46
+          },
+          {
+            "lat": 54.099145,
+            "lng": 22.962343,
+            "speed": 31.97,
+            "direction": 165.7,
+            "vx": 7.88,
+            "vy": -30.98
+          },
+          {
+            "lat": 54.092242,
+            "lng": 22.952904,
+            "speed": 27.23,
+            "direction": 195.9,
+            "vx": -7.47,
+            "vy": -26.19
+          }
+        ],
+        "computation_time": "2025-09-17T05:33:15.208717",
+        "model_version": "WindSim_v1.9"
+      }
+    },
+    "thermal": {
+      "zima_mroźna": {
+        "scenario_name": "Zima mroźna",
+        "module": "ThermalSim",
+        "parameters": {
+          "air_temperature": -5,
+          "relative_humidity": 75,
+          "wind_speed": 3.0,
+          "solar_radiation": 50,
+          "season": "winter"
+        },
+        "overall_metrics": {
+          "city_comfort_score": 2.04,
+          "comfort_zones_percent": 0.0
+        },
+        "zone_analysis": {
+          "rynek": {
+            "zone_name": "Rynek Główny",
+            "pmv": -2.78,
+            "utci": -4.4,
+            "comfort_level": "SŁABY"
+          },
+          "streets": {
+            "zone_name": "Ulice handlowe",
+            "pmv": -2.99,
+            "utci": -6.4,
+            "comfort_level": "SŁABY"
+          },
+          "parks": {
+            "zone_name": "Parki",
+            "pmv": -3,
+            "utci": -9.4,
+            "comfort_level": "SŁABY"
+          },
+          "residential": {
+            "zone_name": "Mieszkaniowe",
+            "pmv": -3,
+            "utci": -7.4,
+            "comfort_level": "SŁABY"
+          },
+          "open": {
+            "zone_name": "Otwarte",
+            "pmv": -2.88,
+            "utci": -5.4,
+            "comfort_level": "SŁABY"
+          }
+        },
+        "comfort_map": [
+          {
+            "lat": 54.089335,
+            "lng": 22.960812,
+            "pmv": 0.35,
+            "utci": -5.3
+          },
+          {
+            "lat": 54.082056,
+            "lng": 22.942787,
+            "pmv": -0.85,
+            "utci": -1.9
+          },
+          {
+            "lat": 54.100957,
+            "lng": 22.9626,
+            "pmv": 0.12,
+            "utci": -8.4
+          },
+          {
+            "lat": 54.105699,
+            "lng": 22.93779,
+            "pmv": -0.52,
+            "utci": -8.3
+          },
+          {
+            "lat": 54.091335,
+            "lng": 22.961744,
+            "pmv": -0.7,
+            "utci": -5.1
+          },
+          {
+            "lat": 54.106202,
+            "lng": 22.942728,
+            "pmv": -0.43,
+            "utci": -1.5
+          },
+          {
+            "lat": 54.100288,
+            "lng": 22.950488,
+            "pmv": -0.78,
+            "utci": -1.0
+          },
+          {
+            "lat": 54.102645,
+            "lng": 22.948698,
+            "pmv": -0.53,
+            "utci": -1.7
+          },
+          {
+            "lat": 54.101527,
+            "lng": 22.968762,
+            "pmv": -0.05,
+            "utci": -4.8
+          },
+          {
+            "lat": 54.106178,
+            "lng": 22.955486,
+            "pmv": -1.07,
+            "utci": -9.3
+          },
+          {
+            "lat": 54.09437,
+            "lng": 22.93915,
+            "pmv": -0.31,
+            "utci": -9.4
+          },
+          {
+            "lat": 54.110118,
+            "lng": 22.966287,
+            "pmv": 0.8,
+            "utci": -3.6
+          },
+          {
+            "lat": 54.113744,
+            "lng": 22.947464,
+            "pmv": -0.59,
+            "utci": -6.7
+          },
+          {
+            "lat": 54.09557,
+            "lng": 22.956797,
+            "pmv": -0.7,
+            "utci": -6.9
+          },
+          {
+            "lat": 54.098653,
+            "lng": 22.935489,
+            "pmv": -0.47,
+            "utci": -3.6
+          },
+          {
+            "lat": 54.100894,
+            "lng": 22.952643,
+            "pmv": 0.24,
+            "utci": -8.3
+          },
+          {
+            "lat": 54.103055,
+            "lng": 22.956606,
+            "pmv": -0.59,
+            "utci": -3.6
+          },
+          {
+            "lat": 54.10223,
+            "lng": 22.953437,
+            "pmv": -0.96,
+            "utci": -3.2
+          },
+          {
+            "lat": 54.096137,
+            "lng": 22.942995,
+            "pmv": -0.32,
+            "utci": -5.8
+          },
+          {
+            "lat": 54.09946,
+            "lng": 22.963537,
+            "pmv": -0.68,
+            "utci": -8.6
+          },
+          {
+            "lat": 54.105158,
+            "lng": 22.949359,
+            "pmv": 0.05,
+            "utci": -7.0
+          },
+          {
+            "lat": 54.101885,
+            "lng": 22.959414,
+            "pmv": 0.19,
+            "utci": -3.3
+          },
+          {
+            "lat": 54.097287,
+            "lng": 22.96085,
+            "pmv": -0.06,
+            "utci": -4.2
+          },
+          {
+            "lat": 54.090886,
+            "lng": 22.96036,
+            "pmv": 0.3,
+            "utci": -2.4
+          },
+          {
+            "lat": 54.092287,
+            "lng": 22.954935,
+            "pmv": -0.45,
+            "utci": -1.8
+          },
+          {
+            "lat": 54.106906,
+            "lng": 22.96612,
+            "pmv": 0.12,
+            "utci": -1.9
+          },
+          {
+            "lat": 54.107027,
+            "lng": 22.936979,
+            "pmv": 0.25,
+            "utci": -4.7
+          },
+          {
+            "lat": 54.111437,
+            "lng": 22.955951,
+            "pmv": -0.19,
+            "utci": -3.1
+          },
+          {
+            "lat": 54.100484,
+            "lng": 22.935171,
+            "pmv": -0.76,
+            "utci": -3.2
+          },
+          {
+            "lat": 54.101441,
+            "lng": 22.949748,
+            "pmv": -0.9,
+            "utci": -3.7
+          },
+          {
+            "lat": 54.090172,
+            "lng": 22.964392,
+            "pmv": -1.01,
+            "utci": -7.3
+          },
+          {
+            "lat": 54.104178,
+            "lng": 22.952145,
+            "pmv": -1.03,
+            "utci": -2.4
+          },
+          {
+            "lat": 54.104435,
+            "lng": 22.935922,
+            "pmv": -0.34,
+            "utci": -3.8
+          },
+          {
+            "lat": 54.093737,
+            "lng": 22.956266,
+            "pmv": -0.15,
+            "utci": -5.9
+          },
+          {
+            "lat": 54.099824,
+            "lng": 22.946385,
+            "pmv": -0.36,
+            "utci": -7.7
+          },
+          {
+            "lat": 54.103127,
+            "lng": 22.955365,
+            "pmv": -1.13,
+            "utci": -6.4
+          },
+          {
+            "lat": 54.103514,
+            "lng": 22.941245,
+            "pmv": -0.62,
+            "utci": -1.6
+          },
+          {
+            "lat": 54.105788,
+            "lng": 22.961451,
+            "pmv": -1.14,
+            "utci": -9.2
+          },
+          {
+            "lat": 54.115479,
+            "lng": 22.938454,
+            "pmv": -0.59,
+            "utci": -6.9
+          },
+          {
+            "lat": 54.089664,
+            "lng": 22.983329,
+            "pmv": -1.16,
+            "utci": -2.4
+          },
+          {
+            "lat": 54.100144,
+            "lng": 22.94485,
+            "pmv": -0.75,
+            "utci": -5.8
+          },
+          {
+            "lat": 54.11592,
+            "lng": 22.95616,
+            "pmv": 0.0,
+            "utci": -7.8
+          },
+          {
+            "lat": 54.092104,
+            "lng": 22.922225,
+            "pmv": 0.05,
+            "utci": -1.6
+          },
+          {
+            "lat": 54.094918,
+            "lng": 22.94612,
+            "pmv": -0.34,
+            "utci": -6.5
+          },
+          {
+            "lat": 54.099827,
+            "lng": 22.946538,
+            "pmv": 0.1,
+            "utci": -8.2
+          },
+          {
+            "lat": 54.095584,
+            "lng": 22.95587,
+            "pmv": -0.84,
+            "utci": -2.4
+          },
+          {
+            "lat": 54.126339,
+            "lng": 22.952425,
+            "pmv": -0.08,
+            "utci": -4.8
+          },
+          {
+            "lat": 54.097973,
+            "lng": 22.948377,
+            "pmv": -0.14,
+            "utci": -8.7
+          },
+          {
+            "lat": 54.102457,
+            "lng": 22.959692,
+            "pmv": -0.13,
+            "utci": -3.8
+          },
+          {
+            "lat": 54.095713,
+            "lng": 22.963013,
+            "pmv": -0.03,
+            "utci": -6.6
+          }
+        ],
+        "computation_time": "2025-09-17T05:33:15.209168",
+        "model_version": "ThermalSim_v1.6"
+      },
+      "wiosna_chłodna": {
+        "scenario_name": "Wiosna chłodna",
+        "module": "ThermalSim",
+        "parameters": {
+          "air_temperature": 8,
+          "relative_humidity": 65,
+          "wind_speed": 2.5,
+          "solar_radiation": 200,
+          "season": "spring"
+        },
+        "overall_metrics": {
+          "city_comfort_score": 2.81,
+          "comfort_zones_percent": 0.0
+        },
+        "zone_analysis": {
+          "rynek": {
+            "zone_name": "Rynek Główny",
+            "pmv": -1.84,
+            "utci": 8.9,
+            "comfort_level": "SŁABY"
+          },
+          "streets": {
+            "zone_name": "Ulice handlowe",
+            "pmv": -2.12,
+            "utci": 6.9,
+            "comfort_level": "SŁABY"
+          },
+          "parks": {
+            "zone_name": "Parki",
+            "pmv": -2.54,
+            "utci": 3.9,
+            "comfort_level": "SŁABY"
+          },
+          "residential": {
+            "zone_name": "Mieszkaniowe",
+            "pmv": -2.26,
+            "utci": 5.9,
+            "comfort_level": "SŁABY"
+          },
+          "open": {
+            "zone_name": "Otwarte",
+            "pmv": -1.98,
+            "utci": 7.9,
+            "comfort_level": "SŁABY"
+          }
+        },
+        "comfort_map": [
+          {
+            "lat": 54.099314,
+            "lng": 22.947708,
+            "pmv": -0.16,
+            "utci": 7.3
+          },
+          {
+            "lat": 54.100761,
+            "lng": 22.946549,
+            "pmv": 0.13,
+            "utci": 7.2
+          },
+          {
+            "lat": 54.10384,
+            "lng": 22.93286,
+            "pmv": -0.23,
+            "utci": 13.1
+          },
+          {
+            "lat": 54.1073,
+            "lng": 22.954306,
+            "pmv": 0.95,
+            "utci": 5.9
+          },
+          {
+            "lat": 54.101067,
+            "lng": 22.942197,
+            "pmv": 0.56,
+            "utci": 10.3
+          },
+          {
+            "lat": 54.120827,
+            "lng": 22.942958,
+            "pmv": 0.25,
+            "utci": 7.8
+          },
+          {
+            "lat": 54.094257,
+            "lng": 22.938174,
+            "pmv": 0.65,
+            "utci": 10.3
+          },
+          {
+            "lat": 54.120266,
+            "lng": 22.943448,
+            "pmv": 0.16,
+            "utci": 8.9
+          },
+          {
+            "lat": 54.102603,
+            "lng": 22.925907,
+            "pmv": 0.29,
+            "utci": 9.3
+          },
+          {
+            "lat": 54.097981,
+            "lng": 22.933436,
+            "pmv": 0.76,
+            "utci": 7.9
+          },
+          {
+            "lat": 54.106544,
+            "lng": 22.956166,
+            "pmv": -0.5,
+            "utci": 7.9
+          },
+          {
+            "lat": 54.109138,
+            "lng": 22.941894,
+            "pmv": 0.86,
+            "utci": 8.4
+          },
+          {
+            "lat": 54.099539,
+            "lng": 22.954065,
+            "pmv": 0.23,
+            "utci": 10.7
+          },
+          {
+            "lat": 54.091403,
+            "lng": 22.931605,
+            "pmv": 0.38,
+            "utci": 9.0
+          },
+          {
+            "lat": 54.085761,
+            "lng": 22.936381,
+            "pmv": 0.49,
+            "utci": 8.6
+          },
+          {
+            "lat": 54.084992,
+            "lng": 22.941533,
+            "pmv": 0.71,
+            "utci": 8.4
+          },
+          {
+            "lat": 54.090233,
+            "lng": 22.962184,
+            "pmv": 0.53,
+            "utci": 6.9
+          },
+          {
+            "lat": 54.109756,
+            "lng": 22.918913,
+            "pmv": -0.29,
+            "utci": 4.2
+          },
+          {
+            "lat": 54.093681,
+            "lng": 22.951406,
+            "pmv": 0.68,
+            "utci": 6.5
+          },
+          {
+            "lat": 54.098484,
+            "lng": 22.97757,
+            "pmv": 0.21,
+            "utci": 9.6
+          },
+          {
+            "lat": 54.0935,
+            "lng": 22.952696,
+            "pmv": 0.62,
+            "utci": 8.9
+          },
+          {
+            "lat": 54.101741,
+            "lng": 22.930447,
+            "pmv": 0.75,
+            "utci": 11.6
+          },
+          {
+            "lat": 54.106452,
+            "lng": 22.943765,
+            "pmv": 0.34,
+            "utci": 5.2
+          },
+          {
+            "lat": 54.097377,
+            "lng": 22.949773,
+            "pmv": 0.2,
+            "utci": 8.2
+          },
+          {
+            "lat": 54.089323,
+            "lng": 22.943705,
+            "pmv": 0.66,
+            "utci": 6.8
+          },
+          {
+            "lat": 54.090009,
+            "lng": 22.945943,
+            "pmv": 0.68,
+            "utci": 9.2
+          },
+          {
+            "lat": 54.092649,
+            "lng": 22.937109,
+            "pmv": 0.15,
+            "utci": 12.0
+          },
+          {
+            "lat": 54.080752,
+            "lng": 22.934838,
+            "pmv": 0.44,
+            "utci": 5.5
+          },
+          {
+            "lat": 54.095785,
+            "lng": 22.92769,
+            "pmv": 0.49,
+            "utci": 10.5
+          },
+          {
+            "lat": 54.109365,
+            "lng": 22.938886,
+            "pmv": 0.54,
+            "utci": 7.6
+          },
+          {
+            "lat": 54.096773,
+            "lng": 22.94474,
+            "pmv": 0.24,
+            "utci": 7.7
+          },
+          {
+            "lat": 54.107423,
+            "lng": 22.978584,
+            "pmv": 1.2,
+            "utci": 7.5
+          },
+          {
+            "lat": 54.09473,
+            "lng": 22.948682,
+            "pmv": 0.47,
+            "utci": 5.8
+          },
+          {
+            "lat": 54.102526,
+            "lng": 22.931942,
+            "pmv": -0.03,
+            "utci": 12.1
+          },
+          {
+            "lat": 54.110915,
+            "lng": 22.947558,
+            "pmv": -0.36,
+            "utci": 8.4
+          },
+          {
+            "lat": 54.107145,
+            "lng": 22.944184,
+            "pmv": -0.46,
+            "utci": 10.1
+          },
+          {
+            "lat": 54.098088,
+            "lng": 22.964054,
+            "pmv": 0.77,
+            "utci": 7.7
+          },
+          {
+            "lat": 54.095511,
+            "lng": 22.958001,
+            "pmv": 0.54,
+            "utci": 7.4
+          },
+          {
+            "lat": 54.096424,
+            "lng": 22.950677,
+            "pmv": -0.35,
+            "utci": 8.3
+          },
+          {
+            "lat": 54.0867,
+            "lng": 22.951198,
+            "pmv": 0.01,
+            "utci": 10.2
+          },
+          {
+            "lat": 54.103901,
+            "lng": 22.941837,
+            "pmv": 0.97,
+            "utci": 10.4
+          },
+          {
+            "lat": 54.107204,
+            "lng": 22.948908,
+            "pmv": 0.66,
+            "utci": 9.7
+          },
+          {
+            "lat": 54.096961,
+            "lng": 22.938226,
+            "pmv": 0.52,
+            "utci": 7.6
+          },
+          {
+            "lat": 54.11157,
+            "lng": 22.968947,
+            "pmv": 0.77,
+            "utci": 4.9
+          },
+          {
+            "lat": 54.104218,
+            "lng": 22.957044,
+            "pmv": 0.15,
+            "utci": 5.9
+          },
+          {
+            "lat": 54.109598,
+            "lng": 22.926547,
+            "pmv": -0.26,
+            "utci": 7.9
+          },
+          {
+            "lat": 54.11077,
+            "lng": 22.949774,
+            "pmv": -0.16,
+            "utci": 6.3
+          },
+          {
+            "lat": 54.091961,
+            "lng": 22.93793,
+            "pmv": -0.06,
+            "utci": 4.0
+          },
+          {
+            "lat": 54.096809,
+            "lng": 22.965591,
+            "pmv": 0.57,
+            "utci": 4.1
+          },
+          {
+            "lat": 54.112454,
+            "lng": 22.931837,
+            "pmv": 0.31,
+            "utci": 10.7
+          }
+        ],
+        "computation_time": "2025-09-17T05:33:15.209576",
+        "model_version": "ThermalSim_v1.6"
+      },
+      "lato_komfortowe": {
+        "scenario_name": "Lato komfortowe",
+        "module": "ThermalSim",
+        "parameters": {
+          "air_temperature": 22,
+          "relative_humidity": 55,
+          "wind_speed": 1.5,
+          "solar_radiation": 400,
+          "season": "summer"
+        },
+        "overall_metrics": {
+          "city_comfort_score": 4.82,
+          "comfort_zones_percent": 100.0
+        },
+        "zone_analysis": {
+          "rynek": {
+            "zone_name": "Rynek Główny",
+            "pmv": 0.18,
+            "utci": 23.7,
+            "comfort_level": "DOSKONAŁY"
+          },
+          "streets": {
+            "zone_name": "Ulice handlowe",
+            "pmv": -0.08,
+            "utci": 21.7,
+            "comfort_level": "DOSKONAŁY"
+          },
+          "parks": {
+            "zone_name": "Parki",
+            "pmv": -0.46,
+            "utci": 18.6,
+            "comfort_level": "DOSKONAŁY"
+          },
+          "residential": {
+            "zone_name": "Mieszkaniowe",
+            "pmv": -0.2,
+            "utci": 20.7,
+            "comfort_level": "DOSKONAŁY"
+          },
+          "open": {
+            "zone_name": "Otwarte",
+            "pmv": 0.05,
+            "utci": 22.7,
+            "comfort_level": "DOSKONAŁY"
+          }
+        },
+        "comfort_map": [
+          {
+            "lat": 54.085007,
+            "lng": 22.963053,
+            "pmv": 2.0,
+            "utci": 18.2
+          },
+          {
+            "lat": 54.095958,
+            "lng": 22.956768,
+            "pmv": 2.46,
+            "utci": 26.2
+          },
+          {
+            "lat": 54.098303,
+            "lng": 22.952861,
+            "pmv": 3.08,
+            "utci": 20.7
+          },
+          {
+            "lat": 54.102678,
+            "lng": 22.949291,
+            "pmv": 1.71,
+            "utci": 22.1
+          },
+          {
+            "lat": 54.106275,
+            "lng": 22.951657,
+            "pmv": 2.07,
+            "utci": 21.8
+          },
+          {
+            "lat": 54.093051,
+            "lng": 22.939777,
+            "pmv": 1.74,
+            "utci": 24.6
+          },
+          {
+            "lat": 54.09882,
+            "lng": 22.954699,
+            "pmv": 1.94,
+            "utci": 21.4
+          },
+          {
+            "lat": 54.120054,
+            "lng": 22.945664,
+            "pmv": 2.82,
+            "utci": 20.5
+          },
+          {
+            "lat": 54.092671,
+            "lng": 22.937338,
+            "pmv": 1.68,
+            "utci": 22.1
+          },
+          {
+            "lat": 54.10193,
+            "lng": 22.954219,
+            "pmv": 1.69,
+            "utci": 21.6
+          },
+          {
+            "lat": 54.094159,
+            "lng": 22.945993,
+            "pmv": 2.5,
+            "utci": 21.9
+          },
+          {
+            "lat": 54.106342,
+            "lng": 22.934196,
+            "pmv": 2.61,
+            "utci": 22.7
+          },
+          {
+            "lat": 54.093193,
+            "lng": 22.957625,
+            "pmv": 2.2,
+            "utci": 22.8
+          },
+          {
+            "lat": 54.100178,
+            "lng": 22.947502,
+            "pmv": 2.55,
+            "utci": 22.8
+          },
+          {
+            "lat": 54.10073,
+            "lng": 22.943449,
+            "pmv": 1.9,
+            "utci": 19.4
+          },
+          {
+            "lat": 54.107249,
+            "lng": 22.968197,
+            "pmv": 1.82,
+            "utci": 21.4
+          },
+          {
+            "lat": 54.096272,
+            "lng": 22.940263,
+            "pmv": 2.94,
+            "utci": 21.4
+          },
+          {
+            "lat": 54.099685,
+            "lng": 22.949312,
+            "pmv": 2.22,
+            "utci": 21.5
+          },
+          {
+            "lat": 54.089125,
+            "lng": 22.972006,
+            "pmv": 2.34,
+            "utci": 18.7
+          },
+          {
+            "lat": 54.093143,
+            "lng": 22.948388,
+            "pmv": 2.13,
+            "utci": 23.3
+          },
+          {
+            "lat": 54.10332,
+            "lng": 22.956984,
+            "pmv": 2.3,
+            "utci": 26.1
+          },
+          {
+            "lat": 54.093479,
+            "lng": 22.941906,
+            "pmv": 2.62,
+            "utci": 20.6
+          },
+          {
+            "lat": 54.101247,
+            "lng": 22.952919,
+            "pmv": 1.98,
+            "utci": 19.0
+          },
+          {
+            "lat": 54.099623,
+            "lng": 22.945531,
+            "pmv": 2.55,
+            "utci": 22.0
+          },
+          {
+            "lat": 54.102971,
+            "lng": 22.961762,
+            "pmv": 3.4,
+            "utci": 21.9
+          },
+          {
+            "lat": 54.099572,
+            "lng": 22.964464,
+            "pmv": 2.22,
+            "utci": 24.9
+          },
+          {
+            "lat": 54.091497,
+            "lng": 22.937234,
+            "pmv": 2.37,
+            "utci": 24.1
+          },
+          {
+            "lat": 54.107321,
+            "lng": 22.947539,
+            "pmv": 1.69,
+            "utci": 21.7
+          },
+          {
+            "lat": 54.113421,
+            "lng": 22.950941,
+            "pmv": 2.32,
+            "utci": 21.5
+          },
+          {
+            "lat": 54.102946,
+            "lng": 22.9307,
+            "pmv": 2.28,
+            "utci": 20.5
+          },
+          {
+            "lat": 54.112684,
+            "lng": 22.93162,
+            "pmv": 2.11,
+            "utci": 18.3
+          },
+          {
+            "lat": 54.107883,
+            "lng": 22.966618,
+            "pmv": 2.84,
+            "utci": 20.5
+          },
+          {
+            "lat": 54.085388,
+            "lng": 22.973895,
+            "pmv": 1.64,
+            "utci": 22.1
+          },
+          {
+            "lat": 54.111367,
+            "lng": 22.940852,
+            "pmv": 2.73,
+            "utci": 21.5
+          },
+          {
+            "lat": 54.098504,
+            "lng": 22.96815,
+            "pmv": 1.39,
+            "utci": 23.4
+          },
+          {
+            "lat": 54.096816,
+            "lng": 22.953711,
+            "pmv": 2.15,
+            "utci": 23.2
+          },
+          {
+            "lat": 54.096828,
+            "lng": 22.944649,
+            "pmv": 2.21,
+            "utci": 22.0
+          },
+          {
+            "lat": 54.113645,
+            "lng": 22.946764,
+            "pmv": 1.97,
+            "utci": 21.1
+          },
+          {
+            "lat": 54.105204,
+            "lng": 22.943461,
+            "pmv": 1.98,
+            "utci": 24.7
+          },
+          {
+            "lat": 54.094056,
+            "lng": 22.924032,
+            "pmv": 1.32,
+            "utci": 23.2
+          },
+          {
+            "lat": 54.091169,
+            "lng": 22.955842,
+            "pmv": 0.86,
+            "utci": 19.2
+          },
+          {
+            "lat": 54.099771,
+            "lng": 22.964907,
+            "pmv": 2.52,
+            "utci": 22.9
+          },
+          {
+            "lat": 54.09426,
+            "lng": 22.949858,
+            "pmv": 2.1,
+            "utci": 23.5
+          },
+          {
+            "lat": 54.105149,
+            "lng": 22.962402,
+            "pmv": 2.56,
+            "utci": 23.7
+          },
+          {
+            "lat": 54.102242,
+            "lng": 22.947146,
+            "pmv": 3.17,
+            "utci": 23.0
+          },
+          {
+            "lat": 54.102432,
+            "lng": 22.950482,
+            "pmv": 2.05,
+            "utci": 23.6
+          },
+          {
+            "lat": 54.106634,
+            "lng": 22.9516,
+            "pmv": 2.29,
+            "utci": 26.0
+          },
+          {
+            "lat": 54.097168,
+            "lng": 22.951903,
+            "pmv": 1.38,
+            "utci": 21.2
+          },
+          {
+            "lat": 54.092608,
+            "lng": 22.954466,
+            "pmv": 1.98,
+            "utci": 21.0
+          },
+          {
+            "lat": 54.107559,
+            "lng": 22.958401,
+            "pmv": 2.29,
+            "utci": 21.7
+          }
+        ],
+        "computation_time": "2025-09-17T05:33:15.209982",
+        "model_version": "ThermalSim_v1.6"
+      },
+      "upał_letni": {
+        "scenario_name": "Upał letni",
+        "module": "ThermalSim",
+        "parameters": {
+          "air_temperature": 32,
+          "relative_humidity": 45,
+          "wind_speed": 1.0,
+          "solar_radiation": 800,
+          "season": "summer"
+        },
+        "overall_metrics": {
+          "city_comfort_score": 3.91,
+          "comfort_zones_percent": 20.0
+        },
+        "zone_analysis": {
+          "rynek": {
+            "zone_name": "Rynek Główny",
+            "pmv": 1.38,
+            "utci": 34.0,
+            "comfort_level": "AKCEPTOWALNY"
+          },
+          "streets": {
+            "zone_name": "Ulice handlowe",
+            "pmv": 1.14,
+            "utci": 32.0,
+            "comfort_level": "AKCEPTOWALNY"
+          },
+          "parks": {
+            "zone_name": "Parki",
+            "pmv": 0.79,
+            "utci": 29.0,
+            "comfort_level": "DOBRY"
+          },
+          "residential": {
+            "zone_name": "Mieszkaniowe",
+            "pmv": 1.03,
+            "utci": 31.0,
+            "comfort_level": "AKCEPTOWALNY"
+          },
+          "open": {
+            "zone_name": "Otwarte",
+            "pmv": 1.26,
+            "utci": 33.0,
+            "comfort_level": "AKCEPTOWALNY"
+          }
+        },
+        "comfort_map": [
+          {
+            "lat": 54.095955,
+            "lng": 22.956963,
+            "pmv": 1.41,
+            "utci": 33.1
+          },
+          {
+            "lat": 54.098982,
+            "lng": 22.942539,
+            "pmv": 1.52,
+            "utci": 30.2
+          },
+          {
+            "lat": 54.097275,
+            "lng": 22.951748,
+            "pmv": 0.73,
+            "utci": 32.4
+          },
+          {
+            "lat": 54.115099,
+            "lng": 22.951476,
+            "pmv": 1.58,
+            "utci": 32.3
+          },
+          {
+            "lat": 54.112129,
+            "lng": 22.959059,
+            "pmv": 1.67,
+            "utci": 30.8
+          },
+          {
+            "lat": 54.091498,
+            "lng": 22.966592,
+            "pmv": 0.61,
+            "utci": 32.1
+          },
+          {
+            "lat": 54.097262,
+            "lng": 22.968436,
+            "pmv": 1.37,
+            "utci": 31.1
+          },
+          {
+            "lat": 54.104109,
+            "lng": 22.937145,
+            "pmv": 0.59,
+            "utci": 34.5
+          },
+          {
+            "lat": 54.087273,
+            "lng": 22.92732,
+            "pmv": 1.56,
+            "utci": 33.4
+          },
+          {
+            "lat": 54.112523,
+            "lng": 22.959205,
+            "pmv": 1.51,
+            "utci": 35.3
+          },
+          {
+            "lat": 54.109692,
+            "lng": 22.944755,
+            "pmv": 0.66,
+            "utci": 33.7
+          },
+          {
+            "lat": 54.092786,
+            "lng": 22.937538,
+            "pmv": 1.7,
+            "utci": 30.3
+          },
+          {
+            "lat": 54.107318,
+            "lng": 22.950606,
+            "pmv": 1.9,
+            "utci": 32.8
+          },
+          {
+            "lat": 54.107136,
+            "lng": 22.963257,
+            "pmv": 1.24,
+            "utci": 30.9
+          },
+          {
+            "lat": 54.099122,
+            "lng": 22.93858,
+            "pmv": 1.47,
+            "utci": 30.0
+          },
+          {
+            "lat": 54.104577,
+            "lng": 22.941286,
+            "pmv": 1.97,
+            "utci": 31.2
+          },
+          {
+            "lat": 54.095565,
+            "lng": 22.956538,
+            "pmv": 1.64,
+            "utci": 30.7
+          },
+          {
+            "lat": 54.080945,
+            "lng": 22.934497,
+            "pmv": 1.11,
+            "utci": 35.0
+          },
+          {
+            "lat": 54.103859,
+            "lng": 22.968294,
+            "pmv": 1.73,
+            "utci": 34.6
+          },
+          {
+            "lat": 54.09019,
+            "lng": 22.943758,
+            "pmv": 1.76,
+            "utci": 29.1
+          },
+          {
+            "lat": 54.10651,
+            "lng": 22.94261,
+            "pmv": 1.15,
+            "utci": 30.7
+          },
+          {
+            "lat": 54.097075,
+            "lng": 22.944524,
+            "pmv": 1.49,
+            "utci": 33.3
+          },
+          {
+            "lat": 54.097763,
+            "lng": 22.962807,
+            "pmv": 1.68,
+            "utci": 32.0
+          },
+          {
+            "lat": 54.108768,
+            "lng": 22.945183,
+            "pmv": 1.7,
+            "utci": 32.8
+          },
+          {
+            "lat": 54.101817,
+            "lng": 22.952826,
+            "pmv": 1.26,
+            "utci": 32.8
+          },
+          {
+            "lat": 54.10167,
+            "lng": 22.958773,
+            "pmv": 1.17,
+            "utci": 29.5
+          },
+          {
+            "lat": 54.087581,
+            "lng": 22.952716,
+            "pmv": 1.81,
+            "utci": 34.8
+          },
+          {
+            "lat": 54.096964,
+            "lng": 22.944153,
+            "pmv": 0.6,
+            "utci": 28.8
+          },
+          {
+            "lat": 54.109788,
+            "lng": 22.961834,
+            "pmv": 0.87,
+            "utci": 32.4
+          },
+          {
+            "lat": 54.108438,
+            "lng": 22.958214,
+            "pmv": 1.43,
+            "utci": 34.3
+          },
+          {
+            "lat": 54.099883,
+            "lng": 22.970465,
+            "pmv": 1.78,
+            "utci": 32.1
+          },
+          {
+            "lat": 54.088062,
+            "lng": 22.972839,
+            "pmv": 0.84,
+            "utci": 30.1
+          },
+          {
+            "lat": 54.104677,
+            "lng": 22.955404,
+            "pmv": 2.5,
+            "utci": 32.7
+          },
+          {
+            "lat": 54.102504,
+            "lng": 22.9393,
+            "pmv": 1.5,
+            "utci": 31.5
+          },
+          {
+            "lat": 54.089179,
+            "lng": 22.956387,
+            "pmv": 1.76,
+            "utci": 32.4
+          },
+          {
+            "lat": 54.084151,
+            "lng": 22.963201,
+            "pmv": 1.48,
+            "utci": 32.8
+          },
+          {
+            "lat": 54.093275,
+            "lng": 22.951466,
+            "pmv": 1.52,
+            "utci": 33.5
+          },
+          {
+            "lat": 54.094291,
+            "lng": 22.946699,
+            "pmv": 2.23,
+            "utci": 30.8
+          },
+          {
+            "lat": 54.106512,
+            "lng": 22.974305,
+            "pmv": 1.03,
+            "utci": 33.4
+          },
+          {
+            "lat": 54.098046,
+            "lng": 22.965847,
+            "pmv": 0.74,
+            "utci": 34.8
+          },
+          {
+            "lat": 54.100892,
+            "lng": 22.960793,
+            "pmv": 1.9,
+            "utci": 29.4
+          },
+          {
+            "lat": 54.10907,
+            "lng": 22.93926,
+            "pmv": 1.48,
+            "utci": 29.7
+          },
+          {
+            "lat": 54.085457,
+            "lng": 22.939559,
+            "pmv": 1.48,
+            "utci": 28.1
+          },
+          {
+            "lat": 54.098169,
+            "lng": 22.944189,
+            "pmv": 1.91,
+            "utci": 31.2
+          },
+          {
+            "lat": 54.097027,
+            "lng": 22.950495,
+            "pmv": 1.7,
+            "utci": 37.2
+          },
+          {
+            "lat": 54.094751,
+            "lng": 22.972007,
+            "pmv": 1.41,
+            "utci": 31.8
+          },
+          {
+            "lat": 54.107632,
+            "lng": 22.942022,
+            "pmv": 0.64,
+            "utci": 31.2
+          },
+          {
+            "lat": 54.10166,
+            "lng": 22.962338,
+            "pmv": 1.37,
+            "utci": 32.8
+          },
+          {
+            "lat": 54.114064,
+            "lng": 22.955271,
+            "pmv": 0.67,
+            "utci": 34.7
+          },
+          {
+            "lat": 54.118113,
+            "lng": 22.954898,
+            "pmv": 1.05,
+            "utci": 31.4
+          }
+        ],
+        "computation_time": "2025-09-17T05:33:15.210345",
+        "model_version": "ThermalSim_v1.6"
+      },
+      "fala_upałów": {
+        "scenario_name": "Fala upałów",
+        "module": "ThermalSim",
+        "parameters": {
+          "air_temperature": 38,
+          "relative_humidity": 35,
+          "wind_speed": 0.5,
+          "solar_radiation": 950,
+          "season": "summer"
+        },
+        "overall_metrics": {
+          "city_comfort_score": 3.35,
+          "comfort_zones_percent": 0.0
+        },
+        "zone_analysis": {
+          "rynek": {
+            "zone_name": "Rynek Główny",
+            "pmv": 1.91,
+            "utci": 41.6,
+            "comfort_level": "SŁABY"
+          },
+          "streets": {
+            "zone_name": "Ulice handlowe",
+            "pmv": 1.7,
+            "utci": 39.6,
+            "comfort_level": "SŁABY"
+          },
+          "parks": {
+            "zone_name": "Parki",
+            "pmv": 1.39,
+            "utci": 36.6,
+            "comfort_level": "AKCEPTOWALNY"
+          },
+          "residential": {
+            "zone_name": "Mieszkaniowe",
+            "pmv": 1.6,
+            "utci": 38.6,
+            "comfort_level": "SŁABY"
+          },
+          "open": {
+            "zone_name": "Otwarte",
+            "pmv": 1.81,
+            "utci": 40.6,
+            "comfort_level": "SŁABY"
+          }
+        },
+        "comfort_map": [
+          {
+            "lat": 54.10986,
+            "lng": 22.959728,
+            "pmv": 0.5,
+            "utci": 36.5
+          },
+          {
+            "lat": 54.095001,
+            "lng": 22.960864,
+            "pmv": 1.06,
+            "utci": 40.1
+          },
+          {
+            "lat": 54.103053,
+            "lng": 22.958315,
+            "pmv": 0.25,
+            "utci": 37.4
+          },
+          {
+            "lat": 54.088549,
+            "lng": 22.951653,
+            "pmv": 0.85,
+            "utci": 36.8
+          },
+          {
+            "lat": 54.101719,
+            "lng": 22.940394,
+            "pmv": 0.1,
+            "utci": 43.0
+          },
+          {
+            "lat": 54.091796,
+            "lng": 22.94577,
+            "pmv": 1.84,
+            "utci": 37.7
+          },
+          {
+            "lat": 54.09612,
+            "lng": 22.952201,
+            "pmv": 1.14,
+            "utci": 36.6
+          },
+          {
+            "lat": 54.095209,
+            "lng": 22.948374,
+            "pmv": 0.76,
+            "utci": 40.8
+          },
+          {
+            "lat": 54.094888,
+            "lng": 22.947775,
+            "pmv": -0.23,
+            "utci": 39.6
+          },
+          {
+            "lat": 54.102058,
+            "lng": 22.960028,
+            "pmv": 0.34,
+            "utci": 36.6
+          },
+          {
+            "lat": 54.09026,
+            "lng": 22.945231,
+            "pmv": 0.37,
+            "utci": 40.3
+          },
+          {
+            "lat": 54.091835,
+            "lng": 22.946183,
+            "pmv": 1.71,
+            "utci": 36.5
+          },
+          {
+            "lat": 54.098335,
+            "lng": 22.950857,
+            "pmv": 1.26,
+            "utci": 35.7
+          },
+          {
+            "lat": 54.09809,
+            "lng": 22.953881,
+            "pmv": 1.37,
+            "utci": 35.2
+          },
+          {
+            "lat": 54.099748,
+            "lng": 22.953988,
+            "pmv": 0.57,
+            "utci": 42.4
+          },
+          {
+            "lat": 54.102077,
+            "lng": 22.950219,
+            "pmv": 1.33,
+            "utci": 39.3
+          },
+          {
+            "lat": 54.109594,
+            "lng": 22.975493,
+            "pmv": 0.63,
+            "utci": 38.8
+          },
+          {
+            "lat": 54.112166,
+            "lng": 22.957988,
+            "pmv": 1.19,
+            "utci": 39.1
+          },
+          {
+            "lat": 54.092619,
+            "lng": 22.940675,
+            "pmv": 0.18,
+            "utci": 37.0
+          },
+          {
+            "lat": 54.092737,
+            "lng": 22.95484,
+            "pmv": 1.17,
+            "utci": 35.0
+          },
+          {
+            "lat": 54.105736,
+            "lng": 22.935901,
+            "pmv": 0.35,
+            "utci": 33.8
+          },
+          {
+            "lat": 54.098359,
+            "lng": 22.938125,
+            "pmv": 1.27,
+            "utci": 40.0
+          },
+          {
+            "lat": 54.099933,
+            "lng": 22.958698,
+            "pmv": -0.07,
+            "utci": 39.1
+          },
+          {
+            "lat": 54.1052,
+            "lng": 22.953906,
+            "pmv": 1.41,
+            "utci": 39.6
+          },
+          {
+            "lat": 54.105158,
+            "lng": 22.934731,
+            "pmv": 1.04,
+            "utci": 36.4
+          },
+          {
+            "lat": 54.107289,
+            "lng": 22.947073,
+            "pmv": 1.15,
+            "utci": 35.2
+          },
+          {
+            "lat": 54.090255,
+            "lng": 22.94632,
+            "pmv": 0.91,
+            "utci": 37.9
+          },
+          {
+            "lat": 54.094805,
+            "lng": 22.947982,
+            "pmv": 0.78,
+            "utci": 36.1
+          },
+          {
+            "lat": 54.094614,
+            "lng": 22.930417,
+            "pmv": 1.1,
+            "utci": 35.5
+          },
+          {
+            "lat": 54.106088,
+            "lng": 22.955738,
+            "pmv": 0.74,
+            "utci": 36.4
+          },
+          {
+            "lat": 54.100719,
+            "lng": 22.938192,
+            "pmv": 0.19,
+            "utci": 39.0
+          },
+          {
+            "lat": 54.099041,
+            "lng": 22.947322,
+            "pmv": 1.01,
+            "utci": 38.6
+          },
+          {
+            "lat": 54.105763,
+            "lng": 22.933904,
+            "pmv": 1.19,
+            "utci": 39.2
+          },
+          {
+            "lat": 54.098165,
+            "lng": 22.926581,
+            "pmv": -0.87,
+            "utci": 39.9
+          },
+          {
+            "lat": 54.108497,
+            "lng": 22.944827,
+            "pmv": 0.87,
+            "utci": 40.2
+          },
+          {
+            "lat": 54.097414,
+            "lng": 22.963867,
+            "pmv": 1.0,
+            "utci": 40.9
+          },
+          {
+            "lat": 54.097324,
+            "lng": 22.958906,
+            "pmv": 1.35,
+            "utci": 38.9
+          },
+          {
+            "lat": 54.097315,
+            "lng": 22.946734,
+            "pmv": -0.24,
+            "utci": 35.8
+          },
+          {
+            "lat": 54.106243,
+            "lng": 22.95159,
+            "pmv": 1.2,
+            "utci": 38.3
+          },
+          {
+            "lat": 54.097517,
+            "lng": 22.960097,
+            "pmv": 1.01,
+            "utci": 36.9
+          },
+          {
+            "lat": 54.091687,
+            "lng": 22.950925,
+            "pmv": 0.12,
+            "utci": 38.1
+          },
+          {
+            "lat": 54.1151,
+            "lng": 22.950836,
+            "pmv": 0.5,
+            "utci": 35.9
+          },
+          {
+            "lat": 54.096017,
+            "lng": 22.93813,
+            "pmv": 0.61,
+            "utci": 36.7
+          },
+          {
+            "lat": 54.105733,
+            "lng": 22.954934,
+            "pmv": -0.54,
+            "utci": 39.5
+          },
+          {
+            "lat": 54.094481,
+            "lng": 22.954479,
+            "pmv": 0.87,
+            "utci": 38.6
+          },
+          {
+            "lat": 54.0982,
+            "lng": 22.976583,
+            "pmv": 0.76,
+            "utci": 38.6
+          },
+          {
+            "lat": 54.088476,
+            "lng": 22.942273,
+            "pmv": 1.33,
+            "utci": 38.8
+          },
+          {
+            "lat": 54.095497,
+            "lng": 22.944976,
+            "pmv": 1.42,
+            "utci": 40.4
+          },
+          {
+            "lat": 54.099168,
+            "lng": 22.965599,
+            "pmv": 1.2,
+            "utci": 41.4
+          },
+          {
+            "lat": 54.092723,
+            "lng": 22.959801,
+            "pmv": 0.47,
+            "utci": 39.2
+          }
+        ],
+        "computation_time": "2025-09-17T05:33:15.210752",
+        "model_version": "ThermalSim_v1.6"
+      },
+      "jesień_wietrzna": {
+        "scenario_name": "Jesień wietrzna",
+        "module": "ThermalSim",
+        "parameters": {
+          "air_temperature": 12,
+          "relative_humidity": 70,
+          "wind_speed": 4.0,
+          "solar_radiation": 150,
+          "season": "autumn"
+        },
+        "overall_metrics": {
+          "city_comfort_score": 3.22,
+          "comfort_zones_percent": 0.0
+        },
+        "zone_analysis": {
+          "rynek": {
+            "zone_name": "Rynek Główny",
+            "pmv": -1.43,
+            "utci": 12.1,
+            "comfort_level": "AKCEPTOWALNY"
+          },
+          "streets": {
+            "zone_name": "Ulice handlowe",
+            "pmv": -1.72,
+            "utci": 10.1,
+            "comfort_level": "SŁABY"
+          },
+          "parks": {
+            "zone_name": "Parki",
+            "pmv": -2.15,
+            "utci": 7.1,
+            "comfort_level": "SŁABY"
+          },
+          "residential": {
+            "zone_name": "Mieszkaniowe",
+            "pmv": -1.86,
+            "utci": 9.1,
+            "comfort_level": "SŁABY"
+          },
+          "open": {
+            "zone_name": "Otwarte",
+            "pmv": -1.57,
+            "utci": 11.1,
+            "comfort_level": "SŁABY"
+          }
+        },
+        "comfort_map": [
+          {
+            "lat": 54.113195,
+            "lng": 22.951285,
+            "pmv": 1.24,
+            "utci": 11.7
+          },
+          {
+            "lat": 54.111219,
+            "lng": 22.938315,
+            "pmv": 1.4,
+            "utci": 11.5
+          },
+          {
+            "lat": 54.094659,
+            "lng": 22.945807,
+            "pmv": 0.49,
+            "utci": 10.0
+          },
+          {
+            "lat": 54.095592,
+            "lng": 22.964145,
+            "pmv": 0.15,
+            "utci": 10.3
+          },
+          {
+            "lat": 54.086546,
+            "lng": 22.948016,
+            "pmv": 0.78,
+            "utci": 15.2
+          },
+          {
+            "lat": 54.112686,
+            "lng": 22.945659,
+            "pmv": 0.84,
+            "utci": 8.1
+          },
+          {
+            "lat": 54.099438,
+            "lng": 22.944186,
+            "pmv": 0.36,
+            "utci": 11.9
+          },
+          {
+            "lat": 54.098862,
+            "lng": 22.954574,
+            "pmv": 0.35,
+            "utci": 8.0
+          },
+          {
+            "lat": 54.106785,
+            "lng": 22.939496,
+            "pmv": 0.94,
+            "utci": 10.5
+          },
+          {
+            "lat": 54.117946,
+            "lng": 22.933552,
+            "pmv": 0.71,
+            "utci": 9.4
+          },
+          {
+            "lat": 54.090731,
+            "lng": 22.948536,
+            "pmv": 1.02,
+            "utci": 15.2
+          },
+          {
+            "lat": 54.099561,
+            "lng": 22.955655,
+            "pmv": 1.19,
+            "utci": 13.2
+          },
+          {
+            "lat": 54.096332,
+            "lng": 22.931467,
+            "pmv": 0.04,
+            "utci": 12.7
+          },
+          {
+            "lat": 54.109556,
+            "lng": 22.9584,
+            "pmv": 1.15,
+            "utci": 13.4
+          },
+          {
+            "lat": 54.102006,
+            "lng": 22.935679,
+            "pmv": 0.1,
+            "utci": 11.4
+          },
+          {
+            "lat": 54.085234,
+            "lng": 22.969626,
+            "pmv": 0.38,
+            "utci": 10.8
+          },
+          {
+            "lat": 54.10181,
+            "lng": 22.958082,
+            "pmv": 0.21,
+            "utci": 12.4
+          },
+          {
+            "lat": 54.104377,
+            "lng": 22.959109,
+            "pmv": 0.36,
+            "utci": 12.7
+          },
+          {
+            "lat": 54.103517,
+            "lng": 22.945091,
+            "pmv": 0.56,
+            "utci": 14.1
+          },
+          {
+            "lat": 54.106563,
+            "lng": 22.959795,
+            "pmv": 0.29,
+            "utci": 12.5
+          },
+          {
+            "lat": 54.095523,
+            "lng": 22.956039,
+            "pmv": 0.86,
+            "utci": 10.7
+          },
+          {
+            "lat": 54.100329,
+            "lng": 22.931666,
+            "pmv": 1.42,
+            "utci": 10.3
+          },
+          {
+            "lat": 54.086824,
+            "lng": 22.95053,
+            "pmv": 1.11,
+            "utci": 9.4
+          },
+          {
+            "lat": 54.085295,
+            "lng": 22.945991,
+            "pmv": 0.32,
+            "utci": 12.5
+          },
+          {
+            "lat": 54.100224,
+            "lng": 22.943774,
+            "pmv": 0.92,
+            "utci": 13.4
+          },
+          {
+            "lat": 54.106962,
+            "lng": 22.936312,
+            "pmv": 1.75,
+            "utci": 13.0
+          },
+          {
+            "lat": 54.10367,
+            "lng": 22.945606,
+            "pmv": 0.69,
+            "utci": 14.8
+          },
+          {
+            "lat": 54.099626,
+            "lng": 22.964718,
+            "pmv": 1.15,
+            "utci": 12.5
+          },
+          {
+            "lat": 54.099117,
+            "lng": 22.953015,
+            "pmv": 1.49,
+            "utci": 12.0
+          },
+          {
+            "lat": 54.098248,
+            "lng": 22.94238,
+            "pmv": 0.77,
+            "utci": 10.5
+          },
+          {
+            "lat": 54.101944,
+            "lng": 22.943558,
+            "pmv": 1.41,
+            "utci": 14.3
+          },
+          {
+            "lat": 54.098881,
+            "lng": 22.940991,
+            "pmv": 0.4,
+            "utci": 12.5
+          },
+          {
+            "lat": 54.095257,
+            "lng": 22.947616,
+            "pmv": 1.27,
+            "utci": 10.4
+          },
+          {
+            "lat": 54.080407,
+            "lng": 22.961691,
+            "pmv": 1.3,
+            "utci": 12.8
+          },
+          {
+            "lat": 54.107337,
+            "lng": 22.927565,
+            "pmv": 0.25,
+            "utci": 13.1
+          },
+          {
+            "lat": 54.091561,
+            "lng": 22.961682,
+            "pmv": 0.25,
+            "utci": 6.9
+          },
+          {
+            "lat": 54.114716,
+            "lng": 22.941786,
+            "pmv": 0.69,
+            "utci": 14.6
+          },
+          {
+            "lat": 54.101593,
+            "lng": 22.94349,
+            "pmv": 0.02,
+            "utci": 12.6
+          },
+          {
+            "lat": 54.089291,
+            "lng": 22.949079,
+            "pmv": 0.76,
+            "utci": 10.7
+          },
+          {
+            "lat": 54.109414,
+            "lng": 22.97739,
+            "pmv": 0.78,
+            "utci": 10.1
+          },
+          {
+            "lat": 54.105286,
+            "lng": 22.955412,
+            "pmv": 1.13,
+            "utci": 6.3
+          },
+          {
+            "lat": 54.099666,
+            "lng": 22.93957,
+            "pmv": 0.45,
+            "utci": 15.3
+          },
+          {
+            "lat": 54.097861,
+            "lng": 22.949574,
+            "pmv": 1.15,
+            "utci": 17.3
+          },
+          {
+            "lat": 54.10013,
+            "lng": 22.933439,
+            "pmv": 0.78,
+            "utci": 13.9
+          },
+          {
+            "lat": 54.102254,
+            "lng": 22.945454,
+            "pmv": 0.39,
+            "utci": 11.3
+          },
+          {
+            "lat": 54.107036,
+            "lng": 22.972303,
+            "pmv": 0.98,
+            "utci": 13.6
+          },
+          {
+            "lat": 54.101683,
+            "lng": 22.977241,
+            "pmv": 0.91,
+            "utci": 11.8
+          },
+          {
+            "lat": 54.10669,
+            "lng": 22.957826,
+            "pmv": 1.13,
+            "utci": 13.4
+          },
+          {
+            "lat": 54.108329,
+            "lng": 22.939311,
+            "pmv": 0.75,
+            "utci": 8.7
+          },
+          {
+            "lat": 54.1031,
+            "lng": 22.961921,
+            "pmv": 0.29,
+            "utci": 12.7
+          }
+        ],
+        "computation_time": "2025-09-17T05:33:15.211141",
+        "model_version": "ThermalSim_v1.6"
+      }
+    }
+  }
+}

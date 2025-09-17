@@ -1,0 +1,1422 @@
+{
+  "lekki_deszcz": {
+    "scenario_name": "Lekki deszcz",
+    "module": "FloodSim",
+    "parameters": {
+      "rainfall_mm_h": 15,
+      "duration_h": 4,
+      "total_rainfall_mm": 60,
+      "effective_rainfall_mm": 28
+    },
+    "metrics": {
+      "max_depth_m": 0,
+      "mean_depth_m": 0.0,
+      "flooded_area_km2": 0.0,
+      "flooded_area_percent": 0,
+      "buildings_at_risk": 0,
+      "risk_level": "MINIMALNE"
+    },
+    "flood_zones": [
+      {
+        "lat": 54.099217,
+        "lng": 22.945181,
+        "depth_m": 0,
+        "elevation_m": 162.3,
+        "flow_velocity": 0.21
+      },
+      {
+        "lat": 54.089827,
+        "lng": 22.957557,
+        "depth_m": 0,
+        "elevation_m": 161.5,
+        "flow_velocity": 0.21
+      },
+      {
+        "lat": 54.101102,
+        "lng": 22.96275,
+        "depth_m": 0,
+        "elevation_m": 162.6,
+        "flow_velocity": 0.21
+      },
+      {
+        "lat": 54.093935,
+        "lng": 22.949307,
+        "depth_m": 0,
+        "elevation_m": 161.6,
+        "flow_velocity": 0.21
+      },
+      {
+        "lat": 54.087563,
+        "lng": 22.956166,
+        "depth_m": 0,
+        "elevation_m": 160.1,
+        "flow_velocity": 0.21
+      }
+    ],
+    "computation_time": "2025-09-17T05:33:15.198461",
+    "model_version": "FloodSim_v2.1"
+  },
+  "umiarkowany_opad": {
+    "scenario_name": "Umiarkowany opad",
+    "module": "FloodSim",
+    "parameters": {
+      "rainfall_mm_h": 35,
+      "duration_h": 3,
+      "total_rainfall_mm": 105,
+      "effective_rainfall_mm": 81
+    },
+    "metrics": {
+      "max_depth_m": 0,
+      "mean_depth_m": 0.0,
+      "flooded_area_km2": 0.0,
+      "flooded_area_percent": 0,
+      "buildings_at_risk": 0,
+      "risk_level": "MINIMALNE"
+    },
+    "flood_zones": [
+      {
+        "lat": 54.109904,
+        "lng": 22.946479,
+        "depth_m": 0,
+        "elevation_m": 161.4,
+        "flow_velocity": 0.21
+      },
+      {
+        "lat": 54.096871,
+        "lng": 22.944567,
+        "depth_m": 0,
+        "elevation_m": 161.3,
+        "flow_velocity": 0.21
+      },
+      {
+        "lat": 54.106605,
+        "lng": 22.944339,
+        "depth_m": 0,
+        "elevation_m": 164.7,
+        "flow_velocity": 0.21
+      },
+      {
+        "lat": 54.092463,
+        "lng": 22.956417,
+        "depth_m": 0,
+        "elevation_m": 163.5,
+        "flow_velocity": 0.21
+      },
+      {
+        "lat": 54.104603,
+        "lng": 22.948827,
+        "depth_m": 0,
+        "elevation_m": 164.5,
+        "flow_velocity": 0.21
+      }
+    ],
+    "computation_time": "2025-09-17T05:33:15.198595",
+    "model_version": "FloodSim_v2.1"
+  },
+  "intensywny_deszcz": {
+    "scenario_name": "Intensywny deszcz",
+    "module": "FloodSim",
+    "parameters": {
+      "rainfall_mm_h": 65,
+      "duration_h": 2,
+      "total_rainfall_mm": 130,
+      "effective_rainfall_mm": 114
+    },
+    "metrics": {
+      "max_depth_m": 0.204,
+      "mean_depth_m": 0.082,
+      "flooded_area_km2": 1.53,
+      "flooded_area_percent": 30.6,
+      "buildings_at_risk": 321,
+      "risk_level": "UMIARKOWANE"
+    },
+    "flood_zones": [
+      {
+        "lat": 54.08559,
+        "lng": 22.957246,
+        "depth_m": 0.022,
+        "elevation_m": 163.0,
+        "flow_velocity": 0.22
+      },
+      {
+        "lat": 54.09981,
+        "lng": 22.949576,
+        "depth_m": 0.02,
+        "elevation_m": 163.2,
+        "flow_velocity": 0.21
+      },
+      {
+        "lat": 54.107464,
+        "lng": 22.969,
+        "depth_m": 0.098,
+        "elevation_m": 165.0,
+        "flow_velocity": 0.47
+      },
+      {
+        "lat": 54.090359,
+        "lng": 22.957761,
+        "depth_m": 0.204,
+        "elevation_m": 165.3,
+        "flow_velocity": 0.72
+      },
+      {
+        "lat": 54.100237,
+        "lng": 22.937857,
+        "depth_m": 0.027,
+        "elevation_m": 163.8,
+        "flow_velocity": 0.25
+      },
+      {
+        "lat": 54.09542,
+        "lng": 22.957491,
+        "depth_m": 0.164,
+        "elevation_m": 164.9,
+        "flow_velocity": 0.61
+      },
+      {
+        "lat": 54.10204,
+        "lng": 22.946482,
+        "depth_m": 0.065,
+        "elevation_m": 162.2,
+        "flow_velocity": 0.38
+      },
+      {
+        "lat": 54.091701,
+        "lng": 22.966732,
+        "depth_m": 0.031,
+        "elevation_m": 164.4,
+        "flow_velocity": 0.26
+      },
+      {
+        "lat": 54.094533,
+        "lng": 22.937112,
+        "depth_m": 0.204,
+        "elevation_m": 162.8,
+        "flow_velocity": 0.86
+      },
+      {
+        "lat": 54.096465,
+        "lng": 22.947034,
+        "depth_m": 0.204,
+        "elevation_m": 163.5,
+        "flow_velocity": 0.83
+      },
+      {
+        "lat": 54.089864,
+        "lng": 22.950122,
+        "depth_m": 0.061,
+        "elevation_m": 162.3,
+        "flow_velocity": 0.37
+      },
+      {
+        "lat": 54.097368,
+        "lng": 22.941368,
+        "depth_m": 0.134,
+        "elevation_m": 167.8,
+        "flow_velocity": 0.55
+      },
+      {
+        "lat": 54.087888,
+        "lng": 22.940092,
+        "depth_m": 0.126,
+        "elevation_m": 164.5,
+        "flow_velocity": 0.53
+      },
+      {
+        "lat": 54.121482,
+        "lng": 22.945665,
+        "depth_m": 0.049,
+        "elevation_m": 162.1,
+        "flow_velocity": 0.33
+      },
+      {
+        "lat": 54.096025,
+        "lng": 22.951625,
+        "depth_m": 0.17,
+        "elevation_m": 162.9,
+        "flow_velocity": 0.62
+      },
+      {
+        "lat": 54.095636,
+        "lng": 22.942524,
+        "depth_m": 0.204,
+        "elevation_m": 157.5,
+        "flow_velocity": 0.89
+      },
+      {
+        "lat": 54.093204,
+        "lng": 22.950953,
+        "depth_m": 0.073,
+        "elevation_m": 161.8,
+        "flow_velocity": 0.41
+      },
+      {
+        "lat": 54.093739,
+        "lng": 22.932684,
+        "depth_m": 0.055,
+        "elevation_m": 166.1,
+        "flow_velocity": 0.35
+      },
+      {
+        "lat": 54.094565,
+        "lng": 22.940181,
+        "depth_m": 0.204,
+        "elevation_m": 167.0,
+        "flow_velocity": 0.73
+      },
+      {
+        "lat": 54.091155,
+        "lng": 22.947286,
+        "depth_m": 0.204,
+        "elevation_m": 163.9,
+        "flow_velocity": 1.01
+      },
+      {
+        "lat": 54.11671,
+        "lng": 22.941057,
+        "depth_m": 0.063,
+        "elevation_m": 159.6,
+        "flow_velocity": 0.38
+      },
+      {
+        "lat": 54.098636,
+        "lng": 22.96299,
+        "depth_m": 0.13,
+        "elevation_m": 160.9,
+        "flow_velocity": 0.54
+      },
+      {
+        "lat": 54.099038,
+        "lng": 22.949932,
+        "depth_m": 0.088,
+        "elevation_m": 165.2,
+        "flow_velocity": 0.45
+      },
+      {
+        "lat": 54.0962,
+        "lng": 22.948506,
+        "depth_m": 0.07,
+        "elevation_m": 162.5,
+        "flow_velocity": 0.4
+      }
+    ],
+    "computation_time": "2025-09-17T05:33:15.198993",
+    "model_version": "FloodSim_v2.1"
+  },
+  "burza_z_gradem": {
+    "scenario_name": "Burza z gradem",
+    "module": "FloodSim",
+    "parameters": {
+      "rainfall_mm_h": 100,
+      "duration_h": 1.5,
+      "total_rainfall_mm": 150.0,
+      "effective_rainfall_mm": 138.0
+    },
+    "metrics": {
+      "max_depth_m": 0.468,
+      "mean_depth_m": 0.187,
+      "flooded_area_km2": 3.51,
+      "flooded_area_percent": 70.2,
+      "buildings_at_risk": 437,
+      "risk_level": "WYSOKIE"
+    },
+    "flood_zones": [
+      {
+        "lat": 54.103721,
+        "lng": 22.947546,
+        "depth_m": 0.071,
+        "elevation_m": 165.4,
+        "flow_velocity": 0.4
+      },
+      {
+        "lat": 54.099591,
+        "lng": 22.974892,
+        "depth_m": 0.141,
+        "elevation_m": 164.4,
+        "flow_velocity": 0.56
+      },
+      {
+        "lat": 54.097943,
+        "lng": 22.954084,
+        "depth_m": 0.036,
+        "elevation_m": 162.8,
+        "flow_velocity": 0.28
+      },
+      {
+        "lat": 54.09565,
+        "lng": 22.94728,
+        "depth_m": 0.075,
+        "elevation_m": 163.9,
+        "flow_velocity": 0.41
+      },
+      {
+        "lat": 54.107228,
+        "lng": 22.956967,
+        "depth_m": 0.184,
+        "elevation_m": 164.4,
+        "flow_velocity": 0.64
+      },
+      {
+        "lat": 54.108107,
+        "lng": 22.956063,
+        "depth_m": 0.059,
+        "elevation_m": 163.4,
+        "flow_velocity": 0.36
+      },
+      {
+        "lat": 54.090875,
+        "lng": 22.934749,
+        "depth_m": 0.043,
+        "elevation_m": 162.4,
+        "flow_velocity": 0.31
+      },
+      {
+        "lat": 54.103011,
+        "lng": 22.909731,
+        "depth_m": 0.063,
+        "elevation_m": 161.0,
+        "flow_velocity": 0.38
+      },
+      {
+        "lat": 54.104246,
+        "lng": 22.95676,
+        "depth_m": 0.31,
+        "elevation_m": 158.1,
+        "flow_velocity": 0.84
+      },
+      {
+        "lat": 54.085114,
+        "lng": 22.950256,
+        "depth_m": 0.075,
+        "elevation_m": 160.7,
+        "flow_velocity": 0.41
+      },
+      {
+        "lat": 54.100361,
+        "lng": 22.946637,
+        "depth_m": 0.248,
+        "elevation_m": 162.9,
+        "flow_velocity": 0.75
+      },
+      {
+        "lat": 54.089846,
+        "lng": 22.953822,
+        "depth_m": 0.065,
+        "elevation_m": 159.8,
+        "flow_velocity": 0.38
+      },
+      {
+        "lat": 54.10964,
+        "lng": 22.955309,
+        "depth_m": 0.086,
+        "elevation_m": 164.3,
+        "flow_velocity": 0.44
+      },
+      {
+        "lat": 54.102886,
+        "lng": 22.959746,
+        "depth_m": 0.114,
+        "elevation_m": 162.8,
+        "flow_velocity": 0.51
+      },
+      {
+        "lat": 54.105552,
+        "lng": 22.937066,
+        "depth_m": 0.468,
+        "elevation_m": 163.0,
+        "flow_velocity": 1.27
+      },
+      {
+        "lat": 54.092493,
+        "lng": 22.959267,
+        "depth_m": 0.468,
+        "elevation_m": 162.5,
+        "flow_velocity": 1.21
+      },
+      {
+        "lat": 54.092632,
+        "lng": 22.962621,
+        "depth_m": 0.02,
+        "elevation_m": 165.7,
+        "flow_velocity": 0.21
+      },
+      {
+        "lat": 54.098975,
+        "lng": 22.963659,
+        "depth_m": 0.468,
+        "elevation_m": 165.1,
+        "flow_velocity": 1.28
+      },
+      {
+        "lat": 54.072972,
+        "lng": 22.952728,
+        "depth_m": 0.258,
+        "elevation_m": 162.9,
+        "flow_velocity": 0.76
+      },
+      {
+        "lat": 54.094483,
+        "lng": 22.932248,
+        "depth_m": 0.381,
+        "elevation_m": 164.5,
+        "flow_velocity": 0.93
+      },
+      {
+        "lat": 54.103249,
+        "lng": 22.937046,
+        "depth_m": 0.046,
+        "elevation_m": 165.6,
+        "flow_velocity": 0.32
+      },
+      {
+        "lat": 54.102547,
+        "lng": 22.93368,
+        "depth_m": 0.041,
+        "elevation_m": 165.4,
+        "flow_velocity": 0.3
+      },
+      {
+        "lat": 54.092297,
+        "lng": 22.966792,
+        "depth_m": 0.086,
+        "elevation_m": 159.4,
+        "flow_velocity": 0.44
+      },
+      {
+        "lat": 54.092106,
+        "lng": 22.969499,
+        "depth_m": 0.11,
+        "elevation_m": 159.9,
+        "flow_velocity": 0.5
+      },
+      {
+        "lat": 54.107423,
+        "lng": 22.950054,
+        "depth_m": 0.215,
+        "elevation_m": 161.3,
+        "flow_velocity": 0.7
+      },
+      {
+        "lat": 54.100839,
+        "lng": 22.972337,
+        "depth_m": 0.468,
+        "elevation_m": 166.1,
+        "flow_velocity": 1.42
+      },
+      {
+        "lat": 54.092907,
+        "lng": 22.960276,
+        "depth_m": 0.16,
+        "elevation_m": 162.2,
+        "flow_velocity": 0.6
+      },
+      {
+        "lat": 54.104531,
+        "lng": 22.955711,
+        "depth_m": 0.269,
+        "elevation_m": 161.7,
+        "flow_velocity": 0.78
+      },
+      {
+        "lat": 54.092367,
+        "lng": 22.968845,
+        "depth_m": 0.468,
+        "elevation_m": 160.7,
+        "flow_velocity": 1.16
+      },
+      {
+        "lat": 54.105651,
+        "lng": 22.947145,
+        "depth_m": 0.032,
+        "elevation_m": 164.3,
+        "flow_velocity": 0.27
+      },
+      {
+        "lat": 54.102376,
+        "lng": 22.961802,
+        "depth_m": 0.041,
+        "elevation_m": 163.2,
+        "flow_velocity": 0.3
+      },
+      {
+        "lat": 54.103274,
+        "lng": 22.948306,
+        "depth_m": 0.02,
+        "elevation_m": 164.7,
+        "flow_velocity": 0.21
+      },
+      {
+        "lat": 54.101537,
+        "lng": 22.960463,
+        "depth_m": 0.468,
+        "elevation_m": 164.0,
+        "flow_velocity": 1.11
+      },
+      {
+        "lat": 54.093755,
+        "lng": 22.957817,
+        "depth_m": 0.02,
+        "elevation_m": 161.3,
+        "flow_velocity": 0.21
+      },
+      {
+        "lat": 54.104233,
+        "lng": 22.955916,
+        "depth_m": 0.295,
+        "elevation_m": 163.3,
+        "flow_velocity": 0.81
+      },
+      {
+        "lat": 54.107928,
+        "lng": 22.959101,
+        "depth_m": 0.276,
+        "elevation_m": 161.6,
+        "flow_velocity": 0.79
+      },
+      {
+        "lat": 54.102338,
+        "lng": 22.936847,
+        "depth_m": 0.114,
+        "elevation_m": 163.2,
+        "flow_velocity": 0.51
+      },
+      {
+        "lat": 54.0879,
+        "lng": 22.923236,
+        "depth_m": 0.468,
+        "elevation_m": 160.3,
+        "flow_velocity": 1.16
+      },
+      {
+        "lat": 54.097174,
+        "lng": 22.935296,
+        "depth_m": 0.121,
+        "elevation_m": 163.8,
+        "flow_velocity": 0.52
+      },
+      {
+        "lat": 54.117699,
+        "lng": 22.970389,
+        "depth_m": 0.186,
+        "elevation_m": 162.4,
+        "flow_velocity": 0.65
+      },
+      {
+        "lat": 54.092653,
+        "lng": 22.947149,
+        "depth_m": 0.412,
+        "elevation_m": 161.7,
+        "flow_velocity": 0.96
+      },
+      {
+        "lat": 54.110239,
+        "lng": 22.958977,
+        "depth_m": 0.468,
+        "elevation_m": 161.4,
+        "flow_velocity": 1.22
+      },
+      {
+        "lat": 54.09141,
+        "lng": 22.942318,
+        "depth_m": 0.02,
+        "elevation_m": 161.6,
+        "flow_velocity": 0.21
+      },
+      {
+        "lat": 54.093399,
+        "lng": 22.932972,
+        "depth_m": 0.089,
+        "elevation_m": 164.8,
+        "flow_velocity": 0.45
+      },
+      {
+        "lat": 54.10656,
+        "lng": 22.958431,
+        "depth_m": 0.468,
+        "elevation_m": 163.1,
+        "flow_velocity": 1.25
+      },
+      {
+        "lat": 54.099118,
+        "lng": 22.925263,
+        "depth_m": 0.399,
+        "elevation_m": 162.8,
+        "flow_velocity": 0.95
+      },
+      {
+        "lat": 54.099729,
+        "lng": 22.943608,
+        "depth_m": 0.113,
+        "elevation_m": 161.7,
+        "flow_velocity": 0.5
+      },
+      {
+        "lat": 54.098879,
+        "lng": 22.959029,
+        "depth_m": 0.237,
+        "elevation_m": 165.3,
+        "flow_velocity": 0.73
+      },
+      {
+        "lat": 54.111057,
+        "lng": 22.952177,
+        "depth_m": 0.255,
+        "elevation_m": 163.5,
+        "flow_velocity": 0.76
+      },
+      {
+        "lat": 54.105149,
+        "lng": 22.948359,
+        "depth_m": 0.468,
+        "elevation_m": 163.4,
+        "flow_velocity": 1.44
+      }
+    ],
+    "computation_time": "2025-09-17T05:33:15.199695",
+    "model_version": "FloodSim_v2.1"
+  },
+  "ekstremalna_nawałnica": {
+    "scenario_name": "Ekstremalna nawałnica",
+    "module": "FloodSim",
+    "parameters": {
+      "rainfall_mm_h": 150,
+      "duration_h": 1,
+      "total_rainfall_mm": 150,
+      "effective_rainfall_mm": 142
+    },
+    "metrics": {
+      "max_depth_m": 0.612,
+      "mean_depth_m": 0.245,
+      "flooded_area_km2": 4.59,
+      "flooded_area_percent": 91.8,
+      "buildings_at_risk": 437,
+      "risk_level": "WYSOKIE"
+    },
+    "flood_zones": [
+      {
+        "lat": 54.09495,
+        "lng": 22.954523,
+        "depth_m": 0.612,
+        "elevation_m": 163.9,
+        "flow_velocity": 1.57
+      },
+      {
+        "lat": 54.093,
+        "lng": 22.937424,
+        "depth_m": 0.154,
+        "elevation_m": 167.3,
+        "flow_velocity": 0.59
+      },
+      {
+        "lat": 54.101337,
+        "lng": 22.955347,
+        "depth_m": 0.612,
+        "elevation_m": 164.1,
+        "flow_velocity": 1.47
+      },
+      {
+        "lat": 54.104644,
+        "lng": 22.941876,
+        "depth_m": 0.485,
+        "elevation_m": 161.5,
+        "flow_velocity": 1.04
+      },
+      {
+        "lat": 54.103398,
+        "lng": 22.943516,
+        "depth_m": 0.462,
+        "elevation_m": 161.8,
+        "flow_velocity": 1.02
+      },
+      {
+        "lat": 54.100065,
+        "lng": 22.941994,
+        "depth_m": 0.228,
+        "elevation_m": 161.4,
+        "flow_velocity": 0.72
+      },
+      {
+        "lat": 54.113739,
+        "lng": 22.941543,
+        "depth_m": 0.612,
+        "elevation_m": 164.4,
+        "flow_velocity": 1.66
+      },
+      {
+        "lat": 54.094684,
+        "lng": 22.936493,
+        "depth_m": 0.453,
+        "elevation_m": 163.1,
+        "flow_velocity": 1.01
+      },
+      {
+        "lat": 54.099124,
+        "lng": 22.957467,
+        "depth_m": 0.02,
+        "elevation_m": 163.9,
+        "flow_velocity": 0.21
+      },
+      {
+        "lat": 54.087092,
+        "lng": 22.953202,
+        "depth_m": 0.334,
+        "elevation_m": 164.1,
+        "flow_velocity": 0.87
+      },
+      {
+        "lat": 54.105147,
+        "lng": 22.948799,
+        "depth_m": 0.612,
+        "elevation_m": 163.6,
+        "flow_velocity": 1.69
+      },
+      {
+        "lat": 54.110803,
+        "lng": 22.944578,
+        "depth_m": 0.238,
+        "elevation_m": 162.6,
+        "flow_velocity": 0.73
+      },
+      {
+        "lat": 54.097871,
+        "lng": 22.970723,
+        "depth_m": 0.118,
+        "elevation_m": 165.2,
+        "flow_velocity": 0.52
+      },
+      {
+        "lat": 54.118672,
+        "lng": 22.942456,
+        "depth_m": 0.604,
+        "elevation_m": 164.4,
+        "flow_velocity": 1.17
+      },
+      {
+        "lat": 54.102958,
+        "lng": 22.955045,
+        "depth_m": 0.044,
+        "elevation_m": 161.9,
+        "flow_velocity": 0.31
+      },
+      {
+        "lat": 54.097925,
+        "lng": 22.948977,
+        "depth_m": 0.246,
+        "elevation_m": 163.0,
+        "flow_velocity": 0.74
+      },
+      {
+        "lat": 54.117532,
+        "lng": 22.961753,
+        "depth_m": 0.386,
+        "elevation_m": 162.7,
+        "flow_velocity": 0.93
+      },
+      {
+        "lat": 54.106955,
+        "lng": 22.939544,
+        "depth_m": 0.612,
+        "elevation_m": 162.8,
+        "flow_velocity": 1.26
+      },
+      {
+        "lat": 54.104591,
+        "lng": 22.930308,
+        "depth_m": 0.612,
+        "elevation_m": 161.3,
+        "flow_velocity": 2.21
+      },
+      {
+        "lat": 54.090836,
+        "lng": 22.948884,
+        "depth_m": 0.139,
+        "elevation_m": 159.6,
+        "flow_velocity": 0.56
+      },
+      {
+        "lat": 54.104588,
+        "lng": 22.927617,
+        "depth_m": 0.612,
+        "elevation_m": 160.8,
+        "flow_velocity": 1.49
+      },
+      {
+        "lat": 54.116989,
+        "lng": 22.961062,
+        "depth_m": 0.108,
+        "elevation_m": 163.2,
+        "flow_velocity": 0.49
+      },
+      {
+        "lat": 54.093743,
+        "lng": 22.972135,
+        "depth_m": 0.073,
+        "elevation_m": 164.0,
+        "flow_velocity": 0.41
+      },
+      {
+        "lat": 54.091649,
+        "lng": 22.937654,
+        "depth_m": 0.048,
+        "elevation_m": 164.2,
+        "flow_velocity": 0.33
+      },
+      {
+        "lat": 54.10448,
+        "lng": 22.954882,
+        "depth_m": 0.047,
+        "elevation_m": 162.9,
+        "flow_velocity": 0.32
+      },
+      {
+        "lat": 54.080901,
+        "lng": 22.9549,
+        "depth_m": 0.612,
+        "elevation_m": 162.3,
+        "flow_velocity": 1.26
+      },
+      {
+        "lat": 54.101248,
+        "lng": 22.96932,
+        "depth_m": 0.194,
+        "elevation_m": 161.0,
+        "flow_velocity": 0.66
+      },
+      {
+        "lat": 54.09975,
+        "lng": 22.961053,
+        "depth_m": 0.02,
+        "elevation_m": 159.5,
+        "flow_velocity": 0.21
+      },
+      {
+        "lat": 54.091878,
+        "lng": 22.970397,
+        "depth_m": 0.195,
+        "elevation_m": 164.8,
+        "flow_velocity": 0.66
+      },
+      {
+        "lat": 54.087971,
+        "lng": 22.944312,
+        "depth_m": 0.265,
+        "elevation_m": 163.4,
+        "flow_velocity": 0.77
+      },
+      {
+        "lat": 54.093268,
+        "lng": 22.956214,
+        "depth_m": 0.108,
+        "elevation_m": 164.9,
+        "flow_velocity": 0.49
+      },
+      {
+        "lat": 54.084752,
+        "lng": 22.954409,
+        "depth_m": 0.391,
+        "elevation_m": 163.2,
+        "flow_velocity": 0.94
+      },
+      {
+        "lat": 54.102724,
+        "lng": 22.942738,
+        "depth_m": 0.612,
+        "elevation_m": 160.8,
+        "flow_velocity": 1.21
+      },
+      {
+        "lat": 54.089243,
+        "lng": 22.949004,
+        "depth_m": 0.419,
+        "elevation_m": 161.4,
+        "flow_velocity": 0.97
+      },
+      {
+        "lat": 54.098257,
+        "lng": 22.942854,
+        "depth_m": 0.582,
+        "elevation_m": 162.7,
+        "flow_velocity": 1.14
+      },
+      {
+        "lat": 54.109207,
+        "lng": 22.949805,
+        "depth_m": 0.083,
+        "elevation_m": 162.7,
+        "flow_velocity": 0.43
+      },
+      {
+        "lat": 54.095542,
+        "lng": 22.946719,
+        "depth_m": 0.553,
+        "elevation_m": 163.3,
+        "flow_velocity": 1.12
+      },
+      {
+        "lat": 54.107924,
+        "lng": 22.950926,
+        "depth_m": 0.36,
+        "elevation_m": 162.5,
+        "flow_velocity": 0.9
+      },
+      {
+        "lat": 54.108968,
+        "lng": 22.940442,
+        "depth_m": 0.433,
+        "elevation_m": 162.8,
+        "flow_velocity": 0.99
+      },
+      {
+        "lat": 54.098958,
+        "lng": 22.929859,
+        "depth_m": 0.292,
+        "elevation_m": 165.5,
+        "flow_velocity": 0.81
+      },
+      {
+        "lat": 54.091733,
+        "lng": 22.950695,
+        "depth_m": 0.612,
+        "elevation_m": 163.6,
+        "flow_velocity": 1.66
+      },
+      {
+        "lat": 54.102039,
+        "lng": 22.955648,
+        "depth_m": 0.506,
+        "elevation_m": 158.8,
+        "flow_velocity": 1.07
+      },
+      {
+        "lat": 54.099686,
+        "lng": 22.95265,
+        "depth_m": 0.224,
+        "elevation_m": 162.5,
+        "flow_velocity": 0.71
+      },
+      {
+        "lat": 54.09924,
+        "lng": 22.942499,
+        "depth_m": 0.249,
+        "elevation_m": 163.5,
+        "flow_velocity": 0.75
+      },
+      {
+        "lat": 54.098152,
+        "lng": 22.971894,
+        "depth_m": 0.02,
+        "elevation_m": 163.6,
+        "flow_velocity": 0.21
+      },
+      {
+        "lat": 54.099755,
+        "lng": 22.955741,
+        "depth_m": 0.612,
+        "elevation_m": 162.0,
+        "flow_velocity": 2.42
+      },
+      {
+        "lat": 54.098127,
+        "lng": 22.960486,
+        "depth_m": 0.082,
+        "elevation_m": 162.5,
+        "flow_velocity": 0.43
+      },
+      {
+        "lat": 54.103112,
+        "lng": 22.938083,
+        "depth_m": 0.267,
+        "elevation_m": 162.6,
+        "flow_velocity": 0.78
+      },
+      {
+        "lat": 54.097595,
+        "lng": 22.96085,
+        "depth_m": 0.034,
+        "elevation_m": 165.4,
+        "flow_velocity": 0.28
+      },
+      {
+        "lat": 54.089689,
+        "lng": 22.968419,
+        "depth_m": 0.07,
+        "elevation_m": 161.2,
+        "flow_velocity": 0.4
+      }
+    ],
+    "computation_time": "2025-09-17T05:33:15.200298",
+    "model_version": "FloodSim_v2.1"
+  },
+  "powódź_stulecia": {
+    "scenario_name": "Powódź stulecia",
+    "module": "FloodSim",
+    "parameters": {
+      "rainfall_mm_h": 220,
+      "duration_h": 0.5,
+      "total_rainfall_mm": 110.0,
+      "effective_rainfall_mm": 106.0
+    },
+    "metrics": {
+      "max_depth_m": 0.516,
+      "mean_depth_m": 0.206,
+      "flooded_area_km2": 3.87,
+      "flooded_area_percent": 77.4,
+      "buildings_at_risk": 437,
+      "risk_level": "WYSOKIE"
+    },
+    "flood_zones": [
+      {
+        "lat": 54.102802,
+        "lng": 22.949143,
+        "depth_m": 0.128,
+        "elevation_m": 164.5,
+        "flow_velocity": 0.54
+      },
+      {
+        "lat": 54.098303,
+        "lng": 22.965305,
+        "depth_m": 0.502,
+        "elevation_m": 166.2,
+        "flow_velocity": 1.06
+      },
+      {
+        "lat": 54.094171,
+        "lng": 22.962725,
+        "depth_m": 0.02,
+        "elevation_m": 162.6,
+        "flow_velocity": 0.21
+      },
+      {
+        "lat": 54.096145,
+        "lng": 22.933893,
+        "depth_m": 0.27,
+        "elevation_m": 161.8,
+        "flow_velocity": 0.78
+      },
+      {
+        "lat": 54.108369,
+        "lng": 22.95583,
+        "depth_m": 0.058,
+        "elevation_m": 161.5,
+        "flow_velocity": 0.36
+      },
+      {
+        "lat": 54.10732,
+        "lng": 22.947948,
+        "depth_m": 0.023,
+        "elevation_m": 164.8,
+        "flow_velocity": 0.23
+      },
+      {
+        "lat": 54.097367,
+        "lng": 22.939066,
+        "depth_m": 0.346,
+        "elevation_m": 164.2,
+        "flow_velocity": 0.88
+      },
+      {
+        "lat": 54.104798,
+        "lng": 22.958059,
+        "depth_m": 0.02,
+        "elevation_m": 163.7,
+        "flow_velocity": 0.21
+      },
+      {
+        "lat": 54.087953,
+        "lng": 22.940401,
+        "depth_m": 0.088,
+        "elevation_m": 164.5,
+        "flow_velocity": 0.45
+      },
+      {
+        "lat": 54.098515,
+        "lng": 22.939973,
+        "depth_m": 0.42,
+        "elevation_m": 163.3,
+        "flow_velocity": 0.97
+      },
+      {
+        "lat": 54.10512,
+        "lng": 22.960414,
+        "depth_m": 0.169,
+        "elevation_m": 165.2,
+        "flow_velocity": 0.62
+      },
+      {
+        "lat": 54.084873,
+        "lng": 22.962354,
+        "depth_m": 0.091,
+        "elevation_m": 163.4,
+        "flow_velocity": 0.45
+      },
+      {
+        "lat": 54.107012,
+        "lng": 22.951914,
+        "depth_m": 0.325,
+        "elevation_m": 161.7,
+        "flow_velocity": 0.86
+      },
+      {
+        "lat": 54.089746,
+        "lng": 22.957164,
+        "depth_m": 0.072,
+        "elevation_m": 162.2,
+        "flow_velocity": 0.4
+      },
+      {
+        "lat": 54.102116,
+        "lng": 22.96419,
+        "depth_m": 0.139,
+        "elevation_m": 162.7,
+        "flow_velocity": 0.56
+      },
+      {
+        "lat": 54.109491,
+        "lng": 22.956852,
+        "depth_m": 0.369,
+        "elevation_m": 162.6,
+        "flow_velocity": 0.91
+      },
+      {
+        "lat": 54.110532,
+        "lng": 22.957741,
+        "depth_m": 0.339,
+        "elevation_m": 161.9,
+        "flow_velocity": 0.87
+      },
+      {
+        "lat": 54.088362,
+        "lng": 22.940148,
+        "depth_m": 0.359,
+        "elevation_m": 165.2,
+        "flow_velocity": 0.9
+      },
+      {
+        "lat": 54.098167,
+        "lng": 22.952053,
+        "depth_m": 0.097,
+        "elevation_m": 164.8,
+        "flow_velocity": 0.47
+      },
+      {
+        "lat": 54.088174,
+        "lng": 22.943603,
+        "depth_m": 0.267,
+        "elevation_m": 162.8,
+        "flow_velocity": 0.77
+      },
+      {
+        "lat": 54.102855,
+        "lng": 22.94162,
+        "depth_m": 0.168,
+        "elevation_m": 165.5,
+        "flow_velocity": 0.62
+      },
+      {
+        "lat": 54.095547,
+        "lng": 22.975274,
+        "depth_m": 0.061,
+        "elevation_m": 164.9,
+        "flow_velocity": 0.37
+      },
+      {
+        "lat": 54.103324,
+        "lng": 22.972028,
+        "depth_m": 0.257,
+        "elevation_m": 164.4,
+        "flow_velocity": 0.76
+      },
+      {
+        "lat": 54.089226,
+        "lng": 22.961632,
+        "depth_m": 0.36,
+        "elevation_m": 164.5,
+        "flow_velocity": 0.9
+      },
+      {
+        "lat": 54.100781,
+        "lng": 22.953103,
+        "depth_m": 0.083,
+        "elevation_m": 165.1,
+        "flow_velocity": 0.43
+      },
+      {
+        "lat": 54.107292,
+        "lng": 22.963484,
+        "depth_m": 0.124,
+        "elevation_m": 166.9,
+        "flow_velocity": 0.53
+      },
+      {
+        "lat": 54.112239,
+        "lng": 22.924226,
+        "depth_m": 0.027,
+        "elevation_m": 162.6,
+        "flow_velocity": 0.25
+      },
+      {
+        "lat": 54.100381,
+        "lng": 22.958977,
+        "depth_m": 0.276,
+        "elevation_m": 164.4,
+        "flow_velocity": 0.79
+      },
+      {
+        "lat": 54.0925,
+        "lng": 22.937631,
+        "depth_m": 0.516,
+        "elevation_m": 163.8,
+        "flow_velocity": 1.29
+      },
+      {
+        "lat": 54.108551,
+        "lng": 22.965658,
+        "depth_m": 0.02,
+        "elevation_m": 160.4,
+        "flow_velocity": 0.21
+      },
+      {
+        "lat": 54.108953,
+        "lng": 22.940505,
+        "depth_m": 0.02,
+        "elevation_m": 162.7,
+        "flow_velocity": 0.21
+      },
+      {
+        "lat": 54.097346,
+        "lng": 22.954562,
+        "depth_m": 0.02,
+        "elevation_m": 166.7,
+        "flow_velocity": 0.21
+      },
+      {
+        "lat": 54.094406,
+        "lng": 22.94843,
+        "depth_m": 0.055,
+        "elevation_m": 161.2,
+        "flow_velocity": 0.35
+      },
+      {
+        "lat": 54.104052,
+        "lng": 22.937927,
+        "depth_m": 0.276,
+        "elevation_m": 164.7,
+        "flow_velocity": 0.79
+      },
+      {
+        "lat": 54.078025,
+        "lng": 22.956174,
+        "depth_m": 0.292,
+        "elevation_m": 160.9,
+        "flow_velocity": 0.81
+      },
+      {
+        "lat": 54.093813,
+        "lng": 22.937751,
+        "depth_m": 0.272,
+        "elevation_m": 165.4,
+        "flow_velocity": 0.78
+      },
+      {
+        "lat": 54.09858,
+        "lng": 22.93242,
+        "depth_m": 0.092,
+        "elevation_m": 163.0,
+        "flow_velocity": 0.46
+      },
+      {
+        "lat": 54.104379,
+        "lng": 22.937575,
+        "depth_m": 0.108,
+        "elevation_m": 162.8,
+        "flow_velocity": 0.49
+      },
+      {
+        "lat": 54.114747,
+        "lng": 22.939866,
+        "depth_m": 0.109,
+        "elevation_m": 161.0,
+        "flow_velocity": 0.5
+      },
+      {
+        "lat": 54.101609,
+        "lng": 22.94072,
+        "depth_m": 0.306,
+        "elevation_m": 162.5,
+        "flow_velocity": 0.83
+      },
+      {
+        "lat": 54.108096,
+        "lng": 22.947172,
+        "depth_m": 0.153,
+        "elevation_m": 161.3,
+        "flow_velocity": 0.59
+      },
+      {
+        "lat": 54.102433,
+        "lng": 22.953636,
+        "depth_m": 0.516,
+        "elevation_m": 161.5,
+        "flow_velocity": 1.25
+      },
+      {
+        "lat": 54.104609,
+        "lng": 22.946324,
+        "depth_m": 0.22,
+        "elevation_m": 162.6,
+        "flow_velocity": 0.7
+      },
+      {
+        "lat": 54.109787,
+        "lng": 22.94267,
+        "depth_m": 0.516,
+        "elevation_m": 162.5,
+        "flow_velocity": 1.25
+      },
+      {
+        "lat": 54.096835,
+        "lng": 22.971033,
+        "depth_m": 0.516,
+        "elevation_m": 166.0,
+        "flow_velocity": 1.46
+      },
+      {
+        "lat": 54.093018,
+        "lng": 22.954641,
+        "depth_m": 0.117,
+        "elevation_m": 163.2,
+        "flow_velocity": 0.51
+      },
+      {
+        "lat": 54.106392,
+        "lng": 22.947828,
+        "depth_m": 0.329,
+        "elevation_m": 163.2,
+        "flow_velocity": 0.86
+      },
+      {
+        "lat": 54.118626,
+        "lng": 22.944474,
+        "depth_m": 0.099,
+        "elevation_m": 162.3,
+        "flow_velocity": 0.47
+      },
+      {
+        "lat": 54.106796,
+        "lng": 22.960256,
+        "depth_m": 0.12,
+        "elevation_m": 164.1,
+        "flow_velocity": 0.52
+      },
+      {
+        "lat": 54.093382,
+        "lng": 22.953507,
+        "depth_m": 0.376,
+        "elevation_m": 162.7,
+        "flow_velocity": 0.92
+      }
+    ],
+    "computation_time": "2025-09-17T05:33:15.200933",
+    "model_version": "FloodSim_v2.1"
+  }
+}

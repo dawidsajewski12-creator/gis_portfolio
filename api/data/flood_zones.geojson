@@ -1,0 +1,2765 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.945181,
+          54.099217
+        ]
+      },
+      "properties": {
+        "scenario": "Lekki deszcz",
+        "depth_m": 0,
+        "risk_level": "MINIMALNE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.957557,
+          54.089827
+        ]
+      },
+      "properties": {
+        "scenario": "Lekki deszcz",
+        "depth_m": 0,
+        "risk_level": "MINIMALNE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.96275,
+          54.101102
+        ]
+      },
+      "properties": {
+        "scenario": "Lekki deszcz",
+        "depth_m": 0,
+        "risk_level": "MINIMALNE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.949307,
+          54.093935
+        ]
+      },
+      "properties": {
+        "scenario": "Lekki deszcz",
+        "depth_m": 0,
+        "risk_level": "MINIMALNE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.956166,
+          54.087563
+        ]
+      },
+      "properties": {
+        "scenario": "Lekki deszcz",
+        "depth_m": 0,
+        "risk_level": "MINIMALNE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.946479,
+          54.109904
+        ]
+      },
+      "properties": {
+        "scenario": "Umiarkowany opad",
+        "depth_m": 0,
+        "risk_level": "MINIMALNE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.944567,
+          54.096871
+        ]
+      },
+      "properties": {
+        "scenario": "Umiarkowany opad",
+        "depth_m": 0,
+        "risk_level": "MINIMALNE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.944339,
+          54.106605
+        ]
+      },
+      "properties": {
+        "scenario": "Umiarkowany opad",
+        "depth_m": 0,
+        "risk_level": "MINIMALNE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.956417,
+          54.092463
+        ]
+      },
+      "properties": {
+        "scenario": "Umiarkowany opad",
+        "depth_m": 0,
+        "risk_level": "MINIMALNE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.948827,
+          54.104603
+        ]
+      },
+      "properties": {
+        "scenario": "Umiarkowany opad",
+        "depth_m": 0,
+        "risk_level": "MINIMALNE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.957246,
+          54.08559
+        ]
+      },
+      "properties": {
+        "scenario": "Intensywny deszcz",
+        "depth_m": 0.022,
+        "risk_level": "UMIARKOWANE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.949576,
+          54.09981
+        ]
+      },
+      "properties": {
+        "scenario": "Intensywny deszcz",
+        "depth_m": 0.02,
+        "risk_level": "UMIARKOWANE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.969,
+          54.107464
+        ]
+      },
+      "properties": {
+        "scenario": "Intensywny deszcz",
+        "depth_m": 0.098,
+        "risk_level": "UMIARKOWANE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.957761,
+          54.090359
+        ]
+      },
+      "properties": {
+        "scenario": "Intensywny deszcz",
+        "depth_m": 0.204,
+        "risk_level": "UMIARKOWANE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.937857,
+          54.100237
+        ]
+      },
+      "properties": {
+        "scenario": "Intensywny deszcz",
+        "depth_m": 0.027,
+        "risk_level": "UMIARKOWANE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.957491,
+          54.09542
+        ]
+      },
+      "properties": {
+        "scenario": "Intensywny deszcz",
+        "depth_m": 0.164,
+        "risk_level": "UMIARKOWANE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.946482,
+          54.10204
+        ]
+      },
+      "properties": {
+        "scenario": "Intensywny deszcz",
+        "depth_m": 0.065,
+        "risk_level": "UMIARKOWANE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.966732,
+          54.091701
+        ]
+      },
+      "properties": {
+        "scenario": "Intensywny deszcz",
+        "depth_m": 0.031,
+        "risk_level": "UMIARKOWANE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.937112,
+          54.094533
+        ]
+      },
+      "properties": {
+        "scenario": "Intensywny deszcz",
+        "depth_m": 0.204,
+        "risk_level": "UMIARKOWANE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.947034,
+          54.096465
+        ]
+      },
+      "properties": {
+        "scenario": "Intensywny deszcz",
+        "depth_m": 0.204,
+        "risk_level": "UMIARKOWANE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.950122,
+          54.089864
+        ]
+      },
+      "properties": {
+        "scenario": "Intensywny deszcz",
+        "depth_m": 0.061,
+        "risk_level": "UMIARKOWANE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.941368,
+          54.097368
+        ]
+      },
+      "properties": {
+        "scenario": "Intensywny deszcz",
+        "depth_m": 0.134,
+        "risk_level": "UMIARKOWANE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.940092,
+          54.087888
+        ]
+      },
+      "properties": {
+        "scenario": "Intensywny deszcz",
+        "depth_m": 0.126,
+        "risk_level": "UMIARKOWANE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.945665,
+          54.121482
+        ]
+      },
+      "properties": {
+        "scenario": "Intensywny deszcz",
+        "depth_m": 0.049,
+        "risk_level": "UMIARKOWANE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.951625,
+          54.096025
+        ]
+      },
+      "properties": {
+        "scenario": "Intensywny deszcz",
+        "depth_m": 0.17,
+        "risk_level": "UMIARKOWANE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.942524,
+          54.095636
+        ]
+      },
+      "properties": {
+        "scenario": "Intensywny deszcz",
+        "depth_m": 0.204,
+        "risk_level": "UMIARKOWANE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.950953,
+          54.093204
+        ]
+      },
+      "properties": {
+        "scenario": "Intensywny deszcz",
+        "depth_m": 0.073,
+        "risk_level": "UMIARKOWANE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.932684,
+          54.093739
+        ]
+      },
+      "properties": {
+        "scenario": "Intensywny deszcz",
+        "depth_m": 0.055,
+        "risk_level": "UMIARKOWANE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.940181,
+          54.094565
+        ]
+      },
+      "properties": {
+        "scenario": "Intensywny deszcz",
+        "depth_m": 0.204,
+        "risk_level": "UMIARKOWANE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.947286,
+          54.091155
+        ]
+      },
+      "properties": {
+        "scenario": "Intensywny deszcz",
+        "depth_m": 0.204,
+        "risk_level": "UMIARKOWANE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.941057,
+          54.11671
+        ]
+      },
+      "properties": {
+        "scenario": "Intensywny deszcz",
+        "depth_m": 0.063,
+        "risk_level": "UMIARKOWANE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.96299,
+          54.098636
+        ]
+      },
+      "properties": {
+        "scenario": "Intensywny deszcz",
+        "depth_m": 0.13,
+        "risk_level": "UMIARKOWANE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.949932,
+          54.099038
+        ]
+      },
+      "properties": {
+        "scenario": "Intensywny deszcz",
+        "depth_m": 0.088,
+        "risk_level": "UMIARKOWANE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.948506,
+          54.0962
+        ]
+      },
+      "properties": {
+        "scenario": "Intensywny deszcz",
+        "depth_m": 0.07,
+        "risk_level": "UMIARKOWANE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.947546,
+          54.103721
+        ]
+      },
+      "properties": {
+        "scenario": "Burza z gradem",
+        "depth_m": 0.071,
+        "risk_level": "WYSOKIE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.974892,
+          54.099591
+        ]
+      },
+      "properties": {
+        "scenario": "Burza z gradem",
+        "depth_m": 0.141,
+        "risk_level": "WYSOKIE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.954084,
+          54.097943
+        ]
+      },
+      "properties": {
+        "scenario": "Burza z gradem",
+        "depth_m": 0.036,
+        "risk_level": "WYSOKIE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.94728,
+          54.09565
+        ]
+      },
+      "properties": {
+        "scenario": "Burza z gradem",
+        "depth_m": 0.075,
+        "risk_level": "WYSOKIE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.956967,
+          54.107228
+        ]
+      },
+      "properties": {
+        "scenario": "Burza z gradem",
+        "depth_m": 0.184,
+        "risk_level": "WYSOKIE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.956063,
+          54.108107
+        ]
+      },
+      "properties": {
+        "scenario": "Burza z gradem",
+        "depth_m": 0.059,
+        "risk_level": "WYSOKIE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.934749,
+          54.090875
+        ]
+      },
+      "properties": {
+        "scenario": "Burza z gradem",
+        "depth_m": 0.043,
+        "risk_level": "WYSOKIE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.909731,
+          54.103011
+        ]
+      },
+      "properties": {
+        "scenario": "Burza z gradem",
+        "depth_m": 0.063,
+        "risk_level": "WYSOKIE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.95676,
+          54.104246
+        ]
+      },
+      "properties": {
+        "scenario": "Burza z gradem",
+        "depth_m": 0.31,
+        "risk_level": "WYSOKIE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.950256,
+          54.085114
+        ]
+      },
+      "properties": {
+        "scenario": "Burza z gradem",
+        "depth_m": 0.075,
+        "risk_level": "WYSOKIE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.946637,
+          54.100361
+        ]
+      },
+      "properties": {
+        "scenario": "Burza z gradem",
+        "depth_m": 0.248,
+        "risk_level": "WYSOKIE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.953822,
+          54.089846
+        ]
+      },
+      "properties": {
+        "scenario": "Burza z gradem",
+        "depth_m": 0.065,
+        "risk_level": "WYSOKIE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.955309,
+          54.10964
+        ]
+      },
+      "properties": {
+        "scenario": "Burza z gradem",
+        "depth_m": 0.086,
+        "risk_level": "WYSOKIE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.959746,
+          54.102886
+        ]
+      },
+      "properties": {
+        "scenario": "Burza z gradem",
+        "depth_m": 0.114,
+        "risk_level": "WYSOKIE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.937066,
+          54.105552
+        ]
+      },
+      "properties": {
+        "scenario": "Burza z gradem",
+        "depth_m": 0.468,
+        "risk_level": "WYSOKIE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.959267,
+          54.092493
+        ]
+      },
+      "properties": {
+        "scenario": "Burza z gradem",
+        "depth_m": 0.468,
+        "risk_level": "WYSOKIE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.962621,
+          54.092632
+        ]
+      },
+      "properties": {
+        "scenario": "Burza z gradem",
+        "depth_m": 0.02,
+        "risk_level": "WYSOKIE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.963659,
+          54.098975
+        ]
+      },
+      "properties": {
+        "scenario": "Burza z gradem",
+        "depth_m": 0.468,
+        "risk_level": "WYSOKIE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.952728,
+          54.072972
+        ]
+      },
+      "properties": {
+        "scenario": "Burza z gradem",
+        "depth_m": 0.258,
+        "risk_level": "WYSOKIE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.932248,
+          54.094483
+        ]
+      },
+      "properties": {
+        "scenario": "Burza z gradem",
+        "depth_m": 0.381,
+        "risk_level": "WYSOKIE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.937046,
+          54.103249
+        ]
+      },
+      "properties": {
+        "scenario": "Burza z gradem",
+        "depth_m": 0.046,
+        "risk_level": "WYSOKIE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.93368,
+          54.102547
+        ]
+      },
+      "properties": {
+        "scenario": "Burza z gradem",
+        "depth_m": 0.041,
+        "risk_level": "WYSOKIE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.966792,
+          54.092297
+        ]
+      },
+      "properties": {
+        "scenario": "Burza z gradem",
+        "depth_m": 0.086,
+        "risk_level": "WYSOKIE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.969499,
+          54.092106
+        ]
+      },
+      "properties": {
+        "scenario": "Burza z gradem",
+        "depth_m": 0.11,
+        "risk_level": "WYSOKIE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.950054,
+          54.107423
+        ]
+      },
+      "properties": {
+        "scenario": "Burza z gradem",
+        "depth_m": 0.215,
+        "risk_level": "WYSOKIE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.972337,
+          54.100839
+        ]
+      },
+      "properties": {
+        "scenario": "Burza z gradem",
+        "depth_m": 0.468,
+        "risk_level": "WYSOKIE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.960276,
+          54.092907
+        ]
+      },
+      "properties": {
+        "scenario": "Burza z gradem",
+        "depth_m": 0.16,
+        "risk_level": "WYSOKIE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.955711,
+          54.104531
+        ]
+      },
+      "properties": {
+        "scenario": "Burza z gradem",
+        "depth_m": 0.269,
+        "risk_level": "WYSOKIE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.968845,
+          54.092367
+        ]
+      },
+      "properties": {
+        "scenario": "Burza z gradem",
+        "depth_m": 0.468,
+        "risk_level": "WYSOKIE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.947145,
+          54.105651
+        ]
+      },
+      "properties": {
+        "scenario": "Burza z gradem",
+        "depth_m": 0.032,
+        "risk_level": "WYSOKIE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.961802,
+          54.102376
+        ]
+      },
+      "properties": {
+        "scenario": "Burza z gradem",
+        "depth_m": 0.041,
+        "risk_level": "WYSOKIE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.948306,
+          54.103274
+        ]
+      },
+      "properties": {
+        "scenario": "Burza z gradem",
+        "depth_m": 0.02,
+        "risk_level": "WYSOKIE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.960463,
+          54.101537
+        ]
+      },
+      "properties": {
+        "scenario": "Burza z gradem",
+        "depth_m": 0.468,
+        "risk_level": "WYSOKIE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.957817,
+          54.093755
+        ]
+      },
+      "properties": {
+        "scenario": "Burza z gradem",
+        "depth_m": 0.02,
+        "risk_level": "WYSOKIE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.955916,
+          54.104233
+        ]
+      },
+      "properties": {
+        "scenario": "Burza z gradem",
+        "depth_m": 0.295,
+        "risk_level": "WYSOKIE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.959101,
+          54.107928
+        ]
+      },
+      "properties": {
+        "scenario": "Burza z gradem",
+        "depth_m": 0.276,
+        "risk_level": "WYSOKIE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.936847,
+          54.102338
+        ]
+      },
+      "properties": {
+        "scenario": "Burza z gradem",
+        "depth_m": 0.114,
+        "risk_level": "WYSOKIE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.923236,
+          54.0879
+        ]
+      },
+      "properties": {
+        "scenario": "Burza z gradem",
+        "depth_m": 0.468,
+        "risk_level": "WYSOKIE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.935296,
+          54.097174
+        ]
+      },
+      "properties": {
+        "scenario": "Burza z gradem",
+        "depth_m": 0.121,
+        "risk_level": "WYSOKIE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.970389,
+          54.117699
+        ]
+      },
+      "properties": {
+        "scenario": "Burza z gradem",
+        "depth_m": 0.186,
+        "risk_level": "WYSOKIE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.947149,
+          54.092653
+        ]
+      },
+      "properties": {
+        "scenario": "Burza z gradem",
+        "depth_m": 0.412,
+        "risk_level": "WYSOKIE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.958977,
+          54.110239
+        ]
+      },
+      "properties": {
+        "scenario": "Burza z gradem",
+        "depth_m": 0.468,
+        "risk_level": "WYSOKIE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.942318,
+          54.09141
+        ]
+      },
+      "properties": {
+        "scenario": "Burza z gradem",
+        "depth_m": 0.02,
+        "risk_level": "WYSOKIE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.932972,
+          54.093399
+        ]
+      },
+      "properties": {
+        "scenario": "Burza z gradem",
+        "depth_m": 0.089,
+        "risk_level": "WYSOKIE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.958431,
+          54.10656
+        ]
+      },
+      "properties": {
+        "scenario": "Burza z gradem",
+        "depth_m": 0.468,
+        "risk_level": "WYSOKIE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.925263,
+          54.099118
+        ]
+      },
+      "properties": {
+        "scenario": "Burza z gradem",
+        "depth_m": 0.399,
+        "risk_level": "WYSOKIE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.943608,
+          54.099729
+        ]
+      },
+      "properties": {
+        "scenario": "Burza z gradem",
+        "depth_m": 0.113,
+        "risk_level": "WYSOKIE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.959029,
+          54.098879
+        ]
+      },
+      "properties": {
+        "scenario": "Burza z gradem",
+        "depth_m": 0.237,
+        "risk_level": "WYSOKIE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.952177,
+          54.111057
+        ]
+      },
+      "properties": {
+        "scenario": "Burza z gradem",
+        "depth_m": 0.255,
+        "risk_level": "WYSOKIE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.948359,
+          54.105149
+        ]
+      },
+      "properties": {
+        "scenario": "Burza z gradem",
+        "depth_m": 0.468,
+        "risk_level": "WYSOKIE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.954523,
+          54.09495
+        ]
+      },
+      "properties": {
+        "scenario": "Ekstremalna nawa\u0142nica",
+        "depth_m": 0.612,
+        "risk_level": "WYSOKIE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.937424,
+          54.093
+        ]
+      },
+      "properties": {
+        "scenario": "Ekstremalna nawa\u0142nica",
+        "depth_m": 0.154,
+        "risk_level": "WYSOKIE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.955347,
+          54.101337
+        ]
+      },
+      "properties": {
+        "scenario": "Ekstremalna nawa\u0142nica",
+        "depth_m": 0.612,
+        "risk_level": "WYSOKIE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.941876,
+          54.104644
+        ]
+      },
+      "properties": {
+        "scenario": "Ekstremalna nawa\u0142nica",
+        "depth_m": 0.485,
+        "risk_level": "WYSOKIE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.943516,
+          54.103398
+        ]
+      },
+      "properties": {
+        "scenario": "Ekstremalna nawa\u0142nica",
+        "depth_m": 0.462,
+        "risk_level": "WYSOKIE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.941994,
+          54.100065
+        ]
+      },
+      "properties": {
+        "scenario": "Ekstremalna nawa\u0142nica",
+        "depth_m": 0.228,
+        "risk_level": "WYSOKIE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.941543,
+          54.113739
+        ]
+      },
+      "properties": {
+        "scenario": "Ekstremalna nawa\u0142nica",
+        "depth_m": 0.612,
+        "risk_level": "WYSOKIE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.936493,
+          54.094684
+        ]
+      },
+      "properties": {
+        "scenario": "Ekstremalna nawa\u0142nica",
+        "depth_m": 0.453,
+        "risk_level": "WYSOKIE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.957467,
+          54.099124
+        ]
+      },
+      "properties": {
+        "scenario": "Ekstremalna nawa\u0142nica",
+        "depth_m": 0.02,
+        "risk_level": "WYSOKIE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.953202,
+          54.087092
+        ]
+      },
+      "properties": {
+        "scenario": "Ekstremalna nawa\u0142nica",
+        "depth_m": 0.334,
+        "risk_level": "WYSOKIE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.948799,
+          54.105147
+        ]
+      },
+      "properties": {
+        "scenario": "Ekstremalna nawa\u0142nica",
+        "depth_m": 0.612,
+        "risk_level": "WYSOKIE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.944578,
+          54.110803
+        ]
+      },
+      "properties": {
+        "scenario": "Ekstremalna nawa\u0142nica",
+        "depth_m": 0.238,
+        "risk_level": "WYSOKIE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.970723,
+          54.097871
+        ]
+      },
+      "properties": {
+        "scenario": "Ekstremalna nawa\u0142nica",
+        "depth_m": 0.118,
+        "risk_level": "WYSOKIE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.942456,
+          54.118672
+        ]
+      },
+      "properties": {
+        "scenario": "Ekstremalna nawa\u0142nica",
+        "depth_m": 0.604,
+        "risk_level": "WYSOKIE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.955045,
+          54.102958
+        ]
+      },
+      "properties": {
+        "scenario": "Ekstremalna nawa\u0142nica",
+        "depth_m": 0.044,
+        "risk_level": "WYSOKIE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.948977,
+          54.097925
+        ]
+      },
+      "properties": {
+        "scenario": "Ekstremalna nawa\u0142nica",
+        "depth_m": 0.246,
+        "risk_level": "WYSOKIE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.961753,
+          54.117532
+        ]
+      },
+      "properties": {
+        "scenario": "Ekstremalna nawa\u0142nica",
+        "depth_m": 0.386,
+        "risk_level": "WYSOKIE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.939544,
+          54.106955
+        ]
+      },
+      "properties": {
+        "scenario": "Ekstremalna nawa\u0142nica",
+        "depth_m": 0.612,
+        "risk_level": "WYSOKIE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.930308,
+          54.104591
+        ]
+      },
+      "properties": {
+        "scenario": "Ekstremalna nawa\u0142nica",
+        "depth_m": 0.612,
+        "risk_level": "WYSOKIE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.948884,
+          54.090836
+        ]
+      },
+      "properties": {
+        "scenario": "Ekstremalna nawa\u0142nica",
+        "depth_m": 0.139,
+        "risk_level": "WYSOKIE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.927617,
+          54.104588
+        ]
+      },
+      "properties": {
+        "scenario": "Ekstremalna nawa\u0142nica",
+        "depth_m": 0.612,
+        "risk_level": "WYSOKIE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.961062,
+          54.116989
+        ]
+      },
+      "properties": {
+        "scenario": "Ekstremalna nawa\u0142nica",
+        "depth_m": 0.108,
+        "risk_level": "WYSOKIE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.972135,
+          54.093743
+        ]
+      },
+      "properties": {
+        "scenario": "Ekstremalna nawa\u0142nica",
+        "depth_m": 0.073,
+        "risk_level": "WYSOKIE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.937654,
+          54.091649
+        ]
+      },
+      "properties": {
+        "scenario": "Ekstremalna nawa\u0142nica",
+        "depth_m": 0.048,
+        "risk_level": "WYSOKIE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.954882,
+          54.10448
+        ]
+      },
+      "properties": {
+        "scenario": "Ekstremalna nawa\u0142nica",
+        "depth_m": 0.047,
+        "risk_level": "WYSOKIE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.9549,
+          54.080901
+        ]
+      },
+      "properties": {
+        "scenario": "Ekstremalna nawa\u0142nica",
+        "depth_m": 0.612,
+        "risk_level": "WYSOKIE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.96932,
+          54.101248
+        ]
+      },
+      "properties": {
+        "scenario": "Ekstremalna nawa\u0142nica",
+        "depth_m": 0.194,
+        "risk_level": "WYSOKIE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.961053,
+          54.09975
+        ]
+      },
+      "properties": {
+        "scenario": "Ekstremalna nawa\u0142nica",
+        "depth_m": 0.02,
+        "risk_level": "WYSOKIE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.970397,
+          54.091878
+        ]
+      },
+      "properties": {
+        "scenario": "Ekstremalna nawa\u0142nica",
+        "depth_m": 0.195,
+        "risk_level": "WYSOKIE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.944312,
+          54.087971
+        ]
+      },
+      "properties": {
+        "scenario": "Ekstremalna nawa\u0142nica",
+        "depth_m": 0.265,
+        "risk_level": "WYSOKIE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.956214,
+          54.093268
+        ]
+      },
+      "properties": {
+        "scenario": "Ekstremalna nawa\u0142nica",
+        "depth_m": 0.108,
+        "risk_level": "WYSOKIE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.954409,
+          54.084752
+        ]
+      },
+      "properties": {
+        "scenario": "Ekstremalna nawa\u0142nica",
+        "depth_m": 0.391,
+        "risk_level": "WYSOKIE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.942738,
+          54.102724
+        ]
+      },
+      "properties": {
+        "scenario": "Ekstremalna nawa\u0142nica",
+        "depth_m": 0.612,
+        "risk_level": "WYSOKIE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.949004,
+          54.089243
+        ]
+      },
+      "properties": {
+        "scenario": "Ekstremalna nawa\u0142nica",
+        "depth_m": 0.419,
+        "risk_level": "WYSOKIE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.942854,
+          54.098257
+        ]
+      },
+      "properties": {
+        "scenario": "Ekstremalna nawa\u0142nica",
+        "depth_m": 0.582,
+        "risk_level": "WYSOKIE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.949805,
+          54.109207
+        ]
+      },
+      "properties": {
+        "scenario": "Ekstremalna nawa\u0142nica",
+        "depth_m": 0.083,
+        "risk_level": "WYSOKIE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.946719,
+          54.095542
+        ]
+      },
+      "properties": {
+        "scenario": "Ekstremalna nawa\u0142nica",
+        "depth_m": 0.553,
+        "risk_level": "WYSOKIE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.950926,
+          54.107924
+        ]
+      },
+      "properties": {
+        "scenario": "Ekstremalna nawa\u0142nica",
+        "depth_m": 0.36,
+        "risk_level": "WYSOKIE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.940442,
+          54.108968
+        ]
+      },
+      "properties": {
+        "scenario": "Ekstremalna nawa\u0142nica",
+        "depth_m": 0.433,
+        "risk_level": "WYSOKIE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.929859,
+          54.098958
+        ]
+      },
+      "properties": {
+        "scenario": "Ekstremalna nawa\u0142nica",
+        "depth_m": 0.292,
+        "risk_level": "WYSOKIE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.950695,
+          54.091733
+        ]
+      },
+      "properties": {
+        "scenario": "Ekstremalna nawa\u0142nica",
+        "depth_m": 0.612,
+        "risk_level": "WYSOKIE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.955648,
+          54.102039
+        ]
+      },
+      "properties": {
+        "scenario": "Ekstremalna nawa\u0142nica",
+        "depth_m": 0.506,
+        "risk_level": "WYSOKIE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.95265,
+          54.099686
+        ]
+      },
+      "properties": {
+        "scenario": "Ekstremalna nawa\u0142nica",
+        "depth_m": 0.224,
+        "risk_level": "WYSOKIE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.942499,
+          54.09924
+        ]
+      },
+      "properties": {
+        "scenario": "Ekstremalna nawa\u0142nica",
+        "depth_m": 0.249,
+        "risk_level": "WYSOKIE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.971894,
+          54.098152
+        ]
+      },
+      "properties": {
+        "scenario": "Ekstremalna nawa\u0142nica",
+        "depth_m": 0.02,
+        "risk_level": "WYSOKIE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.955741,
+          54.099755
+        ]
+      },
+      "properties": {
+        "scenario": "Ekstremalna nawa\u0142nica",
+        "depth_m": 0.612,
+        "risk_level": "WYSOKIE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.960486,
+          54.098127
+        ]
+      },
+      "properties": {
+        "scenario": "Ekstremalna nawa\u0142nica",
+        "depth_m": 0.082,
+        "risk_level": "WYSOKIE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.938083,
+          54.103112
+        ]
+      },
+      "properties": {
+        "scenario": "Ekstremalna nawa\u0142nica",
+        "depth_m": 0.267,
+        "risk_level": "WYSOKIE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.96085,
+          54.097595
+        ]
+      },
+      "properties": {
+        "scenario": "Ekstremalna nawa\u0142nica",
+        "depth_m": 0.034,
+        "risk_level": "WYSOKIE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.968419,
+          54.089689
+        ]
+      },
+      "properties": {
+        "scenario": "Ekstremalna nawa\u0142nica",
+        "depth_m": 0.07,
+        "risk_level": "WYSOKIE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.949143,
+          54.102802
+        ]
+      },
+      "properties": {
+        "scenario": "Pow\u00f3d\u017a stulecia",
+        "depth_m": 0.128,
+        "risk_level": "WYSOKIE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.965305,
+          54.098303
+        ]
+      },
+      "properties": {
+        "scenario": "Pow\u00f3d\u017a stulecia",
+        "depth_m": 0.502,
+        "risk_level": "WYSOKIE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.962725,
+          54.094171
+        ]
+      },
+      "properties": {
+        "scenario": "Pow\u00f3d\u017a stulecia",
+        "depth_m": 0.02,
+        "risk_level": "WYSOKIE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.933893,
+          54.096145
+        ]
+      },
+      "properties": {
+        "scenario": "Pow\u00f3d\u017a stulecia",
+        "depth_m": 0.27,
+        "risk_level": "WYSOKIE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.95583,
+          54.108369
+        ]
+      },
+      "properties": {
+        "scenario": "Pow\u00f3d\u017a stulecia",
+        "depth_m": 0.058,
+        "risk_level": "WYSOKIE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.947948,
+          54.10732
+        ]
+      },
+      "properties": {
+        "scenario": "Pow\u00f3d\u017a stulecia",
+        "depth_m": 0.023,
+        "risk_level": "WYSOKIE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.939066,
+          54.097367
+        ]
+      },
+      "properties": {
+        "scenario": "Pow\u00f3d\u017a stulecia",
+        "depth_m": 0.346,
+        "risk_level": "WYSOKIE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.958059,
+          54.104798
+        ]
+      },
+      "properties": {
+        "scenario": "Pow\u00f3d\u017a stulecia",
+        "depth_m": 0.02,
+        "risk_level": "WYSOKIE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.940401,
+          54.087953
+        ]
+      },
+      "properties": {
+        "scenario": "Pow\u00f3d\u017a stulecia",
+        "depth_m": 0.088,
+        "risk_level": "WYSOKIE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.939973,
+          54.098515
+        ]
+      },
+      "properties": {
+        "scenario": "Pow\u00f3d\u017a stulecia",
+        "depth_m": 0.42,
+        "risk_level": "WYSOKIE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.960414,
+          54.10512
+        ]
+      },
+      "properties": {
+        "scenario": "Pow\u00f3d\u017a stulecia",
+        "depth_m": 0.169,
+        "risk_level": "WYSOKIE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.962354,
+          54.084873
+        ]
+      },
+      "properties": {
+        "scenario": "Pow\u00f3d\u017a stulecia",
+        "depth_m": 0.091,
+        "risk_level": "WYSOKIE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.951914,
+          54.107012
+        ]
+      },
+      "properties": {
+        "scenario": "Pow\u00f3d\u017a stulecia",
+        "depth_m": 0.325,
+        "risk_level": "WYSOKIE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.957164,
+          54.089746
+        ]
+      },
+      "properties": {
+        "scenario": "Pow\u00f3d\u017a stulecia",
+        "depth_m": 0.072,
+        "risk_level": "WYSOKIE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.96419,
+          54.102116
+        ]
+      },
+      "properties": {
+        "scenario": "Pow\u00f3d\u017a stulecia",
+        "depth_m": 0.139,
+        "risk_level": "WYSOKIE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.956852,
+          54.109491
+        ]
+      },
+      "properties": {
+        "scenario": "Pow\u00f3d\u017a stulecia",
+        "depth_m": 0.369,
+        "risk_level": "WYSOKIE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.957741,
+          54.110532
+        ]
+      },
+      "properties": {
+        "scenario": "Pow\u00f3d\u017a stulecia",
+        "depth_m": 0.339,
+        "risk_level": "WYSOKIE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.940148,
+          54.088362
+        ]
+      },
+      "properties": {
+        "scenario": "Pow\u00f3d\u017a stulecia",
+        "depth_m": 0.359,
+        "risk_level": "WYSOKIE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.952053,
+          54.098167
+        ]
+      },
+      "properties": {
+        "scenario": "Pow\u00f3d\u017a stulecia",
+        "depth_m": 0.097,
+        "risk_level": "WYSOKIE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.943603,
+          54.088174
+        ]
+      },
+      "properties": {
+        "scenario": "Pow\u00f3d\u017a stulecia",
+        "depth_m": 0.267,
+        "risk_level": "WYSOKIE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.94162,
+          54.102855
+        ]
+      },
+      "properties": {
+        "scenario": "Pow\u00f3d\u017a stulecia",
+        "depth_m": 0.168,
+        "risk_level": "WYSOKIE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.975274,
+          54.095547
+        ]
+      },
+      "properties": {
+        "scenario": "Pow\u00f3d\u017a stulecia",
+        "depth_m": 0.061,
+        "risk_level": "WYSOKIE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.972028,
+          54.103324
+        ]
+      },
+      "properties": {
+        "scenario": "Pow\u00f3d\u017a stulecia",
+        "depth_m": 0.257,
+        "risk_level": "WYSOKIE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.961632,
+          54.089226
+        ]
+      },
+      "properties": {
+        "scenario": "Pow\u00f3d\u017a stulecia",
+        "depth_m": 0.36,
+        "risk_level": "WYSOKIE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.953103,
+          54.100781
+        ]
+      },
+      "properties": {
+        "scenario": "Pow\u00f3d\u017a stulecia",
+        "depth_m": 0.083,
+        "risk_level": "WYSOKIE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.963484,
+          54.107292
+        ]
+      },
+      "properties": {
+        "scenario": "Pow\u00f3d\u017a stulecia",
+        "depth_m": 0.124,
+        "risk_level": "WYSOKIE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.924226,
+          54.112239
+        ]
+      },
+      "properties": {
+        "scenario": "Pow\u00f3d\u017a stulecia",
+        "depth_m": 0.027,
+        "risk_level": "WYSOKIE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.958977,
+          54.100381
+        ]
+      },
+      "properties": {
+        "scenario": "Pow\u00f3d\u017a stulecia",
+        "depth_m": 0.276,
+        "risk_level": "WYSOKIE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.937631,
+          54.0925
+        ]
+      },
+      "properties": {
+        "scenario": "Pow\u00f3d\u017a stulecia",
+        "depth_m": 0.516,
+        "risk_level": "WYSOKIE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.965658,
+          54.108551
+        ]
+      },
+      "properties": {
+        "scenario": "Pow\u00f3d\u017a stulecia",
+        "depth_m": 0.02,
+        "risk_level": "WYSOKIE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.940505,
+          54.108953
+        ]
+      },
+      "properties": {
+        "scenario": "Pow\u00f3d\u017a stulecia",
+        "depth_m": 0.02,
+        "risk_level": "WYSOKIE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.954562,
+          54.097346
+        ]
+      },
+      "properties": {
+        "scenario": "Pow\u00f3d\u017a stulecia",
+        "depth_m": 0.02,
+        "risk_level": "WYSOKIE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.94843,
+          54.094406
+        ]
+      },
+      "properties": {
+        "scenario": "Pow\u00f3d\u017a stulecia",
+        "depth_m": 0.055,
+        "risk_level": "WYSOKIE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.937927,
+          54.104052
+        ]
+      },
+      "properties": {
+        "scenario": "Pow\u00f3d\u017a stulecia",
+        "depth_m": 0.276,
+        "risk_level": "WYSOKIE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.956174,
+          54.078025
+        ]
+      },
+      "properties": {
+        "scenario": "Pow\u00f3d\u017a stulecia",
+        "depth_m": 0.292,
+        "risk_level": "WYSOKIE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.937751,
+          54.093813
+        ]
+      },
+      "properties": {
+        "scenario": "Pow\u00f3d\u017a stulecia",
+        "depth_m": 0.272,
+        "risk_level": "WYSOKIE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.93242,
+          54.09858
+        ]
+      },
+      "properties": {
+        "scenario": "Pow\u00f3d\u017a stulecia",
+        "depth_m": 0.092,
+        "risk_level": "WYSOKIE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.937575,
+          54.104379
+        ]
+      },
+      "properties": {
+        "scenario": "Pow\u00f3d\u017a stulecia",
+        "depth_m": 0.108,
+        "risk_level": "WYSOKIE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.939866,
+          54.114747
+        ]
+      },
+      "properties": {
+        "scenario": "Pow\u00f3d\u017a stulecia",
+        "depth_m": 0.109,
+        "risk_level": "WYSOKIE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.94072,
+          54.101609
+        ]
+      },
+      "properties": {
+        "scenario": "Pow\u00f3d\u017a stulecia",
+        "depth_m": 0.306,
+        "risk_level": "WYSOKIE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.947172,
+          54.108096
+        ]
+      },
+      "properties": {
+        "scenario": "Pow\u00f3d\u017a stulecia",
+        "depth_m": 0.153,
+        "risk_level": "WYSOKIE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.953636,
+          54.102433
+        ]
+      },
+      "properties": {
+        "scenario": "Pow\u00f3d\u017a stulecia",
+        "depth_m": 0.516,
+        "risk_level": "WYSOKIE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.946324,
+          54.104609
+        ]
+      },
+      "properties": {
+        "scenario": "Pow\u00f3d\u017a stulecia",
+        "depth_m": 0.22,
+        "risk_level": "WYSOKIE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.94267,
+          54.109787
+        ]
+      },
+      "properties": {
+        "scenario": "Pow\u00f3d\u017a stulecia",
+        "depth_m": 0.516,
+        "risk_level": "WYSOKIE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.971033,
+          54.096835
+        ]
+      },
+      "properties": {
+        "scenario": "Pow\u00f3d\u017a stulecia",
+        "depth_m": 0.516,
+        "risk_level": "WYSOKIE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.954641,
+          54.093018
+        ]
+      },
+      "properties": {
+        "scenario": "Pow\u00f3d\u017a stulecia",
+        "depth_m": 0.117,
+        "risk_level": "WYSOKIE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.947828,
+          54.106392
+        ]
+      },
+      "properties": {
+        "scenario": "Pow\u00f3d\u017a stulecia",
+        "depth_m": 0.329,
+        "risk_level": "WYSOKIE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.944474,
+          54.118626
+        ]
+      },
+      "properties": {
+        "scenario": "Pow\u00f3d\u017a stulecia",
+        "depth_m": 0.099,
+        "risk_level": "WYSOKIE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.960256,
+          54.106796
+        ]
+      },
+      "properties": {
+        "scenario": "Pow\u00f3d\u017a stulecia",
+        "depth_m": 0.12,
+        "risk_level": "WYSOKIE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.953507,
+          54.093382
+        ]
+      },
+      "properties": {
+        "scenario": "Pow\u00f3d\u017a stulecia",
+        "depth_m": 0.376,
+        "risk_level": "WYSOKIE"
+      }
+    }
+  ]
+}
