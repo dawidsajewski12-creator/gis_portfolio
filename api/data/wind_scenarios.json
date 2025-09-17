@@ -2,2896 +2,2569 @@
   "wiatr_spokojny": {
     "scenario_name": "Wiatr spokojny",
     "module": "WindSim",
+    "model_version": "WindSim_v1.9_CFD",
+    "computation_time": "2025-09-17T06:49:53.887685",
     "parameters": {
       "wind_speed_ref": 5,
-      "wind_direction": 270
+      "wind_direction": 270,
+      "reference_height": 10.0,
+      "surface_roughness": 0.3,
+      "air_density": 1.225
     },
-    "metrics": {
-      "max_speed": 6.0,
-      "min_speed": 3.5,
-      "avg_urban_speed": 4.5,
-      "comfort_zones_percent": 85,
-      "dynamic_pressure_pa": 15.0
+    "urban_characteristics": {
+      "building_density_percent": 25.0,
+      "average_building_height": 18,
+      "tunnel_amplification": 0.8,
+      "wake_reduction": 0.3,
+      "directional_factor": 1.15
+    },
+    "wind_field_analysis": {
+      "max_speed": 6.9,
+      "min_speed": 4.02,
+      "avg_urban_speed": 5.17,
+      "pedestrian_speed": 2.91,
+      "speed_variation_factor": 1.71
+    },
+    "comfort_assessment": {
+      "pedestrian_comfort_level": "KOMFORTOWO",
+      "comfort_score": 1,
+      "comfort_description": "Warunki idealne do przebywania na zewnątrz",
+      "comfort_zones_percent": 75,
+      "comfort_distribution": {
+        "komfortowo": 40,
+        "akceptowalne": 35,
+        "niewłaściwe": 20,
+        "niebezpieczne": 5
+      }
+    },
+    "structural_loads": {
+      "dynamic_pressure_pa": 15.0,
+      "windward_pressure_pa": 12.0,
+      "leeward_pressure_pa": -8.0,
+      "pressure_difference_pa": 20.0,
+      "design_wind_load_knm2": 0.02
     },
     "wind_field": [
       {
         "lat": 54.092105,
         "lng": 22.960403,
-        "speed": 6.28,
-        "direction": 309.7,
-        "vx": -4.83,
-        "vy": 4.01
+        "speed": 9.62,
+        "direction": 302.4,
+        "vx": 8.12,
+        "vy": -5.16,
+        "height_agl": 1.4,
+        "turbulence_intensity": 0.25,
+        "environment_type": "tunnel",
+        "gust_factor": 1.12
       },
       {
-        "lat": 54.09395,
-        "lng": 22.947421,
-        "speed": 2.98,
-        "direction": 271.4,
-        "vx": -2.98,
-        "vy": 0.07
+        "lat": 54.111746,
+        "lng": 22.952185,
+        "speed": 3.32,
+        "direction": 252.1,
+        "vx": 3.16,
+        "vy": 1.02,
+        "height_agl": 18.4,
+        "turbulence_intensity": 0.12,
+        "environment_type": "open",
+        "gust_factor": 1.06
       },
       {
-        "lat": 54.095582,
-        "lng": 22.951591,
-        "speed": 3.18,
-        "direction": 270.3,
-        "vx": -3.18,
-        "vy": 0.02
+        "lat": 54.079299,
+        "lng": 22.952121,
+        "speed": 7.93,
+        "direction": 296.3,
+        "vx": 7.11,
+        "vy": -3.51,
+        "height_agl": 11.5,
+        "turbulence_intensity": 0.25,
+        "environment_type": "tunnel",
+        "gust_factor": 1.12
       },
       {
-        "lat": 54.106949,
-        "lng": 22.970096,
-        "speed": 4.39,
-        "direction": 249.2,
-        "vx": -4.1,
-        "vy": -1.56
-      },
-      {
-        "lat": 54.105603,
-        "lng": 22.951653,
-        "speed": 4.68,
-        "direction": 298.3,
-        "vx": -4.12,
-        "vy": 2.22
-      },
-      {
-        "lat": 54.096719,
-        "lng": 22.959685,
-        "speed": 5.9,
-        "direction": 272.3,
-        "vx": -5.89,
-        "vy": 0.24
+        "lat": 54.101102,
+        "lng": 22.963593,
+        "speed": 5.91,
+        "direction": 254.6,
+        "vx": 5.7,
+        "vy": 1.57,
+        "height_agl": 17.9,
+        "turbulence_intensity": 0.2,
+        "environment_type": "intersection",
+        "gust_factor": 1.1
       },
       {
         "lat": 54.089006,
         "lng": 22.944551,
-        "speed": 4.18,
-        "direction": 239.5,
-        "vx": -3.6,
-        "vy": -2.12
+        "speed": 6.4,
+        "direction": 253.9,
+        "vx": 6.15,
+        "vy": 1.78,
+        "height_agl": 18.3,
+        "turbulence_intensity": 0.25,
+        "environment_type": "tunnel",
+        "gust_factor": 1.12
       },
       {
-        "lat": 54.089137,
+        "lat": 54.098898,
         "lng": 22.961629,
-        "speed": 2.75,
-        "direction": 272.2,
-        "vx": -2.75,
-        "vy": 0.1
+        "speed": 4.22,
+        "direction": 273.3,
+        "vx": 4.22,
+        "vy": -0.24,
+        "height_agl": 13.5,
+        "turbulence_intensity": 0.25,
+        "environment_type": "tunnel",
+        "gust_factor": 1.12
       },
       {
-        "lat": 54.117296,
-        "lng": 22.949754,
-        "speed": 4.28,
-        "direction": 261.8,
-        "vx": -4.24,
-        "vy": -0.61
+        "lat": 54.0919,
+        "lng": 22.948075,
+        "speed": 5.48,
+        "direction": 234.8,
+        "vx": 4.48,
+        "vy": 3.16,
+        "height_agl": 2.8,
+        "turbulence_intensity": 0.25,
+        "environment_type": "tunnel",
+        "gust_factor": 1.12
       },
       {
-        "lat": 54.096125,
-        "lng": 22.929678,
-        "speed": 3.22,
-        "direction": 241.8,
-        "vx": -2.83,
-        "vy": -1.52
+        "lat": 54.096887,
+        "lng": 22.955264,
+        "speed": 4.33,
+        "direction": 261.7,
+        "vx": 4.28,
+        "vy": 0.63,
+        "height_agl": 5.0,
+        "turbulence_intensity": 0.12,
+        "environment_type": "open",
+        "gust_factor": 1.06
       },
       {
-        "lat": 54.09877,
-        "lng": 22.947342,
-        "speed": 5.83,
-        "direction": 244.7,
-        "vx": -5.27,
-        "vy": -2.49
+        "lat": 54.09911,
+        "lng": 22.929702,
+        "speed": 9.1,
+        "direction": 294.8,
+        "vx": 8.26,
+        "vy": -3.81,
+        "height_agl": 1.5,
+        "turbulence_intensity": 0.25,
+        "environment_type": "tunnel",
+        "gust_factor": 1.12
       },
       {
-        "lat": 54.093496,
-        "lng": 22.946614,
-        "speed": 4.44,
-        "direction": 258.5,
-        "vx": -4.35,
-        "vy": -0.88
-      },
-      {
-        "lat": 54.098058,
-        "lng": 22.959881,
-        "speed": 5.53,
-        "direction": 232.3,
-        "vx": -4.37,
-        "vy": -3.38
-      },
-      {
-        "lat": 54.08431,
-        "lng": 22.955017,
-        "speed": 4.28,
-        "direction": 244.1,
-        "vx": -3.85,
-        "vy": -1.87
+        "lat": 54.108673,
+        "lng": 22.931902,
+        "speed": 2.93,
+        "direction": 221.0,
+        "vx": 1.92,
+        "vy": 2.21,
+        "height_agl": 9.4,
+        "turbulence_intensity": 0.15,
+        "environment_type": "wake",
+        "gust_factor": 1.07
       },
       {
         "lat": 54.096776,
         "lng": 22.951288,
-        "speed": 3.32,
-        "direction": 309.0,
-        "vx": -2.58,
-        "vy": 2.09
+        "speed": 2.97,
+        "direction": 261.9,
+        "vx": 2.94,
+        "vy": 0.42,
+        "height_agl": 4.0,
+        "turbulence_intensity": 0.15,
+        "environment_type": "wake",
+        "gust_factor": 1.07
       },
       {
-        "lat": 54.101973,
+        "lat": 54.101719,
         "lng": 22.923298,
-        "speed": 4.3,
+        "speed": 4.94,
         "direction": 273.9,
-        "vx": -4.29,
-        "vy": 0.29
+        "vx": 4.93,
+        "vy": -0.34,
+        "height_agl": 18.7,
+        "turbulence_intensity": 0.12,
+        "environment_type": "open",
+        "gust_factor": 1.06
       },
       {
         "lat": 54.104072,
         "lng": 22.946646,
-        "speed": 3.39,
-        "direction": 299.7,
-        "vx": -2.95,
-        "vy": 1.68
+        "speed": 3.04,
+        "direction": 265.5,
+        "vx": 3.03,
+        "vy": 0.24,
+        "height_agl": 12.6,
+        "turbulence_intensity": 0.15,
+        "environment_type": "wake",
+        "gust_factor": 1.07
       },
       {
-        "lat": 54.106607,
-        "lng": 22.952032,
-        "speed": 5.44,
-        "direction": 253.4,
-        "vx": -5.21,
-        "vy": -1.56
+        "lat": 54.100814,
+        "lng": 22.954304,
+        "speed": 3.25,
+        "direction": 308.5,
+        "vx": 2.54,
+        "vy": -2.02,
+        "height_agl": 12.9,
+        "turbulence_intensity": 0.1,
+        "environment_type": "green",
+        "gust_factor": 1.05
       },
       {
-        "lat": 54.114605,
-        "lng": 22.973543,
-        "speed": 5.44,
-        "direction": 304.3,
-        "vx": -4.49,
-        "vy": 3.07
+        "lat": 54.108611,
+        "lng": 22.935856,
+        "speed": 3.75,
+        "direction": 267.8,
+        "vx": 3.75,
+        "vy": 0.14,
+        "height_agl": 2.8,
+        "turbulence_intensity": 0.12,
+        "environment_type": "open",
+        "gust_factor": 1.06
       },
       {
-        "lat": 54.105764,
-        "lng": 22.948772,
-        "speed": 5.14,
-        "direction": 264.1,
-        "vx": -5.11,
-        "vy": -0.53
-      },
-      {
-        "lat": 54.098343,
-        "lng": 22.947537,
-        "speed": 6.08,
-        "direction": 247.5,
-        "vx": -5.62,
-        "vy": -2.33
-      },
-      {
-        "lat": 54.099002,
+        "lat": 54.1055,
         "lng": 22.934835,
-        "speed": 5.5,
+        "speed": 3.8,
         "direction": 312.7,
-        "vx": -4.05,
-        "vy": 3.73
+        "vx": 2.79,
+        "vy": -2.57,
+        "height_agl": 3.1,
+        "turbulence_intensity": 0.1,
+        "environment_type": "green",
+        "gust_factor": 1.05
       },
       {
-        "lat": 54.098251,
-        "lng": 22.952011,
-        "speed": 6.13,
-        "direction": 273.7,
-        "vx": -6.11,
-        "vy": 0.39
+        "lat": 54.089209,
+        "lng": 22.952254,
+        "speed": 8.81,
+        "direction": 334.5,
+        "vx": 3.8,
+        "vy": -7.95,
+        "height_agl": 10.9,
+        "turbulence_intensity": 0.25,
+        "environment_type": "tunnel",
+        "gust_factor": 1.12
       },
       {
-        "lat": 54.090544,
-        "lng": 22.954761,
-        "speed": 4.09,
-        "direction": 261.1,
-        "vx": -4.04,
-        "vy": -0.63
+        "lat": 54.113122,
+        "lng": 22.92984,
+        "speed": 6.69,
+        "direction": 229.3,
+        "vx": 5.07,
+        "vy": 4.36,
+        "height_agl": 19.4,
+        "turbulence_intensity": 0.25,
+        "environment_type": "tunnel",
+        "gust_factor": 1.12
       },
       {
-        "lat": 54.113751,
-        "lng": 22.969683,
-        "speed": 4.58,
-        "direction": 228.0,
-        "vx": -3.4,
-        "vy": -3.06
+        "lat": 54.101842,
+        "lng": 22.959473,
+        "speed": 3.8,
+        "direction": 294.2,
+        "vx": 3.47,
+        "vy": -1.56,
+        "height_agl": 2.5,
+        "turbulence_intensity": 0.15,
+        "environment_type": "wake",
+        "gust_factor": 1.07
+      },
+      {
+        "lat": 54.095,
+        "lng": 22.953666,
+        "speed": 6.09,
+        "direction": 235.5,
+        "vx": 5.02,
+        "vy": 3.45,
+        "height_agl": 19.3,
+        "turbulence_intensity": 0.2,
+        "environment_type": "intersection",
+        "gust_factor": 1.1
+      },
+      {
+        "lat": 54.101137,
+        "lng": 22.936484,
+        "speed": 4.23,
+        "direction": 282.7,
+        "vx": 4.13,
+        "vy": -0.93,
+        "height_agl": 7.7,
+        "turbulence_intensity": 0.1,
+        "environment_type": "green",
+        "gust_factor": 1.05
+      },
+      {
+        "lat": 54.098888,
+        "lng": 22.942081,
+        "speed": 4.12,
+        "direction": 296.7,
+        "vx": 3.68,
+        "vy": -1.85,
+        "height_agl": 7.4,
+        "turbulence_intensity": 0.1,
+        "environment_type": "green",
+        "gust_factor": 1.05
+      },
+      {
+        "lat": 54.091561,
+        "lng": 22.961718,
+        "speed": 6.02,
+        "direction": 222.9,
+        "vx": 4.09,
+        "vy": 4.41,
+        "height_agl": 12.4,
+        "turbulence_intensity": 0.2,
+        "environment_type": "intersection",
+        "gust_factor": 1.1
+      },
+      {
+        "lat": 54.101151,
+        "lng": 22.944377,
+        "speed": 4.3,
+        "direction": 297.5,
+        "vx": 3.82,
+        "vy": -1.98,
+        "height_agl": 10.1,
+        "turbulence_intensity": 0.12,
+        "environment_type": "open",
+        "gust_factor": 1.06
+      },
+      {
+        "lat": 54.090665,
+        "lng": 22.947075,
+        "speed": 5.57,
+        "direction": 342.9,
+        "vx": 1.63,
+        "vy": -5.32,
+        "height_agl": 15.1,
+        "turbulence_intensity": 0.12,
+        "environment_type": "open",
+        "gust_factor": 1.06
       }
     ],
-    "computation_time": "2025-09-17T05:33:15.201466",
-    "model_version": "WindSim_v1.9"
-  },
-  "wiatr_umiarkowany": {
-    "scenario_name": "Wiatr umiarkowany",
-    "module": "WindSim",
-    "parameters": {
-      "wind_speed_ref": 10,
-      "wind_direction": 225
-    },
-    "metrics": {
-      "max_speed": 12.0,
-      "min_speed": 7.0,
-      "avg_urban_speed": 9.0,
-      "comfort_zones_percent": 40,
-      "dynamic_pressure_pa": 61.0
-    },
-    "wind_field": [
-      {
-        "lat": 54.114646,
-        "lng": 22.942155,
-        "speed": 10.38,
-        "direction": 243.1,
-        "vx": -9.26,
-        "vy": -4.69
-      },
-      {
-        "lat": 54.105039,
-        "lng": 22.957825,
-        "speed": 8.91,
-        "direction": 242.3,
-        "vx": -7.89,
-        "vy": -4.14
-      },
-      {
-        "lat": 54.108995,
-        "lng": 22.92388,
-        "speed": 7.05,
-        "direction": 230.3,
-        "vx": -5.43,
-        "vy": -4.5
-      },
-      {
-        "lat": 54.103499,
-        "lng": 22.961435,
-        "speed": 9.33,
-        "direction": 217.0,
-        "vx": -5.62,
-        "vy": -7.45
-      },
-      {
-        "lat": 54.106484,
-        "lng": 22.951764,
-        "speed": 10.26,
-        "direction": 231.9,
-        "vx": -8.07,
-        "vy": -6.33
-      },
-      {
-        "lat": 54.119833,
-        "lng": 22.952819,
-        "speed": 11.8,
-        "direction": 245.3,
-        "vx": -10.72,
-        "vy": -4.92
-      },
-      {
-        "lat": 54.112851,
-        "lng": 22.962198,
-        "speed": 8.79,
-        "direction": 231.0,
-        "vx": -6.83,
-        "vy": -5.53
-      },
-      {
-        "lat": 54.102113,
-        "lng": 22.956646,
-        "speed": 8.05,
-        "direction": 222.4,
-        "vx": -5.43,
-        "vy": -5.94
-      },
-      {
-        "lat": 54.108381,
-        "lng": 22.967939,
-        "speed": 6.08,
-        "direction": 219.7,
-        "vx": -3.89,
-        "vy": -4.68
-      },
-      {
-        "lat": 54.093932,
-        "lng": 22.94764,
-        "speed": 12.34,
-        "direction": 237.2,
-        "vx": -10.37,
-        "vy": -6.67
-      },
-      {
-        "lat": 54.099256,
-        "lng": 22.930855,
-        "speed": 11.9,
-        "direction": 249.9,
-        "vx": -11.17,
-        "vy": -4.09
-      },
-      {
-        "lat": 54.081087,
-        "lng": 22.964187,
-        "speed": 8.05,
-        "direction": 181.3,
-        "vx": -0.19,
-        "vy": -8.05
-      },
-      {
-        "lat": 54.088805,
-        "lng": 22.961603,
-        "speed": 9.08,
-        "direction": 223.3,
-        "vx": -6.22,
-        "vy": -6.61
-      },
-      {
-        "lat": 54.107056,
-        "lng": 22.957372,
-        "speed": 11.74,
-        "direction": 300.1,
-        "vx": -10.16,
-        "vy": 5.88
-      },
-      {
-        "lat": 54.106533,
-        "lng": 22.956992,
-        "speed": 11.06,
-        "direction": 191.2,
-        "vx": -2.16,
-        "vy": -10.85
-      },
-      {
-        "lat": 54.091729,
-        "lng": 22.952223,
-        "speed": 12.42,
-        "direction": 175.3,
-        "vx": 1.01,
-        "vy": -12.37
-      },
-      {
-        "lat": 54.097475,
-        "lng": 22.944632,
-        "speed": 11.78,
-        "direction": 240.3,
-        "vx": -10.23,
-        "vy": -5.84
-      },
-      {
-        "lat": 54.100076,
-        "lng": 22.953694,
-        "speed": 6.36,
-        "direction": 204.4,
-        "vx": -2.63,
-        "vy": -5.79
-      },
-      {
-        "lat": 54.109952,
-        "lng": 22.961701,
-        "speed": 6.15,
-        "direction": 203.5,
-        "vx": -2.45,
-        "vy": -5.64
-      },
-      {
-        "lat": 54.098522,
-        "lng": 22.937038,
-        "speed": 11.81,
-        "direction": 198.1,
-        "vx": -3.67,
-        "vy": -11.23
-      },
-      {
-        "lat": 54.09098,
-        "lng": 22.944046,
-        "speed": 10.83,
-        "direction": 211.3,
-        "vx": -5.62,
-        "vy": -9.25
-      },
-      {
-        "lat": 54.111586,
-        "lng": 22.949652,
-        "speed": 8.0,
-        "direction": 271.7,
-        "vx": -7.99,
-        "vy": 0.23
-      },
-      {
-        "lat": 54.098073,
-        "lng": 22.952592,
-        "speed": 10.57,
-        "direction": 230.8,
-        "vx": -8.18,
-        "vy": -6.68
-      },
-      {
-        "lat": 54.101369,
-        "lng": 22.950425,
-        "speed": 10.24,
-        "direction": 199.5,
-        "vx": -3.42,
-        "vy": -9.66
-      },
-      {
-        "lat": 54.091246,
-        "lng": 22.951846,
-        "speed": 8.71,
-        "direction": 205.2,
-        "vx": -3.71,
-        "vy": -7.88
-      },
-      {
-        "lat": 54.103446,
-        "lng": 22.942557,
-        "speed": 6.51,
-        "direction": 203.8,
-        "vx": -2.63,
-        "vy": -5.96
-      },
-      {
-        "lat": 54.100769,
-        "lng": 22.956868,
-        "speed": 6.64,
-        "direction": 232.7,
-        "vx": -5.28,
-        "vy": -4.03
-      },
-      {
-        "lat": 54.106838,
-        "lng": 22.940551,
-        "speed": 8.69,
-        "direction": 236.0,
-        "vx": -7.21,
-        "vy": -4.86
-      },
-      {
-        "lat": 54.087843,
-        "lng": 22.951745,
-        "speed": 8.69,
-        "direction": 225.9,
-        "vx": -6.24,
-        "vy": -6.04
-      },
-      {
-        "lat": 54.113663,
-        "lng": 22.95016,
-        "speed": 11.28,
-        "direction": 196.6,
-        "vx": -3.22,
-        "vy": -10.82
-      },
-      {
-        "lat": 54.093168,
-        "lng": 22.93162,
-        "speed": 8.31,
-        "direction": 223.1,
-        "vx": -5.68,
-        "vy": -6.06
-      },
-      {
-        "lat": 54.102994,
-        "lng": 22.948672,
-        "speed": 11.66,
-        "direction": 235.2,
-        "vx": -9.57,
-        "vy": -6.65
-      },
-      {
-        "lat": 54.100429,
-        "lng": 22.957019,
-        "speed": 12.05,
-        "direction": 207.5,
-        "vx": -5.56,
-        "vy": -10.69
-      },
-      {
-        "lat": 54.110239,
-        "lng": 22.957419,
-        "speed": 11.35,
-        "direction": 244.0,
-        "vx": -10.2,
-        "vy": -4.97
-      },
-      {
-        "lat": 54.107997,
-        "lng": 22.989406,
-        "speed": 5.65,
-        "direction": 219.9,
-        "vx": -3.63,
-        "vy": -4.33
-      },
-      {
-        "lat": 54.102275,
-        "lng": 22.958243,
-        "speed": 8.85,
-        "direction": 227.9,
-        "vx": -6.57,
-        "vy": -5.93
-      },
-      {
-        "lat": 54.084717,
-        "lng": 22.941147,
-        "speed": 8.7,
-        "direction": 191.2,
-        "vx": -1.69,
-        "vy": -8.53
-      },
-      {
-        "lat": 54.114422,
-        "lng": 22.957163,
-        "speed": 7.49,
-        "direction": 266.5,
-        "vx": -7.48,
-        "vy": -0.46
-      },
-      {
-        "lat": 54.108399,
-        "lng": 22.970189,
-        "speed": 6.38,
-        "direction": 208.5,
-        "vx": -3.05,
-        "vy": -5.61
-      },
-      {
-        "lat": 54.084428,
-        "lng": 22.960073,
-        "speed": 5.58,
-        "direction": 235.0,
-        "vx": -4.58,
-        "vy": -3.2
-      },
-      {
-        "lat": 54.08942,
-        "lng": 22.961779,
-        "speed": 12.2,
-        "direction": 193.8,
-        "vx": -2.91,
-        "vy": -11.85
-      },
-      {
-        "lat": 54.095828,
-        "lng": 22.947886,
-        "speed": 7.38,
-        "direction": 252.9,
-        "vx": -7.06,
-        "vy": -2.17
-      },
-      {
-        "lat": 54.099785,
-        "lng": 22.968982,
-        "speed": 6.85,
-        "direction": 195.6,
-        "vx": -1.84,
-        "vy": -6.59
-      },
-      {
-        "lat": 54.098815,
-        "lng": 22.936323,
-        "speed": 11.44,
-        "direction": 229.6,
-        "vx": -8.71,
-        "vy": -7.42
-      },
-      {
-        "lat": 54.099292,
-        "lng": 22.959217,
-        "speed": 8.99,
-        "direction": 192.0,
-        "vx": -1.87,
-        "vy": -8.8
-      },
-      {
-        "lat": 54.090311,
-        "lng": 22.952471,
-        "speed": 11.29,
-        "direction": 209.1,
-        "vx": -5.49,
-        "vy": -9.86
-      },
-      {
-        "lat": 54.085051,
-        "lng": 22.950649,
-        "speed": 5.55,
-        "direction": 224.3,
-        "vx": -3.88,
-        "vy": -3.97
-      },
-      {
-        "lat": 54.096149,
-        "lng": 22.951394,
-        "speed": 5.4,
-        "direction": 211.2,
-        "vx": -2.79,
-        "vy": -4.62
-      },
-      {
-        "lat": 54.099018,
-        "lng": 22.948014,
-        "speed": 7.71,
-        "direction": 233.2,
-        "vx": -6.18,
-        "vy": -4.61
-      },
-      {
-        "lat": 54.095749,
-        "lng": 22.926455,
-        "speed": 11.45,
-        "direction": 253.9,
-        "vx": -11.0,
-        "vy": -3.17
-      }
-    ],
-    "computation_time": "2025-09-17T05:33:15.202408",
-    "model_version": "WindSim_v1.9"
+    "visualization": {
+      "center_lat": 54.1,
+      "center_lng": 22.95,
+      "zoom_level": 14,
+      "vector_scale": 10,
+      "color_scale": "Viridis",
+      "particle_count": 25
+    }
   },
   "wiatr_silny": {
     "scenario_name": "Wiatr silny",
     "module": "WindSim",
+    "model_version": "WindSim_v1.9_CFD",
+    "computation_time": "2025-09-17T06:49:53.892093",
     "parameters": {
       "wind_speed_ref": 15,
-      "wind_direction": 315
+      "wind_direction": 315,
+      "reference_height": 10.0,
+      "surface_roughness": 0.3,
+      "air_density": 1.225
     },
-    "metrics": {
-      "max_speed": 18.0,
-      "min_speed": 10.5,
-      "avg_urban_speed": 13.5,
+    "urban_characteristics": {
+      "building_density_percent": 25.0,
+      "average_building_height": 18,
+      "tunnel_amplification": 0.8,
+      "wake_reduction": 0.3,
+      "directional_factor": 0.9
+    },
+    "wind_field_analysis": {
+      "max_speed": 16.2,
+      "min_speed": 9.45,
+      "avg_urban_speed": 12.15,
+      "pedestrian_speed": 6.84,
+      "speed_variation_factor": 1.71
+    },
+    "comfort_assessment": {
+      "pedestrian_comfort_level": "NIEWŁAŚCIWE",
+      "comfort_score": 3,
+      "comfort_description": "Tylko do szybkiego przejścia, dyskomfort",
       "comfort_zones_percent": 15,
-      "dynamic_pressure_pa": 138.0
+      "comfort_distribution": {
+        "komfortowo": 5,
+        "akceptowalne": 10,
+        "niewłaściwe": 30,
+        "niebezpieczne": 55
+      }
+    },
+    "structural_loads": {
+      "dynamic_pressure_pa": 138.0,
+      "windward_pressure_pa": 110.0,
+      "leeward_pressure_pa": -69.0,
+      "pressure_difference_pa": 179.0,
+      "design_wind_load_knm2": 0.14
     },
     "wind_field": [
       {
         "lat": 54.103248,
         "lng": 22.95771,
-        "speed": 16.82,
-        "direction": 277.4,
-        "vx": -16.68,
-        "vy": 2.17
+        "speed": 15.14,
+        "direction": 310.4,
+        "vx": 11.53,
+        "vy": -9.81,
+        "height_agl": 5.9,
+        "turbulence_intensity": 0.12,
+        "environment_type": "open",
+        "gust_factor": 1.06
       },
       {
-        "lat": 54.095364,
+        "lat": 54.093574,
         "lng": 22.958052,
-        "speed": 9.51,
-        "direction": 287.7,
-        "vx": -9.06,
-        "vy": 2.89
+        "speed": 11.42,
+        "direction": 274.0,
+        "vx": 11.39,
+        "vy": -0.8,
+        "height_agl": 12.2,
+        "turbulence_intensity": 0.25,
+        "environment_type": "tunnel",
+        "gust_factor": 1.12
       },
       {
-        "lat": 54.109564,
-        "lng": 22.928976,
-        "speed": 17.58,
-        "direction": 295.1,
-        "vx": -15.92,
-        "vy": 7.46
+        "lat": 54.10296,
+        "lng": 22.958642,
+        "speed": 11.55,
+        "direction": 276.7,
+        "vx": 11.48,
+        "vy": -1.35,
+        "height_agl": 18.1,
+        "turbulence_intensity": 0.25,
+        "environment_type": "tunnel",
+        "gust_factor": 1.12
       },
       {
-        "lat": 54.103444,
-        "lng": 22.967643,
-        "speed": 10.5,
-        "direction": 291.2,
-        "vx": -9.79,
-        "vy": 3.79
-      },
-      {
-        "lat": 54.102353,
-        "lng": 22.957403,
-        "speed": 8.18,
-        "direction": 317.4,
-        "vx": -5.53,
-        "vy": 6.02
-      },
-      {
-        "lat": 54.100203,
-        "lng": 22.950198,
-        "speed": 13.29,
-        "direction": 343.8,
-        "vx": -3.71,
-        "vy": 12.77
+        "lat": 54.105733,
+        "lng": 22.951165,
+        "speed": 12.16,
+        "direction": 315.6,
+        "vx": 8.5,
+        "vy": -8.69,
+        "height_agl": 10.1,
+        "turbulence_intensity": 0.15,
+        "environment_type": "wake",
+        "gust_factor": 1.07
       },
       {
         "lat": 54.099248,
         "lng": 22.952906,
-        "speed": 11.86,
-        "direction": 342.3,
-        "vx": -3.6,
-        "vy": 11.3
+        "speed": 14.23,
+        "direction": 298.1,
+        "vx": 12.55,
+        "vy": -6.7,
+        "height_agl": 16.4,
+        "turbulence_intensity": 0.25,
+        "environment_type": "tunnel",
+        "gust_factor": 1.12
       },
       {
-        "lat": 54.096833,
-        "lng": 22.963152,
-        "speed": 8.84,
-        "direction": 301.9,
-        "vx": -7.5,
-        "vy": 4.68
+        "lat": 54.108133,
+        "lng": 22.966195,
+        "speed": 9.1,
+        "direction": 335.0,
+        "vx": 3.84,
+        "vy": -8.25,
+        "height_agl": 17.5,
+        "turbulence_intensity": 0.12,
+        "environment_type": "open",
+        "gust_factor": 1.06
       },
       {
-        "lat": 54.104212,
-        "lng": 22.936092,
-        "speed": 16.01,
-        "direction": 300.8,
-        "vx": -13.75,
-        "vy": 8.19
+        "lat": 54.099744,
+        "lng": 22.947922,
+        "speed": 19.63,
+        "direction": 320.6,
+        "vx": 12.47,
+        "vy": -15.17,
+        "height_agl": 15.8,
+        "turbulence_intensity": 0.25,
+        "environment_type": "tunnel",
+        "gust_factor": 1.12
       },
       {
-        "lat": 54.094632,
-        "lng": 22.967313,
-        "speed": 12.01,
-        "direction": 302.7,
-        "vx": -10.1,
-        "vy": 6.49
-      },
-      {
-        "lat": 54.10119,
-        "lng": 22.946306,
-        "speed": 16.52,
-        "direction": 325.6,
-        "vx": -9.33,
-        "vy": 13.63
-      },
-      {
-        "lat": 54.093704,
-        "lng": 22.9397,
-        "speed": 15.64,
-        "direction": 283.8,
-        "vx": -15.19,
-        "vy": 3.74
+        "lat": 54.097537,
+        "lng": 22.955099,
+        "speed": 13.19,
+        "direction": 285.5,
+        "vx": 12.71,
+        "vy": -3.52,
+        "height_agl": 14.3,
+        "turbulence_intensity": 0.25,
+        "environment_type": "tunnel",
+        "gust_factor": 1.12
       },
       {
         "lat": 54.099783,
         "lng": 22.948264,
-        "speed": 17.13,
-        "direction": 313.7,
-        "vx": -12.38,
-        "vy": 11.84
+        "speed": 15.42,
+        "direction": 5.7,
+        "vx": -1.53,
+        "vy": -15.34,
+        "height_agl": 6.1,
+        "turbulence_intensity": 0.12,
+        "environment_type": "open",
+        "gust_factor": 1.06
       },
       {
-        "lat": 54.095349,
-        "lng": 22.935194,
-        "speed": 18.48,
-        "direction": 337.0,
-        "vx": -7.22,
-        "vy": 17.01
+        "lat": 54.096048,
+        "lng": 22.933953,
+        "speed": 11.51,
+        "direction": 12.1,
+        "vx": -2.42,
+        "vy": -11.26,
+        "height_agl": 13.0,
+        "turbulence_intensity": 0.2,
+        "environment_type": "intersection",
+        "gust_factor": 1.1
       },
       {
-        "lat": 54.105098,
-        "lng": 22.965298,
-        "speed": 12.22,
-        "direction": 283.9,
-        "vx": -11.86,
-        "vy": 2.95
+        "lat": 54.097293,
+        "lng": 22.947,
+        "speed": 7.51,
+        "direction": 266.1,
+        "vx": 7.49,
+        "vy": 0.51,
+        "height_agl": 6.2,
+        "turbulence_intensity": 0.15,
+        "environment_type": "wake",
+        "gust_factor": 1.07
       },
       {
-        "lat": 54.104589,
-        "lng": 22.946291,
-        "speed": 14.03,
-        "direction": 303.4,
-        "vx": -11.71,
-        "vy": 7.73
+        "lat": 54.091838,
+        "lng": 22.964539,
+        "speed": 15.3,
+        "direction": 354.7,
+        "vx": 1.41,
+        "vy": -15.23,
+        "height_agl": 3.9,
+        "turbulence_intensity": 0.12,
+        "environment_type": "open",
+        "gust_factor": 1.06
       },
       {
-        "lat": 54.084345,
-        "lng": 22.937757,
-        "speed": 11.04,
-        "direction": 345.3,
-        "vx": -2.8,
-        "vy": 10.68
+        "lat": 54.110321,
+        "lng": 22.967252,
+        "speed": 21.27,
+        "direction": 288.9,
+        "vx": 20.13,
+        "vy": -6.89,
+        "height_agl": 14.5,
+        "turbulence_intensity": 0.25,
+        "environment_type": "tunnel",
+        "gust_factor": 1.12
       },
       {
-        "lat": 54.112703,
-        "lng": 22.95499,
-        "speed": 14.92,
-        "direction": 290.4,
-        "vx": -13.98,
-        "vy": 5.2
-      },
-      {
-        "lat": 54.097451,
-        "lng": 22.95867,
-        "speed": 10.59,
-        "direction": 346.9,
-        "vx": -2.4,
-        "vy": 10.31
-      },
-      {
-        "lat": 54.092286,
+        "lat": 54.09057,
         "lng": 22.962343,
-        "speed": 16.72,
+        "speed": 11.71,
         "direction": 288.7,
-        "vx": -15.84,
-        "vy": 5.36
+        "vx": 11.09,
+        "vy": -3.75,
+        "height_agl": 16.7,
+        "turbulence_intensity": 0.15,
+        "environment_type": "wake",
+        "gust_factor": 1.07
       },
       {
-        "lat": 54.108206,
-        "lng": 22.955995,
-        "speed": 18.4,
-        "direction": 339.3,
-        "vx": -6.52,
-        "vy": 17.21
+        "lat": 54.10085,
+        "lng": 22.953107,
+        "speed": 17.73,
+        "direction": 290.3,
+        "vx": 16.63,
+        "vy": -6.16,
+        "height_agl": 4.7,
+        "turbulence_intensity": 0.25,
+        "environment_type": "tunnel",
+        "gust_factor": 1.12
       },
       {
-        "lat": 54.112224,
-        "lng": 22.984203,
-        "speed": 8.7,
-        "direction": 296.7,
-        "vx": -7.77,
-        "vy": 3.91
+        "lat": 54.100659,
+        "lng": 22.945063,
+        "speed": 13.66,
+        "direction": 301.9,
+        "vx": 11.59,
+        "vy": -7.22,
+        "height_agl": 12.9,
+        "turbulence_intensity": 0.25,
+        "environment_type": "tunnel",
+        "gust_factor": 1.12
       },
       {
-        "lat": 54.09552,
-        "lng": 22.943222,
-        "speed": 9.67,
-        "direction": 311.1,
-        "vx": -7.28,
-        "vy": 6.36
+        "lat": 54.115483,
+        "lng": 22.935992,
+        "speed": 8.58,
+        "direction": 312.5,
+        "vx": 6.33,
+        "vy": -5.79,
+        "height_agl": 13.9,
+        "turbulence_intensity": 0.1,
+        "environment_type": "green",
+        "gust_factor": 1.05
       },
       {
-        "lat": 54.084604,
-        "lng": 22.936976,
-        "speed": 14.79,
-        "direction": 3.2,
-        "vx": 0.83,
-        "vy": 14.77
-      },
-      {
-        "lat": 54.107469,
-        "lng": 22.959398,
-        "speed": 8.48,
-        "direction": 351.4,
-        "vx": -1.26,
-        "vy": 8.39
-      },
-      {
-        "lat": 54.091615,
+        "lat": 54.097111,
         "lng": 22.953084,
-        "speed": 14.57,
+        "speed": 10.2,
         "direction": 354.4,
-        "vx": -1.42,
-        "vy": 14.5
+        "vx": 0.99,
+        "vy": -10.15,
+        "height_agl": 11.5,
+        "turbulence_intensity": 0.15,
+        "environment_type": "wake",
+        "gust_factor": 1.07
       },
       {
-        "lat": 54.113568,
-        "lng": 22.974806,
-        "speed": 17.1,
-        "direction": 260.4,
-        "vx": -16.86,
-        "vy": -2.86
+        "lat": 54.099368,
+        "lng": 22.965203,
+        "speed": 9.32,
+        "direction": 341.1,
+        "vx": 3.02,
+        "vy": -8.81,
+        "height_agl": 9.6,
+        "turbulence_intensity": 0.15,
+        "environment_type": "wake",
+        "gust_factor": 1.07
       },
       {
-        "lat": 54.078996,
-        "lng": 22.92525,
-        "speed": 14.5,
-        "direction": 329.1,
-        "vx": -7.44,
-        "vy": 12.44
-      },
-      {
-        "lat": 54.105481,
-        "lng": 22.949145,
-        "speed": 10.73,
-        "direction": 300.4,
-        "vx": -9.26,
-        "vy": 5.42
-      },
-      {
-        "lat": 54.106977,
-        "lng": 22.9336,
-        "speed": 9.43,
-        "direction": 294.0,
-        "vx": -8.61,
-        "vy": 3.84
+        "lat": 54.086109,
+        "lng": 22.942976,
+        "speed": 10.81,
+        "direction": 336.8,
+        "vx": 4.26,
+        "vy": -9.94,
+        "height_agl": 3.3,
+        "turbulence_intensity": 0.12,
+        "environment_type": "open",
+        "gust_factor": 1.06
       },
       {
         "lat": 54.099471,
         "lng": 22.936971,
-        "speed": 10.16,
-        "direction": 339.9,
-        "vx": -3.48,
-        "vy": 9.54
+        "speed": 7.11,
+        "direction": 331.2,
+        "vx": 3.42,
+        "vy": -6.23,
+        "height_agl": 3.5,
+        "turbulence_intensity": 0.15,
+        "environment_type": "wake",
+        "gust_factor": 1.07
       },
       {
-        "lat": 54.111727,
+        "lat": 54.101558,
         "lng": 22.929265,
-        "speed": 13.72,
+        "speed": 12.35,
         "direction": 300.3,
-        "vx": -11.85,
-        "vy": 6.93
+        "vx": 10.66,
+        "vy": -6.23,
+        "height_agl": 15.7,
+        "turbulence_intensity": 0.12,
+        "environment_type": "open",
+        "gust_factor": 1.06
       },
       {
-        "lat": 54.103491,
-        "lng": 22.943328,
-        "speed": 17.86,
-        "direction": 289.1,
-        "vx": -16.87,
-        "vy": 5.85
+        "lat": 54.100138,
+        "lng": 22.961093,
+        "speed": 5.06,
+        "direction": 334.7,
+        "vx": 2.16,
+        "vy": -4.57,
+        "height_agl": 15.8,
+        "turbulence_intensity": 0.1,
+        "environment_type": "green",
+        "gust_factor": 1.05
       },
       {
-        "lat": 54.100163,
-        "lng": 22.958033,
-        "speed": 17.27,
-        "direction": 338.6,
-        "vx": -6.29,
-        "vy": 16.08
+        "lat": 54.103733,
+        "lng": 22.949848,
+        "speed": 9.25,
+        "direction": 298.6,
+        "vx": 8.13,
+        "vy": -4.42,
+        "height_agl": 1.7,
+        "turbulence_intensity": 0.12,
+        "environment_type": "open",
+        "gust_factor": 1.06
       },
       {
-        "lat": 54.088504,
-        "lng": 22.9495,
-        "speed": 9.01,
-        "direction": 339.4,
-        "vx": -3.17,
-        "vy": 8.44
+        "lat": 54.101076,
+        "lng": 22.946724,
+        "speed": 14.56,
+        "direction": 347.9,
+        "vx": 3.06,
+        "vy": -14.24,
+        "height_agl": 2.9,
+        "turbulence_intensity": 0.12,
+        "environment_type": "open",
+        "gust_factor": 1.06
       },
       {
-        "lat": 54.106796,
-        "lng": 22.950954,
-        "speed": 15.87,
-        "direction": 308.8,
-        "vx": -12.37,
-        "vy": 9.94
+        "lat": 54.107168,
+        "lng": 22.952268,
+        "speed": 18.2,
+        "direction": 333.0,
+        "vx": 8.26,
+        "vy": -16.21,
+        "height_agl": 19.2,
+        "turbulence_intensity": 0.2,
+        "environment_type": "intersection",
+        "gust_factor": 1.1
       },
       {
-        "lat": 54.102743,
-        "lng": 22.95156,
-        "speed": 18.45,
-        "direction": 317.5,
-        "vx": -12.45,
-        "vy": 13.61
+        "lat": 54.106409,
+        "lng": 22.95199,
+        "speed": 13.78,
+        "direction": 328.2,
+        "vx": 7.27,
+        "vy": -11.71,
+        "height_agl": 12.8,
+        "turbulence_intensity": 0.2,
+        "environment_type": "intersection",
+        "gust_factor": 1.1
       },
       {
-        "lat": 54.104323,
-        "lng": 22.950957,
-        "speed": 18.75,
-        "direction": 336.4,
-        "vx": -7.52,
-        "vy": 17.18
-      },
-      {
-        "lat": 54.102811,
-        "lng": 22.943903,
-        "speed": 14.78,
-        "direction": 312.1,
-        "vx": -10.97,
-        "vy": 9.9
-      },
-      {
-        "lat": 54.093066,
-        "lng": 22.924274,
-        "speed": 11.57,
-        "direction": 316.3,
-        "vx": -7.99,
-        "vy": 8.36
+        "lat": 54.095936,
+        "lng": 22.948599,
+        "speed": 16.25,
+        "direction": 282.5,
+        "vx": 15.86,
+        "vy": -3.52,
+        "height_agl": 7.1,
+        "turbulence_intensity": 0.25,
+        "environment_type": "tunnel",
+        "gust_factor": 1.12
       },
       {
         "lat": 54.091928,
         "lng": 22.952079,
-        "speed": 14.6,
-        "direction": 280.7,
-        "vx": -14.35,
-        "vy": 2.71
-      },
-      {
-        "lat": 54.097503,
-        "lng": 22.962758,
-        "speed": 9.02,
-        "direction": 341.9,
-        "vx": -2.81,
-        "vy": 8.57
-      },
-      {
-        "lat": 54.095754,
-        "lng": 22.955861,
-        "speed": 17.31,
-        "direction": 322.0,
-        "vx": -10.66,
-        "vy": 13.64
-      },
-      {
-        "lat": 54.110125,
-        "lng": 22.939033,
-        "speed": 17.97,
-        "direction": 342.9,
-        "vx": -5.29,
-        "vy": 17.17
-      },
-      {
-        "lat": 54.092934,
-        "lng": 22.949691,
-        "speed": 15.46,
-        "direction": 304.4,
-        "vx": -12.75,
-        "vy": 8.74
-      },
-      {
-        "lat": 54.094574,
-        "lng": 22.956111,
-        "speed": 18.46,
-        "direction": 272.2,
-        "vx": -18.45,
-        "vy": 0.72
-      },
-      {
-        "lat": 54.106644,
-        "lng": 22.945946,
-        "speed": 14.72,
+        "speed": 13.14,
         "direction": 311.7,
-        "vx": -11.0,
-        "vy": 9.79
+        "vx": 9.81,
+        "vy": -8.75,
+        "height_agl": 4.9,
+        "turbulence_intensity": 0.12,
+        "environment_type": "open",
+        "gust_factor": 1.06
       },
       {
-        "lat": 54.098883,
-        "lng": 22.933074,
-        "speed": 10.34,
-        "direction": 313.0,
-        "vx": -7.56,
-        "vy": 7.05
+        "lat": 54.093541,
+        "lng": 22.962758,
+        "speed": 4.87,
+        "direction": 341.9,
+        "vx": 1.51,
+        "vy": -4.63,
+        "height_agl": 4.4,
+        "turbulence_intensity": 0.1,
+        "environment_type": "green",
+        "gust_factor": 1.05
+      },
+      {
+        "lat": 54.10234,
+        "lng": 22.953862,
+        "speed": 14.12,
+        "direction": 336.0,
+        "vx": 5.75,
+        "vy": -12.9,
+        "height_agl": 1.3,
+        "turbulence_intensity": 0.2,
+        "environment_type": "intersection",
+        "gust_factor": 1.1
+      },
+      {
+        "lat": 54.097962,
+        "lng": 22.949958,
+        "speed": 6.34,
+        "direction": 318.6,
+        "vx": 4.19,
+        "vy": -4.76,
+        "height_agl": 3.6,
+        "turbulence_intensity": 0.15,
+        "environment_type": "wake",
+        "gust_factor": 1.07
+      },
+      {
+        "lat": 54.092412,
+        "lng": 22.938115,
+        "speed": 14.05,
+        "direction": 346.1,
+        "vx": 3.37,
+        "vy": -13.64,
+        "height_agl": 12.7,
+        "turbulence_intensity": 0.2,
+        "environment_type": "intersection",
+        "gust_factor": 1.1
+      },
+      {
+        "lat": 54.097297,
+        "lng": 22.948393,
+        "speed": 11.98,
+        "direction": 311.5,
+        "vx": 8.97,
+        "vy": -7.94,
+        "height_agl": 4.9,
+        "turbulence_intensity": 0.12,
+        "environment_type": "open",
+        "gust_factor": 1.06
       },
       {
         "lat": 54.090055,
         "lng": 22.952926,
-        "speed": 11.09,
-        "direction": 333.0,
-        "vx": -5.03,
-        "vy": 9.88
+        "speed": 10.98,
+        "direction": 301.3,
+        "vx": 9.37,
+        "vy": -5.71,
+        "height_agl": 18.6,
+        "turbulence_intensity": 0.2,
+        "environment_type": "intersection",
+        "gust_factor": 1.1
       },
       {
-        "lat": 54.098757,
+        "lat": 54.109968,
         "lng": 22.963572,
-        "speed": 15.64,
+        "speed": 10.95,
         "direction": 304.2,
-        "vx": -12.94,
-        "vy": 8.79
+        "vx": 9.06,
+        "vy": -6.16,
+        "height_agl": 5.3,
+        "turbulence_intensity": 0.15,
+        "environment_type": "wake",
+        "gust_factor": 1.07
       },
       {
-        "lat": 54.089863,
-        "lng": 22.957265,
-        "speed": 8.17,
-        "direction": 318.4,
-        "vx": -5.43,
-        "vy": 6.11
+        "lat": 54.09422,
+        "lng": 22.967846,
+        "speed": 15.53,
+        "direction": 333.7,
+        "vx": 6.87,
+        "vy": -13.92,
+        "height_agl": 17.5,
+        "turbulence_intensity": 0.25,
+        "environment_type": "tunnel",
+        "gust_factor": 1.12
       },
       {
-        "lat": 54.102052,
-        "lng": 22.937852,
-        "speed": 12.19,
-        "direction": 261.3,
-        "vx": -12.05,
-        "vy": -1.85
-      },
-      {
-        "lat": 54.103997,
-        "lng": 22.967628,
-        "speed": 17.47,
-        "direction": 292.9,
-        "vx": -16.09,
-        "vy": 6.8
-      },
-      {
-        "lat": 54.099964,
-        "lng": 22.963881,
-        "speed": 11.21,
-        "direction": 279.8,
-        "vx": -11.04,
-        "vy": 1.91
+        "lat": 54.111752,
+        "lng": 22.939398,
+        "speed": 8.18,
+        "direction": 314.9,
+        "vx": 5.79,
+        "vy": -5.77,
+        "height_agl": 6.5,
+        "turbulence_intensity": 0.15,
+        "environment_type": "wake",
+        "gust_factor": 1.07
       },
       {
         "lat": 54.094698,
         "lng": 22.931241,
-        "speed": 8.71,
-        "direction": 315.8,
-        "vx": -6.07,
-        "vy": 6.24
+        "speed": 8.62,
+        "direction": 279.5,
+        "vx": 8.5,
+        "vy": -1.43,
+        "height_agl": 11.4,
+        "turbulence_intensity": 0.2,
+        "environment_type": "intersection",
+        "gust_factor": 1.1
       },
       {
-        "lat": 54.105845,
-        "lng": 22.951359,
-        "speed": 17.95,
-        "direction": 291.8,
-        "vx": -16.67,
-        "vy": 6.68
+        "lat": 54.100353,
+        "lng": 22.947702,
+        "speed": 17.12,
+        "direction": 217.0,
+        "vx": 10.3,
+        "vy": 13.67,
+        "height_agl": 7.4,
+        "turbulence_intensity": 0.25,
+        "environment_type": "tunnel",
+        "gust_factor": 1.12
       },
       {
-        "lat": 54.099878,
-        "lng": 22.948997,
-        "speed": 13.43,
-        "direction": 266.5,
-        "vx": -13.4,
-        "vy": -0.83
+        "lat": 54.092438,
+        "lng": 22.947898,
+        "speed": 6.13,
+        "direction": 291.0,
+        "vx": 5.72,
+        "vy": -2.19,
+        "height_agl": 2.9,
+        "turbulence_intensity": 0.15,
+        "environment_type": "wake",
+        "gust_factor": 1.07
       },
       {
-        "lat": 54.11064,
-        "lng": 22.940232,
-        "speed": 9.29,
-        "direction": 268.7,
-        "vx": -9.28,
-        "vy": -0.21
-      },
-      {
-        "lat": 54.10124,
-        "lng": 22.942738,
-        "speed": 15.47,
-        "direction": 294.4,
-        "vx": -14.08,
-        "vy": 6.39
-      },
-      {
-        "lat": 54.098178,
+        "lat": 54.11261,
         "lng": 22.94863,
-        "speed": 17.69,
-        "direction": 310.8,
-        "vx": -13.39,
-        "vy": 11.57
+        "speed": 21.23,
+        "direction": 308.7,
+        "vx": 16.56,
+        "vy": -13.28,
+        "height_agl": 12.9,
+        "turbulence_intensity": 0.25,
+        "environment_type": "tunnel",
+        "gust_factor": 1.12
       },
       {
-        "lat": 54.110637,
-        "lng": 22.93223,
-        "speed": 14.03,
-        "direction": 321.1,
-        "vx": -8.81,
-        "vy": 10.91
+        "lat": 54.090767,
+        "lng": 22.951916,
+        "speed": 17.2,
+        "direction": 345.0,
+        "vx": 4.44,
+        "vy": -16.61,
+        "height_agl": 9.3,
+        "turbulence_intensity": 0.25,
+        "environment_type": "tunnel",
+        "gust_factor": 1.12
       },
       {
-        "lat": 54.091081,
-        "lng": 22.95645,
-        "speed": 18.1,
-        "direction": 250.4,
-        "vx": -17.04,
-        "vy": -6.08
+        "lat": 54.100268,
+        "lng": 22.961664,
+        "speed": 8.33,
+        "direction": 343.4,
+        "vx": 2.39,
+        "vy": -7.98,
+        "height_agl": 9.3,
+        "turbulence_intensity": 0.15,
+        "environment_type": "wake",
+        "gust_factor": 1.07
       },
       {
-        "lat": 54.113673,
-        "lng": 22.944022,
-        "speed": 15.51,
-        "direction": 324.2,
-        "vx": -9.06,
-        "vy": 12.59
+        "lat": 54.099963,
+        "lng": 22.947433,
+        "speed": 22.67,
+        "direction": 339.2,
+        "vx": 8.06,
+        "vy": -21.19,
+        "height_agl": 4.7,
+        "turbulence_intensity": 0.25,
+        "environment_type": "tunnel",
+        "gust_factor": 1.12
       },
       {
-        "lat": 54.082713,
-        "lng": 22.948506,
-        "speed": 13.38,
+        "lat": 54.092548,
+        "lng": 22.952473,
+        "speed": 11.44,
         "direction": 314.6,
-        "vx": -9.53,
-        "vy": 9.4
-      },
-      {
-        "lat": 54.105157,
-        "lng": 22.938822,
-        "speed": 10.18,
-        "direction": 320.2,
-        "vx": -6.52,
-        "vy": 7.82
-      },
-      {
-        "lat": 54.099874,
-        "lng": 22.932259,
-        "speed": 12.53,
-        "direction": 305.0,
-        "vx": -10.27,
-        "vy": 7.19
+        "vx": 8.15,
+        "vy": -8.04,
+        "height_agl": 8.8,
+        "turbulence_intensity": 0.12,
+        "environment_type": "open",
+        "gust_factor": 1.06
       },
       {
         "lat": 54.101447,
         "lng": 22.943988,
-        "speed": 13.07,
-        "direction": 342.6,
-        "vx": -3.91,
-        "vy": 12.47
+        "speed": 9.15,
+        "direction": 266.2,
+        "vx": 9.13,
+        "vy": 0.61,
+        "height_agl": 9.0,
+        "turbulence_intensity": 0.15,
+        "environment_type": "wake",
+        "gust_factor": 1.07
       },
       {
-        "lat": 54.11753,
-        "lng": 22.923431,
-        "speed": 15.24,
-        "direction": 280.7,
-        "vx": -14.97,
-        "vy": 2.83
+        "lat": 54.116156,
+        "lng": 22.965292,
+        "speed": 9.59,
+        "direction": 342.0,
+        "vx": 2.96,
+        "vy": -9.12,
+        "height_agl": 15.6,
+        "turbulence_intensity": 0.1,
+        "environment_type": "green",
+        "gust_factor": 1.05
       },
       {
-        "lat": 54.105273,
-        "lng": 22.953803,
-        "speed": 17.1,
-        "direction": 307.6,
-        "vx": -13.55,
-        "vy": 10.42
+        "lat": 54.089873,
+        "lng": 22.947611,
+        "speed": 11.27,
+        "direction": 326.3,
+        "vx": 6.25,
+        "vy": -9.37,
+        "height_agl": 6.1,
+        "turbulence_intensity": 0.25,
+        "environment_type": "tunnel",
+        "gust_factor": 1.12
       },
       {
-        "lat": 54.112292,
-        "lng": 22.960288,
-        "speed": 16.77,
-        "direction": 305.1,
-        "vx": -13.72,
-        "vy": 9.65
-      },
-      {
-        "lat": 54.103684,
-        "lng": 22.946829,
-        "speed": 18.23,
-        "direction": 278.0,
-        "vx": -18.05,
-        "vy": 2.52
-      },
-      {
-        "lat": 54.096053,
-        "lng": 22.919336,
-        "speed": 8.4,
-        "direction": 342.7,
-        "vx": -2.49,
-        "vy": 8.02
+        "lat": 54.102885,
+        "lng": 22.932221,
+        "speed": 16.57,
+        "direction": 296.5,
+        "vx": 14.83,
+        "vy": -7.39,
+        "height_agl": 1.5,
+        "turbulence_intensity": 0.25,
+        "environment_type": "tunnel",
+        "gust_factor": 1.12
       },
       {
         "lat": 54.092107,
         "lng": 22.95063,
-        "speed": 17.43,
-        "direction": 277.6,
-        "vx": -17.28,
-        "vy": 2.32
+        "speed": 20.92,
+        "direction": 299.6,
+        "vx": 18.19,
+        "vy": -10.33,
+        "height_agl": 4.2,
+        "turbulence_intensity": 0.25,
+        "environment_type": "tunnel",
+        "gust_factor": 1.12
       },
       {
-        "lat": 54.090699,
-        "lng": 22.934863,
-        "speed": 16.03,
-        "direction": 312.0,
-        "vx": -11.92,
-        "vy": 10.72
+        "lat": 54.083441,
+        "lng": 22.956049,
+        "speed": 15.36,
+        "direction": 15.4,
+        "vx": -4.09,
+        "vy": -14.81,
+        "height_agl": 13.7,
+        "turbulence_intensity": 0.2,
+        "environment_type": "intersection",
+        "gust_factor": 1.1
       },
       {
-        "lat": 54.114235,
-        "lng": 22.958368,
-        "speed": 18.35,
-        "direction": 289.6,
-        "vx": -17.28,
-        "vy": 6.16
+        "lat": 54.089127,
+        "lng": 22.943668,
+        "speed": 13.94,
+        "direction": 338.4,
+        "vx": 5.13,
+        "vy": -12.96,
+        "height_agl": 1.2,
+        "turbulence_intensity": 0.12,
+        "environment_type": "open",
+        "gust_factor": 1.06
+      },
+      {
+        "lat": 54.097415,
+        "lng": 22.941512,
+        "speed": 8.02,
+        "direction": 319.1,
+        "vx": 5.25,
+        "vy": -6.06,
+        "height_agl": 12.5,
+        "turbulence_intensity": 0.15,
+        "environment_type": "wake",
+        "gust_factor": 1.07
+      },
+      {
+        "lat": 54.116912,
+        "lng": 22.959439,
+        "speed": 13.11,
+        "direction": 307.5,
+        "vx": 10.41,
+        "vy": -7.98,
+        "height_agl": 9.9,
+        "turbulence_intensity": 0.15,
+        "environment_type": "wake",
+        "gust_factor": 1.07
+      },
+      {
+        "lat": 54.099985,
+        "lng": 22.93642,
+        "speed": 10.64,
+        "direction": 337.1,
+        "vx": 4.15,
+        "vy": -9.8,
+        "height_agl": 17.6,
+        "turbulence_intensity": 0.12,
+        "environment_type": "open",
+        "gust_factor": 1.06
+      },
+      {
+        "lat": 54.097472,
+        "lng": 22.944421,
+        "speed": 11.92,
+        "direction": 311.4,
+        "vx": 8.94,
+        "vy": -7.89,
+        "height_agl": 3.2,
+        "turbulence_intensity": 0.2,
+        "environment_type": "intersection",
+        "gust_factor": 1.1
+      },
+      {
+        "lat": 54.105475,
+        "lng": 22.946287,
+        "speed": 13.23,
+        "direction": 289.7,
+        "vx": 12.46,
+        "vy": -4.46,
+        "height_agl": 15.0,
+        "turbulence_intensity": 0.25,
+        "environment_type": "tunnel",
+        "gust_factor": 1.12
+      },
+      {
+        "lat": 54.100759,
+        "lng": 22.964512,
+        "speed": 16.58,
+        "direction": 329.5,
+        "vx": 8.42,
+        "vy": -14.28,
+        "height_agl": 15.8,
+        "turbulence_intensity": 0.12,
+        "environment_type": "open",
+        "gust_factor": 1.06
+      },
+      {
+        "lat": 54.107427,
+        "lng": 22.954161,
+        "speed": 16.08,
+        "direction": 330.6,
+        "vx": 7.9,
+        "vy": -14.01,
+        "height_agl": 1.8,
+        "turbulence_intensity": 0.12,
+        "environment_type": "open",
+        "gust_factor": 1.06
+      },
+      {
+        "lat": 54.092973,
+        "lng": 22.947654,
+        "speed": 9.78,
+        "direction": 316.0,
+        "vx": 6.8,
+        "vy": -7.03,
+        "height_agl": 8.8,
+        "turbulence_intensity": 0.15,
+        "environment_type": "wake",
+        "gust_factor": 1.07
+      },
+      {
+        "lat": 54.08164,
+        "lng": 22.941759,
+        "speed": 10.79,
+        "direction": 3.2,
+        "vx": -0.6,
+        "vy": -10.77,
+        "height_agl": 1.9,
+        "turbulence_intensity": 0.25,
+        "environment_type": "tunnel",
+        "gust_factor": 1.12
+      },
+      {
+        "lat": 54.097738,
+        "lng": 22.951675,
+        "speed": 19.12,
+        "direction": 320.1,
+        "vx": 12.25,
+        "vy": -14.67,
+        "height_agl": 2.5,
+        "turbulence_intensity": 0.25,
+        "environment_type": "tunnel",
+        "gust_factor": 1.12
+      },
+      {
+        "lat": 54.113195,
+        "lng": 22.963066,
+        "speed": 9.67,
+        "direction": 319.3,
+        "vx": 6.31,
+        "vy": -7.33,
+        "height_agl": 3.2,
+        "turbulence_intensity": 0.12,
+        "environment_type": "open",
+        "gust_factor": 1.06
+      },
+      {
+        "lat": 54.103241,
+        "lng": 22.921186,
+        "speed": 13.55,
+        "direction": 321.8,
+        "vx": 8.38,
+        "vy": -10.65,
+        "height_agl": 13.8,
+        "turbulence_intensity": 0.25,
+        "environment_type": "tunnel",
+        "gust_factor": 1.12
+      },
+      {
+        "lat": 54.100935,
+        "lng": 22.937396,
+        "speed": 10.46,
+        "direction": 298.4,
+        "vx": 9.2,
+        "vy": -4.97,
+        "height_agl": 14.2,
+        "turbulence_intensity": 0.12,
+        "environment_type": "open",
+        "gust_factor": 1.06
+      },
+      {
+        "lat": 54.101398,
+        "lng": 22.955635,
+        "speed": 12.08,
+        "direction": 285.1,
+        "vx": 11.66,
+        "vy": -3.14,
+        "height_agl": 5.4,
+        "turbulence_intensity": 0.12,
+        "environment_type": "open",
+        "gust_factor": 1.06
+      },
+      {
+        "lat": 54.103487,
+        "lng": 22.949745,
+        "speed": 10.1,
+        "direction": 338.7,
+        "vx": 3.66,
+        "vy": -9.41,
+        "height_agl": 15.1,
+        "turbulence_intensity": 0.2,
+        "environment_type": "intersection",
+        "gust_factor": 1.1
+      },
+      {
+        "lat": 54.09972,
+        "lng": 22.950794,
+        "speed": 10.15,
+        "direction": 324.5,
+        "vx": 5.89,
+        "vy": -8.27,
+        "height_agl": 15.2,
+        "turbulence_intensity": 0.1,
+        "environment_type": "green",
+        "gust_factor": 1.05
+      },
+      {
+        "lat": 54.09663,
+        "lng": 22.946231,
+        "speed": 12.59,
+        "direction": 242.9,
+        "vx": 11.21,
+        "vy": 5.74,
+        "height_agl": 19.1,
+        "turbulence_intensity": 0.2,
+        "environment_type": "intersection",
+        "gust_factor": 1.1
+      },
+      {
+        "lat": 54.104387,
+        "lng": 22.951538,
+        "speed": 14.33,
+        "direction": 1.5,
+        "vx": -0.38,
+        "vy": -14.32,
+        "height_agl": 13.0,
+        "turbulence_intensity": 0.25,
+        "environment_type": "tunnel",
+        "gust_factor": 1.12
+      },
+      {
+        "lat": 54.118359,
+        "lng": 22.978517,
+        "speed": 12.32,
+        "direction": 312.6,
+        "vx": 9.07,
+        "vy": -8.34,
+        "height_agl": 5.9,
+        "turbulence_intensity": 0.25,
+        "environment_type": "tunnel",
+        "gust_factor": 1.12
+      },
+      {
+        "lat": 54.100015,
+        "lng": 22.961106,
+        "speed": 16.02,
+        "direction": 285.9,
+        "vx": 15.4,
+        "vy": -4.39,
+        "height_agl": 4.2,
+        "turbulence_intensity": 0.2,
+        "environment_type": "intersection",
+        "gust_factor": 1.1
+      },
+      {
+        "lat": 54.102761,
+        "lng": 22.950671,
+        "speed": 12.0,
+        "direction": 303.6,
+        "vx": 10.0,
+        "vy": -6.63,
+        "height_agl": 17.2,
+        "turbulence_intensity": 0.15,
+        "environment_type": "wake",
+        "gust_factor": 1.07
+      },
+      {
+        "lat": 54.104255,
+        "lng": 22.95621,
+        "speed": 15.81,
+        "direction": 297.3,
+        "vx": 14.05,
+        "vy": -7.26,
+        "height_agl": 12.0,
+        "turbulence_intensity": 0.25,
+        "environment_type": "tunnel",
+        "gust_factor": 1.12
       }
     ],
-    "computation_time": "2025-09-17T05:33:15.204133",
-    "model_version": "WindSim_v1.9"
+    "visualization": {
+      "center_lat": 54.1,
+      "center_lng": 22.95,
+      "zoom_level": 14,
+      "vector_scale": 10,
+      "color_scale": "Viridis",
+      "particle_count": 75
+    }
   },
   "wiatr_burzowy": {
     "scenario_name": "Wiatr burzowy",
     "module": "WindSim",
+    "model_version": "WindSim_v1.9_CFD",
+    "computation_time": "2025-09-17T06:49:53.897929",
     "parameters": {
       "wind_speed_ref": 25,
-      "wind_direction": 270
+      "wind_direction": 270,
+      "reference_height": 10.0,
+      "surface_roughness": 0.3,
+      "air_density": 1.225
     },
-    "metrics": {
-      "max_speed": 30.0,
-      "min_speed": 17.5,
-      "avg_urban_speed": 22.5,
+    "urban_characteristics": {
+      "building_density_percent": 25.0,
+      "average_building_height": 18,
+      "tunnel_amplification": 0.8,
+      "wake_reduction": 0.3,
+      "directional_factor": 1.15
+    },
+    "wind_field_analysis": {
+      "max_speed": 34.5,
+      "min_speed": 20.12,
+      "avg_urban_speed": 25.87,
+      "pedestrian_speed": 14.57,
+      "speed_variation_factor": 1.71
+    },
+    "comfort_assessment": {
+      "pedestrian_comfort_level": "EKSTREMALNIE NIEBEZPIECZNE",
+      "comfort_score": 5,
+      "comfort_description": "Niemożliwe przebywanie na zewnątrz",
       "comfort_zones_percent": 15,
-      "dynamic_pressure_pa": 383.0
+      "comfort_distribution": {
+        "komfortowo": 5,
+        "akceptowalne": 10,
+        "niewłaściwe": 30,
+        "niebezpieczne": 55
+      }
+    },
+    "structural_loads": {
+      "dynamic_pressure_pa": 383.0,
+      "windward_pressure_pa": 306.0,
+      "leeward_pressure_pa": -191.0,
+      "pressure_difference_pa": 498.0,
+      "design_wind_load_knm2": 0.38
     },
     "wind_field": [
       {
         "lat": 54.088712,
         "lng": 22.946636,
-        "speed": 13.76,
-        "direction": 319.4,
-        "vx": -8.95,
-        "vy": 10.46
+        "speed": 21.1,
+        "direction": 221.0,
+        "vx": 13.85,
+        "vy": 15.92,
+        "height_agl": 2.1,
+        "turbulence_intensity": 0.25,
+        "environment_type": "tunnel",
+        "gust_factor": 1.12
       },
       {
-        "lat": 54.094248,
-        "lng": 22.945395,
-        "speed": 20.23,
-        "direction": 265.9,
-        "vx": -20.18,
-        "vy": -1.44
+        "lat": 54.108649,
+        "lng": 22.935308,
+        "speed": 21.82,
+        "direction": 250.4,
+        "vx": 20.55,
+        "vy": 7.33,
+        "height_agl": 15.4,
+        "turbulence_intensity": 0.2,
+        "environment_type": "intersection",
+        "gust_factor": 1.1
       },
       {
-        "lat": 54.095144,
-        "lng": 22.94263,
-        "speed": 31.24,
-        "direction": 262.5,
-        "vx": -30.97,
-        "vy": -4.06
+        "lat": 54.094721,
+        "lng": 22.949122,
+        "speed": 16.47,
+        "direction": 269.1,
+        "vx": 16.47,
+        "vy": 0.25,
+        "height_agl": 12.1,
+        "turbulence_intensity": 0.12,
+        "environment_type": "open",
+        "gust_factor": 1.06
       },
       {
-        "lat": 54.112558,
-        "lng": 22.978805,
-        "speed": 24.22,
-        "direction": 245.6,
-        "vx": -22.06,
-        "vy": -9.99
+        "lat": 54.096234,
+        "lng": 22.933736,
+        "speed": 24.59,
+        "direction": 281.4,
+        "vx": 24.11,
+        "vy": -4.85,
+        "height_agl": 10.4,
+        "turbulence_intensity": 0.12,
+        "environment_type": "open",
+        "gust_factor": 1.06
       },
       {
-        "lat": 54.097497,
-        "lng": 22.932749,
-        "speed": 13.9,
-        "direction": 224.9,
-        "vx": -9.8,
-        "vy": -9.85
+        "lat": 54.092844,
+        "lng": 22.94181,
+        "speed": 21.2,
+        "direction": 267.4,
+        "vx": 21.18,
+        "vy": 0.96,
+        "height_agl": 16.3,
+        "turbulence_intensity": 0.12,
+        "environment_type": "open",
+        "gust_factor": 1.06
       },
       {
-        "lat": 54.099539,
-        "lng": 22.941805,
-        "speed": 18.53,
-        "direction": 248.1,
-        "vx": -17.2,
-        "vy": -6.91
-      },
-      {
-        "lat": 54.099172,
-        "lng": 22.955921,
-        "speed": 28.02,
-        "direction": 257.6,
-        "vx": -27.37,
-        "vy": -6.0
-      },
-      {
-        "lat": 54.091933,
-        "lng": 22.952968,
-        "speed": 22.52,
-        "direction": 257.1,
-        "vx": -21.96,
-        "vy": -5.01
+        "lat": 54.103947,
+        "lng": 22.944066,
+        "speed": 13.44,
+        "direction": 244.8,
+        "vx": 12.16,
+        "vy": 5.72,
+        "height_agl": 10.5,
+        "turbulence_intensity": 0.15,
+        "environment_type": "wake",
+        "gust_factor": 1.07
       },
       {
         "lat": 54.094584,
         "lng": 22.932377,
-        "speed": 22.52,
-        "direction": 292.5,
-        "vx": -20.81,
-        "vy": 8.6
+        "speed": 34.53,
+        "direction": 240.4,
+        "vx": 30.03,
+        "vy": 17.04,
+        "height_agl": 6.5,
+        "turbulence_intensity": 0.25,
+        "environment_type": "tunnel",
+        "gust_factor": 1.12
       },
       {
-        "lat": 54.07725,
-        "lng": 22.947679,
-        "speed": 27.01,
-        "direction": 260.2,
-        "vx": -26.61,
-        "vy": -4.61
+        "lat": 54.10024,
+        "lng": 22.960032,
+        "speed": 19.48,
+        "direction": 295.4,
+        "vx": 17.59,
+        "vy": -8.36,
+        "height_agl": 8.4,
+        "turbulence_intensity": 0.12,
+        "environment_type": "open",
+        "gust_factor": 1.06
       },
       {
-        "lat": 54.092738,
-        "lng": 22.957253,
-        "speed": 13.86,
-        "direction": 306.4,
-        "vx": -11.16,
-        "vy": 8.22
+        "lat": 54.09366,
+        "lng": 22.965516,
+        "speed": 40.17,
+        "direction": 267.2,
+        "vx": 40.12,
+        "vy": 1.98,
+        "height_agl": 13.4,
+        "turbulence_intensity": 0.25,
+        "environment_type": "tunnel",
+        "gust_factor": 1.12
       },
       {
-        "lat": 54.09468,
-        "lng": 22.966127,
-        "speed": 19.33,
-        "direction": 245.9,
-        "vx": -17.65,
-        "vy": -7.88
+        "lat": 54.096925,
+        "lng": 22.954662,
+        "speed": 33.43,
+        "direction": 288.1,
+        "vx": 31.78,
+        "vy": -10.38,
+        "height_agl": 1.1,
+        "turbulence_intensity": 0.12,
+        "environment_type": "open",
+        "gust_factor": 1.06
       },
       {
-        "lat": 54.099399,
-        "lng": 22.945387,
-        "speed": 25.28,
-        "direction": 279.7,
-        "vx": -24.92,
-        "vy": 4.26
+        "lat": 54.110043,
+        "lng": 22.95003,
+        "speed": 24.94,
+        "direction": 304.8,
+        "vx": 20.49,
+        "vy": -14.22,
+        "height_agl": 17.1,
+        "turbulence_intensity": 0.15,
+        "environment_type": "wake",
+        "gust_factor": 1.07
       },
       {
-        "lat": 54.105785,
-        "lng": 22.950004,
-        "speed": 28.57,
-        "direction": 264.1,
-        "vx": -28.42,
-        "vy": -2.92
-      },
-      {
-        "lat": 54.104771,
-        "lng": 22.962975,
-        "speed": 25.04,
-        "direction": 291.5,
-        "vx": -23.3,
-        "vy": 9.19
-      },
-      {
-        "lat": 54.103639,
+        "lat": 54.108521,
         "lng": 22.951194,
-        "speed": 26.83,
+        "speed": 24.0,
         "direction": 256.2,
-        "vx": -26.05,
-        "vy": -6.42
+        "vx": 23.3,
+        "vy": 5.74,
+        "height_agl": 10.0,
+        "turbulence_intensity": 0.15,
+        "environment_type": "wake",
+        "gust_factor": 1.07
       },
       {
-        "lat": 54.095014,
-        "lng": 22.978467,
-        "speed": 23.29,
-        "direction": 265.6,
-        "vx": -23.22,
-        "vy": -1.78
+        "lat": 54.094015,
+        "lng": 22.950912,
+        "speed": 12.91,
+        "direction": 245.7,
+        "vx": 11.77,
+        "vy": 5.31,
+        "height_agl": 13.5,
+        "turbulence_intensity": 0.1,
+        "environment_type": "green",
+        "gust_factor": 1.05
       },
       {
-        "lat": 54.097116,
-        "lng": 22.958039,
-        "speed": 16.4,
-        "direction": 299.0,
-        "vx": -14.35,
-        "vy": 7.95
+        "lat": 54.103668,
+        "lng": 22.960081,
+        "speed": 18.53,
+        "direction": 251.4,
+        "vx": 17.57,
+        "vy": 5.91,
+        "height_agl": 16.6,
+        "turbulence_intensity": 0.12,
+        "environment_type": "open",
+        "gust_factor": 1.06
       },
       {
-        "lat": 54.091445,
-        "lng": 22.956669,
-        "speed": 30.71,
-        "direction": 291.0,
-        "vx": -28.67,
-        "vy": 11.01
+        "lat": 54.102375,
+        "lng": 22.941129,
+        "speed": 34.95,
+        "direction": 252.7,
+        "vx": 33.37,
+        "vy": 10.37,
+        "height_agl": 5.3,
+        "turbulence_intensity": 0.2,
+        "environment_type": "intersection",
+        "gust_factor": 1.1
       },
       {
-        "lat": 54.094048,
-        "lng": 22.963692,
-        "speed": 31.01,
-        "direction": 285.9,
-        "vx": -29.82,
-        "vy": 8.51
+        "lat": 54.094246,
+        "lng": 22.937515,
+        "speed": 36.17,
+        "direction": 302.9,
+        "vx": 30.38,
+        "vy": -19.63,
+        "height_agl": 6.2,
+        "turbulence_intensity": 0.12,
+        "environment_type": "open",
+        "gust_factor": 1.06
       },
       {
-        "lat": 54.096316,
-        "lng": 22.941369,
-        "speed": 17.58,
-        "direction": 244.0,
-        "vx": -15.8,
-        "vy": -7.71
+        "lat": 54.11411,
+        "lng": 22.941044,
+        "speed": 34.5,
+        "direction": 286.3,
+        "vx": 33.11,
+        "vy": -9.69,
+        "height_agl": 10.5,
+        "turbulence_intensity": 0.12,
+        "environment_type": "open",
+        "gust_factor": 1.06
       },
       {
-        "lat": 54.110517,
-        "lng": 22.943279,
-        "speed": 25.81,
-        "direction": 229.4,
-        "vx": -19.59,
-        "vy": -16.8
-      },
-      {
-        "lat": 54.105221,
-        "lng": 22.953406,
-        "speed": 22.51,
-        "direction": 303.9,
-        "vx": -18.68,
-        "vy": 12.55
-      },
-      {
-        "lat": 54.098617,
-        "lng": 22.969397,
-        "speed": 25.33,
-        "direction": 250.1,
-        "vx": -23.82,
-        "vy": -8.63
+        "lat": 54.10227,
+        "lng": 22.966272,
+        "speed": 18.55,
+        "direction": 265.7,
+        "vx": 18.49,
+        "vy": 1.4,
+        "height_agl": 13.5,
+        "turbulence_intensity": 0.15,
+        "environment_type": "wake",
+        "gust_factor": 1.07
       },
       {
         "lat": 54.112807,
         "lng": 22.957001,
-        "speed": 27.74,
-        "direction": 291.6,
-        "vx": -25.79,
-        "vy": 10.22
+        "speed": 24.81,
+        "direction": 277.5,
+        "vx": 24.6,
+        "vy": -3.22,
+        "height_agl": 13.9,
+        "turbulence_intensity": 0.15,
+        "environment_type": "wake",
+        "gust_factor": 1.07
       },
       {
-        "lat": 54.101267,
-        "lng": 22.945523,
-        "speed": 29.77,
-        "direction": 257.2,
-        "vx": -29.04,
-        "vy": -6.58
-      },
-      {
-        "lat": 54.108991,
-        "lng": 22.965769,
-        "speed": 31.42,
-        "direction": 239.6,
-        "vx": -27.09,
-        "vy": -15.92
-      },
-      {
-        "lat": 54.08443,
-        "lng": 22.940687,
-        "speed": 16.12,
-        "direction": 253.3,
-        "vx": -15.44,
-        "vy": -4.64
+        "lat": 54.098425,
+        "lng": 22.935388,
+        "speed": 20.68,
+        "direction": 221.3,
+        "vx": 13.66,
+        "vy": 15.52,
+        "height_agl": 3.8,
+        "turbulence_intensity": 0.12,
+        "environment_type": "open",
+        "gust_factor": 1.06
       },
       {
         "lat": 54.100333,
         "lng": 22.952232,
-        "speed": 26.14,
-        "direction": 310.7,
-        "vx": -19.8,
-        "vy": 17.06
+        "speed": 23.38,
+        "direction": 215.6,
+        "vx": 13.62,
+        "vy": 19.0,
+        "height_agl": 11.1,
+        "turbulence_intensity": 0.15,
+        "environment_type": "wake",
+        "gust_factor": 1.07
       },
       {
-        "lat": 54.107645,
-        "lng": 22.95035,
-        "speed": 20.77,
-        "direction": 276.9,
-        "vx": -20.62,
-        "vy": 2.49
-      },
-      {
-        "lat": 54.119743,
-        "lng": 22.962653,
-        "speed": 22.22,
-        "direction": 296.8,
-        "vx": -19.84,
-        "vy": 10.02
-      },
-      {
-        "lat": 54.09869,
-        "lng": 22.94401,
-        "speed": 13.59,
-        "direction": 293.3,
-        "vx": -12.48,
-        "vy": 5.37
+        "lat": 54.109336,
+        "lng": 22.943503,
+        "speed": 27.18,
+        "direction": 10.4,
+        "vx": -4.89,
+        "vy": -26.74,
+        "height_agl": 16.8,
+        "turbulence_intensity": 0.2,
+        "environment_type": "intersection",
+        "gust_factor": 1.1
       },
       {
         "lat": 54.088987,
         "lng": 22.96279,
-        "speed": 28.46,
-        "direction": 235.5,
-        "vx": -23.47,
-        "vy": -16.11
+        "speed": 25.46,
+        "direction": 256.0,
+        "vx": 24.71,
+        "vy": 6.15,
+        "height_agl": 10.4,
+        "turbulence_intensity": 0.15,
+        "environment_type": "wake",
+        "gust_factor": 1.07
       },
       {
-        "lat": 54.103457,
-        "lng": 22.949069,
-        "speed": 15.47,
-        "direction": 211.1,
-        "vx": -8.0,
-        "vy": -13.24
+        "lat": 54.089859,
+        "lng": 22.946099,
+        "speed": 19.39,
+        "direction": 252.2,
+        "vx": 18.46,
+        "vy": 5.91,
+        "height_agl": 12.7,
+        "turbulence_intensity": 0.15,
+        "environment_type": "wake",
+        "gust_factor": 1.07
       },
       {
-        "lat": 54.096025,
-        "lng": 22.926783,
-        "speed": 23.62,
-        "direction": 295.4,
-        "vx": -21.33,
-        "vy": 10.14
+        "lat": 54.096953,
+        "lng": 22.955889,
+        "speed": 28.85,
+        "direction": 224.6,
+        "vx": 20.27,
+        "vy": 20.53,
+        "height_agl": 16.5,
+        "turbulence_intensity": 0.12,
+        "environment_type": "open",
+        "gust_factor": 1.06
       },
       {
-        "lat": 54.102572,
-        "lng": 22.957532,
-        "speed": 17.6,
-        "direction": 239.6,
-        "vx": -15.19,
-        "vy": -8.9
-      },
-      {
-        "lat": 54.085483,
-        "lng": 22.950955,
-        "speed": 28.22,
-        "direction": 255.4,
-        "vx": -27.3,
-        "vy": -7.13
-      },
-      {
-        "lat": 54.098512,
-        "lng": 22.959353,
-        "speed": 22.51,
-        "direction": 259.1,
-        "vx": -22.1,
-        "vy": -4.26
+        "lat": 54.100637,
+        "lng": 22.942971,
+        "speed": 23.91,
+        "direction": 263.0,
+        "vx": 23.73,
+        "vy": 2.9,
+        "height_agl": 10.5,
+        "turbulence_intensity": 0.2,
+        "environment_type": "intersection",
+        "gust_factor": 1.1
       },
       {
         "lat": 54.101422,
         "lng": 22.934159,
-        "speed": 26.35,
-        "direction": 287.7,
-        "vx": -25.1,
-        "vy": 8.0
+        "speed": 23.57,
+        "direction": 317.8,
+        "vx": 15.82,
+        "vy": -17.46,
+        "height_agl": 11.9,
+        "turbulence_intensity": 0.15,
+        "environment_type": "wake",
+        "gust_factor": 1.07
       },
       {
-        "lat": 54.117913,
-        "lng": 22.958033,
-        "speed": 16.05,
-        "direction": 314.5,
-        "vx": -11.44,
-        "vy": 11.26
+        "lat": 54.103068,
+        "lng": 22.955236,
+        "speed": 28.1,
+        "direction": 242.8,
+        "vx": 25.0,
+        "vy": 12.84,
+        "height_agl": 7.0,
+        "turbulence_intensity": 0.2,
+        "environment_type": "intersection",
+        "gust_factor": 1.1
       },
       {
-        "lat": 54.098932,
-        "lng": 22.971925,
-        "speed": 29.17,
-        "direction": 252.0,
-        "vx": -27.74,
-        "vy": -9.01
+        "lat": 54.09838,
+        "lng": 22.944262,
+        "speed": 26.31,
+        "direction": 291.7,
+        "vx": 24.44,
+        "vy": -9.73,
+        "height_agl": 7.9,
+        "turbulence_intensity": 0.25,
+        "environment_type": "tunnel",
+        "gust_factor": 1.12
       },
       {
-        "lat": 54.097195,
-        "lng": 22.937702,
-        "speed": 21.12,
-        "direction": 254.3,
-        "vx": -20.33,
-        "vy": -5.73
-      },
-      {
-        "lat": 54.104633,
-        "lng": 22.958024,
-        "speed": 20.05,
-        "direction": 249.7,
-        "vx": -18.8,
-        "vy": -6.96
-      },
-      {
-        "lat": 54.100656,
-        "lng": 22.942059,
-        "speed": 25.19,
-        "direction": 256.7,
-        "vx": -24.52,
-        "vy": -5.78
+        "lat": 54.105349,
+        "lng": 22.940244,
+        "speed": 20.47,
+        "direction": 272.1,
+        "vx": 20.45,
+        "vy": -0.73,
+        "height_agl": 13.3,
+        "turbulence_intensity": 0.12,
+        "environment_type": "open",
+        "gust_factor": 1.06
       },
       {
         "lat": 54.102375,
         "lng": 22.935018,
-        "speed": 29.71,
-        "direction": 337.4,
-        "vx": -11.42,
-        "vy": 27.43
+        "speed": 26.58,
+        "direction": 251.9,
+        "vx": 25.27,
+        "vy": 8.25,
+        "height_agl": 1.7,
+        "turbulence_intensity": 0.15,
+        "environment_type": "wake",
+        "gust_factor": 1.07
       },
       {
-        "lat": 54.106393,
+        "lat": 54.100888,
         "lng": 22.964377,
-        "speed": 26.49,
-        "direction": 256.4,
-        "vx": -25.75,
-        "vy": -6.21
+        "speed": 40.61,
+        "direction": 249.7,
+        "vx": 38.08,
+        "vy": 14.11,
+        "height_agl": 16.2,
+        "turbulence_intensity": 0.25,
+        "environment_type": "tunnel",
+        "gust_factor": 1.12
       },
       {
-        "lat": 54.110052,
-        "lng": 22.944609,
-        "speed": 23.68,
-        "direction": 281.9,
-        "vx": -23.17,
-        "vy": 4.89
+        "lat": 54.110774,
+        "lng": 22.953492,
+        "speed": 28.34,
+        "direction": 267.5,
+        "vx": 28.32,
+        "vy": 1.25,
+        "height_agl": 17.8,
+        "turbulence_intensity": 0.12,
+        "environment_type": "open",
+        "gust_factor": 1.06
       },
       {
-        "lat": 54.109719,
-        "lng": 22.961761,
-        "speed": 29.88,
-        "direction": 265.3,
-        "vx": -29.78,
-        "vy": -2.46
+        "lat": 54.104906,
+        "lng": 22.946894,
+        "speed": 34.77,
+        "direction": 288.6,
+        "vx": 32.95,
+        "vy": -11.08,
+        "height_agl": 16.4,
+        "turbulence_intensity": 0.2,
+        "environment_type": "intersection",
+        "gust_factor": 1.1
       },
       {
-        "lat": 54.107559,
-        "lng": 22.941231,
-        "speed": 29.48,
-        "direction": 285.0,
-        "vx": -28.48,
-        "vy": 7.61
+        "lat": 54.106345,
+        "lng": 22.958178,
+        "speed": 25.68,
+        "direction": 270.7,
+        "vx": 25.68,
+        "vy": -0.32,
+        "height_agl": 5.7,
+        "turbulence_intensity": 0.25,
+        "environment_type": "tunnel",
+        "gust_factor": 1.12
       },
       {
-        "lat": 54.105996,
-        "lng": 22.943107,
-        "speed": 19.7,
-        "direction": 283.0,
-        "vx": -19.19,
-        "vy": 4.42
-      },
-      {
-        "lat": 54.100153,
-        "lng": 22.944151,
-        "speed": 17.93,
-        "direction": 263.1,
-        "vx": -17.8,
-        "vy": -2.15
-      },
-      {
-        "lat": 54.105408,
-        "lng": 22.951511,
-        "speed": 29.18,
-        "direction": 225.8,
-        "vx": -20.93,
-        "vy": -20.33
+        "lat": 54.096101,
+        "lng": 22.9467,
+        "speed": 16.46,
+        "direction": 286.9,
+        "vx": 15.75,
+        "vy": -4.78,
+        "height_agl": 17.6,
+        "turbulence_intensity": 0.15,
+        "environment_type": "wake",
+        "gust_factor": 1.07
       },
       {
         "lat": 54.103393,
         "lng": 22.948524,
-        "speed": 26.22,
-        "direction": 276.3,
-        "vx": -26.06,
-        "vy": 2.9
+        "speed": 33.17,
+        "direction": 299.9,
+        "vx": 28.76,
+        "vy": -16.54,
+        "height_agl": 17.9,
+        "turbulence_intensity": 0.2,
+        "environment_type": "intersection",
+        "gust_factor": 1.1
       },
       {
-        "lat": 54.105092,
-        "lng": 22.961314,
-        "speed": 27.91,
-        "direction": 274.2,
-        "vx": -27.83,
-        "vy": 2.07
+        "lat": 54.114906,
+        "lng": 22.943148,
+        "speed": 33.0,
+        "direction": 291.4,
+        "vx": 30.72,
+        "vy": -12.04,
+        "height_agl": 3.3,
+        "turbulence_intensity": 0.25,
+        "environment_type": "tunnel",
+        "gust_factor": 1.12
       },
       {
-        "lat": 54.097996,
-        "lng": 22.933414,
-        "speed": 19.6,
-        "direction": 279.4,
-        "vx": -19.34,
-        "vy": 3.19
+        "lat": 54.093369,
+        "lng": 22.956399,
+        "speed": 31.76,
+        "direction": 265.7,
+        "vx": 31.67,
+        "vy": 2.37,
+        "height_agl": 11.4,
+        "turbulence_intensity": 0.12,
+        "environment_type": "open",
+        "gust_factor": 1.06
       },
       {
-        "lat": 54.094681,
-        "lng": 22.955823,
-        "speed": 15.91,
-        "direction": 255.9,
-        "vx": -15.44,
-        "vy": -3.87
+        "lat": 54.104072,
+        "lng": 22.944179,
+        "speed": 34.79,
+        "direction": 291.2,
+        "vx": 32.43,
+        "vy": -12.61,
+        "height_agl": 9.1,
+        "turbulence_intensity": 0.12,
+        "environment_type": "open",
+        "gust_factor": 1.06
       },
       {
-        "lat": 54.098629,
-        "lng": 22.956108,
-        "speed": 23.38,
-        "direction": 257.9,
-        "vx": -22.86,
-        "vy": -4.91
+        "lat": 54.106351,
+        "lng": 22.958978,
+        "speed": 16.37,
+        "direction": 219.9,
+        "vx": 10.5,
+        "vy": 12.56,
+        "height_agl": 13.5,
+        "turbulence_intensity": 0.1,
+        "environment_type": "green",
+        "gust_factor": 1.05
       },
       {
-        "lat": 54.106798,
-        "lng": 22.968438,
-        "speed": 27.36,
-        "direction": 259.2,
-        "vx": -26.88,
-        "vy": -5.12
-      },
-      {
-        "lat": 54.110185,
-        "lng": 22.953249,
-        "speed": 21.76,
-        "direction": 300.3,
-        "vx": -18.79,
-        "vy": 10.96
-      },
-      {
-        "lat": 54.089776,
+        "lat": 54.096039,
         "lng": 22.958392,
-        "speed": 17.55,
+        "speed": 20.19,
         "direction": 251.6,
-        "vx": -16.66,
-        "vy": -5.53
+        "vx": 19.16,
+        "vy": 6.35,
+        "height_agl": 17.2,
+        "turbulence_intensity": 0.12,
+        "environment_type": "open",
+        "gust_factor": 1.06
       },
       {
         "lat": 54.096753,
         "lng": 22.956351,
-        "speed": 24.19,
-        "direction": 281.3,
-        "vx": -23.72,
-        "vy": 4.76
+        "speed": 30.61,
+        "direction": 313.7,
+        "vx": 22.14,
+        "vy": -21.13,
+        "height_agl": 12.0,
+        "turbulence_intensity": 0.2,
+        "environment_type": "intersection",
+        "gust_factor": 1.1
       },
       {
-        "lat": 54.112035,
+        "lat": 54.106079,
         "lng": 22.946282,
-        "speed": 17.42,
+        "speed": 20.04,
         "direction": 275.5,
-        "vx": -17.34,
-        "vy": 1.66
+        "vx": 19.94,
+        "vy": -1.91,
+        "height_agl": 9.1,
+        "turbulence_intensity": 0.12,
+        "environment_type": "open",
+        "gust_factor": 1.06
       },
       {
-        "lat": 54.098649,
-        "lng": 22.938827,
-        "speed": 18.62,
-        "direction": 254.2,
-        "vx": -17.91,
-        "vy": -5.08
+        "lat": 54.10789,
+        "lng": 22.939329,
+        "speed": 23.77,
+        "direction": 255.8,
+        "vx": 23.05,
+        "vy": 5.83,
+        "height_agl": 4.5,
+        "turbulence_intensity": 0.12,
+        "environment_type": "open",
+        "gust_factor": 1.06
       },
       {
-        "lat": 54.11192,
-        "lng": 22.942055,
-        "speed": 18.99,
-        "direction": 256.2,
-        "vx": -18.44,
-        "vy": -4.54
+        "lat": 54.105367,
+        "lng": 22.942543,
+        "speed": 22.97,
+        "direction": 262.4,
+        "vx": 22.76,
+        "vy": 3.04,
+        "height_agl": 9.8,
+        "turbulence_intensity": 0.15,
+        "environment_type": "wake",
+        "gust_factor": 1.07
       },
       {
-        "lat": 54.102401,
-        "lng": 22.941865,
-        "speed": 25.66,
-        "direction": 316.9,
-        "vx": -17.52,
-        "vy": 18.75
+        "lat": 54.091366,
+        "lng": 22.962879,
+        "speed": 24.9,
+        "direction": 220.9,
+        "vx": 16.3,
+        "vy": 18.82,
+        "height_agl": 5.8,
+        "turbulence_intensity": 0.15,
+        "environment_type": "wake",
+        "gust_factor": 1.07
       },
       {
-        "lat": 54.097211,
-        "lng": 22.961579,
-        "speed": 24.27,
-        "direction": 253.8,
-        "vx": -23.31,
-        "vy": -6.76
-      },
-      {
-        "lat": 54.08429,
-        "lng": 22.971656,
-        "speed": 18.09,
-        "direction": 289.6,
-        "vx": -17.05,
-        "vy": 6.06
-      },
-      {
-        "lat": 54.0997,
-        "lng": 22.950338,
-        "speed": 24.63,
-        "direction": 243.1,
-        "vx": -21.96,
-        "vy": -11.16
+        "lat": 54.114437,
+        "lng": 22.959394,
+        "speed": 14.11,
+        "direction": 269.1,
+        "vx": 14.1,
+        "vy": 0.23,
+        "height_agl": 12.7,
+        "turbulence_intensity": 0.15,
+        "environment_type": "wake",
+        "gust_factor": 1.07
       },
       {
         "lat": 54.100153,
         "lng": 22.950213,
-        "speed": 19.39,
-        "direction": 264.3,
-        "vx": -19.29,
-        "vy": -1.92
+        "speed": 17.34,
+        "direction": 191.1,
+        "vx": 3.33,
+        "vy": 17.02,
+        "height_agl": 12.5,
+        "turbulence_intensity": 0.15,
+        "environment_type": "wake",
+        "gust_factor": 1.07
       },
       {
-        "lat": 54.124466,
-        "lng": 22.977437,
-        "speed": 29.37,
-        "direction": 247.6,
-        "vx": -27.15,
-        "vy": -11.2
+        "lat": 54.097788,
+        "lng": 22.9543,
+        "speed": 36.97,
+        "direction": 294.3,
+        "vx": 33.7,
+        "vy": -15.21,
+        "height_agl": 19.6,
+        "turbulence_intensity": 0.2,
+        "environment_type": "intersection",
+        "gust_factor": 1.1
       },
       {
-        "lat": 54.105445,
-        "lng": 22.954614,
-        "speed": 29.29,
-        "direction": 263.8,
-        "vx": -29.12,
-        "vy": -3.14
+        "lat": 54.109019,
+        "lng": 22.944994,
+        "speed": 27.21,
+        "direction": 270.2,
+        "vx": 27.21,
+        "vy": -0.11,
+        "height_agl": 4.5,
+        "turbulence_intensity": 0.12,
+        "environment_type": "open",
+        "gust_factor": 1.06
       },
       {
-        "lat": 54.106514,
-        "lng": 22.952955,
-        "speed": 15.55,
-        "direction": 301.3,
-        "vx": -13.29,
-        "vy": 8.07
-      },
-      {
-        "lat": 54.100076,
-        "lng": 22.961902,
-        "speed": 16.77,
-        "direction": 273.0,
-        "vx": -16.75,
-        "vy": 0.87
-      },
-      {
-        "lat": 54.104881,
-        "lng": 22.926869,
-        "speed": 25.65,
-        "direction": 283.4,
-        "vx": -24.95,
-        "vy": 5.96
+        "lat": 54.107935,
+        "lng": 22.951422,
+        "speed": 35.86,
+        "direction": 292.9,
+        "vx": 33.04,
+        "vy": -13.94,
+        "height_agl": 13.8,
+        "turbulence_intensity": 0.25,
+        "environment_type": "tunnel",
+        "gust_factor": 1.12
       },
       {
         "lat": 54.109011,
         "lng": 22.959112,
-        "speed": 18.66,
-        "direction": 299.2,
-        "vx": -16.28,
-        "vy": 9.11
+        "speed": 28.61,
+        "direction": 222.6,
+        "vx": 19.37,
+        "vy": 21.06,
+        "height_agl": 17.2,
+        "turbulence_intensity": 0.25,
+        "environment_type": "tunnel",
+        "gust_factor": 1.12
       },
       {
-        "lat": 54.08615,
-        "lng": 22.954489,
-        "speed": 23.2,
-        "direction": 261.8,
-        "vx": -22.97,
-        "vy": -3.3
+        "lat": 54.103072,
+        "lng": 22.963294,
+        "speed": 13.33,
+        "direction": 343.8,
+        "vx": 3.72,
+        "vy": -12.79,
+        "height_agl": 11.7,
+        "turbulence_intensity": 0.15,
+        "environment_type": "wake",
+        "gust_factor": 1.07
       },
       {
-        "lat": 54.093443,
-        "lng": 22.950341,
-        "speed": 24.48,
-        "direction": 315.8,
-        "vx": -17.06,
-        "vy": 17.55
+        "lat": 54.094265,
+        "lng": 22.97114,
+        "speed": 30.59,
+        "direction": 296.8,
+        "vx": 27.31,
+        "vy": -13.78,
+        "height_agl": 13.7,
+        "turbulence_intensity": 0.2,
+        "environment_type": "intersection",
+        "gust_factor": 1.1
       },
       {
-        "lat": 54.104807,
-        "lng": 22.972159,
-        "speed": 30.94,
-        "direction": 232.2,
-        "vx": -24.46,
-        "vy": -18.95
-      },
-      {
-        "lat": 54.105712,
-        "lng": 22.913611,
-        "speed": 25.49,
-        "direction": 250.0,
-        "vx": -23.95,
-        "vy": -8.73
-      },
-      {
-        "lat": 54.096811,
-        "lng": 22.950492,
-        "speed": 18.18,
-        "direction": 272.2,
-        "vx": -18.17,
-        "vy": 0.69
+        "lat": 54.075741,
+        "lng": 22.940382,
+        "speed": 21.13,
+        "direction": 260.0,
+        "vx": 20.81,
+        "vy": 3.66,
+        "height_agl": 5.9,
+        "turbulence_intensity": 0.1,
+        "environment_type": "green",
+        "gust_factor": 1.05
       },
       {
         "lat": 54.108691,
         "lng": 22.960786,
-        "speed": 24.63,
-        "direction": 276.7,
-        "vx": -24.46,
-        "vy": 2.89
+        "speed": 28.32,
+        "direction": 278.2,
+        "vx": 28.03,
+        "vy": -4.05,
+        "height_agl": 7.2,
+        "turbulence_intensity": 0.12,
+        "environment_type": "open",
+        "gust_factor": 1.06
       },
       {
-        "lat": 54.096004,
-        "lng": 22.926185,
-        "speed": 26.11,
-        "direction": 281.8,
-        "vx": -25.56,
-        "vy": 5.32
+        "lat": 54.114137,
+        "lng": 22.940725,
+        "speed": 26.95,
+        "direction": 310.7,
+        "vx": 20.42,
+        "vy": -17.59,
+        "height_agl": 8.8,
+        "turbulence_intensity": 0.15,
+        "environment_type": "wake",
+        "gust_factor": 1.07
       },
       {
-        "lat": 54.105845,
-        "lng": 22.948036,
-        "speed": 23.93,
-        "direction": 244.1,
-        "vx": -21.53,
-        "vy": -10.43
+        "lat": 54.096145,
+        "lng": 22.954528,
+        "speed": 23.62,
+        "direction": 273.9,
+        "vx": 23.57,
+        "vy": -1.61,
+        "height_agl": 19.6,
+        "turbulence_intensity": 0.12,
+        "environment_type": "open",
+        "gust_factor": 1.06
       },
       {
-        "lat": 54.097932,
-        "lng": 22.952748,
-        "speed": 16.05,
-        "direction": 262.0,
-        "vx": -15.89,
-        "vy": -2.22
-      },
-      {
-        "lat": 54.093803,
-        "lng": 22.947545,
-        "speed": 30.28,
-        "direction": 296.2,
-        "vx": -27.17,
-        "vy": 13.38
-      },
-      {
-        "lat": 54.098389,
-        "lng": 22.944961,
-        "speed": 29.72,
-        "direction": 252.1,
-        "vx": -28.28,
-        "vy": -9.14
+        "lat": 54.102437,
+        "lng": 22.962586,
+        "speed": 18.36,
+        "direction": 265.0,
+        "vx": 18.29,
+        "vy": 1.61,
+        "height_agl": 18.1,
+        "turbulence_intensity": 0.12,
+        "environment_type": "open",
+        "gust_factor": 1.06
       },
       {
         "lat": 54.097476,
         "lng": 22.948339,
-        "speed": 19.39,
-        "direction": 253.0,
-        "vx": -18.55,
-        "vy": -5.67
+        "speed": 17.35,
+        "direction": 267.3,
+        "vx": 17.33,
+        "vy": 0.82,
+        "height_agl": 10.8,
+        "turbulence_intensity": 0.15,
+        "environment_type": "wake",
+        "gust_factor": 1.07
       },
       {
-        "lat": 54.100453,
-        "lng": 22.951436,
-        "speed": 26.84,
-        "direction": 224.1,
-        "vx": -18.67,
-        "vy": -19.29
+        "lat": 54.09821,
+        "lng": 22.93659,
+        "speed": 19.41,
+        "direction": 334.4,
+        "vx": 8.38,
+        "vy": -17.51,
+        "height_agl": 1.9,
+        "turbulence_intensity": 0.2,
+        "environment_type": "intersection",
+        "gust_factor": 1.1
       },
       {
-        "lat": 54.093017,
-        "lng": 22.947487,
-        "speed": 30.33,
-        "direction": 268.2,
-        "vx": -30.32,
-        "vy": -0.98
+        "lat": 54.091975,
+        "lng": 22.9483,
+        "speed": 19.27,
+        "direction": 253.9,
+        "vx": 18.52,
+        "vy": 5.33,
+        "height_agl": 10.5,
+        "turbulence_intensity": 0.2,
+        "environment_type": "intersection",
+        "gust_factor": 1.1
       },
       {
-        "lat": 54.09508,
-        "lng": 22.949942,
-        "speed": 28.22,
-        "direction": 233.8,
-        "vx": -22.76,
-        "vy": -16.68
+        "lat": 54.103927,
+        "lng": 22.947107,
+        "speed": 25.63,
+        "direction": 302.5,
+        "vx": 21.61,
+        "vy": -13.77,
+        "height_agl": 3.0,
+        "turbulence_intensity": 0.12,
+        "environment_type": "open",
+        "gust_factor": 1.06
       },
       {
-        "lat": 54.095328,
-        "lng": 22.915781,
-        "speed": 17.23,
-        "direction": 276.9,
-        "vx": -17.1,
-        "vy": 2.05
+        "lat": 54.103969,
+        "lng": 22.953881,
+        "speed": 30.43,
+        "direction": 304.5,
+        "vx": 25.09,
+        "vy": -17.22,
+        "height_agl": 5.7,
+        "turbulence_intensity": 0.25,
+        "environment_type": "tunnel",
+        "gust_factor": 1.12
       },
       {
-        "lat": 54.096531,
-        "lng": 22.946189,
-        "speed": 20.8,
-        "direction": 290.6,
-        "vx": -19.47,
-        "vy": 7.34
+        "lat": 54.100439,
+        "lng": 22.956547,
+        "speed": 33.37,
+        "direction": 232.9,
+        "vx": 26.63,
+        "vy": 20.12,
+        "height_agl": 1.1,
+        "turbulence_intensity": 0.12,
+        "environment_type": "open",
+        "gust_factor": 1.06
       },
       {
-        "lat": 54.107354,
-        "lng": 22.950658,
-        "speed": 17.92,
-        "direction": 283.6,
-        "vx": -17.41,
-        "vy": 4.23
+        "lat": 54.111039,
+        "lng": 22.956932,
+        "speed": 33.92,
+        "direction": 289.9,
+        "vx": 31.89,
+        "vy": -11.55,
+        "height_agl": 18.4,
+        "turbulence_intensity": 0.12,
+        "environment_type": "open",
+        "gust_factor": 1.06
       },
       {
-        "lat": 54.088137,
-        "lng": 22.954977,
-        "speed": 18.56,
-        "direction": 277.0,
-        "vx": -18.42,
-        "vy": 2.27
-      },
-      {
-        "lat": 54.106369,
-        "lng": 22.949066,
-        "speed": 29.99,
-        "direction": 299.7,
-        "vx": -26.05,
-        "vy": 14.86
-      },
-      {
-        "lat": 54.100303,
-        "lng": 22.945603,
-        "speed": 14.59,
-        "direction": 233.2,
-        "vx": -11.67,
-        "vy": -8.75
+        "lat": 54.099378,
+        "lng": 22.964262,
+        "speed": 26.98,
+        "direction": 271.4,
+        "vx": 26.97,
+        "vy": -0.67,
+        "height_agl": 2.1,
+        "turbulence_intensity": 0.25,
+        "environment_type": "tunnel",
+        "gust_factor": 1.12
       },
       {
         "lat": 54.09264,
         "lng": 22.934616,
-        "speed": 14.87,
-        "direction": 286.9,
-        "vx": -14.22,
-        "vy": 4.33
+        "speed": 18.8,
+        "direction": 288.1,
+        "vx": 17.88,
+        "vy": -5.84,
+        "height_agl": 1.4,
+        "turbulence_intensity": 0.2,
+        "environment_type": "intersection",
+        "gust_factor": 1.1
       },
       {
-        "lat": 54.098204,
-        "lng": 22.949366,
-        "speed": 31.35,
-        "direction": 220.2,
-        "vx": -20.25,
-        "vy": -23.93
+        "lat": 54.092694,
+        "lng": 22.958128,
+        "speed": 29.38,
+        "direction": 261.6,
+        "vx": 29.06,
+        "vy": 4.3,
+        "height_agl": 19.8,
+        "turbulence_intensity": 0.25,
+        "environment_type": "tunnel",
+        "gust_factor": 1.12
       },
       {
         "lat": 54.096533,
         "lng": 22.941736,
-        "speed": 14.77,
-        "direction": 268.0,
-        "vx": -14.76,
-        "vy": -0.52
+        "speed": 18.68,
+        "direction": 319.5,
+        "vx": 12.12,
+        "vy": -14.22,
+        "height_agl": 10.2,
+        "turbulence_intensity": 0.2,
+        "environment_type": "intersection",
+        "gust_factor": 1.1
       },
       {
-        "lat": 54.104361,
-        "lng": 22.949155,
-        "speed": 20.56,
-        "direction": 304.6,
-        "vx": -16.92,
-        "vy": 11.68
+        "lat": 54.097657,
+        "lng": 22.930596,
+        "speed": 28.09,
+        "direction": 239.1,
+        "vx": 24.11,
+        "vy": 14.41,
+        "height_agl": 4.8,
+        "turbulence_intensity": 0.15,
+        "environment_type": "wake",
+        "gust_factor": 1.07
+      },
+      {
+        "lat": 54.098783,
+        "lng": 22.936932,
+        "speed": 45.44,
+        "direction": 254.3,
+        "vx": 43.75,
+        "vy": 12.29,
+        "height_agl": 14.2,
+        "turbulence_intensity": 0.25,
+        "environment_type": "tunnel",
+        "gust_factor": 1.12
+      },
+      {
+        "lat": 54.094909,
+        "lng": 22.947951,
+        "speed": 29.41,
+        "direction": 262.3,
+        "vx": 29.15,
+        "vy": 3.92,
+        "height_agl": 8.4,
+        "turbulence_intensity": 0.12,
+        "environment_type": "open",
+        "gust_factor": 1.06
+      },
+      {
+        "lat": 54.09412,
+        "lng": 22.935104,
+        "speed": 23.69,
+        "direction": 255.2,
+        "vx": 22.91,
+        "vy": 6.04,
+        "height_agl": 10.3,
+        "turbulence_intensity": 0.15,
+        "environment_type": "wake",
+        "gust_factor": 1.07
+      },
+      {
+        "lat": 54.093687,
+        "lng": 22.957668,
+        "speed": 34.34,
+        "direction": 274.5,
+        "vx": 34.24,
+        "vy": -2.69,
+        "height_agl": 2.7,
+        "turbulence_intensity": 0.12,
+        "environment_type": "open",
+        "gust_factor": 1.06
+      },
+      {
+        "lat": 54.094893,
+        "lng": 22.935105,
+        "speed": 17.95,
+        "direction": 244.1,
+        "vx": 16.15,
+        "vy": 7.84,
+        "height_agl": 16.1,
+        "turbulence_intensity": 0.12,
+        "environment_type": "open",
+        "gust_factor": 1.06
+      },
+      {
+        "lat": 54.097949,
+        "lng": 22.948048,
+        "speed": 19.92,
+        "direction": 248.6,
+        "vx": 18.54,
+        "vy": 7.28,
+        "height_agl": 10.7,
+        "turbulence_intensity": 0.2,
+        "environment_type": "intersection",
+        "gust_factor": 1.1
+      },
+      {
+        "lat": 54.110933,
+        "lng": 22.933608,
+        "speed": 23.27,
+        "direction": 233.0,
+        "vx": 18.58,
+        "vy": 14.01,
+        "height_agl": 14.8,
+        "turbulence_intensity": 0.25,
+        "environment_type": "tunnel",
+        "gust_factor": 1.12
+      },
+      {
+        "lat": 54.098419,
+        "lng": 22.93674,
+        "speed": 18.89,
+        "direction": 313.3,
+        "vx": 13.74,
+        "vy": -12.96,
+        "height_agl": 11.6,
+        "turbulence_intensity": 0.1,
+        "environment_type": "green",
+        "gust_factor": 1.05
+      },
+      {
+        "lat": 54.107082,
+        "lng": 22.93766,
+        "speed": 21.08,
+        "direction": 276.6,
+        "vx": 20.94,
+        "vy": -2.42,
+        "height_agl": 5.5,
+        "turbulence_intensity": 0.12,
+        "environment_type": "open",
+        "gust_factor": 1.06
+      },
+      {
+        "lat": 54.098778,
+        "lng": 22.952899,
+        "speed": 35.81,
+        "direction": 292.9,
+        "vx": 32.99,
+        "vy": -13.93,
+        "height_agl": 13.1,
+        "turbulence_intensity": 0.25,
+        "environment_type": "tunnel",
+        "gust_factor": 1.12
+      },
+      {
+        "lat": 54.102394,
+        "lng": 22.934015,
+        "speed": 24.08,
+        "direction": 278.8,
+        "vx": 23.8,
+        "vy": -3.68,
+        "height_agl": 16.0,
+        "turbulence_intensity": 0.12,
+        "environment_type": "open",
+        "gust_factor": 1.06
+      },
+      {
+        "lat": 54.085299,
+        "lng": 22.945078,
+        "speed": 20.89,
+        "direction": 252.9,
+        "vx": 19.96,
+        "vy": 6.14,
+        "height_agl": 12.8,
+        "turbulence_intensity": 0.25,
+        "environment_type": "tunnel",
+        "gust_factor": 1.12
+      },
+      {
+        "lat": 54.10488,
+        "lng": 22.950446,
+        "speed": 31.56,
+        "direction": 268.9,
+        "vx": 31.55,
+        "vy": 0.62,
+        "height_agl": 2.2,
+        "turbulence_intensity": 0.12,
+        "environment_type": "open",
+        "gust_factor": 1.06
+      },
+      {
+        "lat": 54.10856,
+        "lng": 22.96101,
+        "speed": 37.1,
+        "direction": 230.7,
+        "vx": 28.71,
+        "vy": 23.49,
+        "height_agl": 2.3,
+        "turbulence_intensity": 0.2,
+        "environment_type": "intersection",
+        "gust_factor": 1.1
+      },
+      {
+        "lat": 54.109742,
+        "lng": 22.940534,
+        "speed": 26.04,
+        "direction": 316.6,
+        "vx": 17.91,
+        "vy": -18.91,
+        "height_agl": 2.8,
+        "turbulence_intensity": 0.2,
+        "environment_type": "intersection",
+        "gust_factor": 1.1
+      },
+      {
+        "lat": 54.12096,
+        "lng": 22.94729,
+        "speed": 27.18,
+        "direction": 244.5,
+        "vx": 24.54,
+        "vy": 11.68,
+        "height_agl": 10.4,
+        "turbulence_intensity": 0.12,
+        "environment_type": "open",
+        "gust_factor": 1.06
+      },
+      {
+        "lat": 54.097207,
+        "lng": 22.939208,
+        "speed": 38.32,
+        "direction": 317.8,
+        "vx": 25.75,
+        "vy": -28.38,
+        "height_agl": 12.7,
+        "turbulence_intensity": 0.2,
+        "environment_type": "intersection",
+        "gust_factor": 1.1
+      },
+      {
+        "lat": 54.107623,
+        "lng": 22.925848,
+        "speed": 15.7,
+        "direction": 252.6,
+        "vx": 14.98,
+        "vy": 4.69,
+        "height_agl": 10.8,
+        "turbulence_intensity": 0.15,
+        "environment_type": "wake",
+        "gust_factor": 1.07
+      },
+      {
+        "lat": 54.103648,
+        "lng": 22.965619,
+        "speed": 34.74,
+        "direction": 277.7,
+        "vx": 34.42,
+        "vy": -4.67,
+        "height_agl": 15.0,
+        "turbulence_intensity": 0.12,
+        "environment_type": "open",
+        "gust_factor": 1.06
+      },
+      {
+        "lat": 54.110642,
+        "lng": 22.953165,
+        "speed": 21.49,
+        "direction": 263.5,
+        "vx": 21.35,
+        "vy": 2.44,
+        "height_agl": 8.6,
+        "turbulence_intensity": 0.25,
+        "environment_type": "tunnel",
+        "gust_factor": 1.12
+      },
+      {
+        "lat": 54.107009,
+        "lng": 22.935066,
+        "speed": 12.72,
+        "direction": 280.3,
+        "vx": 12.51,
+        "vy": -2.27,
+        "height_agl": 17.6,
+        "turbulence_intensity": 0.15,
+        "environment_type": "wake",
+        "gust_factor": 1.07
+      },
+      {
+        "lat": 54.091926,
+        "lng": 22.940744,
+        "speed": 32.69,
+        "direction": 303.0,
+        "vx": 27.4,
+        "vy": -17.82,
+        "height_agl": 19.4,
+        "turbulence_intensity": 0.2,
+        "environment_type": "intersection",
+        "gust_factor": 1.1
+      },
+      {
+        "lat": 54.10122,
+        "lng": 22.975533,
+        "speed": 30.98,
+        "direction": 331.6,
+        "vx": 14.72,
+        "vy": -27.26,
+        "height_agl": 9.9,
+        "turbulence_intensity": 0.12,
+        "environment_type": "open",
+        "gust_factor": 1.06
+      },
+      {
+        "lat": 54.096466,
+        "lng": 22.95027,
+        "speed": 10.69,
+        "direction": 248.3,
+        "vx": 9.94,
+        "vy": 3.95,
+        "height_agl": 9.5,
+        "turbulence_intensity": 0.1,
+        "environment_type": "green",
+        "gust_factor": 1.05
+      },
+      {
+        "lat": 54.106526,
+        "lng": 22.954717,
+        "speed": 47.31,
+        "direction": 272.8,
+        "vx": 47.26,
+        "vy": -2.34,
+        "height_agl": 9.5,
+        "turbulence_intensity": 0.25,
+        "environment_type": "tunnel",
+        "gust_factor": 1.12
+      },
+      {
+        "lat": 54.105634,
+        "lng": 22.967623,
+        "speed": 20.99,
+        "direction": 251.4,
+        "vx": 19.9,
+        "vy": 6.68,
+        "height_agl": 13.0,
+        "turbulence_intensity": 0.1,
+        "environment_type": "green",
+        "gust_factor": 1.05
+      },
+      {
+        "lat": 54.105754,
+        "lng": 22.971641,
+        "speed": 20.93,
+        "direction": 244.0,
+        "vx": 18.81,
+        "vy": 9.18,
+        "height_agl": 5.4,
+        "turbulence_intensity": 0.12,
+        "environment_type": "open",
+        "gust_factor": 1.06
+      },
+      {
+        "lat": 54.10524,
+        "lng": 22.941717,
+        "speed": 27.33,
+        "direction": 243.9,
+        "vx": 24.55,
+        "vy": 12.0,
+        "height_agl": 7.3,
+        "turbulence_intensity": 0.25,
+        "environment_type": "tunnel",
+        "gust_factor": 1.12
       }
     ],
-    "computation_time": "2025-09-17T05:33:15.206708",
-    "model_version": "WindSim_v1.9"
-  },
-  "wiatr_huraganowy": {
-    "scenario_name": "Wiatr huraganowy",
-    "module": "WindSim",
-    "parameters": {
-      "wind_speed_ref": 35,
-      "wind_direction": 180
-    },
-    "metrics": {
-      "max_speed": 42.0,
-      "min_speed": 24.5,
-      "avg_urban_speed": 31.5,
-      "comfort_zones_percent": 15,
-      "dynamic_pressure_pa": 750.0
-    },
-    "wind_field": [
-      {
-        "lat": 54.097968,
-        "lng": 22.966025,
-        "speed": 28.05,
-        "direction": 185.5,
-        "vx": -2.69,
-        "vy": -27.92
-      },
-      {
-        "lat": 54.113265,
-        "lng": 22.961606,
-        "speed": 37.91,
-        "direction": 181.2,
-        "vx": -0.8,
-        "vy": -37.91
-      },
-      {
-        "lat": 54.101108,
-        "lng": 22.949449,
-        "speed": 22.83,
-        "direction": 176.8,
-        "vx": 1.26,
-        "vy": -22.79
-      },
-      {
-        "lat": 54.108931,
-        "lng": 22.933431,
-        "speed": 36.65,
-        "direction": 184.9,
-        "vx": -3.13,
-        "vy": -36.51
-      },
-      {
-        "lat": 54.098412,
-        "lng": 22.953661,
-        "speed": 23.28,
-        "direction": 178.9,
-        "vx": 0.45,
-        "vy": -23.27
-      },
-      {
-        "lat": 54.101047,
-        "lng": 22.952778,
-        "speed": 23.55,
-        "direction": 225.0,
-        "vx": -16.65,
-        "vy": -16.65
-      },
-      {
-        "lat": 54.090063,
-        "lng": 22.948243,
-        "speed": 23.11,
-        "direction": 206.0,
-        "vx": -10.13,
-        "vy": -20.77
-      },
-      {
-        "lat": 54.088074,
-        "lng": 22.978359,
-        "speed": 40.12,
-        "direction": 188.2,
-        "vx": -5.7,
-        "vy": -39.71
-      },
-      {
-        "lat": 54.095133,
-        "lng": 22.976779,
-        "speed": 30.93,
-        "direction": 216.3,
-        "vx": -18.33,
-        "vy": -24.92
-      },
-      {
-        "lat": 54.101346,
-        "lng": 22.947346,
-        "speed": 33.0,
-        "direction": 214.8,
-        "vx": -18.84,
-        "vy": -27.1
-      },
-      {
-        "lat": 54.104812,
-        "lng": 22.943851,
-        "speed": 23.22,
-        "direction": 137.0,
-        "vx": 15.83,
-        "vy": -16.98
-      },
-      {
-        "lat": 54.089165,
-        "lng": 22.948651,
-        "speed": 26.58,
-        "direction": 198.4,
-        "vx": -8.39,
-        "vy": -25.22
-      },
-      {
-        "lat": 54.092681,
-        "lng": 22.946823,
-        "speed": 41.68,
-        "direction": 183.8,
-        "vx": -2.75,
-        "vy": -41.59
-      },
-      {
-        "lat": 54.097323,
-        "lng": 22.945486,
-        "speed": 22.21,
-        "direction": 190.3,
-        "vx": -3.98,
-        "vy": -21.85
-      },
-      {
-        "lat": 54.100884,
-        "lng": 22.945892,
-        "speed": 38.77,
-        "direction": 163.9,
-        "vx": 10.78,
-        "vy": -37.24
-      },
-      {
-        "lat": 54.092797,
-        "lng": 22.938063,
-        "speed": 37.29,
-        "direction": 186.3,
-        "vx": -4.09,
-        "vy": -37.06
-      },
-      {
-        "lat": 54.101313,
-        "lng": 22.936292,
-        "speed": 21.92,
-        "direction": 231.8,
-        "vx": -17.23,
-        "vy": -13.55
-      },
-      {
-        "lat": 54.10227,
-        "lng": 22.951723,
-        "speed": 34.65,
-        "direction": 136.6,
-        "vx": 23.82,
-        "vy": -25.16
-      },
-      {
-        "lat": 54.099512,
-        "lng": 22.953984,
-        "speed": 34.16,
-        "direction": 190.8,
-        "vx": -6.39,
-        "vy": -33.56
-      },
-      {
-        "lat": 54.095204,
-        "lng": 22.953695,
-        "speed": 24.24,
-        "direction": 197.1,
-        "vx": -7.12,
-        "vy": -23.17
-      },
-      {
-        "lat": 54.110887,
-        "lng": 22.979153,
-        "speed": 22.96,
-        "direction": 147.1,
-        "vx": 12.47,
-        "vy": -19.28
-      },
-      {
-        "lat": 54.088761,
-        "lng": 22.936311,
-        "speed": 27.86,
-        "direction": 218.1,
-        "vx": -17.19,
-        "vy": -21.93
-      },
-      {
-        "lat": 54.098735,
-        "lng": 22.932569,
-        "speed": 30.21,
-        "direction": 218.7,
-        "vx": -18.87,
-        "vy": -23.59
-      },
-      {
-        "lat": 54.082473,
-        "lng": 22.957381,
-        "speed": 32.75,
-        "direction": 217.2,
-        "vx": -19.82,
-        "vy": -26.07
-      },
-      {
-        "lat": 54.102617,
-        "lng": 22.951024,
-        "speed": 43.73,
-        "direction": 200.7,
-        "vx": -15.44,
-        "vy": -40.91
-      },
-      {
-        "lat": 54.102262,
-        "lng": 22.958173,
-        "speed": 29.64,
-        "direction": 160.5,
-        "vx": 9.9,
-        "vy": -27.94
-      },
-      {
-        "lat": 54.103725,
-        "lng": 22.957045,
-        "speed": 26.0,
-        "direction": 185.0,
-        "vx": -2.25,
-        "vy": -25.9
-      },
-      {
-        "lat": 54.107777,
-        "lng": 22.95468,
-        "speed": 33.23,
-        "direction": 196.8,
-        "vx": -9.6,
-        "vy": -31.81
-      },
-      {
-        "lat": 54.088781,
-        "lng": 22.936754,
-        "speed": 34.77,
-        "direction": 129.2,
-        "vx": 26.93,
-        "vy": -22.0
-      },
-      {
-        "lat": 54.10452,
-        "lng": 22.948905,
-        "speed": 43.05,
-        "direction": 161.6,
-        "vx": 13.62,
-        "vy": -40.84
-      },
-      {
-        "lat": 54.099957,
-        "lng": 22.9527,
-        "speed": 34.31,
-        "direction": 170.8,
-        "vx": 5.49,
-        "vy": -33.87
-      },
-      {
-        "lat": 54.09662,
-        "lng": 22.97578,
-        "speed": 24.71,
-        "direction": 152.4,
-        "vx": 11.44,
-        "vy": -21.9
-      },
-      {
-        "lat": 54.099651,
-        "lng": 22.938542,
-        "speed": 25.56,
-        "direction": 184.0,
-        "vx": -1.8,
-        "vy": -25.49
-      },
-      {
-        "lat": 54.110409,
-        "lng": 22.938571,
-        "speed": 31.43,
-        "direction": 142.8,
-        "vx": 19.02,
-        "vy": -25.02
-      },
-      {
-        "lat": 54.094742,
-        "lng": 22.940928,
-        "speed": 37.94,
-        "direction": 196.5,
-        "vx": -10.76,
-        "vy": -36.38
-      },
-      {
-        "lat": 54.111482,
-        "lng": 22.967723,
-        "speed": 35.58,
-        "direction": 192.6,
-        "vx": -7.75,
-        "vy": -34.73
-      },
-      {
-        "lat": 54.101853,
-        "lng": 22.95109,
-        "speed": 26.95,
-        "direction": 197.1,
-        "vx": -7.94,
-        "vy": -25.75
-      },
-      {
-        "lat": 54.109375,
-        "lng": 22.963372,
-        "speed": 43.51,
-        "direction": 184.7,
-        "vx": -3.57,
-        "vy": -43.36
-      },
-      {
-        "lat": 54.089122,
-        "lng": 22.958517,
-        "speed": 41.57,
-        "direction": 154.0,
-        "vx": 18.25,
-        "vy": -37.35
-      },
-      {
-        "lat": 54.095245,
-        "lng": 22.964519,
-        "speed": 43.74,
-        "direction": 194.2,
-        "vx": -10.73,
-        "vy": -42.4
-      },
-      {
-        "lat": 54.111446,
-        "lng": 22.94931,
-        "speed": 38.03,
-        "direction": 205.4,
-        "vx": -16.3,
-        "vy": -34.35
-      },
-      {
-        "lat": 54.09732,
-        "lng": 22.939268,
-        "speed": 29.13,
-        "direction": 168.1,
-        "vx": 6.03,
-        "vy": -28.5
-      },
-      {
-        "lat": 54.111956,
-        "lng": 22.939763,
-        "speed": 38.57,
-        "direction": 197.1,
-        "vx": -11.34,
-        "vy": -36.86
-      },
-      {
-        "lat": 54.098629,
-        "lng": 22.958161,
-        "speed": 24.72,
-        "direction": 185.4,
-        "vx": -2.31,
-        "vy": -24.62
-      },
-      {
-        "lat": 54.087226,
-        "lng": 22.944074,
-        "speed": 25.93,
-        "direction": 176.2,
-        "vx": 1.7,
-        "vy": -25.88
-      },
-      {
-        "lat": 54.10955,
-        "lng": 22.924136,
-        "speed": 34.72,
-        "direction": 185.0,
-        "vx": -3.02,
-        "vy": -34.59
-      },
-      {
-        "lat": 54.091091,
-        "lng": 22.953015,
-        "speed": 25.42,
-        "direction": 129.3,
-        "vx": 19.66,
-        "vy": -16.12
-      },
-      {
-        "lat": 54.11051,
-        "lng": 22.964486,
-        "speed": 20.84,
-        "direction": 152.8,
-        "vx": 9.53,
-        "vy": -18.53
-      },
-      {
-        "lat": 54.11375,
-        "lng": 22.944269,
-        "speed": 20.16,
-        "direction": 179.8,
-        "vx": 0.08,
-        "vy": -20.16
-      },
-      {
-        "lat": 54.097067,
-        "lng": 22.961542,
-        "speed": 21.92,
-        "direction": 184.0,
-        "vx": -1.52,
-        "vy": -21.87
-      },
-      {
-        "lat": 54.095707,
-        "lng": 22.957115,
-        "speed": 36.76,
-        "direction": 173.4,
-        "vx": 4.22,
-        "vy": -36.52
-      },
-      {
-        "lat": 54.100075,
-        "lng": 22.946578,
-        "speed": 27.63,
-        "direction": 193.3,
-        "vx": -6.34,
-        "vy": -26.89
-      },
-      {
-        "lat": 54.096451,
-        "lng": 22.950934,
-        "speed": 40.63,
-        "direction": 204.0,
-        "vx": -16.51,
-        "vy": -37.13
-      },
-      {
-        "lat": 54.080644,
-        "lng": 22.940934,
-        "speed": 27.37,
-        "direction": 186.7,
-        "vx": -3.21,
-        "vy": -27.18
-      },
-      {
-        "lat": 54.092528,
-        "lng": 22.94628,
-        "speed": 20.15,
-        "direction": 145.0,
-        "vx": 11.55,
-        "vy": -16.5
-      },
-      {
-        "lat": 54.102807,
-        "lng": 22.942314,
-        "speed": 43.06,
-        "direction": 154.3,
-        "vx": 18.68,
-        "vy": -38.8
-      },
-      {
-        "lat": 54.09701,
-        "lng": 22.948049,
-        "speed": 23.28,
-        "direction": 222.3,
-        "vx": -15.67,
-        "vy": -17.22
-      },
-      {
-        "lat": 54.088299,
-        "lng": 22.968887,
-        "speed": 32.99,
-        "direction": 218.6,
-        "vx": -20.6,
-        "vy": -25.77
-      },
-      {
-        "lat": 54.107308,
-        "lng": 22.958741,
-        "speed": 28.21,
-        "direction": 135.3,
-        "vx": 19.84,
-        "vy": -20.05
-      },
-      {
-        "lat": 54.110152,
-        "lng": 22.939606,
-        "speed": 30.97,
-        "direction": 146.3,
-        "vx": 17.19,
-        "vy": -25.76
-      },
-      {
-        "lat": 54.099282,
-        "lng": 22.926254,
-        "speed": 39.67,
-        "direction": 201.1,
-        "vx": -14.26,
-        "vy": -37.02
-      },
-      {
-        "lat": 54.0792,
-        "lng": 22.953596,
-        "speed": 38.82,
-        "direction": 222.6,
-        "vx": -26.27,
-        "vy": -28.58
-      },
-      {
-        "lat": 54.102184,
-        "lng": 22.950765,
-        "speed": 20.09,
-        "direction": 166.2,
-        "vx": 4.79,
-        "vy": -19.51
-      },
-      {
-        "lat": 54.103495,
-        "lng": 22.934031,
-        "speed": 39.41,
-        "direction": 152.3,
-        "vx": 18.3,
-        "vy": -34.9
-      },
-      {
-        "lat": 54.101258,
-        "lng": 22.956282,
-        "speed": 27.77,
-        "direction": 172.9,
-        "vx": 3.45,
-        "vy": -27.55
-      },
-      {
-        "lat": 54.114052,
-        "lng": 22.957182,
-        "speed": 27.58,
-        "direction": 185.8,
-        "vx": -2.77,
-        "vy": -27.44
-      },
-      {
-        "lat": 54.097414,
-        "lng": 22.92929,
-        "speed": 24.87,
-        "direction": 199.3,
-        "vx": -8.21,
-        "vy": -23.48
-      },
-      {
-        "lat": 54.103603,
-        "lng": 22.956196,
-        "speed": 19.74,
-        "direction": 161.6,
-        "vx": 6.23,
-        "vy": -18.73
-      },
-      {
-        "lat": 54.100901,
-        "lng": 22.922456,
-        "speed": 41.11,
-        "direction": 219.7,
-        "vx": -26.25,
-        "vy": -31.63
-      },
-      {
-        "lat": 54.098692,
-        "lng": 22.940952,
-        "speed": 19.42,
-        "direction": 155.3,
-        "vx": 8.11,
-        "vy": -17.65
-      },
-      {
-        "lat": 54.094434,
-        "lng": 22.949618,
-        "speed": 31.19,
-        "direction": 193.8,
-        "vx": -7.44,
-        "vy": -30.29
-      },
-      {
-        "lat": 54.103824,
-        "lng": 22.953996,
-        "speed": 41.3,
-        "direction": 190.7,
-        "vx": -7.65,
-        "vy": -40.58
-      },
-      {
-        "lat": 54.096266,
-        "lng": 22.94098,
-        "speed": 20.08,
-        "direction": 149.7,
-        "vx": 10.13,
-        "vy": -17.35
-      },
-      {
-        "lat": 54.081352,
-        "lng": 22.946363,
-        "speed": 42.97,
-        "direction": 210.9,
-        "vx": -22.07,
-        "vy": -36.87
-      },
-      {
-        "lat": 54.10093,
-        "lng": 22.966662,
-        "speed": 40.07,
-        "direction": 177.4,
-        "vx": 1.8,
-        "vy": -40.03
-      },
-      {
-        "lat": 54.095374,
-        "lng": 22.954884,
-        "speed": 33.21,
-        "direction": 207.8,
-        "vx": -15.47,
-        "vy": -29.39
-      },
-      {
-        "lat": 54.110452,
-        "lng": 22.964036,
-        "speed": 36.31,
-        "direction": 181.8,
-        "vx": -1.15,
-        "vy": -36.29
-      },
-      {
-        "lat": 54.090908,
-        "lng": 22.937935,
-        "speed": 27.96,
-        "direction": 214.5,
-        "vx": -15.82,
-        "vy": -23.05
-      },
-      {
-        "lat": 54.104424,
-        "lng": 22.944789,
-        "speed": 22.57,
-        "direction": 186.9,
-        "vx": -2.72,
-        "vy": -22.4
-      },
-      {
-        "lat": 54.097583,
-        "lng": 22.954109,
-        "speed": 26.63,
-        "direction": 204.7,
-        "vx": -11.14,
-        "vy": -24.19
-      },
-      {
-        "lat": 54.100862,
-        "lng": 22.94038,
-        "speed": 41.77,
-        "direction": 172.6,
-        "vx": 5.37,
-        "vy": -41.42
-      },
-      {
-        "lat": 54.10628,
-        "lng": 22.955798,
-        "speed": 18.98,
-        "direction": 200.2,
-        "vx": -6.56,
-        "vy": -17.81
-      },
-      {
-        "lat": 54.101989,
-        "lng": 22.936326,
-        "speed": 33.83,
-        "direction": 230.9,
-        "vx": -26.25,
-        "vy": -21.34
-      },
-      {
-        "lat": 54.101498,
-        "lng": 22.969222,
-        "speed": 41.92,
-        "direction": 171.4,
-        "vx": 6.29,
-        "vy": -41.45
-      },
-      {
-        "lat": 54.113717,
-        "lng": 22.937275,
-        "speed": 19.68,
-        "direction": 212.6,
-        "vx": -10.61,
-        "vy": -16.57
-      },
-      {
-        "lat": 54.091218,
-        "lng": 22.943774,
-        "speed": 22.06,
-        "direction": 162.3,
-        "vx": 6.7,
-        "vy": -21.02
-      },
-      {
-        "lat": 54.099311,
-        "lng": 22.933555,
-        "speed": 43.36,
-        "direction": 147.4,
-        "vx": 23.39,
-        "vy": -36.51
-      },
-      {
-        "lat": 54.108404,
-        "lng": 22.946609,
-        "speed": 32.89,
-        "direction": 157.6,
-        "vx": 12.55,
-        "vy": -30.41
-      },
-      {
-        "lat": 54.084432,
-        "lng": 22.944487,
-        "speed": 24.92,
-        "direction": 133.1,
-        "vx": 18.19,
-        "vy": -17.03
-      },
-      {
-        "lat": 54.086715,
-        "lng": 22.96448,
-        "speed": 30.84,
-        "direction": 190.9,
-        "vx": -5.84,
-        "vy": -30.28
-      },
-      {
-        "lat": 54.102152,
-        "lng": 22.93571,
-        "speed": 31.86,
-        "direction": 221.9,
-        "vx": -21.26,
-        "vy": -23.72
-      },
-      {
-        "lat": 54.102763,
-        "lng": 22.937756,
-        "speed": 28.63,
-        "direction": 245.6,
-        "vx": -26.07,
-        "vy": -11.84
-      },
-      {
-        "lat": 54.094907,
-        "lng": 22.931397,
-        "speed": 39.06,
-        "direction": 119.0,
-        "vx": 34.15,
-        "vy": -18.96
-      },
-      {
-        "lat": 54.109599,
-        "lng": 22.954425,
-        "speed": 30.59,
-        "direction": 162.9,
-        "vx": 8.98,
-        "vy": -29.24
-      },
-      {
-        "lat": 54.101111,
-        "lng": 22.951008,
-        "speed": 38.63,
-        "direction": 175.8,
-        "vx": 2.82,
-        "vy": -38.53
-      },
-      {
-        "lat": 54.093701,
-        "lng": 22.958401,
-        "speed": 36.26,
-        "direction": 174.7,
-        "vx": 3.33,
-        "vy": -36.1
-      },
-      {
-        "lat": 54.104827,
-        "lng": 22.946978,
-        "speed": 29.83,
-        "direction": 186.5,
-        "vx": -3.37,
-        "vy": -29.64
-      },
-      {
-        "lat": 54.102082,
-        "lng": 22.94514,
-        "speed": 30.76,
-        "direction": 163.3,
-        "vx": 8.83,
-        "vy": -29.46
-      },
-      {
-        "lat": 54.099145,
-        "lng": 22.962343,
-        "speed": 31.97,
-        "direction": 165.7,
-        "vx": 7.88,
-        "vy": -30.98
-      },
-      {
-        "lat": 54.092242,
-        "lng": 22.952904,
-        "speed": 27.23,
-        "direction": 195.9,
-        "vx": -7.47,
-        "vy": -26.19
-      }
-    ],
-    "computation_time": "2025-09-17T05:33:15.208717",
-    "model_version": "WindSim_v1.9"
+    "visualization": {
+      "center_lat": 54.1,
+      "center_lng": 22.95,
+      "zoom_level": 14,
+      "vector_scale": 10,
+      "color_scale": "Viridis",
+      "particle_count": 100
+    }
   }
 }

@@ -1,2108 +1,1976 @@
 {
-  "zima_mroźna": {
-    "scenario_name": "Zima mroźna",
-    "module": "ThermalSim",
-    "parameters": {
-      "air_temperature": -5,
-      "relative_humidity": 75,
-      "wind_speed": 3.0,
-      "solar_radiation": 50,
-      "season": "winter"
-    },
-    "overall_metrics": {
-      "city_comfort_score": 2.04,
-      "comfort_zones_percent": 0.0
-    },
-    "zone_analysis": {
-      "rynek": {
-        "zone_name": "Rynek Główny",
-        "pmv": -2.78,
-        "utci": -4.4,
-        "comfort_level": "SŁABY"
-      },
-      "streets": {
-        "zone_name": "Ulice handlowe",
-        "pmv": -2.99,
-        "utci": -6.4,
-        "comfort_level": "SŁABY"
-      },
-      "parks": {
-        "zone_name": "Parki",
-        "pmv": -3,
-        "utci": -9.4,
-        "comfort_level": "SŁABY"
-      },
-      "residential": {
-        "zone_name": "Mieszkaniowe",
-        "pmv": -3,
-        "utci": -7.4,
-        "comfort_level": "SŁABY"
-      },
-      "open": {
-        "zone_name": "Otwarte",
-        "pmv": -2.88,
-        "utci": -5.4,
-        "comfort_level": "SŁABY"
-      }
-    },
-    "comfort_map": [
-      {
-        "lat": 54.089335,
-        "lng": 22.960812,
-        "pmv": 0.35,
-        "utci": -5.3
-      },
-      {
-        "lat": 54.082056,
-        "lng": 22.942787,
-        "pmv": -0.85,
-        "utci": -1.9
-      },
-      {
-        "lat": 54.100957,
-        "lng": 22.9626,
-        "pmv": 0.12,
-        "utci": -8.4
-      },
-      {
-        "lat": 54.105699,
-        "lng": 22.93779,
-        "pmv": -0.52,
-        "utci": -8.3
-      },
-      {
-        "lat": 54.091335,
-        "lng": 22.961744,
-        "pmv": -0.7,
-        "utci": -5.1
-      },
-      {
-        "lat": 54.106202,
-        "lng": 22.942728,
-        "pmv": -0.43,
-        "utci": -1.5
-      },
-      {
-        "lat": 54.100288,
-        "lng": 22.950488,
-        "pmv": -0.78,
-        "utci": -1.0
-      },
-      {
-        "lat": 54.102645,
-        "lng": 22.948698,
-        "pmv": -0.53,
-        "utci": -1.7
-      },
-      {
-        "lat": 54.101527,
-        "lng": 22.968762,
-        "pmv": -0.05,
-        "utci": -4.8
-      },
-      {
-        "lat": 54.106178,
-        "lng": 22.955486,
-        "pmv": -1.07,
-        "utci": -9.3
-      },
-      {
-        "lat": 54.09437,
-        "lng": 22.93915,
-        "pmv": -0.31,
-        "utci": -9.4
-      },
-      {
-        "lat": 54.110118,
-        "lng": 22.966287,
-        "pmv": 0.8,
-        "utci": -3.6
-      },
-      {
-        "lat": 54.113744,
-        "lng": 22.947464,
-        "pmv": -0.59,
-        "utci": -6.7
-      },
-      {
-        "lat": 54.09557,
-        "lng": 22.956797,
-        "pmv": -0.7,
-        "utci": -6.9
-      },
-      {
-        "lat": 54.098653,
-        "lng": 22.935489,
-        "pmv": -0.47,
-        "utci": -3.6
-      },
-      {
-        "lat": 54.100894,
-        "lng": 22.952643,
-        "pmv": 0.24,
-        "utci": -8.3
-      },
-      {
-        "lat": 54.103055,
-        "lng": 22.956606,
-        "pmv": -0.59,
-        "utci": -3.6
-      },
-      {
-        "lat": 54.10223,
-        "lng": 22.953437,
-        "pmv": -0.96,
-        "utci": -3.2
-      },
-      {
-        "lat": 54.096137,
-        "lng": 22.942995,
-        "pmv": -0.32,
-        "utci": -5.8
-      },
-      {
-        "lat": 54.09946,
-        "lng": 22.963537,
-        "pmv": -0.68,
-        "utci": -8.6
-      },
-      {
-        "lat": 54.105158,
-        "lng": 22.949359,
-        "pmv": 0.05,
-        "utci": -7.0
-      },
-      {
-        "lat": 54.101885,
-        "lng": 22.959414,
-        "pmv": 0.19,
-        "utci": -3.3
-      },
-      {
-        "lat": 54.097287,
-        "lng": 22.96085,
-        "pmv": -0.06,
-        "utci": -4.2
-      },
-      {
-        "lat": 54.090886,
-        "lng": 22.96036,
-        "pmv": 0.3,
-        "utci": -2.4
-      },
-      {
-        "lat": 54.092287,
-        "lng": 22.954935,
-        "pmv": -0.45,
-        "utci": -1.8
-      },
-      {
-        "lat": 54.106906,
-        "lng": 22.96612,
-        "pmv": 0.12,
-        "utci": -1.9
-      },
-      {
-        "lat": 54.107027,
-        "lng": 22.936979,
-        "pmv": 0.25,
-        "utci": -4.7
-      },
-      {
-        "lat": 54.111437,
-        "lng": 22.955951,
-        "pmv": -0.19,
-        "utci": -3.1
-      },
-      {
-        "lat": 54.100484,
-        "lng": 22.935171,
-        "pmv": -0.76,
-        "utci": -3.2
-      },
-      {
-        "lat": 54.101441,
-        "lng": 22.949748,
-        "pmv": -0.9,
-        "utci": -3.7
-      },
-      {
-        "lat": 54.090172,
-        "lng": 22.964392,
-        "pmv": -1.01,
-        "utci": -7.3
-      },
-      {
-        "lat": 54.104178,
-        "lng": 22.952145,
-        "pmv": -1.03,
-        "utci": -2.4
-      },
-      {
-        "lat": 54.104435,
-        "lng": 22.935922,
-        "pmv": -0.34,
-        "utci": -3.8
-      },
-      {
-        "lat": 54.093737,
-        "lng": 22.956266,
-        "pmv": -0.15,
-        "utci": -5.9
-      },
-      {
-        "lat": 54.099824,
-        "lng": 22.946385,
-        "pmv": -0.36,
-        "utci": -7.7
-      },
-      {
-        "lat": 54.103127,
-        "lng": 22.955365,
-        "pmv": -1.13,
-        "utci": -6.4
-      },
-      {
-        "lat": 54.103514,
-        "lng": 22.941245,
-        "pmv": -0.62,
-        "utci": -1.6
-      },
-      {
-        "lat": 54.105788,
-        "lng": 22.961451,
-        "pmv": -1.14,
-        "utci": -9.2
-      },
-      {
-        "lat": 54.115479,
-        "lng": 22.938454,
-        "pmv": -0.59,
-        "utci": -6.9
-      },
-      {
-        "lat": 54.089664,
-        "lng": 22.983329,
-        "pmv": -1.16,
-        "utci": -2.4
-      },
-      {
-        "lat": 54.100144,
-        "lng": 22.94485,
-        "pmv": -0.75,
-        "utci": -5.8
-      },
-      {
-        "lat": 54.11592,
-        "lng": 22.95616,
-        "pmv": 0.0,
-        "utci": -7.8
-      },
-      {
-        "lat": 54.092104,
-        "lng": 22.922225,
-        "pmv": 0.05,
-        "utci": -1.6
-      },
-      {
-        "lat": 54.094918,
-        "lng": 22.94612,
-        "pmv": -0.34,
-        "utci": -6.5
-      },
-      {
-        "lat": 54.099827,
-        "lng": 22.946538,
-        "pmv": 0.1,
-        "utci": -8.2
-      },
-      {
-        "lat": 54.095584,
-        "lng": 22.95587,
-        "pmv": -0.84,
-        "utci": -2.4
-      },
-      {
-        "lat": 54.126339,
-        "lng": 22.952425,
-        "pmv": -0.08,
-        "utci": -4.8
-      },
-      {
-        "lat": 54.097973,
-        "lng": 22.948377,
-        "pmv": -0.14,
-        "utci": -8.7
-      },
-      {
-        "lat": 54.102457,
-        "lng": 22.959692,
-        "pmv": -0.13,
-        "utci": -3.8
-      },
-      {
-        "lat": 54.095713,
-        "lng": 22.963013,
-        "pmv": -0.03,
-        "utci": -6.6
-      }
-    ],
-    "computation_time": "2025-09-17T05:33:15.209168",
-    "model_version": "ThermalSim_v1.6"
-  },
-  "wiosna_chłodna": {
-    "scenario_name": "Wiosna chłodna",
-    "module": "ThermalSim",
-    "parameters": {
-      "air_temperature": 8,
-      "relative_humidity": 65,
-      "wind_speed": 2.5,
-      "solar_radiation": 200,
-      "season": "spring"
-    },
-    "overall_metrics": {
-      "city_comfort_score": 2.81,
-      "comfort_zones_percent": 0.0
-    },
-    "zone_analysis": {
-      "rynek": {
-        "zone_name": "Rynek Główny",
-        "pmv": -1.84,
-        "utci": 8.9,
-        "comfort_level": "SŁABY"
-      },
-      "streets": {
-        "zone_name": "Ulice handlowe",
-        "pmv": -2.12,
-        "utci": 6.9,
-        "comfort_level": "SŁABY"
-      },
-      "parks": {
-        "zone_name": "Parki",
-        "pmv": -2.54,
-        "utci": 3.9,
-        "comfort_level": "SŁABY"
-      },
-      "residential": {
-        "zone_name": "Mieszkaniowe",
-        "pmv": -2.26,
-        "utci": 5.9,
-        "comfort_level": "SŁABY"
-      },
-      "open": {
-        "zone_name": "Otwarte",
-        "pmv": -1.98,
-        "utci": 7.9,
-        "comfort_level": "SŁABY"
-      }
-    },
-    "comfort_map": [
-      {
-        "lat": 54.099314,
-        "lng": 22.947708,
-        "pmv": -0.16,
-        "utci": 7.3
-      },
-      {
-        "lat": 54.100761,
-        "lng": 22.946549,
-        "pmv": 0.13,
-        "utci": 7.2
-      },
-      {
-        "lat": 54.10384,
-        "lng": 22.93286,
-        "pmv": -0.23,
-        "utci": 13.1
-      },
-      {
-        "lat": 54.1073,
-        "lng": 22.954306,
-        "pmv": 0.95,
-        "utci": 5.9
-      },
-      {
-        "lat": 54.101067,
-        "lng": 22.942197,
-        "pmv": 0.56,
-        "utci": 10.3
-      },
-      {
-        "lat": 54.120827,
-        "lng": 22.942958,
-        "pmv": 0.25,
-        "utci": 7.8
-      },
-      {
-        "lat": 54.094257,
-        "lng": 22.938174,
-        "pmv": 0.65,
-        "utci": 10.3
-      },
-      {
-        "lat": 54.120266,
-        "lng": 22.943448,
-        "pmv": 0.16,
-        "utci": 8.9
-      },
-      {
-        "lat": 54.102603,
-        "lng": 22.925907,
-        "pmv": 0.29,
-        "utci": 9.3
-      },
-      {
-        "lat": 54.097981,
-        "lng": 22.933436,
-        "pmv": 0.76,
-        "utci": 7.9
-      },
-      {
-        "lat": 54.106544,
-        "lng": 22.956166,
-        "pmv": -0.5,
-        "utci": 7.9
-      },
-      {
-        "lat": 54.109138,
-        "lng": 22.941894,
-        "pmv": 0.86,
-        "utci": 8.4
-      },
-      {
-        "lat": 54.099539,
-        "lng": 22.954065,
-        "pmv": 0.23,
-        "utci": 10.7
-      },
-      {
-        "lat": 54.091403,
-        "lng": 22.931605,
-        "pmv": 0.38,
-        "utci": 9.0
-      },
-      {
-        "lat": 54.085761,
-        "lng": 22.936381,
-        "pmv": 0.49,
-        "utci": 8.6
-      },
-      {
-        "lat": 54.084992,
-        "lng": 22.941533,
-        "pmv": 0.71,
-        "utci": 8.4
-      },
-      {
-        "lat": 54.090233,
-        "lng": 22.962184,
-        "pmv": 0.53,
-        "utci": 6.9
-      },
-      {
-        "lat": 54.109756,
-        "lng": 22.918913,
-        "pmv": -0.29,
-        "utci": 4.2
-      },
-      {
-        "lat": 54.093681,
-        "lng": 22.951406,
-        "pmv": 0.68,
-        "utci": 6.5
-      },
-      {
-        "lat": 54.098484,
-        "lng": 22.97757,
-        "pmv": 0.21,
-        "utci": 9.6
-      },
-      {
-        "lat": 54.0935,
-        "lng": 22.952696,
-        "pmv": 0.62,
-        "utci": 8.9
-      },
-      {
-        "lat": 54.101741,
-        "lng": 22.930447,
-        "pmv": 0.75,
-        "utci": 11.6
-      },
-      {
-        "lat": 54.106452,
-        "lng": 22.943765,
-        "pmv": 0.34,
-        "utci": 5.2
-      },
-      {
-        "lat": 54.097377,
-        "lng": 22.949773,
-        "pmv": 0.2,
-        "utci": 8.2
-      },
-      {
-        "lat": 54.089323,
-        "lng": 22.943705,
-        "pmv": 0.66,
-        "utci": 6.8
-      },
-      {
-        "lat": 54.090009,
-        "lng": 22.945943,
-        "pmv": 0.68,
-        "utci": 9.2
-      },
-      {
-        "lat": 54.092649,
-        "lng": 22.937109,
-        "pmv": 0.15,
-        "utci": 12.0
-      },
-      {
-        "lat": 54.080752,
-        "lng": 22.934838,
-        "pmv": 0.44,
-        "utci": 5.5
-      },
-      {
-        "lat": 54.095785,
-        "lng": 22.92769,
-        "pmv": 0.49,
-        "utci": 10.5
-      },
-      {
-        "lat": 54.109365,
-        "lng": 22.938886,
-        "pmv": 0.54,
-        "utci": 7.6
-      },
-      {
-        "lat": 54.096773,
-        "lng": 22.94474,
-        "pmv": 0.24,
-        "utci": 7.7
-      },
-      {
-        "lat": 54.107423,
-        "lng": 22.978584,
-        "pmv": 1.2,
-        "utci": 7.5
-      },
-      {
-        "lat": 54.09473,
-        "lng": 22.948682,
-        "pmv": 0.47,
-        "utci": 5.8
-      },
-      {
-        "lat": 54.102526,
-        "lng": 22.931942,
-        "pmv": -0.03,
-        "utci": 12.1
-      },
-      {
-        "lat": 54.110915,
-        "lng": 22.947558,
-        "pmv": -0.36,
-        "utci": 8.4
-      },
-      {
-        "lat": 54.107145,
-        "lng": 22.944184,
-        "pmv": -0.46,
-        "utci": 10.1
-      },
-      {
-        "lat": 54.098088,
-        "lng": 22.964054,
-        "pmv": 0.77,
-        "utci": 7.7
-      },
-      {
-        "lat": 54.095511,
-        "lng": 22.958001,
-        "pmv": 0.54,
-        "utci": 7.4
-      },
-      {
-        "lat": 54.096424,
-        "lng": 22.950677,
-        "pmv": -0.35,
-        "utci": 8.3
-      },
-      {
-        "lat": 54.0867,
-        "lng": 22.951198,
-        "pmv": 0.01,
-        "utci": 10.2
-      },
-      {
-        "lat": 54.103901,
-        "lng": 22.941837,
-        "pmv": 0.97,
-        "utci": 10.4
-      },
-      {
-        "lat": 54.107204,
-        "lng": 22.948908,
-        "pmv": 0.66,
-        "utci": 9.7
-      },
-      {
-        "lat": 54.096961,
-        "lng": 22.938226,
-        "pmv": 0.52,
-        "utci": 7.6
-      },
-      {
-        "lat": 54.11157,
-        "lng": 22.968947,
-        "pmv": 0.77,
-        "utci": 4.9
-      },
-      {
-        "lat": 54.104218,
-        "lng": 22.957044,
-        "pmv": 0.15,
-        "utci": 5.9
-      },
-      {
-        "lat": 54.109598,
-        "lng": 22.926547,
-        "pmv": -0.26,
-        "utci": 7.9
-      },
-      {
-        "lat": 54.11077,
-        "lng": 22.949774,
-        "pmv": -0.16,
-        "utci": 6.3
-      },
-      {
-        "lat": 54.091961,
-        "lng": 22.93793,
-        "pmv": -0.06,
-        "utci": 4.0
-      },
-      {
-        "lat": 54.096809,
-        "lng": 22.965591,
-        "pmv": 0.57,
-        "utci": 4.1
-      },
-      {
-        "lat": 54.112454,
-        "lng": 22.931837,
-        "pmv": 0.31,
-        "utci": 10.7
-      }
-    ],
-    "computation_time": "2025-09-17T05:33:15.209576",
-    "model_version": "ThermalSim_v1.6"
-  },
   "lato_komfortowe": {
     "scenario_name": "Lato komfortowe",
     "module": "ThermalSim",
+    "model_version": "ThermalSim_v1.6_PMV_UTCI_PET",
+    "computation_time": "2025-09-17T06:50:02.740837",
     "parameters": {
       "air_temperature": 22,
       "relative_humidity": 55,
       "wind_speed": 1.5,
       "solar_radiation": 400,
+      "clothing_insulation_clo": 0.4,
+      "metabolic_rate_met": 1.0,
       "season": "summer"
     },
+    "environmental_conditions": {
+      "thermal_stress_category": "comfortable",
+      "humidity_comfort": "optimal",
+      "wind_comfort": "optimal",
+      "solar_load": "moderate"
+    },
     "overall_metrics": {
-      "city_comfort_score": 4.82,
-      "comfort_zones_percent": 100.0
+      "city_comfort_score": 4.85,
+      "comfort_zones_percent": 100.0,
+      "heat_stress_zones": 0,
+      "cold_stress_zones": 0,
+      "uhi_effect_estimated": 0.3
     },
     "zone_analysis": {
-      "rynek": {
+      "rynek_main": {
         "zone_name": "Rynek Główny",
-        "pmv": 0.18,
-        "utci": 23.7,
-        "comfort_level": "DOSKONAŁY"
+        "area_percent": 8,
+        "microclimate": {
+          "air_temp": 25.0,
+          "mean_radiant_temp": 26.2,
+          "wind_speed": 1.05,
+          "humidity": 50,
+          "surface_type": "urban"
+        },
+        "comfort_indices": {
+          "pmv": 0.16,
+          "ppd": 5.5,
+          "utci": 23.4,
+          "pet": 19.1
+        },
+        "assessment": {
+          "comfort_level": "DOSKONAŁY",
+          "comfort_score": 5,
+          "recommendation": "Optymalne warunki komfortu termicznego",
+          "thermal_stress": "neutral"
+        }
       },
-      "streets": {
+      "street_commercial": {
         "zone_name": "Ulice handlowe",
-        "pmv": -0.08,
-        "utci": 21.7,
-        "comfort_level": "DOSKONAŁY"
+        "area_percent": 25,
+        "microclimate": {
+          "air_temp": 24.5,
+          "mean_radiant_temp": 25.8,
+          "wind_speed": 0.75,
+          "humidity": 52,
+          "surface_type": "asphalt"
+        },
+        "comfort_indices": {
+          "pmv": 0.15,
+          "ppd": 5.4,
+          "utci": 23.3,
+          "pet": 19.0
+        },
+        "assessment": {
+          "comfort_level": "DOSKONAŁY",
+          "comfort_score": 5,
+          "recommendation": "Optymalne warunki komfortu termicznego",
+          "thermal_stress": "neutral"
+        }
       },
-      "parks": {
-        "zone_name": "Parki",
-        "pmv": -0.46,
-        "utci": 18.6,
-        "comfort_level": "DOSKONAŁY"
+      "parks_green": {
+        "zone_name": "Parki i skwery",
+        "area_percent": 15,
+        "microclimate": {
+          "air_temp": 20.0,
+          "mean_radiant_temp": 20.1,
+          "wind_speed": 1.35,
+          "humidity": 63,
+          "surface_type": "grass"
+        },
+        "comfort_indices": {
+          "pmv": -0.6,
+          "ppd": 12.4,
+          "utci": 17.6,
+          "pet": 13.8
+        },
+        "assessment": {
+          "comfort_level": "DOBRY",
+          "comfort_score": 4,
+          "recommendation": "Lekka korekta ubioru, generalnie komfortowe warunki",
+          "thermal_stress": "neutral"
+        }
       },
       "residential": {
-        "zone_name": "Mieszkaniowe",
-        "pmv": -0.2,
-        "utci": 20.7,
-        "comfort_level": "DOSKONAŁY"
+        "zone_name": "Obszary mieszkaniowe",
+        "area_percent": 35,
+        "microclimate": {
+          "air_temp": 23.0,
+          "mean_radiant_temp": 24.2,
+          "wind_speed": 1.2,
+          "humidity": 55,
+          "surface_type": "urban"
+        },
+        "comfort_indices": {
+          "pmv": -0.11,
+          "ppd": 5.2,
+          "utci": 21.4,
+          "pet": 17.3
+        },
+        "assessment": {
+          "comfort_level": "DOSKONAŁY",
+          "comfort_score": 5,
+          "recommendation": "Optymalne warunki komfortu termicznego",
+          "thermal_stress": "neutral"
+        }
       },
-      "open": {
-        "zone_name": "Otwarte",
-        "pmv": 0.05,
-        "utci": 22.7,
-        "comfort_level": "DOSKONAŁY"
+      "open_spaces": {
+        "zone_name": "Otwarte przestrzenie",
+        "area_percent": 17,
+        "microclimate": {
+          "air_temp": 24.8,
+          "mean_radiant_temp": 26.1,
+          "wind_speed": 1.5,
+          "humidity": 47,
+          "surface_type": "concrete"
+        },
+        "comfort_indices": {
+          "pmv": 0.09,
+          "ppd": 5.2,
+          "utci": 22.8,
+          "pet": 18.6
+        },
+        "assessment": {
+          "comfort_level": "DOSKONAŁY",
+          "comfort_score": 5,
+          "recommendation": "Optymalne warunki komfortu termicznego",
+          "thermal_stress": "neutral"
+        }
       }
     },
     "comfort_map": [
       {
-        "lat": 54.085007,
-        "lng": 22.963053,
-        "pmv": 2.0,
-        "utci": 18.2
+        "lat": 54.110682,
+        "lng": 22.928908,
+        "pmv": -0.03,
+        "ppd": 5.0,
+        "utci": 20.3,
+        "pet": 14.5,
+        "zone_type": "residential",
+        "surface_temp": 23.7,
+        "comfort_score": 5,
+        "microenvironment": "urban"
       },
       {
-        "lat": 54.095958,
-        "lng": 22.956768,
-        "pmv": 2.46,
-        "utci": 26.2
+        "lat": 54.095486,
+        "lng": 22.940649,
+        "pmv": -0.92,
+        "ppd": 22.7,
+        "utci": 19.1,
+        "pet": 14.7,
+        "zone_type": "parks_green",
+        "surface_temp": 21.2,
+        "comfort_score": 4.0,
+        "microenvironment": "grass"
       },
       {
-        "lat": 54.098303,
-        "lng": 22.952861,
-        "pmv": 3.08,
-        "utci": 20.7
+        "lat": 54.096075,
+        "lng": 22.95281,
+        "pmv": -0.12,
+        "ppd": 5.3,
+        "utci": 20.3,
+        "pet": 16.5,
+        "zone_type": "residential",
+        "surface_temp": 22.6,
+        "comfort_score": 5,
+        "microenvironment": "urban"
       },
       {
-        "lat": 54.102678,
-        "lng": 22.949291,
-        "pmv": 1.71,
-        "utci": 22.1
+        "lat": 54.106582,
+        "lng": 22.949719,
+        "pmv": 0.34,
+        "ppd": 7.4,
+        "utci": 23.4,
+        "pet": 22.9,
+        "zone_type": "street_commercial",
+        "surface_temp": 27.0,
+        "comfort_score": 5,
+        "microenvironment": "asphalt"
       },
       {
-        "lat": 54.106275,
-        "lng": 22.951657,
-        "pmv": 2.07,
-        "utci": 21.8
+        "lat": 54.1078,
+        "lng": 22.961522,
+        "pmv": 0.35,
+        "ppd": 7.5,
+        "utci": 23.3,
+        "pet": 19.4,
+        "zone_type": "open_spaces",
+        "surface_temp": 25.9,
+        "comfort_score": 5,
+        "microenvironment": "concrete"
       },
       {
-        "lat": 54.093051,
-        "lng": 22.939777,
-        "pmv": 1.74,
-        "utci": 24.6
+        "lat": 54.09816,
+        "lng": 22.944212,
+        "pmv": -0.19,
+        "ppd": 5.7,
+        "utci": 21.7,
+        "pet": 16.7,
+        "zone_type": "street_commercial",
+        "surface_temp": 18.7,
+        "comfort_score": 5,
+        "microenvironment": "asphalt"
       },
       {
-        "lat": 54.09882,
-        "lng": 22.954699,
-        "pmv": 1.94,
-        "utci": 21.4
+        "lat": 54.095815,
+        "lng": 22.944564,
+        "pmv": -0.09,
+        "ppd": 5.2,
+        "utci": 23.7,
+        "pet": 18.4,
+        "zone_type": "open_spaces",
+        "surface_temp": 24.8,
+        "comfort_score": 5,
+        "microenvironment": "concrete"
       },
       {
-        "lat": 54.120054,
-        "lng": 22.945664,
-        "pmv": 2.82,
-        "utci": 20.5
+        "lat": 54.08702,
+        "lng": 22.946933,
+        "pmv": 0.22,
+        "ppd": 6.0,
+        "utci": 20.0,
+        "pet": 23.4,
+        "zone_type": "rynek_main",
+        "surface_temp": 21.1,
+        "comfort_score": 5,
+        "microenvironment": "urban"
       },
       {
-        "lat": 54.092671,
-        "lng": 22.937338,
-        "pmv": 1.68,
-        "utci": 22.1
+        "lat": 54.103611,
+        "lng": 22.933706,
+        "pmv": -0.21,
+        "ppd": 5.9,
+        "utci": 22.3,
+        "pet": 11.5,
+        "zone_type": "residential",
+        "surface_temp": 24.0,
+        "comfort_score": 5,
+        "microenvironment": "urban"
       },
       {
-        "lat": 54.10193,
-        "lng": 22.954219,
-        "pmv": 1.69,
-        "utci": 21.6
+        "lat": 54.101365,
+        "lng": 22.947635,
+        "pmv": -0.49,
+        "ppd": 10.1,
+        "utci": 15.0,
+        "pet": 14.6,
+        "zone_type": "parks_green",
+        "surface_temp": 22.7,
+        "comfort_score": 5,
+        "microenvironment": "grass"
       },
       {
-        "lat": 54.094159,
-        "lng": 22.945993,
-        "pmv": 2.5,
-        "utci": 21.9
+        "lat": 54.101995,
+        "lng": 22.936071,
+        "pmv": 0.2,
+        "ppd": 5.9,
+        "utci": 24.2,
+        "pet": 21.8,
+        "zone_type": "open_spaces",
+        "surface_temp": 26.8,
+        "comfort_score": 5,
+        "microenvironment": "concrete"
       },
       {
-        "lat": 54.106342,
-        "lng": 22.934196,
-        "pmv": 2.61,
-        "utci": 22.7
+        "lat": 54.082838,
+        "lng": 22.936108,
+        "pmv": 0.58,
+        "ppd": 12.0,
+        "utci": 21.6,
+        "pet": 19.0,
+        "zone_type": "street_commercial",
+        "surface_temp": 26.8,
+        "comfort_score": 4.0,
+        "microenvironment": "asphalt"
       },
       {
-        "lat": 54.093193,
-        "lng": 22.957625,
-        "pmv": 2.2,
-        "utci": 22.8
+        "lat": 54.097893,
+        "lng": 22.947878,
+        "pmv": -0.05,
+        "ppd": 5.1,
+        "utci": 24.4,
+        "pet": 18.1,
+        "zone_type": "residential",
+        "surface_temp": 25.1,
+        "comfort_score": 5,
+        "microenvironment": "urban"
       },
       {
-        "lat": 54.100178,
-        "lng": 22.947502,
-        "pmv": 2.55,
-        "utci": 22.8
+        "lat": 54.116136,
+        "lng": 22.938847,
+        "pmv": 0.67,
+        "ppd": 14.5,
+        "utci": 22.8,
+        "pet": 17.8,
+        "zone_type": "rynek_main",
+        "surface_temp": 25.8,
+        "comfort_score": 4.0,
+        "microenvironment": "urban"
       },
       {
-        "lat": 54.10073,
-        "lng": 22.943449,
-        "pmv": 1.9,
-        "utci": 19.4
+        "lat": 54.09738,
+        "lng": 22.975317,
+        "pmv": -0.28,
+        "ppd": 6.7,
+        "utci": 22.0,
+        "pet": 16.1,
+        "zone_type": "open_spaces",
+        "surface_temp": 26.4,
+        "comfort_score": 5,
+        "microenvironment": "concrete"
       },
       {
-        "lat": 54.107249,
-        "lng": 22.968197,
-        "pmv": 1.82,
-        "utci": 21.4
+        "lat": 54.107058,
+        "lng": 22.958051,
+        "pmv": -0.47,
+        "ppd": 9.7,
+        "utci": 22.2,
+        "pet": 16.9,
+        "zone_type": "residential",
+        "surface_temp": 29.3,
+        "comfort_score": 5,
+        "microenvironment": "urban"
       },
       {
-        "lat": 54.096272,
-        "lng": 22.940263,
-        "pmv": 2.94,
-        "utci": 21.4
+        "lat": 54.097279,
+        "lng": 22.93233,
+        "pmv": -0.55,
+        "ppd": 11.3,
+        "utci": 15.9,
+        "pet": 13.5,
+        "zone_type": "parks_green",
+        "surface_temp": 17.3,
+        "comfort_score": 4.0,
+        "microenvironment": "grass"
       },
       {
-        "lat": 54.099685,
-        "lng": 22.949312,
-        "pmv": 2.22,
-        "utci": 21.5
+        "lat": 54.096491,
+        "lng": 22.925972,
+        "pmv": 0.25,
+        "ppd": 6.3,
+        "utci": 21.0,
+        "pet": 21.6,
+        "zone_type": "rynek_main",
+        "surface_temp": 26.9,
+        "comfort_score": 5,
+        "microenvironment": "urban"
       },
       {
-        "lat": 54.089125,
-        "lng": 22.972006,
-        "pmv": 2.34,
-        "utci": 18.7
+        "lat": 54.093077,
+        "lng": 22.949118,
+        "pmv": -0.06,
+        "ppd": 5.1,
+        "utci": 17.5,
+        "pet": 13.3,
+        "zone_type": "parks_green",
+        "surface_temp": 16.9,
+        "comfort_score": 5,
+        "microenvironment": "grass"
       },
       {
-        "lat": 54.093143,
-        "lng": 22.948388,
-        "pmv": 2.13,
-        "utci": 23.3
+        "lat": 54.099042,
+        "lng": 22.958792,
+        "pmv": -0.28,
+        "ppd": 6.6,
+        "utci": 23.1,
+        "pet": 11.1,
+        "zone_type": "residential",
+        "surface_temp": 26.1,
+        "comfort_score": 5,
+        "microenvironment": "urban"
       },
       {
-        "lat": 54.10332,
-        "lng": 22.956984,
-        "pmv": 2.3,
-        "utci": 26.1
+        "lat": 54.102542,
+        "lng": 22.935721,
+        "pmv": 0.1,
+        "ppd": 5.2,
+        "utci": 24.6,
+        "pet": 20.5,
+        "zone_type": "rynek_main",
+        "surface_temp": 25.1,
+        "comfort_score": 5,
+        "microenvironment": "urban"
       },
       {
-        "lat": 54.093479,
-        "lng": 22.941906,
-        "pmv": 2.62,
-        "utci": 20.6
+        "lat": 54.090393,
+        "lng": 22.934339,
+        "pmv": 0.49,
+        "ppd": 10.0,
+        "utci": 23.3,
+        "pet": 16.2,
+        "zone_type": "open_spaces",
+        "surface_temp": 29.3,
+        "comfort_score": 5,
+        "microenvironment": "concrete"
       },
       {
-        "lat": 54.101247,
-        "lng": 22.952919,
-        "pmv": 1.98,
-        "utci": 19.0
+        "lat": 54.096596,
+        "lng": 22.961162,
+        "pmv": 0.2,
+        "ppd": 5.8,
+        "utci": 21.7,
+        "pet": 21.4,
+        "zone_type": "street_commercial",
+        "surface_temp": 24.4,
+        "comfort_score": 5,
+        "microenvironment": "asphalt"
       },
       {
-        "lat": 54.099623,
-        "lng": 22.945531,
-        "pmv": 2.55,
-        "utci": 22.0
+        "lat": 54.110129,
+        "lng": 22.94786,
+        "pmv": -0.32,
+        "ppd": 7.2,
+        "utci": 22.4,
+        "pet": 18.8,
+        "zone_type": "residential",
+        "surface_temp": 25.8,
+        "comfort_score": 5,
+        "microenvironment": "urban"
       },
       {
-        "lat": 54.102971,
-        "lng": 22.961762,
-        "pmv": 3.4,
-        "utci": 21.9
+        "lat": 54.101766,
+        "lng": 22.967421,
+        "pmv": -0.57,
+        "ppd": 11.8,
+        "utci": 16.1,
+        "pet": 12.3,
+        "zone_type": "parks_green",
+        "surface_temp": 21.4,
+        "comfort_score": 4.0,
+        "microenvironment": "grass"
       },
       {
-        "lat": 54.099572,
-        "lng": 22.964464,
-        "pmv": 2.22,
-        "utci": 24.9
+        "lat": 54.100459,
+        "lng": 22.960047,
+        "pmv": -0.56,
+        "ppd": 11.6,
+        "utci": 21.6,
+        "pet": 15.5,
+        "zone_type": "residential",
+        "surface_temp": 26.3,
+        "comfort_score": 4.0,
+        "microenvironment": "urban"
       },
       {
-        "lat": 54.091497,
-        "lng": 22.937234,
-        "pmv": 2.37,
-        "utci": 24.1
+        "lat": 54.108417,
+        "lng": 22.944653,
+        "pmv": -0.09,
+        "ppd": 5.2,
+        "utci": 19.4,
+        "pet": 20.6,
+        "zone_type": "open_spaces",
+        "surface_temp": 26.8,
+        "comfort_score": 5,
+        "microenvironment": "concrete"
       },
       {
-        "lat": 54.107321,
-        "lng": 22.947539,
-        "pmv": 1.69,
-        "utci": 21.7
+        "lat": 54.096655,
+        "lng": 22.920115,
+        "pmv": 0.23,
+        "ppd": 6.1,
+        "utci": 23.9,
+        "pet": 15.0,
+        "zone_type": "open_spaces",
+        "surface_temp": 25.4,
+        "comfort_score": 5,
+        "microenvironment": "concrete"
       },
       {
-        "lat": 54.113421,
-        "lng": 22.950941,
-        "pmv": 2.32,
-        "utci": 21.5
+        "lat": 54.097979,
+        "lng": 22.953124,
+        "pmv": -0.51,
+        "ppd": 10.4,
+        "utci": 25.5,
+        "pet": 20.8,
+        "zone_type": "open_spaces",
+        "surface_temp": 20.5,
+        "comfort_score": 4.0,
+        "microenvironment": "concrete"
       },
       {
-        "lat": 54.102946,
-        "lng": 22.9307,
-        "pmv": 2.28,
-        "utci": 20.5
+        "lat": 54.101077,
+        "lng": 22.964461,
+        "pmv": 0.74,
+        "ppd": 16.5,
+        "utci": 26.4,
+        "pet": 18.5,
+        "zone_type": "street_commercial",
+        "surface_temp": 31.8,
+        "comfort_score": 4.0,
+        "microenvironment": "asphalt"
       },
       {
-        "lat": 54.112684,
-        "lng": 22.93162,
-        "pmv": 2.11,
-        "utci": 18.3
+        "lat": 54.098824,
+        "lng": 22.948159,
+        "pmv": -0.58,
+        "ppd": 12.1,
+        "utci": 26.6,
+        "pet": 18.1,
+        "zone_type": "open_spaces",
+        "surface_temp": 27.8,
+        "comfort_score": 4.0,
+        "microenvironment": "concrete"
       },
       {
-        "lat": 54.107883,
-        "lng": 22.966618,
-        "pmv": 2.84,
-        "utci": 20.5
+        "lat": 54.08691,
+        "lng": 22.933393,
+        "pmv": -0.01,
+        "ppd": 5.0,
+        "utci": 24.2,
+        "pet": 13.7,
+        "zone_type": "residential",
+        "surface_temp": 29.1,
+        "comfort_score": 5,
+        "microenvironment": "urban"
       },
       {
-        "lat": 54.085388,
-        "lng": 22.973895,
-        "pmv": 1.64,
-        "utci": 22.1
+        "lat": 54.115966,
+        "lng": 22.941226,
+        "pmv": -0.08,
+        "ppd": 5.1,
+        "utci": 21.6,
+        "pet": 17.2,
+        "zone_type": "rynek_main",
+        "surface_temp": 29.9,
+        "comfort_score": 5,
+        "microenvironment": "urban"
       },
       {
-        "lat": 54.111367,
-        "lng": 22.940852,
-        "pmv": 2.73,
-        "utci": 21.5
+        "lat": 54.089708,
+        "lng": 22.938999,
+        "pmv": -0.06,
+        "ppd": 5.1,
+        "utci": 26.4,
+        "pet": 20.0,
+        "zone_type": "residential",
+        "surface_temp": 22.8,
+        "comfort_score": 5,
+        "microenvironment": "urban"
       },
       {
-        "lat": 54.098504,
-        "lng": 22.96815,
-        "pmv": 1.39,
-        "utci": 23.4
+        "lat": 54.099241,
+        "lng": 22.923005,
+        "pmv": 0.13,
+        "ppd": 5.4,
+        "utci": 25.1,
+        "pet": 19.0,
+        "zone_type": "street_commercial",
+        "surface_temp": 29.7,
+        "comfort_score": 5,
+        "microenvironment": "asphalt"
       },
       {
-        "lat": 54.096816,
-        "lng": 22.953711,
-        "pmv": 2.15,
-        "utci": 23.2
+        "lat": 54.101505,
+        "lng": 22.940705,
+        "pmv": -0.17,
+        "ppd": 5.6,
+        "utci": 19.8,
+        "pet": 17.2,
+        "zone_type": "residential",
+        "surface_temp": 25.6,
+        "comfort_score": 5,
+        "microenvironment": "urban"
       },
       {
-        "lat": 54.096828,
-        "lng": 22.944649,
-        "pmv": 2.21,
-        "utci": 22.0
+        "lat": 54.105583,
+        "lng": 22.941778,
+        "pmv": -0.08,
+        "ppd": 5.1,
+        "utci": 23.7,
+        "pet": 19.7,
+        "zone_type": "open_spaces",
+        "surface_temp": 27.8,
+        "comfort_score": 5,
+        "microenvironment": "concrete"
       },
       {
-        "lat": 54.113645,
-        "lng": 22.946764,
-        "pmv": 1.97,
-        "utci": 21.1
+        "lat": 54.092933,
+        "lng": 22.931325,
+        "pmv": -0.52,
+        "ppd": 10.8,
+        "utci": 19.0,
+        "pet": 22.4,
+        "zone_type": "residential",
+        "surface_temp": 27.7,
+        "comfort_score": 4.0,
+        "microenvironment": "urban"
       },
       {
-        "lat": 54.105204,
-        "lng": 22.943461,
-        "pmv": 1.98,
-        "utci": 24.7
+        "lat": 54.115177,
+        "lng": 22.942764,
+        "pmv": 0.07,
+        "ppd": 5.1,
+        "utci": 20.5,
+        "pet": 16.1,
+        "zone_type": "street_commercial",
+        "surface_temp": 19.5,
+        "comfort_score": 5,
+        "microenvironment": "asphalt"
       },
       {
-        "lat": 54.094056,
-        "lng": 22.924032,
-        "pmv": 1.32,
-        "utci": 23.2
+        "lat": 54.100289,
+        "lng": 22.944773,
+        "pmv": 0.03,
+        "ppd": 5.0,
+        "utci": 22.7,
+        "pet": 15.6,
+        "zone_type": "open_spaces",
+        "surface_temp": 23.8,
+        "comfort_score": 5,
+        "microenvironment": "concrete"
       },
       {
-        "lat": 54.091169,
-        "lng": 22.955842,
-        "pmv": 0.86,
-        "utci": 19.2
+        "lat": 54.103037,
+        "lng": 22.947089,
+        "pmv": 0.01,
+        "ppd": 5.0,
+        "utci": 21.8,
+        "pet": 19.2,
+        "zone_type": "street_commercial",
+        "surface_temp": 22.7,
+        "comfort_score": 5,
+        "microenvironment": "asphalt"
       },
       {
-        "lat": 54.099771,
-        "lng": 22.964907,
-        "pmv": 2.52,
-        "utci": 22.9
+        "lat": 54.099554,
+        "lng": 22.930257,
+        "pmv": 0.23,
+        "ppd": 6.1,
+        "utci": 26.3,
+        "pet": 20.2,
+        "zone_type": "street_commercial",
+        "surface_temp": 21.8,
+        "comfort_score": 5,
+        "microenvironment": "asphalt"
       },
       {
-        "lat": 54.09426,
-        "lng": 22.949858,
-        "pmv": 2.1,
-        "utci": 23.5
+        "lat": 54.099614,
+        "lng": 22.940081,
+        "pmv": -0.74,
+        "ppd": 16.5,
+        "utci": 21.5,
+        "pet": 18.8,
+        "zone_type": "residential",
+        "surface_temp": 22.8,
+        "comfort_score": 4.0,
+        "microenvironment": "urban"
       },
       {
-        "lat": 54.105149,
-        "lng": 22.962402,
-        "pmv": 2.56,
-        "utci": 23.7
-      },
-      {
-        "lat": 54.102242,
-        "lng": 22.947146,
-        "pmv": 3.17,
-        "utci": 23.0
-      },
-      {
-        "lat": 54.102432,
-        "lng": 22.950482,
-        "pmv": 2.05,
-        "utci": 23.6
-      },
-      {
-        "lat": 54.106634,
-        "lng": 22.9516,
-        "pmv": 2.29,
-        "utci": 26.0
-      },
-      {
-        "lat": 54.097168,
-        "lng": 22.951903,
-        "pmv": 1.38,
-        "utci": 21.2
-      },
-      {
-        "lat": 54.092608,
-        "lng": 22.954466,
-        "pmv": 1.98,
-        "utci": 21.0
-      },
-      {
-        "lat": 54.107559,
-        "lng": 22.958401,
-        "pmv": 2.29,
-        "utci": 21.7
+        "lat": 54.10705,
+        "lng": 22.95899,
+        "pmv": 0.31,
+        "ppd": 7.0,
+        "utci": 20.2,
+        "pet": 17.3,
+        "zone_type": "residential",
+        "surface_temp": 25.9,
+        "comfort_score": 5,
+        "microenvironment": "urban"
       }
     ],
-    "computation_time": "2025-09-17T05:33:15.209982",
-    "model_version": "ThermalSim_v1.6"
+    "visualization": {
+      "center_lat": 54.1,
+      "center_lng": 22.95,
+      "zoom_level": 14,
+      "color_scale": "RdYlBu_r",
+      "legend_title": "PMV Comfort Scale"
+    }
   },
   "upał_letni": {
     "scenario_name": "Upał letni",
     "module": "ThermalSim",
+    "model_version": "ThermalSim_v1.6_PMV_UTCI_PET",
+    "computation_time": "2025-09-17T06:50:02.745310",
     "parameters": {
       "air_temperature": 32,
       "relative_humidity": 45,
       "wind_speed": 1.0,
       "solar_radiation": 800,
+      "clothing_insulation_clo": 0.4,
+      "metabolic_rate_met": 1.0,
       "season": "summer"
     },
+    "environmental_conditions": {
+      "thermal_stress_category": "hot",
+      "humidity_comfort": "optimal",
+      "wind_comfort": "optimal",
+      "solar_load": "high"
+    },
     "overall_metrics": {
-      "city_comfort_score": 3.91,
-      "comfort_zones_percent": 20.0
+      "city_comfort_score": 3.15,
+      "comfort_zones_percent": 20.0,
+      "heat_stress_zones": 0,
+      "cold_stress_zones": 0,
+      "uhi_effect_estimated": 1.8
     },
     "zone_analysis": {
-      "rynek": {
+      "rynek_main": {
         "zone_name": "Rynek Główny",
-        "pmv": 1.38,
-        "utci": 34.0,
-        "comfort_level": "AKCEPTOWALNY"
+        "area_percent": 8,
+        "microclimate": {
+          "air_temp": 35.0,
+          "mean_radiant_temp": 37.5,
+          "wind_speed": 0.7,
+          "humidity": 40,
+          "surface_type": "urban"
+        },
+        "comfort_indices": {
+          "pmv": 1.33,
+          "ppd": 41.9,
+          "utci": 34.2,
+          "pet": 27.3
+        },
+        "assessment": {
+          "comfort_level": "AKCEPTOWALNY",
+          "comfort_score": 3,
+          "recommendation": "Krótkie przebywanie, częste przerwy w cieniu, nawodnienie",
+          "thermal_stress": "heat"
+        }
       },
-      "streets": {
+      "street_commercial": {
         "zone_name": "Ulice handlowe",
-        "pmv": 1.14,
-        "utci": 32.0,
-        "comfort_level": "AKCEPTOWALNY"
+        "area_percent": 25,
+        "microclimate": {
+          "air_temp": 34.5,
+          "mean_radiant_temp": 37.1,
+          "wind_speed": 0.5,
+          "humidity": 42,
+          "surface_type": "asphalt"
+        },
+        "comfort_indices": {
+          "pmv": 1.34,
+          "ppd": 42.3,
+          "utci": 35.5,
+          "pet": 27.4
+        },
+        "assessment": {
+          "comfort_level": "AKCEPTOWALNY",
+          "comfort_score": 3,
+          "recommendation": "Krótkie przebywanie, częste przerwy w cieniu, nawodnienie",
+          "thermal_stress": "heat"
+        }
       },
-      "parks": {
-        "zone_name": "Parki",
-        "pmv": 0.79,
-        "utci": 29.0,
-        "comfort_level": "DOBRY"
+      "parks_green": {
+        "zone_name": "Parki i skwery",
+        "area_percent": 15,
+        "microclimate": {
+          "air_temp": 30.0,
+          "mean_radiant_temp": 30.2,
+          "wind_speed": 0.9,
+          "humidity": 53,
+          "surface_type": "grass"
+        },
+        "comfort_indices": {
+          "pmv": 0.78,
+          "ppd": 17.7,
+          "utci": 28.2,
+          "pet": 23.4
+        },
+        "assessment": {
+          "comfort_level": "DOBRY",
+          "comfort_score": 4,
+          "recommendation": "Komfortowe warunki, możliwe dłuższe przebywanie",
+          "thermal_stress": "neutral"
+        }
       },
       "residential": {
-        "zone_name": "Mieszkaniowe",
-        "pmv": 1.03,
-        "utci": 31.0,
-        "comfort_level": "AKCEPTOWALNY"
+        "zone_name": "Obszary mieszkaniowe",
+        "area_percent": 35,
+        "microclimate": {
+          "air_temp": 33.0,
+          "mean_radiant_temp": 35.5,
+          "wind_speed": 0.8,
+          "humidity": 45,
+          "surface_type": "urban"
+        },
+        "comfort_indices": {
+          "pmv": 1.16,
+          "ppd": 33.3,
+          "utci": 32.2,
+          "pet": 26.1
+        },
+        "assessment": {
+          "comfort_level": "AKCEPTOWALNY",
+          "comfort_score": 3,
+          "recommendation": "Krótkie przebywanie, częste przerwy w cieniu, nawodnienie",
+          "thermal_stress": "heat"
+        }
       },
-      "open": {
-        "zone_name": "Otwarte",
-        "pmv": 1.26,
-        "utci": 33.0,
-        "comfort_level": "AKCEPTOWALNY"
+      "open_spaces": {
+        "zone_name": "Otwarte przestrzenie",
+        "area_percent": 17,
+        "microclimate": {
+          "air_temp": 34.8,
+          "mean_radiant_temp": 37.3,
+          "wind_speed": 1.0,
+          "humidity": 37,
+          "surface_type": "concrete"
+        },
+        "comfort_indices": {
+          "pmv": 1.23,
+          "ppd": 36.9,
+          "utci": 33.7,
+          "pet": 26.6
+        },
+        "assessment": {
+          "comfort_level": "AKCEPTOWALNY",
+          "comfort_score": 3,
+          "recommendation": "Krótkie przebywanie, częste przerwy w cieniu, nawodnienie",
+          "thermal_stress": "heat"
+        }
       }
     },
     "comfort_map": [
       {
-        "lat": 54.095955,
-        "lng": 22.956963,
-        "pmv": 1.41,
-        "utci": 33.1
-      },
-      {
-        "lat": 54.098982,
-        "lng": 22.942539,
-        "pmv": 1.52,
-        "utci": 30.2
-      },
-      {
-        "lat": 54.097275,
-        "lng": 22.951748,
+        "lat": 54.105852,
+        "lng": 22.94366,
         "pmv": 0.73,
-        "utci": 32.4
+        "ppd": 16.2,
+        "utci": 34.5,
+        "pet": 23.9,
+        "zone_type": "residential",
+        "surface_temp": 35.2,
+        "comfort_score": 4.0,
+        "microenvironment": "urban"
       },
       {
-        "lat": 54.115099,
-        "lng": 22.951476,
-        "pmv": 1.58,
-        "utci": 32.3
+        "lat": 54.083973,
+        "lng": 22.941208,
+        "pmv": 1.98,
+        "ppd": 75.7,
+        "utci": 34.3,
+        "pet": 19.7,
+        "zone_type": "street_commercial",
+        "surface_temp": 40.0,
+        "comfort_score": 3.0,
+        "microenvironment": "asphalt"
       },
       {
-        "lat": 54.112129,
-        "lng": 22.959059,
-        "pmv": 1.67,
-        "utci": 30.8
+        "lat": 54.10338,
+        "lng": 22.936761,
+        "pmv": 1.77,
+        "ppd": 65.5,
+        "utci": 26.9,
+        "pet": 27.2,
+        "zone_type": "residential",
+        "surface_temp": 36.1,
+        "comfort_score": 3.0,
+        "microenvironment": "urban"
       },
       {
-        "lat": 54.091498,
-        "lng": 22.966592,
-        "pmv": 0.61,
-        "utci": 32.1
+        "lat": 54.108536,
+        "lng": 22.953501,
+        "pmv": 0.78,
+        "ppd": 17.9,
+        "utci": 31.2,
+        "pet": 25.4,
+        "zone_type": "residential",
+        "surface_temp": 35.3,
+        "comfort_score": 4.0,
+        "microenvironment": "urban"
       },
       {
-        "lat": 54.097262,
-        "lng": 22.968436,
-        "pmv": 1.37,
-        "utci": 31.1
+        "lat": 54.109117,
+        "lng": 22.966805,
+        "pmv": 1.23,
+        "ppd": 36.7,
+        "utci": 29.9,
+        "pet": 25.8,
+        "zone_type": "residential",
+        "surface_temp": 33.1,
+        "comfort_score": 4.0,
+        "microenvironment": "urban"
       },
       {
-        "lat": 54.104109,
-        "lng": 22.937145,
-        "pmv": 0.59,
-        "utci": 34.5
-      },
-      {
-        "lat": 54.087273,
-        "lng": 22.92732,
-        "pmv": 1.56,
-        "utci": 33.4
-      },
-      {
-        "lat": 54.112523,
-        "lng": 22.959205,
-        "pmv": 1.51,
-        "utci": 35.3
-      },
-      {
-        "lat": 54.109692,
-        "lng": 22.944755,
-        "pmv": 0.66,
-        "utci": 33.7
-      },
-      {
-        "lat": 54.092786,
-        "lng": 22.937538,
-        "pmv": 1.7,
-        "utci": 30.3
-      },
-      {
-        "lat": 54.107318,
-        "lng": 22.950606,
-        "pmv": 1.9,
-        "utci": 32.8
-      },
-      {
-        "lat": 54.107136,
-        "lng": 22.963257,
-        "pmv": 1.24,
-        "utci": 30.9
-      },
-      {
-        "lat": 54.099122,
-        "lng": 22.93858,
-        "pmv": 1.47,
-        "utci": 30.0
-      },
-      {
-        "lat": 54.104577,
-        "lng": 22.941286,
-        "pmv": 1.97,
-        "utci": 31.2
-      },
-      {
-        "lat": 54.095565,
-        "lng": 22.956538,
-        "pmv": 1.64,
-        "utci": 30.7
-      },
-      {
-        "lat": 54.080945,
-        "lng": 22.934497,
-        "pmv": 1.11,
-        "utci": 35.0
-      },
-      {
-        "lat": 54.103859,
-        "lng": 22.968294,
-        "pmv": 1.73,
-        "utci": 34.6
-      },
-      {
-        "lat": 54.09019,
-        "lng": 22.943758,
-        "pmv": 1.76,
-        "utci": 29.1
-      },
-      {
-        "lat": 54.10651,
-        "lng": 22.94261,
-        "pmv": 1.15,
-        "utci": 30.7
-      },
-      {
-        "lat": 54.097075,
-        "lng": 22.944524,
-        "pmv": 1.49,
-        "utci": 33.3
-      },
-      {
-        "lat": 54.097763,
-        "lng": 22.962807,
-        "pmv": 1.68,
-        "utci": 32.0
-      },
-      {
-        "lat": 54.108768,
-        "lng": 22.945183,
-        "pmv": 1.7,
-        "utci": 32.8
-      },
-      {
-        "lat": 54.101817,
-        "lng": 22.952826,
-        "pmv": 1.26,
-        "utci": 32.8
-      },
-      {
-        "lat": 54.10167,
-        "lng": 22.958773,
-        "pmv": 1.17,
-        "utci": 29.5
-      },
-      {
-        "lat": 54.087581,
-        "lng": 22.952716,
-        "pmv": 1.81,
-        "utci": 34.8
-      },
-      {
-        "lat": 54.096964,
-        "lng": 22.944153,
-        "pmv": 0.6,
-        "utci": 28.8
-      },
-      {
-        "lat": 54.109788,
-        "lng": 22.961834,
-        "pmv": 0.87,
-        "utci": 32.4
-      },
-      {
-        "lat": 54.108438,
-        "lng": 22.958214,
-        "pmv": 1.43,
-        "utci": 34.3
-      },
-      {
-        "lat": 54.099883,
-        "lng": 22.970465,
-        "pmv": 1.78,
-        "utci": 32.1
-      },
-      {
-        "lat": 54.088062,
-        "lng": 22.972839,
-        "pmv": 0.84,
-        "utci": 30.1
-      },
-      {
-        "lat": 54.104677,
-        "lng": 22.955404,
-        "pmv": 2.5,
-        "utci": 32.7
-      },
-      {
-        "lat": 54.102504,
-        "lng": 22.9393,
-        "pmv": 1.5,
-        "utci": 31.5
-      },
-      {
-        "lat": 54.089179,
-        "lng": 22.956387,
-        "pmv": 1.76,
-        "utci": 32.4
-      },
-      {
-        "lat": 54.084151,
-        "lng": 22.963201,
-        "pmv": 1.48,
-        "utci": 32.8
-      },
-      {
-        "lat": 54.093275,
-        "lng": 22.951466,
-        "pmv": 1.52,
-        "utci": 33.5
-      },
-      {
-        "lat": 54.094291,
-        "lng": 22.946699,
-        "pmv": 2.23,
-        "utci": 30.8
-      },
-      {
-        "lat": 54.106512,
-        "lng": 22.974305,
-        "pmv": 1.03,
-        "utci": 33.4
-      },
-      {
-        "lat": 54.098046,
-        "lng": 22.965847,
-        "pmv": 0.74,
-        "utci": 34.8
-      },
-      {
-        "lat": 54.100892,
-        "lng": 22.960793,
-        "pmv": 1.9,
-        "utci": 29.4
-      },
-      {
-        "lat": 54.10907,
-        "lng": 22.93926,
-        "pmv": 1.48,
-        "utci": 29.7
-      },
-      {
-        "lat": 54.085457,
-        "lng": 22.939559,
-        "pmv": 1.48,
-        "utci": 28.1
-      },
-      {
-        "lat": 54.098169,
-        "lng": 22.944189,
-        "pmv": 1.91,
-        "utci": 31.2
-      },
-      {
-        "lat": 54.097027,
-        "lng": 22.950495,
-        "pmv": 1.7,
-        "utci": 37.2
-      },
-      {
-        "lat": 54.094751,
-        "lng": 22.972007,
-        "pmv": 1.41,
-        "utci": 31.8
-      },
-      {
-        "lat": 54.107632,
-        "lng": 22.942022,
-        "pmv": 0.64,
-        "utci": 31.2
-      },
-      {
-        "lat": 54.10166,
-        "lng": 22.962338,
-        "pmv": 1.37,
-        "utci": 32.8
-      },
-      {
-        "lat": 54.114064,
-        "lng": 22.955271,
-        "pmv": 0.67,
-        "utci": 34.7
-      },
-      {
-        "lat": 54.118113,
-        "lng": 22.954898,
-        "pmv": 1.05,
-        "utci": 31.4
-      }
-    ],
-    "computation_time": "2025-09-17T05:33:15.210345",
-    "model_version": "ThermalSim_v1.6"
-  },
-  "fala_upałów": {
-    "scenario_name": "Fala upałów",
-    "module": "ThermalSim",
-    "parameters": {
-      "air_temperature": 38,
-      "relative_humidity": 35,
-      "wind_speed": 0.5,
-      "solar_radiation": 950,
-      "season": "summer"
-    },
-    "overall_metrics": {
-      "city_comfort_score": 3.35,
-      "comfort_zones_percent": 0.0
-    },
-    "zone_analysis": {
-      "rynek": {
-        "zone_name": "Rynek Główny",
-        "pmv": 1.91,
-        "utci": 41.6,
-        "comfort_level": "SŁABY"
-      },
-      "streets": {
-        "zone_name": "Ulice handlowe",
-        "pmv": 1.7,
-        "utci": 39.6,
-        "comfort_level": "SŁABY"
-      },
-      "parks": {
-        "zone_name": "Parki",
-        "pmv": 1.39,
-        "utci": 36.6,
-        "comfort_level": "AKCEPTOWALNY"
-      },
-      "residential": {
-        "zone_name": "Mieszkaniowe",
-        "pmv": 1.6,
-        "utci": 38.6,
-        "comfort_level": "SŁABY"
-      },
-      "open": {
-        "zone_name": "Otwarte",
-        "pmv": 1.81,
-        "utci": 40.6,
-        "comfort_level": "SŁABY"
-      }
-    },
-    "comfort_map": [
-      {
-        "lat": 54.10986,
-        "lng": 22.959728,
-        "pmv": 0.5,
-        "utci": 36.5
-      },
-      {
-        "lat": 54.095001,
-        "lng": 22.960864,
+        "lat": 54.091402,
+        "lng": 22.966893,
         "pmv": 1.06,
-        "utci": 40.1
+        "ppd": 28.9,
+        "utci": 35.5,
+        "pet": 27.7,
+        "zone_type": "street_commercial",
+        "surface_temp": 29.9,
+        "comfort_score": 4.0,
+        "microenvironment": "asphalt"
       },
       {
-        "lat": 54.103053,
-        "lng": 22.958315,
-        "pmv": 0.25,
-        "utci": 37.4
+        "lat": 54.088005,
+        "lng": 22.958988,
+        "pmv": 0.64,
+        "ppd": 13.5,
+        "utci": 33.3,
+        "pet": 27.8,
+        "zone_type": "residential",
+        "surface_temp": 37.2,
+        "comfort_score": 4.0,
+        "microenvironment": "urban"
       },
       {
-        "lat": 54.088549,
-        "lng": 22.951653,
-        "pmv": 0.85,
-        "utci": 36.8
+        "lat": 54.099196,
+        "lng": 22.940058,
+        "pmv": 1.7,
+        "ppd": 61.7,
+        "utci": 30.9,
+        "pet": 26.7,
+        "zone_type": "residential",
+        "surface_temp": 34.2,
+        "comfort_score": 3.0,
+        "microenvironment": "urban"
       },
       {
-        "lat": 54.101719,
-        "lng": 22.940394,
-        "pmv": 0.1,
-        "utci": 43.0
+        "lat": 54.09824,
+        "lng": 22.95991,
+        "pmv": 0.75,
+        "ppd": 16.9,
+        "utci": 33.4,
+        "pet": 28.3,
+        "zone_type": "street_commercial",
+        "surface_temp": 37.5,
+        "comfort_score": 4.0,
+        "microenvironment": "asphalt"
       },
       {
-        "lat": 54.091796,
-        "lng": 22.94577,
-        "pmv": 1.84,
-        "utci": 37.7
+        "lat": 54.094131,
+        "lng": 22.941432,
+        "pmv": 1.28,
+        "ppd": 39.3,
+        "utci": 34.6,
+        "pet": 29.7,
+        "zone_type": "rynek_main",
+        "surface_temp": 34.6,
+        "comfort_score": 4.0,
+        "microenvironment": "urban"
       },
       {
-        "lat": 54.09612,
-        "lng": 22.952201,
-        "pmv": 1.14,
-        "utci": 36.6
+        "lat": 54.098866,
+        "lng": 22.934678,
+        "pmv": 1.5,
+        "ppd": 51.0,
+        "utci": 33.2,
+        "pet": 27.8,
+        "zone_type": "street_commercial",
+        "surface_temp": 36.9,
+        "comfort_score": 3.0,
+        "microenvironment": "asphalt"
       },
       {
-        "lat": 54.095209,
-        "lng": 22.948374,
-        "pmv": 0.76,
-        "utci": 40.8
+        "lat": 54.103257,
+        "lng": 22.960842,
+        "pmv": 1.45,
+        "ppd": 48.1,
+        "utci": 30.4,
+        "pet": 28.7,
+        "zone_type": "residential",
+        "surface_temp": 38.3,
+        "comfort_score": 4.0,
+        "microenvironment": "urban"
       },
       {
-        "lat": 54.094888,
-        "lng": 22.947775,
-        "pmv": -0.23,
-        "utci": 39.6
-      },
-      {
-        "lat": 54.102058,
-        "lng": 22.960028,
-        "pmv": 0.34,
-        "utci": 36.6
-      },
-      {
-        "lat": 54.09026,
-        "lng": 22.945231,
-        "pmv": 0.37,
-        "utci": 40.3
-      },
-      {
-        "lat": 54.091835,
-        "lng": 22.946183,
-        "pmv": 1.71,
-        "utci": 36.5
-      },
-      {
-        "lat": 54.098335,
-        "lng": 22.950857,
-        "pmv": 1.26,
-        "utci": 35.7
-      },
-      {
-        "lat": 54.09809,
-        "lng": 22.953881,
-        "pmv": 1.37,
-        "utci": 35.2
-      },
-      {
-        "lat": 54.099748,
-        "lng": 22.953988,
-        "pmv": 0.57,
-        "utci": 42.4
-      },
-      {
-        "lat": 54.102077,
-        "lng": 22.950219,
-        "pmv": 1.33,
-        "utci": 39.3
-      },
-      {
-        "lat": 54.109594,
-        "lng": 22.975493,
-        "pmv": 0.63,
-        "utci": 38.8
-      },
-      {
-        "lat": 54.112166,
-        "lng": 22.957988,
-        "pmv": 1.19,
-        "utci": 39.1
-      },
-      {
-        "lat": 54.092619,
-        "lng": 22.940675,
-        "pmv": 0.18,
-        "utci": 37.0
-      },
-      {
-        "lat": 54.092737,
-        "lng": 22.95484,
-        "pmv": 1.17,
-        "utci": 35.0
-      },
-      {
-        "lat": 54.105736,
-        "lng": 22.935901,
-        "pmv": 0.35,
-        "utci": 33.8
-      },
-      {
-        "lat": 54.098359,
-        "lng": 22.938125,
-        "pmv": 1.27,
-        "utci": 40.0
-      },
-      {
-        "lat": 54.099933,
-        "lng": 22.958698,
-        "pmv": -0.07,
-        "utci": 39.1
-      },
-      {
-        "lat": 54.1052,
-        "lng": 22.953906,
-        "pmv": 1.41,
-        "utci": 39.6
-      },
-      {
-        "lat": 54.105158,
-        "lng": 22.934731,
-        "pmv": 1.04,
-        "utci": 36.4
-      },
-      {
-        "lat": 54.107289,
-        "lng": 22.947073,
-        "pmv": 1.15,
-        "utci": 35.2
-      },
-      {
-        "lat": 54.090255,
-        "lng": 22.94632,
-        "pmv": 0.91,
-        "utci": 37.9
-      },
-      {
-        "lat": 54.094805,
-        "lng": 22.947982,
-        "pmv": 0.78,
-        "utci": 36.1
-      },
-      {
-        "lat": 54.094614,
-        "lng": 22.930417,
-        "pmv": 1.1,
-        "utci": 35.5
-      },
-      {
-        "lat": 54.106088,
-        "lng": 22.955738,
-        "pmv": 0.74,
-        "utci": 36.4
-      },
-      {
-        "lat": 54.100719,
-        "lng": 22.938192,
-        "pmv": 0.19,
-        "utci": 39.0
-      },
-      {
-        "lat": 54.099041,
-        "lng": 22.947322,
-        "pmv": 1.01,
-        "utci": 38.6
-      },
-      {
-        "lat": 54.105763,
-        "lng": 22.933904,
-        "pmv": 1.19,
-        "utci": 39.2
-      },
-      {
-        "lat": 54.098165,
-        "lng": 22.926581,
-        "pmv": -0.87,
-        "utci": 39.9
-      },
-      {
-        "lat": 54.108497,
-        "lng": 22.944827,
-        "pmv": 0.87,
-        "utci": 40.2
-      },
-      {
-        "lat": 54.097414,
-        "lng": 22.963867,
-        "pmv": 1.0,
-        "utci": 40.9
-      },
-      {
-        "lat": 54.097324,
-        "lng": 22.958906,
+        "lat": 54.091231,
+        "lng": 22.9751,
         "pmv": 1.35,
-        "utci": 38.9
+        "ppd": 42.7,
+        "utci": 33.4,
+        "pet": 29.3,
+        "zone_type": "street_commercial",
+        "surface_temp": 36.4,
+        "comfort_score": 4.0,
+        "microenvironment": "asphalt"
       },
       {
-        "lat": 54.097315,
-        "lng": 22.946734,
-        "pmv": -0.24,
-        "utci": 35.8
+        "lat": 54.114574,
+        "lng": 22.947145,
+        "pmv": 1.49,
+        "ppd": 50.2,
+        "utci": 33.2,
+        "pet": 29.0,
+        "zone_type": "open_spaces",
+        "surface_temp": 33.8,
+        "comfort_score": 4.0,
+        "microenvironment": "concrete"
       },
       {
-        "lat": 54.106243,
-        "lng": 22.95159,
-        "pmv": 1.2,
-        "utci": 38.3
+        "lat": 54.099956,
+        "lng": 22.923382,
+        "pmv": 1.5,
+        "ppd": 51.1,
+        "utci": 31.6,
+        "pet": 24.0,
+        "zone_type": "residential",
+        "surface_temp": 30.7,
+        "comfort_score": 3.0,
+        "microenvironment": "urban"
       },
       {
-        "lat": 54.097517,
-        "lng": 22.960097,
-        "pmv": 1.01,
-        "utci": 36.9
+        "lat": 54.097737,
+        "lng": 22.952454,
+        "pmv": 0.98,
+        "ppd": 25.3,
+        "utci": 32.1,
+        "pet": 25.8,
+        "zone_type": "residential",
+        "surface_temp": 36.8,
+        "comfort_score": 4.0,
+        "microenvironment": "urban"
       },
       {
-        "lat": 54.091687,
-        "lng": 22.950925,
-        "pmv": 0.12,
-        "utci": 38.1
+        "lat": 54.115372,
+        "lng": 22.948881,
+        "pmv": 1.11,
+        "ppd": 31.0,
+        "utci": 36.8,
+        "pet": 26.4,
+        "zone_type": "rynek_main",
+        "surface_temp": 35.9,
+        "comfort_score": 4.0,
+        "microenvironment": "urban"
       },
       {
-        "lat": 54.1151,
-        "lng": 22.950836,
-        "pmv": 0.5,
-        "utci": 35.9
+        "lat": 54.095613,
+        "lng": 22.96154,
+        "pmv": 1.58,
+        "ppd": 55.2,
+        "utci": 32.3,
+        "pet": 23.6,
+        "zone_type": "parks_green",
+        "surface_temp": 28.8,
+        "comfort_score": 3.0,
+        "microenvironment": "grass"
       },
       {
-        "lat": 54.096017,
-        "lng": 22.93813,
-        "pmv": 0.61,
-        "utci": 36.7
+        "lat": 54.104368,
+        "lng": 22.951075,
+        "pmv": 0.79,
+        "ppd": 18.0,
+        "utci": 31.7,
+        "pet": 25.3,
+        "zone_type": "residential",
+        "surface_temp": 41.9,
+        "comfort_score": 4.0,
+        "microenvironment": "urban"
       },
       {
-        "lat": 54.105733,
-        "lng": 22.954934,
-        "pmv": -0.54,
-        "utci": 39.5
+        "lat": 54.107322,
+        "lng": 22.964534,
+        "pmv": 0.93,
+        "ppd": 23.1,
+        "utci": 33.1,
+        "pet": 23.7,
+        "zone_type": "residential",
+        "surface_temp": 36.1,
+        "comfort_score": 4.0,
+        "microenvironment": "urban"
       },
       {
-        "lat": 54.094481,
-        "lng": 22.954479,
-        "pmv": 0.87,
-        "utci": 38.6
+        "lat": 54.089243,
+        "lng": 22.954719,
+        "pmv": 1.7,
+        "ppd": 61.6,
+        "utci": 32.7,
+        "pet": 26.7,
+        "zone_type": "residential",
+        "surface_temp": 35.7,
+        "comfort_score": 3.0,
+        "microenvironment": "urban"
       },
       {
-        "lat": 54.0982,
-        "lng": 22.976583,
-        "pmv": 0.76,
-        "utci": 38.6
+        "lat": 54.096587,
+        "lng": 22.951297,
+        "pmv": 1.85,
+        "ppd": 69.6,
+        "utci": 33.1,
+        "pet": 32.2,
+        "zone_type": "residential",
+        "surface_temp": 37.2,
+        "comfort_score": 3.0,
+        "microenvironment": "urban"
       },
       {
-        "lat": 54.088476,
-        "lng": 22.942273,
-        "pmv": 1.33,
-        "utci": 38.8
+        "lat": 54.103027,
+        "lng": 22.957396,
+        "pmv": 1.11,
+        "ppd": 30.8,
+        "utci": 35.5,
+        "pet": 25.7,
+        "zone_type": "open_spaces",
+        "surface_temp": 39.6,
+        "comfort_score": 4.0,
+        "microenvironment": "concrete"
       },
       {
-        "lat": 54.095497,
-        "lng": 22.944976,
+        "lat": 54.094608,
+        "lng": 22.936324,
+        "pmv": 1.15,
+        "ppd": 33.0,
+        "utci": 32.4,
+        "pet": 31.6,
+        "zone_type": "residential",
+        "surface_temp": 38.6,
+        "comfort_score": 4.0,
+        "microenvironment": "urban"
+      },
+      {
+        "lat": 54.114313,
+        "lng": 22.944989,
+        "pmv": 1.06,
+        "ppd": 28.8,
+        "utci": 32.2,
+        "pet": 31.0,
+        "zone_type": "street_commercial",
+        "surface_temp": 34.9,
+        "comfort_score": 4.0,
+        "microenvironment": "asphalt"
+      },
+      {
+        "lat": 54.095855,
+        "lng": 22.959336,
+        "pmv": 1.37,
+        "ppd": 43.7,
+        "utci": 31.4,
+        "pet": 30.0,
+        "zone_type": "residential",
+        "surface_temp": 34.9,
+        "comfort_score": 4.0,
+        "microenvironment": "urban"
+      },
+      {
+        "lat": 54.099481,
+        "lng": 22.957538,
+        "pmv": 1.7,
+        "ppd": 61.9,
+        "utci": 36.5,
+        "pet": 26.6,
+        "zone_type": "street_commercial",
+        "surface_temp": 32.5,
+        "comfort_score": 3.0,
+        "microenvironment": "asphalt"
+      },
+      {
+        "lat": 54.09542,
+        "lng": 22.945659,
+        "pmv": 1.07,
+        "ppd": 29.0,
+        "utci": 37.1,
+        "pet": 26.2,
+        "zone_type": "street_commercial",
+        "surface_temp": 34.2,
+        "comfort_score": 4.0,
+        "microenvironment": "asphalt"
+      },
+      {
+        "lat": 54.098703,
+        "lng": 22.926342,
+        "pmv": 1.48,
+        "ppd": 49.7,
+        "utci": 36.3,
+        "pet": 27.2,
+        "zone_type": "street_commercial",
+        "surface_temp": 34.7,
+        "comfort_score": 4.0,
+        "microenvironment": "asphalt"
+      },
+      {
+        "lat": 54.092445,
+        "lng": 22.937164,
+        "pmv": 1.67,
+        "ppd": 60.0,
+        "utci": 34.4,
+        "pet": 31.5,
+        "zone_type": "street_commercial",
+        "surface_temp": 35.6,
+        "comfort_score": 3.0,
+        "microenvironment": "asphalt"
+      },
+      {
+        "lat": 54.106553,
+        "lng": 22.972763,
+        "pmv": 1.63,
+        "ppd": 58.0,
+        "utci": 34.3,
+        "pet": 26.7,
+        "zone_type": "open_spaces",
+        "surface_temp": 38.7,
+        "comfort_score": 3.0,
+        "microenvironment": "concrete"
+      },
+      {
+        "lat": 54.093535,
+        "lng": 22.963636,
         "pmv": 1.42,
-        "utci": 40.4
+        "ppd": 46.4,
+        "utci": 32.7,
+        "pet": 25.1,
+        "zone_type": "street_commercial",
+        "surface_temp": 33.6,
+        "comfort_score": 4.0,
+        "microenvironment": "asphalt"
       },
       {
-        "lat": 54.099168,
-        "lng": 22.965599,
+        "lat": 54.111684,
+        "lng": 22.934328,
+        "pmv": 1.3,
+        "ppd": 40.4,
+        "utci": 34.2,
+        "pet": 29.0,
+        "zone_type": "residential",
+        "surface_temp": 36.3,
+        "comfort_score": 4.0,
+        "microenvironment": "urban"
+      },
+      {
+        "lat": 54.09852,
+        "lng": 22.960823,
+        "pmv": 1.22,
+        "ppd": 36.2,
+        "utci": 37.9,
+        "pet": 31.7,
+        "zone_type": "street_commercial",
+        "surface_temp": 37.7,
+        "comfort_score": 4.0,
+        "microenvironment": "asphalt"
+      },
+      {
+        "lat": 54.118262,
+        "lng": 22.949675,
         "pmv": 1.2,
-        "utci": 41.4
+        "ppd": 35.4,
+        "utci": 32.6,
+        "pet": 27.5,
+        "zone_type": "open_spaces",
+        "surface_temp": 36.9,
+        "comfort_score": 4.0,
+        "microenvironment": "concrete"
       },
       {
-        "lat": 54.092723,
-        "lng": 22.959801,
-        "pmv": 0.47,
-        "utci": 39.2
+        "lat": 54.1079,
+        "lng": 22.938771,
+        "pmv": 1.08,
+        "ppd": 29.5,
+        "utci": 29.2,
+        "pet": 22.9,
+        "zone_type": "parks_green",
+        "surface_temp": 33.1,
+        "comfort_score": 4.0,
+        "microenvironment": "grass"
+      },
+      {
+        "lat": 54.091499,
+        "lng": 22.957848,
+        "pmv": 1.21,
+        "ppd": 35.9,
+        "utci": 35.7,
+        "pet": 27.3,
+        "zone_type": "street_commercial",
+        "surface_temp": 31.6,
+        "comfort_score": 4.0,
+        "microenvironment": "asphalt"
+      },
+      {
+        "lat": 54.093722,
+        "lng": 22.95541,
+        "pmv": 0.71,
+        "ppd": 15.6,
+        "utci": 30.7,
+        "pet": 25.0,
+        "zone_type": "parks_green",
+        "surface_temp": 33.8,
+        "comfort_score": 4.0,
+        "microenvironment": "grass"
+      },
+      {
+        "lat": 54.083617,
+        "lng": 22.955072,
+        "pmv": 0.66,
+        "ppd": 14.2,
+        "utci": 25.3,
+        "pet": 26.9,
+        "zone_type": "parks_green",
+        "surface_temp": 30.6,
+        "comfort_score": 4.0,
+        "microenvironment": "grass"
+      },
+      {
+        "lat": 54.112713,
+        "lng": 22.948702,
+        "pmv": 1.3,
+        "ppd": 40.4,
+        "utci": 30.7,
+        "pet": 26.8,
+        "zone_type": "residential",
+        "surface_temp": 32.9,
+        "comfort_score": 4.0,
+        "microenvironment": "urban"
+      },
+      {
+        "lat": 54.095399,
+        "lng": 22.943722,
+        "pmv": 1.86,
+        "ppd": 70.3,
+        "utci": 34.1,
+        "pet": 27.8,
+        "zone_type": "street_commercial",
+        "surface_temp": 36.2,
+        "comfort_score": 3.0,
+        "microenvironment": "asphalt"
+      },
+      {
+        "lat": 54.086235,
+        "lng": 22.974474,
+        "pmv": 1.52,
+        "ppd": 52.1,
+        "utci": 34.4,
+        "pet": 28.2,
+        "zone_type": "street_commercial",
+        "surface_temp": 38.7,
+        "comfort_score": 3.0,
+        "microenvironment": "asphalt"
       }
     ],
-    "computation_time": "2025-09-17T05:33:15.210752",
-    "model_version": "ThermalSim_v1.6"
+    "visualization": {
+      "center_lat": 54.1,
+      "center_lng": 22.95,
+      "zoom_level": 14,
+      "color_scale": "RdYlBu_r",
+      "legend_title": "PMV Comfort Scale"
+    }
   },
-  "jesień_wietrzna": {
-    "scenario_name": "Jesień wietrzna",
+  "zima_mroźna": {
+    "scenario_name": "Zima mroźna",
     "module": "ThermalSim",
+    "model_version": "ThermalSim_v1.6_PMV_UTCI_PET",
+    "computation_time": "2025-09-17T06:50:02.749087",
     "parameters": {
-      "air_temperature": 12,
-      "relative_humidity": 70,
-      "wind_speed": 4.0,
-      "solar_radiation": 150,
-      "season": "autumn"
+      "air_temperature": -5,
+      "relative_humidity": 75,
+      "wind_speed": 3.0,
+      "solar_radiation": 50,
+      "clothing_insulation_clo": 2.0,
+      "metabolic_rate_met": 1.4,
+      "season": "winter"
+    },
+    "environmental_conditions": {
+      "thermal_stress_category": "cold",
+      "humidity_comfort": "suboptimal",
+      "wind_comfort": "suboptimal",
+      "solar_load": "low"
     },
     "overall_metrics": {
-      "city_comfort_score": 3.22,
-      "comfort_zones_percent": 0.0
+      "city_comfort_score": 1.0,
+      "comfort_zones_percent": 0.0,
+      "heat_stress_zones": 0,
+      "cold_stress_zones": 5,
+      "uhi_effect_estimated": 0.0
     },
     "zone_analysis": {
-      "rynek": {
+      "rynek_main": {
         "zone_name": "Rynek Główny",
-        "pmv": -1.43,
-        "utci": 12.1,
-        "comfort_level": "AKCEPTOWALNY"
+        "area_percent": 8,
+        "microclimate": {
+          "air_temp": -2.0,
+          "mean_radiant_temp": -1.8,
+          "wind_speed": 2.1,
+          "humidity": 70,
+          "surface_type": "urban"
+        },
+        "comfort_indices": {
+          "pmv": -2.7,
+          "ppd": 96.8,
+          "utci": -4.9,
+          "pet": -0.9
+        },
+        "assessment": {
+          "comfort_level": "NIEAKCEPTOWALNY",
+          "comfort_score": 1,
+          "recommendation": "Ochrona przed wiatrem, ciepłe ubranie, aktywność fizyczna",
+          "thermal_stress": "cold"
+        }
       },
-      "streets": {
+      "street_commercial": {
         "zone_name": "Ulice handlowe",
-        "pmv": -1.72,
-        "utci": 10.1,
-        "comfort_level": "SŁABY"
+        "area_percent": 25,
+        "microclimate": {
+          "air_temp": -2.5,
+          "mean_radiant_temp": -2.3,
+          "wind_speed": 1.5,
+          "humidity": 72,
+          "surface_type": "asphalt"
+        },
+        "comfort_indices": {
+          "pmv": -2.75,
+          "ppd": 97.3,
+          "utci": -5.0,
+          "pet": -1.3
+        },
+        "assessment": {
+          "comfort_level": "NIEAKCEPTOWALNY",
+          "comfort_score": 1,
+          "recommendation": "Ochrona przed wiatrem, ciepłe ubranie, aktywność fizyczna",
+          "thermal_stress": "cold"
+        }
       },
-      "parks": {
-        "zone_name": "Parki",
-        "pmv": -2.15,
-        "utci": 7.1,
-        "comfort_level": "SŁABY"
+      "parks_green": {
+        "zone_name": "Parki i skwery",
+        "area_percent": 15,
+        "microclimate": {
+          "air_temp": -7.0,
+          "mean_radiant_temp": -7.0,
+          "wind_speed": 2.7,
+          "humidity": 83,
+          "surface_type": "grass"
+        },
+        "comfort_indices": {
+          "pmv": -3.0,
+          "ppd": 99.1,
+          "utci": -10.4,
+          "pet": -3.0
+        },
+        "assessment": {
+          "comfort_level": "NIEAKCEPTOWALNY",
+          "comfort_score": 1,
+          "recommendation": "Ochrona przed wiatrem, ciepłe ubranie, aktywność fizyczna",
+          "thermal_stress": "cold"
+        }
       },
       "residential": {
-        "zone_name": "Mieszkaniowe",
-        "pmv": -1.86,
-        "utci": 9.1,
-        "comfort_level": "SŁABY"
+        "zone_name": "Obszary mieszkaniowe",
+        "area_percent": 35,
+        "microclimate": {
+          "air_temp": -4.0,
+          "mean_radiant_temp": -3.8,
+          "wind_speed": 2.4,
+          "humidity": 75,
+          "surface_type": "urban"
+        },
+        "comfort_indices": {
+          "pmv": -3.0,
+          "ppd": 99.1,
+          "utci": -7.2,
+          "pet": -3.0
+        },
+        "assessment": {
+          "comfort_level": "NIEAKCEPTOWALNY",
+          "comfort_score": 1,
+          "recommendation": "Ochrona przed wiatrem, ciepłe ubranie, aktywność fizyczna",
+          "thermal_stress": "cold"
+        }
       },
-      "open": {
-        "zone_name": "Otwarte",
-        "pmv": -1.57,
-        "utci": 11.1,
-        "comfort_level": "SŁABY"
+      "open_spaces": {
+        "zone_name": "Otwarte przestrzenie",
+        "area_percent": 17,
+        "microclimate": {
+          "air_temp": -2.2,
+          "mean_radiant_temp": -2.0,
+          "wind_speed": 3.0,
+          "humidity": 67,
+          "surface_type": "concrete"
+        },
+        "comfort_indices": {
+          "pmv": -2.71,
+          "ppd": 96.9,
+          "utci": -5.7,
+          "pet": -1.0
+        },
+        "assessment": {
+          "comfort_level": "NIEAKCEPTOWALNY",
+          "comfort_score": 1,
+          "recommendation": "Ochrona przed wiatrem, ciepłe ubranie, aktywność fizyczna",
+          "thermal_stress": "cold"
+        }
       }
     },
     "comfort_map": [
       {
-        "lat": 54.113195,
-        "lng": 22.951285,
-        "pmv": 1.24,
-        "utci": 11.7
+        "lat": 54.104965,
+        "lng": 22.933518,
+        "pmv": -2.8,
+        "ppd": 97.8,
+        "utci": -6.6,
+        "pet": -4.3,
+        "zone_type": "rynek_main",
+        "surface_temp": -4.3,
+        "comfort_score": 2.0,
+        "microenvironment": "urban"
       },
       {
-        "lat": 54.111219,
-        "lng": 22.938315,
-        "pmv": 1.4,
-        "utci": 11.5
+        "lat": 54.098875,
+        "lng": 22.942195,
+        "pmv": -3.0,
+        "ppd": 99.1,
+        "utci": -7.0,
+        "pet": -1.4,
+        "zone_type": "parks_green",
+        "surface_temp": -4.6,
+        "comfort_score": 2.0,
+        "microenvironment": "grass"
       },
       {
-        "lat": 54.094659,
-        "lng": 22.945807,
-        "pmv": 0.49,
-        "utci": 10.0
+        "lat": 54.099586,
+        "lng": 22.961812,
+        "pmv": -3.0,
+        "ppd": 99.1,
+        "utci": -8.1,
+        "pet": 2.3,
+        "zone_type": "residential",
+        "surface_temp": -2.0,
+        "comfort_score": 2.0,
+        "microenvironment": "urban"
       },
       {
-        "lat": 54.095592,
-        "lng": 22.964145,
-        "pmv": 0.15,
-        "utci": 10.3
+        "lat": 54.088739,
+        "lng": 22.943943,
+        "pmv": -2.43,
+        "ppd": 91.9,
+        "utci": -5.7,
+        "pet": -2.4,
+        "zone_type": "rynek_main",
+        "surface_temp": 4.5,
+        "comfort_score": 3.0,
+        "microenvironment": "urban"
       },
       {
-        "lat": 54.086546,
-        "lng": 22.948016,
-        "pmv": 0.78,
-        "utci": 15.2
+        "lat": 54.110121,
+        "lng": 22.96388,
+        "pmv": -2.77,
+        "ppd": 97.5,
+        "utci": -4.9,
+        "pet": -4.0,
+        "zone_type": "rynek_main",
+        "surface_temp": -2.4,
+        "comfort_score": 2.0,
+        "microenvironment": "urban"
       },
       {
-        "lat": 54.112686,
-        "lng": 22.945659,
-        "pmv": 0.84,
-        "utci": 8.1
+        "lat": 54.103455,
+        "lng": 22.940534,
+        "pmv": -2.69,
+        "ppd": 96.6,
+        "utci": -3.2,
+        "pet": 1.2,
+        "zone_type": "street_commercial",
+        "surface_temp": 1.7,
+        "comfort_score": 2.0,
+        "microenvironment": "asphalt"
       },
       {
-        "lat": 54.099438,
-        "lng": 22.944186,
-        "pmv": 0.36,
-        "utci": 11.9
+        "lat": 54.09985,
+        "lng": 22.942519,
+        "pmv": -3.0,
+        "ppd": 99.1,
+        "utci": -7.1,
+        "pet": -2.5,
+        "zone_type": "open_spaces",
+        "surface_temp": -0.4,
+        "comfort_score": 2.0,
+        "microenvironment": "concrete"
       },
       {
-        "lat": 54.098862,
-        "lng": 22.954574,
-        "pmv": 0.35,
-        "utci": 8.0
+        "lat": 54.099312,
+        "lng": 22.948982,
+        "pmv": -3.0,
+        "ppd": 99.1,
+        "utci": -6.0,
+        "pet": -8.9,
+        "zone_type": "residential",
+        "surface_temp": -7.4,
+        "comfort_score": 2.0,
+        "microenvironment": "urban"
       },
       {
-        "lat": 54.106785,
-        "lng": 22.939496,
-        "pmv": 0.94,
-        "utci": 10.5
+        "lat": 54.092771,
+        "lng": 22.959943,
+        "pmv": -3.0,
+        "ppd": 99.1,
+        "utci": -11.0,
+        "pet": -0.2,
+        "zone_type": "residential",
+        "surface_temp": -4.3,
+        "comfort_score": 2.0,
+        "microenvironment": "urban"
       },
       {
-        "lat": 54.117946,
-        "lng": 22.933552,
-        "pmv": 0.71,
-        "utci": 9.4
+        "lat": 54.097686,
+        "lng": 22.947837,
+        "pmv": -2.71,
+        "ppd": 96.8,
+        "utci": -5.7,
+        "pet": -0.4,
+        "zone_type": "open_spaces",
+        "surface_temp": -0.6,
+        "comfort_score": 2.0,
+        "microenvironment": "concrete"
       },
       {
-        "lat": 54.090731,
-        "lng": 22.948536,
-        "pmv": 1.02,
-        "utci": 15.2
+        "lat": 54.106339,
+        "lng": 22.951601,
+        "pmv": -3.0,
+        "ppd": 99.1,
+        "utci": -9.3,
+        "pet": -5.4,
+        "zone_type": "residential",
+        "surface_temp": -2.1,
+        "comfort_score": 2.0,
+        "microenvironment": "urban"
       },
       {
-        "lat": 54.099561,
-        "lng": 22.955655,
-        "pmv": 1.19,
-        "utci": 13.2
+        "lat": 54.090408,
+        "lng": 22.948051,
+        "pmv": -2.74,
+        "ppd": 97.2,
+        "utci": -6.6,
+        "pet": 0.9,
+        "zone_type": "residential",
+        "surface_temp": 0.1,
+        "comfort_score": 2.0,
+        "microenvironment": "urban"
       },
       {
-        "lat": 54.096332,
-        "lng": 22.931467,
-        "pmv": 0.04,
-        "utci": 12.7
+        "lat": 54.09834,
+        "lng": 22.962162,
+        "pmv": -2.47,
+        "ppd": 92.8,
+        "utci": -2.7,
+        "pet": -1.2,
+        "zone_type": "street_commercial",
+        "surface_temp": -2.2,
+        "comfort_score": 3.0,
+        "microenvironment": "asphalt"
       },
       {
-        "lat": 54.109556,
-        "lng": 22.9584,
-        "pmv": 1.15,
-        "utci": 13.4
+        "lat": 54.107434,
+        "lng": 22.954721,
+        "pmv": -3.0,
+        "ppd": 99.1,
+        "utci": -6.9,
+        "pet": -1.4,
+        "zone_type": "open_spaces",
+        "surface_temp": -0.3,
+        "comfort_score": 2.0,
+        "microenvironment": "concrete"
       },
       {
-        "lat": 54.102006,
-        "lng": 22.935679,
-        "pmv": 0.1,
-        "utci": 11.4
+        "lat": 54.102229,
+        "lng": 22.946197,
+        "pmv": -3.0,
+        "ppd": 99.1,
+        "utci": -4.2,
+        "pet": -0.1,
+        "zone_type": "street_commercial",
+        "surface_temp": -3.9,
+        "comfort_score": 2.0,
+        "microenvironment": "asphalt"
       },
       {
-        "lat": 54.085234,
-        "lng": 22.969626,
-        "pmv": 0.38,
-        "utci": 10.8
+        "lat": 54.099925,
+        "lng": 22.970996,
+        "pmv": -2.71,
+        "ppd": 96.8,
+        "utci": -7.1,
+        "pet": -1.1,
+        "zone_type": "open_spaces",
+        "surface_temp": 4.3,
+        "comfort_score": 2.0,
+        "microenvironment": "concrete"
       },
       {
-        "lat": 54.10181,
-        "lng": 22.958082,
-        "pmv": 0.21,
-        "utci": 12.4
+        "lat": 54.112878,
+        "lng": 22.943214,
+        "pmv": -3.0,
+        "ppd": 99.1,
+        "utci": -10.7,
+        "pet": -0.0,
+        "zone_type": "parks_green",
+        "surface_temp": -13.8,
+        "comfort_score": 2.0,
+        "microenvironment": "grass"
       },
       {
-        "lat": 54.104377,
-        "lng": 22.959109,
-        "pmv": 0.36,
-        "utci": 12.7
+        "lat": 54.105978,
+        "lng": 22.961463,
+        "pmv": -2.9,
+        "ppd": 98.6,
+        "utci": -4.5,
+        "pet": -5.5,
+        "zone_type": "residential",
+        "surface_temp": -2.1,
+        "comfort_score": 2.0,
+        "microenvironment": "urban"
       },
       {
-        "lat": 54.103517,
-        "lng": 22.945091,
-        "pmv": 0.56,
-        "utci": 14.1
+        "lat": 54.109892,
+        "lng": 22.927491,
+        "pmv": -2.52,
+        "ppd": 93.8,
+        "utci": -6.0,
+        "pet": 0.5,
+        "zone_type": "street_commercial",
+        "surface_temp": -6.0,
+        "comfort_score": 2.0,
+        "microenvironment": "asphalt"
       },
       {
-        "lat": 54.106563,
-        "lng": 22.959795,
-        "pmv": 0.29,
-        "utci": 12.5
+        "lat": 54.093277,
+        "lng": 22.959478,
+        "pmv": -3.0,
+        "ppd": 99.1,
+        "utci": -7.9,
+        "pet": 2.8,
+        "zone_type": "open_spaces",
+        "surface_temp": -0.4,
+        "comfort_score": 2.0,
+        "microenvironment": "concrete"
       },
       {
-        "lat": 54.095523,
-        "lng": 22.956039,
-        "pmv": 0.86,
-        "utci": 10.7
+        "lat": 54.106413,
+        "lng": 22.950283,
+        "pmv": -3.0,
+        "ppd": 99.1,
+        "utci": -3.9,
+        "pet": -1.5,
+        "zone_type": "street_commercial",
+        "surface_temp": -0.9,
+        "comfort_score": 2.0,
+        "microenvironment": "asphalt"
       },
       {
-        "lat": 54.100329,
-        "lng": 22.931666,
-        "pmv": 1.42,
-        "utci": 10.3
+        "lat": 54.101718,
+        "lng": 22.957669,
+        "pmv": -2.42,
+        "ppd": 91.5,
+        "utci": -12.0,
+        "pet": -1.7,
+        "zone_type": "parks_green",
+        "surface_temp": -10.9,
+        "comfort_score": 3.0,
+        "microenvironment": "grass"
       },
       {
-        "lat": 54.086824,
-        "lng": 22.95053,
-        "pmv": 1.11,
-        "utci": 9.4
+        "lat": 54.087855,
+        "lng": 22.952901,
+        "pmv": -2.82,
+        "ppd": 98.0,
+        "utci": -11.1,
+        "pet": -6.5,
+        "zone_type": "parks_green",
+        "surface_temp": -5.8,
+        "comfort_score": 2.0,
+        "microenvironment": "grass"
       },
       {
-        "lat": 54.085295,
-        "lng": 22.945991,
-        "pmv": 0.32,
-        "utci": 12.5
+        "lat": 54.107388,
+        "lng": 22.950263,
+        "pmv": -2.54,
+        "ppd": 94.2,
+        "utci": -5.1,
+        "pet": 2.5,
+        "zone_type": "open_spaces",
+        "surface_temp": -7.4,
+        "comfort_score": 2.0,
+        "microenvironment": "concrete"
       },
       {
-        "lat": 54.100224,
-        "lng": 22.943774,
-        "pmv": 0.92,
-        "utci": 13.4
+        "lat": 54.097826,
+        "lng": 22.944831,
+        "pmv": -2.91,
+        "ppd": 98.6,
+        "utci": -8.9,
+        "pet": -6.0,
+        "zone_type": "open_spaces",
+        "surface_temp": 5.1,
+        "comfort_score": 2.0,
+        "microenvironment": "concrete"
       },
       {
-        "lat": 54.106962,
-        "lng": 22.936312,
-        "pmv": 1.75,
-        "utci": 13.0
+        "lat": 54.075866,
+        "lng": 22.926111,
+        "pmv": -2.97,
+        "ppd": 99.0,
+        "utci": -5.5,
+        "pet": -1.0,
+        "zone_type": "street_commercial",
+        "surface_temp": -0.9,
+        "comfort_score": 2.0,
+        "microenvironment": "asphalt"
       },
       {
-        "lat": 54.10367,
-        "lng": 22.945606,
-        "pmv": 0.69,
-        "utci": 14.8
+        "lat": 54.108639,
+        "lng": 22.970501,
+        "pmv": -1.75,
+        "ppd": 64.2,
+        "utci": -5.7,
+        "pet": -2.0,
+        "zone_type": "open_spaces",
+        "surface_temp": -5.7,
+        "comfort_score": 3.0,
+        "microenvironment": "concrete"
       },
       {
-        "lat": 54.099626,
-        "lng": 22.964718,
-        "pmv": 1.15,
-        "utci": 12.5
+        "lat": 54.096384,
+        "lng": 22.953086,
+        "pmv": -3.0,
+        "ppd": 99.1,
+        "utci": -9.6,
+        "pet": -8.9,
+        "zone_type": "parks_green",
+        "surface_temp": -9.6,
+        "comfort_score": 2.0,
+        "microenvironment": "grass"
       },
       {
-        "lat": 54.099117,
-        "lng": 22.953015,
-        "pmv": 1.49,
-        "utci": 12.0
+        "lat": 54.102947,
+        "lng": 22.960733,
+        "pmv": -2.7,
+        "ppd": 96.8,
+        "utci": -13.0,
+        "pet": 2.0,
+        "zone_type": "parks_green",
+        "surface_temp": -5.2,
+        "comfort_score": 2.0,
+        "microenvironment": "grass"
       },
       {
-        "lat": 54.098248,
-        "lng": 22.94238,
-        "pmv": 0.77,
-        "utci": 10.5
+        "lat": 54.100264,
+        "lng": 22.944654,
+        "pmv": -2.85,
+        "ppd": 98.3,
+        "utci": -6.0,
+        "pet": -3.3,
+        "zone_type": "street_commercial",
+        "surface_temp": -3.6,
+        "comfort_score": 2.0,
+        "microenvironment": "asphalt"
       },
       {
-        "lat": 54.101944,
-        "lng": 22.943558,
-        "pmv": 1.41,
-        "utci": 14.3
+        "lat": 54.102983,
+        "lng": 22.945904,
+        "pmv": -2.72,
+        "ppd": 97.0,
+        "utci": -4.0,
+        "pet": -0.9,
+        "zone_type": "residential",
+        "surface_temp": -2.5,
+        "comfort_score": 2.0,
+        "microenvironment": "urban"
       },
       {
-        "lat": 54.098881,
-        "lng": 22.940991,
-        "pmv": 0.4,
-        "utci": 12.5
+        "lat": 54.095036,
+        "lng": 22.96751,
+        "pmv": -3.0,
+        "ppd": 99.1,
+        "utci": -6.4,
+        "pet": -5.7,
+        "zone_type": "residential",
+        "surface_temp": -5.4,
+        "comfort_score": 2.0,
+        "microenvironment": "urban"
       },
       {
-        "lat": 54.095257,
-        "lng": 22.947616,
-        "pmv": 1.27,
-        "utci": 10.4
+        "lat": 54.089481,
+        "lng": 22.942307,
+        "pmv": -2.45,
+        "ppd": 92.3,
+        "utci": -4.1,
+        "pet": -0.5,
+        "zone_type": "open_spaces",
+        "surface_temp": -6.0,
+        "comfort_score": 3.0,
+        "microenvironment": "concrete"
       },
       {
-        "lat": 54.080407,
-        "lng": 22.961691,
-        "pmv": 1.3,
-        "utci": 12.8
+        "lat": 54.107699,
+        "lng": 22.966748,
+        "pmv": -2.64,
+        "ppd": 95.9,
+        "utci": -8.8,
+        "pet": -3.3,
+        "zone_type": "residential",
+        "surface_temp": -4.1,
+        "comfort_score": 2.0,
+        "microenvironment": "urban"
       },
       {
-        "lat": 54.107337,
-        "lng": 22.927565,
-        "pmv": 0.25,
-        "utci": 13.1
+        "lat": 54.092717,
+        "lng": 22.953653,
+        "pmv": -2.34,
+        "ppd": 89.4,
+        "utci": -5.1,
+        "pet": -1.2,
+        "zone_type": "rynek_main",
+        "surface_temp": 0.3,
+        "comfort_score": 3.0,
+        "microenvironment": "urban"
       },
       {
-        "lat": 54.091561,
-        "lng": 22.961682,
-        "pmv": 0.25,
-        "utci": 6.9
+        "lat": 54.08885,
+        "lng": 22.946221,
+        "pmv": -3.0,
+        "ppd": 99.1,
+        "utci": -3.7,
+        "pet": -1.6,
+        "zone_type": "street_commercial",
+        "surface_temp": -2.9,
+        "comfort_score": 2.0,
+        "microenvironment": "asphalt"
       },
       {
-        "lat": 54.114716,
-        "lng": 22.941786,
-        "pmv": 0.69,
-        "utci": 14.6
+        "lat": 54.098644,
+        "lng": 22.946528,
+        "pmv": -2.94,
+        "ppd": 98.8,
+        "utci": -7.7,
+        "pet": -2.0,
+        "zone_type": "residential",
+        "surface_temp": -8.0,
+        "comfort_score": 2.0,
+        "microenvironment": "urban"
       },
       {
-        "lat": 54.101593,
-        "lng": 22.94349,
-        "pmv": 0.02,
-        "utci": 12.6
+        "lat": 54.108417,
+        "lng": 22.955799,
+        "pmv": -2.19,
+        "ppd": 84.6,
+        "utci": -8.6,
+        "pet": 0.7,
+        "zone_type": "parks_green",
+        "surface_temp": -5.1,
+        "comfort_score": 3.0,
+        "microenvironment": "grass"
       },
       {
-        "lat": 54.089291,
-        "lng": 22.949079,
-        "pmv": 0.76,
-        "utci": 10.7
+        "lat": 54.089308,
+        "lng": 22.949412,
+        "pmv": -2.55,
+        "ppd": 94.3,
+        "utci": -0.9,
+        "pet": -3.6,
+        "zone_type": "open_spaces",
+        "surface_temp": -0.5,
+        "comfort_score": 2.0,
+        "microenvironment": "concrete"
       },
       {
-        "lat": 54.109414,
-        "lng": 22.97739,
-        "pmv": 0.78,
-        "utci": 10.1
-      },
-      {
-        "lat": 54.105286,
-        "lng": 22.955412,
-        "pmv": 1.13,
-        "utci": 6.3
-      },
-      {
-        "lat": 54.099666,
-        "lng": 22.93957,
-        "pmv": 0.45,
-        "utci": 15.3
-      },
-      {
-        "lat": 54.097861,
-        "lng": 22.949574,
-        "pmv": 1.15,
-        "utci": 17.3
-      },
-      {
-        "lat": 54.10013,
-        "lng": 22.933439,
-        "pmv": 0.78,
-        "utci": 13.9
-      },
-      {
-        "lat": 54.102254,
-        "lng": 22.945454,
-        "pmv": 0.39,
-        "utci": 11.3
-      },
-      {
-        "lat": 54.107036,
-        "lng": 22.972303,
-        "pmv": 0.98,
-        "utci": 13.6
-      },
-      {
-        "lat": 54.101683,
-        "lng": 22.977241,
-        "pmv": 0.91,
-        "utci": 11.8
-      },
-      {
-        "lat": 54.10669,
-        "lng": 22.957826,
-        "pmv": 1.13,
-        "utci": 13.4
-      },
-      {
-        "lat": 54.108329,
-        "lng": 22.939311,
-        "pmv": 0.75,
-        "utci": 8.7
-      },
-      {
-        "lat": 54.1031,
-        "lng": 22.961921,
-        "pmv": 0.29,
-        "utci": 12.7
+        "lat": 54.095097,
+        "lng": 22.94602,
+        "pmv": -3.0,
+        "ppd": 99.1,
+        "utci": -6.9,
+        "pet": -7.8,
+        "zone_type": "parks_green",
+        "surface_temp": -5.2,
+        "comfort_score": 2.0,
+        "microenvironment": "grass"
       }
     ],
-    "computation_time": "2025-09-17T05:33:15.211141",
-    "model_version": "ThermalSim_v1.6"
+    "visualization": {
+      "center_lat": 54.1,
+      "center_lng": 22.95,
+      "zoom_level": 14,
+      "color_scale": "RdYlBu_r",
+      "legend_title": "PMV Comfort Scale"
+    }
   }
 }
