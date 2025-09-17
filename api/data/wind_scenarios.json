@@ -3,7 +3,7 @@
     "scenario_name": "Wiatr spokojny",
     "module": "WindSim",
     "model_version": "WindSim_v1.9_CFD",
-    "computation_time": "2025-09-17T06:49:53.887685",
+    "computation_time": "2025-09-17T07:00:49.435597",
     "parameters": {
       "wind_speed_ref": 5,
       "wind_direction": 270,
@@ -359,7 +359,7 @@
     "scenario_name": "Wiatr silny",
     "module": "WindSim",
     "model_version": "WindSim_v1.9_CFD",
-    "computation_time": "2025-09-17T06:49:53.892093",
+    "computation_time": "2025-09-17T07:00:49.439953",
     "parameters": {
       "wind_speed_ref": 15,
       "wind_direction": 315,
@@ -1315,7 +1315,7 @@
     "scenario_name": "Wiatr burzowy",
     "module": "WindSim",
     "model_version": "WindSim_v1.9_CFD",
-    "computation_time": "2025-09-17T06:49:53.897929",
+    "computation_time": "2025-09-17T07:00:49.445739",
     "parameters": {
       "wind_speed_ref": 25,
       "wind_direction": 270,
